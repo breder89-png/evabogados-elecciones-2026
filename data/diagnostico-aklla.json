@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2026-05-05T02:30:27.946Z",
+  "akllaBaseUrl": "https://congresoeg2026.akllaperu.pe",
+  "files": {
+    "resumenDiputados": {
+      "filename": "resumen_diputados.xlsx",
+      "rows": 37,
+      "ok": true
+    },
+    "resumenDiputadosNac": {
+      "filename": "resumen_diputados_nac.xlsx",
+      "rows": 37,
+      "ok": true
+    },
+    "resumenSenado": {
+      "filename": "resumen_senado.xlsx",
+      "rows": 37,
+      "ok": true
+    },
+    "resumenSenadoNac": {
+      "filename": "resumen_senado_nac.xlsx",
+      "rows": 37,
+      "ok": true
+    },
+    "resumenAndino": {
+      "filename": "resumen_andino.xlsx",
+      "rows": 33,
+      "ok": true
+    },
+    "resumenAndinoNac": {
+      "filename": "resumen_andino_nac.xlsx",
+      "rows": 33,
+      "ok": true
+    },
+    "electosSinBarrera": {
+      "filename": "electos_totales_sin_barrera.xlsx",
+      "rows": 190,
+      "ok": true
+    },
+    "electosConBarrera": {
+      "filename": "electos_totales_con_barrera.xlsx",
+      "rows": 205,
+      "ok": true
+    },
+    "resultadoDipSB": {
+      "filename": "resultado_diputados_sin_barrera.xlsx",
+      "rows": 857,
+      "ok": true
+    },
+    "resultadoDipCB": {
+      "filename": "resultado_diputados_con_barrera.xlsx",
+      "rows": 153,
+      "ok": true
+    },
+    "resultadoSenMulSB": {
+      "filename": "resultado_senado_multiple_sin_barrera.xlsx",
+      "rows": 811,
+      "ok": true
+    },
+    "resultadoSenMulCB": {
+      "filename": "resultado_senado_multiple_con_barrera.xlsx",
+      "rows": 148,
+      "ok": true
+    },
+    "resultadoSenNacSB": {
+      "filename": "resultado_senado_nacional_sin_barrera.xlsx",
+      "rows": 35,
+      "ok": true
+    },
+    "resultadoSenNacCB": {
+      "filename": "resultado_senado_nacional_con_barrera.xlsx",
+      "rows": 6,
+      "ok": true
+    },
+    "resultadoAndinoCB": {
+      "filename": "rresultado_andino_con_barrera.xlsx",
+      "rows": 7,
+      "ok": true
+    },
+    "combinado": {
+      "filename": "resultado_final_escanos_combinado.xlsx",
+      "rows": 1848,
+      "ok": true
+    },
+    "actas": {
+      "filename": "resultados_actas.xlsx",
+      "rows": 56,
+      "ok": true
+    }
+  },
+  "cameras": {
+    "diputados": {
+      "inputRows": 894,
+      "nationalRows": 37,
+      "candidateRows": 142,
+      "allocationRowsNoBarrier": 857,
+      "allocationRowsBarrier": 153,
+      "allocationsNoBarrier": 0,
+      "allocationsBarrier": 0,
+      "parties": 38,
+      "circunscripciones": 27,
+      "nationalVotes": 37,
+      "candidates": 142,
+      "sampleRows": [
+        {
+          "circunscripción": "AMAZONAS",
+          "DESCRIPCION_OP": "FUERZA POPULAR",
+          "SUMA_VOTOS_PART": 18594,
+          "CIFRA_REPARTIDORA": 9297,
+          "CONGRESO": 2,
+          "RESULTADO": 2,
+          "ENTERO": 2,
+          "RESIDUO": 0,
+          "rnd": 0.160355758387595,
+          "ESCAÑOS": 2,
+          "AÑO": 2026,
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "circunscripción": "AMAZONAS",
+          "DESCRIPCION_OP": "AHORA NACIÓN - AN",
+          "SUMA_VOTOS_PART": 8500,
+          "CIFRA_REPARTIDORA": 9297,
+          "CONGRESO": 2,
+          "RESULTADO": 0.914273421533828,
+          "ENTERO": 0,
+          "RESIDUO": 0.914273421533828,
+          "rnd": 0.941249997587875,
+          "ESCAÑOS": 0,
+          "AÑO": 2026,
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "circunscripción": "AMAZONAS",
+          "DESCRIPCION_OP": "PODEMOS PERÚ",
+          "SUMA_VOTOS_PART": 6572,
+          "CIFRA_REPARTIDORA": 9297,
+          "CONGRESO": 2,
+          "RESULTADO": 0.706894697214155,
+          "ENTERO": 0,
+          "RESIDUO": 0.706894697214155,
+          "rnd": 0.649851339170709,
+          "ESCAÑOS": 0,
+          "AÑO": 2026,
+          "__sheetName": "Sheet 1"
+        }
+      ]
+    },
+    "senadoNacional": {
+      "inputRows": 72,
+      "nationalRows": 37,
+      "candidateRows": 35,
+      "allocationRowsNoBarrier": 35,
+      "allocationRowsBarrier": 6,
+      "allocationsNoBarrier": 0,
+      "allocationsBarrier": 0,
+      "parties": 38,
+      "circunscripciones": 1,
+      "nationalVotes": 37,
+      "candidates": 35,
+      "sampleRows": [
+        {
+          "DESCRIPCION_OP": "AHORA NACIÓN - AN",
+          "SUMA_VOTOS_PART": 1035396,
+          "CIFRA_REPARTIDORA": 294228.2,
+          "RESULTADO": 3.51902366938315,
+          "ENTERO": 3,
+          "RESIDUO": 0.519023669383152,
+          "rnd": 0.323142637964338,
+          "ESCAÑOS": 3,
+          "AÑO": 2026,
+          "circunscripción": "DISTRITO NACIONAL",
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "DESCRIPCION_OP": "ALIANZA PARA EL PROGRESO",
+          "SUMA_VOTOS_PART": 316864,
+          "CIFRA_REPARTIDORA": 294228.2,
+          "RESULTADO": 1.0769328024982,
+          "ENTERO": 1,
+          "RESIDUO": 0.076932802498197,
+          "rnd": 0.367886569350958,
+          "ESCAÑOS": 1,
+          "AÑO": 2026,
+          "circunscripción": "DISTRITO NACIONAL",
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "DESCRIPCION_OP": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "SUMA_VOTOS_PART": 63129,
+          "CIFRA_REPARTIDORA": 294228.2,
+          "RESULTADO": 0.214557951957018,
+          "ENTERO": 0,
+          "RESIDUO": 0.214557951957018,
+          "rnd": 0.0490637656766921,
+          "ESCAÑOS": 0,
+          "AÑO": 2026,
+          "circunscripción": "DISTRITO NACIONAL",
+          "__sheetName": "Sheet 1"
+        }
+      ]
+    },
+    "senadoRegional": {
+      "inputRows": 848,
+      "nationalRows": 0,
+      "candidateRows": 30,
+      "allocationRowsNoBarrier": 811,
+      "allocationRowsBarrier": 148,
+      "allocationsNoBarrier": 0,
+      "allocationsBarrier": 0,
+      "parties": 37,
+      "circunscripciones": 27,
+      "nationalVotes": 37,
+      "candidates": 30,
+      "sampleRows": [
+        {
+          "circunscripción": "AMAZONAS",
+          "DESCRIPCION_OP": "FUERZA POPULAR",
+          "SUMA_VOTOS_PART": 19129,
+          "CIFRA_REPARTIDORA": 19129,
+          "SENADO_DIST": 1,
+          "RESULTADO": 1,
+          "ENTERO": 1,
+          "RESIDUO": 0,
+          "rnd": 0.586886772653088,
+          "ESCAÑOS": 1,
+          "AÑO": 2026,
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "circunscripción": "AMAZONAS",
+          "DESCRIPCION_OP": "AHORA NACIÓN - AN",
+          "SUMA_VOTOS_PART": 7730,
+          "CIFRA_REPARTIDORA": 19129,
+          "SENADO_DIST": 1,
+          "RESULTADO": 0.404098489204872,
+          "ENTERO": 0,
+          "RESIDUO": 0.404098489204872,
+          "rnd": 0.365289100212976,
+          "ESCAÑOS": 0,
+          "AÑO": 2026,
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "circunscripción": "AMAZONAS",
+          "DESCRIPCION_OP": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "SUMA_VOTOS_PART": 7083,
+          "CIFRA_REPARTIDORA": 19129,
+          "SENADO_DIST": 1,
+          "RESULTADO": 0.370275497935072,
+          "ENTERO": 0,
+          "RESIDUO": 0.370275497935072,
+          "rnd": 0.775869636097923,
+          "ESCAÑOS": 0,
+          "AÑO": 2026,
+          "__sheetName": "Sheet 1"
+        }
+      ]
+    },
+    "andino": {
+      "inputRows": 33,
+      "nationalRows": 33,
+      "candidateRows": 15,
+      "allocationRowsNoBarrier": 35,
+      "allocationRowsBarrier": 15,
+      "allocationsNoBarrier": 0,
+      "allocationsBarrier": 0,
+      "parties": 33,
+      "circunscripciones": 1,
+      "nationalVotes": 33,
+      "candidates": 15,
+      "sampleRows": [
+        {
+          "AÑO": 2026,
+          "DESCRIPCION_OP": "AHORA NACIÓN - AN",
+          "SUMA_VOTOS_PART": 987871,
+          "ESCAÑOS_ANDINO_CB": 0,
+          "LINK_FOTO": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980",
+          "COLOR": "#e90305",
+          "IDENTIFICA": -1,
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "AÑO": 2026,
+          "DESCRIPCION_OP": "ALIANZA PARA EL PROGRESO",
+          "SUMA_VOTOS_PART": 211286,
+          "ESCAÑOS_ANDINO_CB": 0,
+          "LINK_FOTO": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257",
+          "COLOR": "#1e5bab",
+          "IDENTIFICA": 0,
+          "__sheetName": "Sheet 1"
+        },
+        {
+          "AÑO": 2026,
+          "DESCRIPCION_OP": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "SUMA_VOTOS_PART": 56573,
+          "ESCAÑOS_ANDINO_CB": 0,
+          "LINK_FOTO": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173",
+          "COLOR": "#d70780",
+          "IDENTIFICA": 1,
+          "__sheetName": "Sheet 1"
+        }
+      ]
+    }
+  }
+}

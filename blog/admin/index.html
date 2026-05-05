@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Administrar Blog | Eder Velásquez Abogados</title>
+  <style>
+    :root{--bg:#f6f7f9;--surface:#fff;--text:#18212f;--muted:#64748b;--line:#dbe3ee;--primary:#0f4c81;--danger:#b42318;--ok:#067647;--radius:18px;--shadow:0 14px 40px rgba(15,23,42,.08)}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.6}a{text-decoration:none;color:inherit}
+    .header{background:linear-gradient(135deg,#0b365c,#0f4c81);color:#fff;padding:34px 22px}.header-inner{max-width:1180px;margin:0 auto;display:flex;justify-content:space-between;gap:18px;align-items:center}.brand{font-weight:900;font-size:24px;letter-spacing:-.04em}.header a{border:1px solid rgba(255,255,255,.35);border-radius:999px;padding:10px 14px;font-weight:800}
+    .wrap{max-width:1180px;margin:28px auto 70px;padding:0 22px}.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px;margin-bottom:20px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.wide{grid-column:1/-1}label{display:block;font-weight:800;font-size:13px;margin-bottom:6px;color:#334155}input,select,textarea{width:100%;border:1px solid var(--line);border-radius:14px;padding:12px 14px;font:inherit;color:var(--text);background:#fff;outline:none}textarea{min-height:150px;resize:vertical}input:focus,select:focus,textarea:focus,.editor:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(15,76,129,.12)}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.btn{border:1px solid var(--line);background:#fff;color:var(--text);padding:10px 14px;border-radius:999px;font-weight:800;cursor:pointer}.btn-primary{background:var(--primary);border-color:var(--primary);color:#fff}.btn-danger{background:#fff5f5;color:var(--danger);border-color:#fecaca}.btn-ok{background:#f0fdf4;color:var(--ok);border-color:#bbf7d0}.notice{padding:12px 14px;background:#fff8e6;border:1px solid #f3d28c;border-radius:14px;color:#6b4e00;margin:0 0 14px;font-size:14px}.error{padding:12px 14px;background:#fff5f5;border:1px solid #fecaca;border-radius:14px;color:var(--danger);margin:0 0 14px;font-size:14px;display:none}.success{padding:12px 14px;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:14px;color:var(--ok);margin:0 0 14px;font-size:14px;display:none}
+    .toolbar{display:flex;justify-content:space-between;gap:12px;align-items:center;flex-wrap:wrap}.posts{display:grid;gap:12px}.row{border:1px solid var(--line);border-radius:16px;padding:16px;display:grid;grid-template-columns:120px 1fr auto;gap:14px;align-items:center;background:#fff}.row-img{width:120px;height:80px;border-radius:14px;object-fit:cover;background:#eef2f7;border:1px solid var(--line)}.row-img.empty{display:grid;place-items:center;color:var(--muted);font-size:12px;text-align:center;padding:8px}.row h3{margin:0 0 6px;font-size:18px}.meta{color:var(--muted);font-size:13px}.badge{display:inline-flex;align-items:center;width:fit-content;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:.04em;background:#eef5ff;color:#0b365c}.draft{background:#fff8e6;color:#6b4e00}.published{background:#f0fdf4;color:#067647}.preview{display:none;margin-top:10px}.preview img{max-width:260px;max-height:160px;border-radius:14px;border:1px solid var(--line);object-fit:cover}.small{font-size:13px;color:var(--muted);margin:7px 0 0}
+    .rich-box{border:1px solid var(--line);border-radius:18px;background:#fff;overflow:hidden}.rich-toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:10px;border-bottom:1px solid var(--line);background:#f8fafc}.rich-toolbar select,.rich-toolbar input{width:auto;min-width:120px;border-radius:10px;padding:8px 10px;font-size:14px}.rich-toolbar input[type="color"]{min-width:42px;width:42px;height:38px;padding:4px}.rich-btn{border:1px solid var(--line);background:#fff;border-radius:10px;min-width:38px;height:38px;padding:0 10px;font-weight:900;cursor:pointer}.rich-btn:hover{border-color:var(--primary);color:var(--primary)}.rich-sep{width:1px;height:30px;background:var(--line);margin:0 2px}.editor{min-height:360px;max-height:720px;overflow:auto;padding:22px 26px;border:0;outline:none;background:#fff;font-family:Georgia,'Times New Roman',serif;font-size:18px;line-height:1.75}.editor:empty:before{content:attr(data-placeholder);color:#94a3b8}.editor p{margin:0 0 16px}.editor h2,.editor h3,.editor h4{line-height:1.2;margin:20px 0 12px}.editor blockquote{margin:18px 0;padding:12px 18px;border-left:4px solid var(--primary);background:#f8fafc;color:#334155}.editor ul,.editor ol{padding-left:28px}.editor a{color:var(--primary);text-decoration:underline}.editor-view-source{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",monospace;min-height:360px;display:none}.hint{font-size:13px;color:var(--muted);margin:8px 0 0}.source-on .editor{display:none}.source-on .editor-view-source{display:block}
+    @media(max-width:820px){.grid,.row{grid-template-columns:1fr}.header-inner{align-items:flex-start;flex-direction:column}.row-img{width:100%;height:180px}.rich-toolbar select{width:100%}.rich-btn{min-width:36px}.editor{padding:18px;font-size:17px}}
+  </style>
+</head>
+<body>
+  <header class="header"><div class="header-inner"><div class="brand">Administrar Blog</div><a href="/blog/">Ver blog público</a></div></header>
+  <main class="wrap">
+    <section class="panel">
+      <p class="notice">Ingresa el token definido como <b>BLOG_ADMIN_TOKEN</b>. Para subir imágenes desde este panel también debes configurar el binding R2 <b>BLOG_IMAGES</b>.</p>
+      <div id="errorBox" class="error"></div><div id="successBox" class="success"></div>
+      <div class="toolbar"><input id="tokenInput" type="password" placeholder="Token administrador" autocomplete="off" /><div class="actions"><button id="saveToken" class="btn btn-primary">Guardar token</button><button id="forgetToken" class="btn">Olvidar token</button><button id="reloadPosts" class="btn">Recargar</button></div></div>
+    </section>
+
+    <section class="panel">
+      <div class="toolbar"><h2>Publicaciones</h2><button id="newPost" class="btn btn-ok">Nueva publicación</button></div>
+      <div id="posts" class="posts"><p>Carga el token para listar publicaciones.</p></div>
+    </section>
+
+    <section class="panel">
+      <h2 id="formTitle">Nueva publicación</h2>
+      <form id="postForm">
+        <input type="hidden" id="postId" />
+        <div class="grid">
+          <div><label for="title">Título</label><input id="title" required placeholder="Título del post" /></div>
+          <div><label for="slug">Slug opcional</label><input id="slug" placeholder="se-genera-automaticamente" /></div>
+          <div><label for="category">Categoría</label><input id="category" required value="Legislación" /></div>
+          <div><label for="author">Autor</label><input id="author" value="Eder Velásquez Abogados" /></div>
+          <div><label for="status">Estado</label><select id="status"><option value="published">Publicado</option><option value="draft">Borrador</option></select></div>
+          <div><label for="tags">Etiquetas, separadas por coma</label><input id="tags" placeholder="Congreso, derecho público, empresa" /></div>
+          <div class="wide"><label for="imageFile">Imagen principal</label><input id="imageFile" type="file" accept="image/jpeg,image/png,image/webp,image/gif" /><p class="small">Formatos permitidos: JPG, PNG, WEBP o GIF. Tamaño máximo: 5 MB.</p></div>
+          <div class="wide"><label for="image_url">URL de imagen</label><input id="image_url" placeholder="Se llena automáticamente al subir imagen, o pega una URL https://..." /><div id="imagePreview" class="preview"><img id="imagePreviewImg" alt="Vista previa de imagen" /></div></div>
+          <div class="wide"><label for="excerpt">Resumen</label><textarea id="excerpt" required placeholder="Resumen breve para la tarjeta del blog."></textarea></div>
+          <div class="wide"><label>Contenido</label>
+            <div id="richBox" class="rich-box">
+              <div class="rich-toolbar" aria-label="Barra de edición del contenido">
+                <select id="formatBlock" title="Formato"><option value="P">Párrafo</option><option value="H2">Título 2</option><option value="H3">Título 3</option><option value="H4">Título 4</option><option value="BLOCKQUOTE">Cita</option></select>
+                <select id="fontFamily" title="Fuente"><option value="Georgia, 'Times New Roman', serif">Georgia</option><option value="Arial, Helvetica, sans-serif">Arial</option><option value="Inter, Arial, sans-serif">Inter</option><option value="'Times New Roman', Times, serif">Times New Roman</option><option value="Verdana, Geneva, sans-serif">Verdana</option></select>
+                <select id="fontSize" title="Tamaño"><option value="14px">14</option><option value="16px">16</option><option value="18px" selected>18</option><option value="20px">20</option><option value="22px">22</option><option value="24px">24</option><option value="28px">28</option><option value="32px">32</option></select>
+                <input id="fontColor" type="color" value="#18212f" title="Color de texto" />
+                <span class="rich-sep"></span>
+                <button class="rich-btn" type="button" data-cmd="bold" title="Negrita"><b>B</b></button>
+                <button class="rich-btn" type="button" data-cmd="italic" title="Cursiva"><i>I</i></button>
+                <button class="rich-btn" type="button" data-cmd="underline" title="Subrayado"><u>U</u></button>
+                <button class="rich-btn" type="button" data-cmd="strikeThrough" title="Tachado">S</button>
+                <span class="rich-sep"></span>
+                <button class="rich-btn" type="button" data-cmd="justifyLeft" title="Alinear izquierda">⟸</button>
+                <button class="rich-btn" type="button" data-cmd="justifyCenter" title="Centrar">≡</button>
+                <button class="rich-btn" type="button" data-cmd="justifyRight" title="Alinear derecha">⟹</button>
+                <button class="rich-btn" type="button" data-cmd="justifyFull" title="Justificar">☰</button>
+                <span class="rich-sep"></span>
+                <button class="rich-btn" type="button" data-cmd="outdent" title="Disminuir sangría">−⇥</button>
+                <button class="rich-btn" type="button" data-cmd="indent" title="Aumentar sangría">+⇥</button>
+                <button class="rich-btn" type="button" data-cmd="insertUnorderedList" title="Lista con viñetas">•</button>
+                <button class="rich-btn" type="button" data-cmd="insertOrderedList" title="Lista numerada">1.</button>
+                <span class="rich-sep"></span>
+                <button class="rich-btn" type="button" id="insertLink" title="Insertar enlace">Link</button>
+                <button class="rich-btn" type="button" id="clearFormat" title="Limpiar formato">Tx</button>
+                <button class="rich-btn" type="button" id="toggleSource" title="Ver/editar HTML">HTML</button>
+              </div>
+              <div id="bodyEditor" class="editor" contenteditable="true" data-placeholder="Escribe aquí el contenido completo. Puedes usar negrita, cursiva, tamaño, fuente, sangría y texto justificado."></div>
+              <textarea id="bodySource" class="editor-view-source" spellcheck="false"></textarea>
+            </div>
+            <p class="hint">El contenido se guarda en HTML limpio. Puedes copiar texto desde Word, pero revisa el formato antes de publicar.</p>
+          </div>
+        </div>
+        <div class="actions"><button class="btn btn-primary" type="submit">Guardar publicación</button><button class="btn" type="button" id="clearForm">Limpiar formulario</button></div>
+      </form>
+    </section>
+  </main>
+
+  <script>
+    const TOKEN_KEY='eva_blog_admin_token'; let token=localStorage.getItem(TOKEN_KEY)||'';
+    const els={tokenInput:document.getElementById('tokenInput'),saveToken:document.getElementById('saveToken'),forgetToken:document.getElementById('forgetToken'),reloadPosts:document.getElementById('reloadPosts'),newPost:document.getElementById('newPost'),posts:document.getElementById('posts'),errorBox:document.getElementById('errorBox'),successBox:document.getElementById('successBox'),form:document.getElementById('postForm'),formTitle:document.getElementById('formTitle'),postId:document.getElementById('postId'),title:document.getElementById('title'),slug:document.getElementById('slug'),category:document.getElementById('category'),author:document.getElementById('author'),status:document.getElementById('status'),tags:document.getElementById('tags'),imageFile:document.getElementById('imageFile'),image_url:document.getElementById('image_url'),imagePreview:document.getElementById('imagePreview'),imagePreviewImg:document.getElementById('imagePreviewImg'),excerpt:document.getElementById('excerpt'),bodyEditor:document.getElementById('bodyEditor'),bodySource:document.getElementById('bodySource'),richBox:document.getElementById('richBox'),formatBlock:document.getElementById('formatBlock'),fontFamily:document.getElementById('fontFamily'),fontSize:document.getElementById('fontSize'),fontColor:document.getElementById('fontColor'),insertLink:document.getElementById('insertLink'),clearFormat:document.getElementById('clearFormat'),toggleSource:document.getElementById('toggleSource'),clearForm:document.getElementById('clearForm')};
+    els.tokenInput.value=token;
+    const allowedTags=new Set(['P','BR','STRONG','B','EM','I','U','S','H2','H3','H4','BLOCKQUOTE','UL','OL','LI','A','SPAN','DIV']);
+    const allowedStyles=new Set(['font-weight','font-style','text-decoration','text-align','margin-left','font-size','font-family','color']);
+    function escapeHtml(v){return String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;')}
+    function showError(msg){els.errorBox.textContent=msg;els.errorBox.style.display='block'} function showSuccess(msg){els.successBox.textContent=msg;els.successBox.style.display='block'} function clearMessages(){els.errorBox.style.display='none';els.successBox.style.display='none'}
+    async function api(url,options={}){const res=await fetch(url,{...options,headers:{'content-type':'application/json',authorization:`Bearer ${token}`,...(options.headers||{})}});const data=await res.json().catch(()=>({}));if(!res.ok)throw new Error(data.error||'Error de solicitud.');return data}
+    function updatePreview(){const url=els.image_url.value.trim(); if(url){els.imagePreviewImg.src=url; els.imagePreview.style.display='block'} else {els.imagePreviewImg.removeAttribute('src'); els.imagePreview.style.display='none'}}
+    function sanitizeHtml(html){const doc=new DOMParser().parseFromString(`<div>${html||''}</div>`,'text/html');function clean(node){[...node.childNodes].forEach(child=>{if(child.nodeType===Node.COMMENT_NODE){child.remove();return}if(child.nodeType===Node.TEXT_NODE)return;if(child.nodeType!==Node.ELEMENT_NODE){child.remove();return}if(!allowedTags.has(child.tagName)){const frag=document.createDocumentFragment();while(child.firstChild)frag.appendChild(child.firstChild);child.replaceWith(frag);clean(node);return}for(const attr of [...child.attributes]){const name=attr.name.toLowerCase();const value=attr.value||'';if(name.startsWith('on')){child.removeAttribute(attr.name);continue}if(child.tagName==='A'&&name==='href'){try{const u=new URL(value,location.origin);if(!['http:','https:','mailto:'].includes(u.protocol))child.removeAttribute('href');else{child.setAttribute('href',u.toString());child.setAttribute('target','_blank');child.setAttribute('rel','noopener')}}catch{child.removeAttribute('href')}continue}if(name==='style'){const safe=[];value.split(';').forEach(rule=>{const [propRaw,...rest]=rule.split(':');if(!propRaw||!rest.length)return;const prop=propRaw.trim().toLowerCase();let val=rest.join(':').trim();if(!allowedStyles.has(prop))return;if(/url\s*\(|expression\s*\(|javascript:/i.test(val))return;if(prop==='font-size'&&!/^(1[0-9]|2[0-9]|3[0-6])px$/.test(val))return;if(prop==='margin-left'&&!/^(0|[1-9][0-9]{0,2})px$/.test(val))return;if(prop==='text-align'&&!/^(left|right|center|justify)$/.test(val))return;safe.push(`${prop}:${val}`)});if(safe.length)child.setAttribute('style',safe.join(';'));else child.removeAttribute('style');continue}if(name!=='href')child.removeAttribute(attr.name)}clean(child)})}clean(doc.body);return doc.body.firstElementChild?.innerHTML.trim()||''}
+    function editorFocus(){els.bodyEditor.focus()}
+    function syncSourceFromEditor(){els.bodySource.value=sanitizeHtml(els.bodyEditor.innerHTML)}
+    function syncEditorFromSource(){els.bodyEditor.innerHTML=sanitizeHtml(els.bodySource.value)}
+    function getEditorHtml(){if(els.richBox.classList.contains('source-on'))syncEditorFromSource();return sanitizeHtml(els.bodyEditor.innerHTML)}
+    function setEditorHtml(html){els.bodyEditor.innerHTML=sanitizeHtml(html||'');syncSourceFromEditor()}
+    function exec(cmd,value=null){editorFocus();document.execCommand(cmd,false,value);syncSourceFromEditor()}
+    document.querySelectorAll('[data-cmd]').forEach(btn=>btn.addEventListener('click',()=>exec(btn.dataset.cmd)));
+    els.formatBlock.addEventListener('change',()=>exec('formatBlock',els.formatBlock.value));
+    els.fontFamily.addEventListener('change',()=>exec('fontName',els.fontFamily.value));
+    els.fontSize.addEventListener('change',()=>{exec('fontSize','7');document.querySelectorAll('font[size="7"]').forEach(font=>{const span=document.createElement('span');span.style.fontSize=els.fontSize.value;span.innerHTML=font.innerHTML;font.replaceWith(span)});syncSourceFromEditor()});
+    els.fontColor.addEventListener('input',()=>exec('foreColor',els.fontColor.value));
+    els.insertLink.addEventListener('click',()=>{const url=prompt('Pega la URL del enlace:','https://');if(url)exec('createLink',url)});
+    els.clearFormat.addEventListener('click',()=>{exec('removeFormat');exec('unlink')});
+    els.toggleSource.addEventListener('click',()=>{if(els.richBox.classList.contains('source-on')){syncEditorFromSource();els.richBox.classList.remove('source-on');els.toggleSource.textContent='HTML'}else{syncSourceFromEditor();els.richBox.classList.add('source-on');els.toggleSource.textContent='Editor'}});
+    els.bodyEditor.addEventListener('input',syncSourceFromEditor);els.bodyEditor.addEventListener('paste',()=>setTimeout(syncSourceFromEditor,0));els.bodySource.addEventListener('input',()=>{});
+    function resetForm(){els.form.reset();els.postId.value='';els.category.value='Legislación';els.author.value='Eder Velásquez Abogados';els.status.value='published';els.formTitle.textContent='Nueva publicación';setEditorHtml('');updatePreview();if(els.richBox.classList.contains('source-on'))els.richBox.classList.remove('source-on')}
+    async function uploadImageIfNeeded(){const file=els.imageFile.files&&els.imageFile.files[0]; if(!file) return; const form=new FormData(); form.append('image',file); const res=await fetch('/api/admin/upload',{method:'POST',headers:{authorization:`Bearer ${token}`},body:form}); const data=await res.json().catch(()=>({})); if(!res.ok) throw new Error(data.error||'No se pudo subir la imagen.'); els.image_url.value=data.url; updatePreview(); els.imageFile.value='';}
+    async function loadPosts(){clearMessages(); if(!token){els.posts.innerHTML='<p>Carga el token para listar publicaciones.</p>';return} try{const data=await api('/api/admin/posts');const posts=data.posts||[];if(!posts.length){els.posts.innerHTML='<p>No hay publicaciones.</p>';return}els.posts.innerHTML=posts.map(p=>`<article class="row">${p.image_url?`<img class="row-img" src="${escapeHtml(p.image_url)}" alt="">`:`<div class="row-img empty">Sin imagen</div>`}<div><span class="badge ${p.status==='draft'?'draft':'published'}">${p.status==='draft'?'Borrador':'Publicado'}</span><h3>${escapeHtml(p.title)}</h3><div class="meta">/${escapeHtml(p.slug)} · ${escapeHtml(p.category)} · ${(p.tags||[]).map(t=>'#'+escapeHtml(t)).join(' ')}</div></div><div class="actions"><button class="btn" data-edit="${p.id}">Editar</button><button class="btn btn-danger" data-delete="${p.id}">Eliminar</button></div></article>`).join('');window.__posts=posts}catch(e){showError(e.message)}}
+    function fillForm(post){els.formTitle.textContent='Editar publicación';els.postId.value=post.id;els.title.value=post.title;els.slug.value=post.slug;els.category.value=post.category;els.author.value=post.author||'Eder Velásquez Abogados';els.status.value=post.status;els.tags.value=(post.tags||[]).join(', ');els.image_url.value=post.image_url||'';els.excerpt.value=post.excerpt||'';setEditorHtml(post.body||'');updatePreview();window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})}
+    els.saveToken.addEventListener('click',()=>{token=els.tokenInput.value.trim();localStorage.setItem(TOKEN_KEY,token);showSuccess('Token guardado.');loadPosts()});
+    els.forgetToken.addEventListener('click',()=>{token='';localStorage.removeItem(TOKEN_KEY);els.tokenInput.value='';els.posts.innerHTML='<p>Carga el token para listar publicaciones.</p>'});
+    els.reloadPosts.addEventListener('click',loadPosts);els.newPost.addEventListener('click',resetForm);els.clearForm.addEventListener('click',resetForm);els.image_url.addEventListener('input',updatePreview);
+    els.posts.addEventListener('click',async e=>{const editId=e.target.getAttribute('data-edit');const deleteId=e.target.getAttribute('data-delete');if(editId){const post=(window.__posts||[]).find(p=>String(p.id)===String(editId));if(post)fillForm(post)}if(deleteId){if(!confirm('¿Eliminar esta publicación?'))return;try{await api(`/api/admin/posts/${deleteId}`,{method:'DELETE'});showSuccess('Publicación eliminada.');loadPosts()}catch(err){showError(err.message)}}});
+    els.form.addEventListener('submit',async e=>{e.preventDefault();clearMessages();try{await uploadImageIfNeeded();const body=getEditorHtml();if(!body)throw new Error('El contenido es obligatorio.');const payload={title:els.title.value,slug:els.slug.value,category:els.category.value,author:els.author.value,status:els.status.value,tags:els.tags.value,image_url:els.image_url.value,excerpt:els.excerpt.value,body};const id=els.postId.value;if(id){await api(`/api/admin/posts/${id}`,{method:'PUT',body:JSON.stringify(payload)});showSuccess('Publicación actualizada.')}else{await api('/api/admin/posts',{method:'POST',body:JSON.stringify(payload)});showSuccess('Publicación creada.')}resetForm();loadPosts()}catch(err){showError(err.message)}});
+    resetForm(); if(token) loadPosts();
+  </script>
+</body>
+</html>

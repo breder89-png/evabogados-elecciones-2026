@@ -1,0 +1,1 @@
+Coloca aquí los logos de partidos en PNG/JPG/WEBP. Nombres recomendados: FP.png, RP.png, AN.png, CO.png, BG.png, JP.png, PT.png, AP.png, etc. La interfaz prioriza /logos/<sigla>.png antes de intentar rutas externas.

@@ -1,0 +1,19 @@
+{
+  "camaras": {
+    "diputados": {
+      "parties": [],
+      "circunscripciones": [
+        { "name": "NACIONAL", "seats": 130, "votes": [] }
+      ],
+      "nationalVotes": [],
+      "candidates": [],
+      "blankNull": 0
+    },
+    "senado": {
+      "candidates": []
+    },
+    "andino": {
+      "candidates": []
+    }
+  }
+}

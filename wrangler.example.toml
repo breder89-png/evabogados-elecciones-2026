@@ -1,0 +1,18 @@
+# Archivo de ejemplo. No contiene IDs reales.
+# Si usas configuración por dashboard, no necesitas activar este archivo.
+
+name = "evabogados-pages"
+compatibility_date = "2026-05-02"
+pages_build_output_dir = "."
+
+[[d1_databases]]
+binding = "BLOG_DB"
+database_name = "evabogados_blog"
+database_id = "COLOCA_AQUI_EL_DATABASE_ID_DE_D1"
+
+[[r2_buckets]]
+binding = "BLOG_IMAGES"
+bucket_name = "evabogados-blog-images"
+
+# Secret requerido, NO se coloca aquí en producción:
+# BLOG_ADMIN_TOKEN="usa-un-token-largo-y-seguro"

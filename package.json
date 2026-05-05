@@ -1,0 +1,17 @@
+{
+  "name": "evabogados-parlamento-updater",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update:parlamento": "node scripts/update-parlamento-json.mjs",
+    "deploy": "wrangler pages deploy . --project-name=evabogados --branch=main",
+    "update-and-deploy": "node scripts/update-parlamento-json.mjs && wrangler pages deploy . --project-name=evabogados --branch=main"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

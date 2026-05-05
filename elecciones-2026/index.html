@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Observatorio Parlamentario EG2026 | EV Abogados</title>
+  <meta name="description" content="Observatorio parlamentario EV Abogados: proyección de curules, composición por cámara y candidatos con opción de representación en las Elecciones Generales 2026." />
+  <style>
+    :root{
+      --ink:#111827;
+      --muted:#667085;
+      --line:#d9e2ee;
+      --paper:#f5f7fb;
+      --surface:#ffffff;
+      --navy:#071324;
+      --navy2:#0c213a;
+      --blue:#0f4c81;
+      --blue2:#21699d;
+      --gold:#c9a45c;
+      --gold2:#f0d78f;
+      --green:#087443;
+      --red:#b42318;
+      --amber:#9a5b00;
+      --radius:24px;
+      --shadow:0 22px 60px rgba(15, 23, 42, .12);
+      --soft:0 12px 32px rgba(15, 23, 42, .08);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:linear-gradient(180deg,#edf3f8 0%,#f7f9fc 46%,#eef3f8 100%);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.55}
+    a{text-decoration:none;color:inherit}
+    button,select{font:inherit}
+
+    .topline{background:#050b14;color:#ccd6e4;padding:9px 5vw;font-size:13px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;border-bottom:1px solid rgba(255,255,255,.08)}
+    .topline b{color:var(--gold2)}
+
+    .navbar{position:sticky;top:0;z-index:50;background:rgba(7,19,36,.96);backdrop-filter:blur(16px);color:#fff;border-bottom:1px solid rgba(255,255,255,.12)}
+    .nav-inner{width:min(1500px,94vw);margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
+    .brand{display:flex;align-items:center;gap:14px;min-width:280px}
+    .brand-mark{width:52px;height:52px;border-radius:16px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),#0b365c 68%,#061220);font-weight:950;box-shadow:0 12px 28px rgba(15,76,129,.34)}
+    .brand-title{font-weight:850;font-size:16px}.brand-sub{font-size:12px;color:#aeb9c8;margin-top:2px}
+    .nav-links{display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap}.nav-links a{font-size:13px;color:#d7dee9;border:1px solid rgba(255,255,255,.14);border-radius:999px;padding:8px 12px;font-weight:800}.nav-links a:hover,.nav-links a.active{color:var(--gold2);border-color:rgba(240,215,143,.56);background:rgba(255,255,255,.05)}
+
+    .hero{position:relative;overflow:hidden;color:#fff;background:radial-gradient(circle at 18% 20%,rgba(201,164,92,.26),transparent 30%),radial-gradient(circle at 82% 18%,rgba(33,105,157,.22),transparent 28%),linear-gradient(135deg,#071324 0%,#0c213a 58%,#08111f 100%);padding:62px 0 88px}
+    .hero:after{content:"";position:absolute;right:-110px;bottom:-150px;width:480px;height:480px;border-radius:50%;border:1px solid rgba(240,215,143,.15);box-shadow:0 0 0 78px rgba(240,215,143,.035),0 0 0 154px rgba(240,215,143,.02)}
+    .hero-inner{position:relative;z-index:1;width:min(1500px,94vw);margin:auto;display:grid;grid-template-columns:minmax(0,1fr) 410px;gap:36px;align-items:end}
+    .eyebrow{display:inline-flex;align-items:center;gap:12px;color:var(--gold2);font-size:12px;font-weight:950;text-transform:uppercase;letter-spacing:.14em;margin-bottom:16px}.eyebrow:before{content:"";width:46px;height:1px;background:currentColor}
+    h1{font-family:Georgia,"Times New Roman",serif;margin:0 0 18px;font-size:clamp(38px,5.2vw,72px);line-height:.98;letter-spacing:-.055em;max-width:1050px}.hero-copy{font-size:18px;color:#d8e2ef;max-width:980px;margin:0}.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.hero-actions a,.hero-actions button{border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.08);color:#fff;border-radius:999px;padding:11px 15px;font-weight:850;cursor:pointer}.hero-actions .primary{background:var(--gold);border-color:var(--gold);color:#111827}
+    .hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:28px;padding:22px;box-shadow:0 18px 60px rgba(0,0,0,.22)}.hero-card .label{font-size:12px;font-weight:950;text-transform:uppercase;letter-spacing:.1em;color:#aeb9c8;margin-bottom:8px}.hero-card .big{font-size:40px;font-weight:950;line-height:1;color:#fff}.hero-card .small{font-size:14px;color:#d8e2ef;margin-top:8px}
+
+    main{width:min(1500px,94vw);margin:-46px auto 64px;position:relative;z-index:2}.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+
+    .control-deck{display:grid;grid-template-columns:250px 260px 1fr auto;gap:14px;padding:16px;align-items:stretch}.control{display:flex;flex-direction:column;gap:7px;justify-content:flex-end}.control label{font-size:12px;color:#516072;font-weight:950;text-transform:uppercase;letter-spacing:.055em}select{width:100%;border:1px solid #cbd5e1;border-radius:16px;background:#fff;padding:12px 13px;color:var(--ink);outline:none}select:focus{border-color:var(--blue);box-shadow:0 0 0 4px rgba(15,76,129,.11)}.refresh-btn{min-height:48px;border:0;border-radius:16px;background:linear-gradient(135deg,var(--blue),var(--navy2));color:#fff;padding:0 18px;font-weight:950;cursor:pointer;box-shadow:0 12px 28px rgba(15,76,129,.2)}
+    .status-box{display:grid;grid-template-columns:minmax(0,1fr) 230px;overflow:hidden;border:1px solid #dce5ef;background:#f8fafc;border-radius:18px;min-height:76px}.status-left{padding:13px 16px}.status-caption{font-size:12px;font-weight:950;color:#2563eb;text-transform:uppercase;letter-spacing:.06em}.status-percent{font-size:34px;font-weight:950;line-height:1;color:#1d4ed8;margin-top:3px}.status-ratio{font-size:13px;color:#334155;margin-top:6px}.status-right{border-left:1px solid #dce5ef;background:#fff;padding:13px 16px;display:flex;flex-direction:column;justify-content:center}.status-right .label{font-size:12px;color:#64748b;font-weight:950;text-transform:uppercase}.status-time{font-weight:950;color:#1d4ed8;margin-top:4px;font-size:14px}.status-source{font-size:12px;color:#64748b;margin-top:4px}
+    .source-alert{display:none;margin:16px 0 0;padding:14px 16px;border:1px solid #f2c96d;background:#fff8e1;color:#694400;border-radius:18px;font-size:14px}.source-alert.show{display:block}
+
+    .camera-strip{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:18px 0}.camera-tile{border:1px solid #dfe7f1;background:#fff;border-radius:20px;padding:14px;box-shadow:var(--soft);cursor:pointer;transition:.16s}.camera-tile:hover{border-color:var(--blue);transform:translateY(-1px)}.camera-tile.active{border-color:var(--gold);background:#fff9ea;box-shadow:0 12px 34px rgba(201,164,92,.16)}.camera-tile b{display:block;font-size:14px;line-height:1.15}.camera-tile small{display:block;margin-top:5px;color:#667085;font-size:12px}.camera-tile .count{margin-top:10px;font-size:24px;font-weight:950;color:var(--blue)}
+
+    .kpi-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:18px 0}.kpi{padding:18px;overflow:hidden;position:relative}.kpi:after{content:"";position:absolute;right:-36px;top:-36px;width:96px;height:96px;border-radius:50%;background:rgba(201,164,92,.12)}.kpi .label{font-size:11px;color:#667085;text-transform:uppercase;font-weight:950;letter-spacing:.07em;min-height:30px}.kpi .value{font-size:30px;font-weight:950;color:var(--blue);line-height:1;margin-top:7px}.kpi .sub{font-size:12px;color:#667085;margin-top:6px}
+
+    .workbench{display:grid;grid-template-columns:320px minmax(0,1fr);gap:18px;align-items:start}.side-panel{padding:18px;position:sticky;top:94px}.side-title{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.05;margin:0;color:var(--navy)}.side-text{color:#64748b;margin:10px 0 16px;font-size:14px}.mode-list{display:grid;gap:10px}.mode-card{border:1px solid #e1e8f0;border-radius:18px;padding:13px;background:#fff;cursor:pointer;transition:.16s}.mode-card:hover{border-color:var(--blue);transform:translateY(-1px)}.mode-card.active{border-color:var(--gold);background:#fff9ea;box-shadow:0 10px 26px rgba(201,164,92,.13)}.mode-card b{display:block;color:var(--ink)}.mode-card small{color:#64748b}.technical-note{border:1px solid #dce5ef;background:#f8fafc;border-radius:18px;padding:14px;margin-top:16px;font-size:13px;color:#526173}.technical-note b{color:#233045}
+    .main-panel{display:grid;gap:18px}.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:18px;padding:18px 20px;border-bottom:1px solid #e5edf6}.section-head h2{font-family:Georgia,"Times New Roman",serif;margin:0;color:var(--navy);font-size:29px;line-height:1.08}.section-head p{margin:5px 0 0;color:#687386;font-size:14px}.pill{display:inline-flex;align-items:center;gap:8px;padding:8px 11px;border-radius:999px;background:#eff6ff;color:#174a78;font-weight:950;font-size:12px;text-transform:uppercase;letter-spacing:.05em}.pill:before{content:"";width:8px;height:8px;background:#22c55e;border-radius:50%}
+
+    .projection-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.projection-card{overflow:visible}.projection-body{padding:18px}.seat-stage{min-height:430px;border:1px solid #edf2f7;border-radius:22px;background:radial-gradient(circle at 50% 80%,#fff 0,#fff 36%,#f6f9fc 37%,#eef4fb 100%);display:grid;align-items:center;justify-items:center;padding:20px;overflow:visible}.seat-stage.small{min-height:270px;background:linear-gradient(135deg,#ffffff,#f7f9fc)}.seat-stage.medium{min-height:350px;background:linear-gradient(135deg,#ffffff,#f4f8fd)}.seat-stage.total{min-height:440px;background:linear-gradient(135deg,#ffffff,#f5f8fc)}
+    .seat-mosaic{width:100%;display:grid;gap:10px;justify-content:center;align-content:center}.seat-mosaic.pa{grid-template-columns:repeat(5,72px)}.seat-mosaic.s30{grid-template-columns:repeat(6,48px)}.seat-mosaic.s60{grid-template-columns:repeat(10,38px)}.seat-mosaic.regional{grid-template-columns:repeat(6,48px)}.seat-mosaic.mini{grid-template-columns:repeat(4,64px)}.seat-mosaic.large{grid-template-columns:repeat(2,92px)}.seat-mosaic.dip{grid-template-columns:repeat(13,30px);gap:9px}.seat-square{display:grid;place-items:center;border-radius:14px;color:#fff;font-weight:950;text-shadow:0 1px 1px rgba(0,0,0,.25);border:1px solid rgba(0,0,0,.14);box-shadow:0 10px 22px rgba(15,23,42,.12);min-height:44px;isolation:isolate}.seat-mosaic.pa .seat-square{height:72px;font-size:18px;border-radius:20px}.seat-mosaic.s30 .seat-square,.seat-mosaic.regional .seat-square{height:48px;font-size:13px}.seat-mosaic.s60 .seat-square{height:38px;font-size:11px;border-radius:11px}.seat-mosaic.mini .seat-square{height:64px;font-size:18px;border-radius:18px}.seat-mosaic.large .seat-square{height:92px;font-size:22px;border-radius:24px}.seat-mosaic.dip .seat-square{height:30px;min-height:30px;font-size:8px;border-radius:9px;box-shadow:0 5px 11px rgba(15,23,42,.10)}.seat-square.has-logo{background:#fff!important;text-shadow:none}.seat-logo{width:82%;height:82%;object-fit:contain;display:block;pointer-events:none}.seat-mosaic.dip .seat-logo{width:88%;height:88%}.seat-square.empty-seat{background:#d8e0eb!important;color:#64748b;text-shadow:none}.seat-square.pending-seat{background:#edf2f7!important;color:#94a3b8;text-shadow:none;border-style:dashed}
+    .total-senate{width:100%;display:grid;grid-template-columns:1fr 1fr;gap:16px}.senate-block{border:1px solid #e5edf6;border-radius:20px;background:#fff;padding:14px}.senate-block h3{margin:0 0 4px;font-size:15px;color:#0b1e35}.senate-block p{margin:0 0 12px;font-size:12px;color:#667085}.hemicycle{position:relative;width:min(620px,100%);height:350px}.seat-dot{position:absolute;width:16px;height:16px;border-radius:50%;border:1px solid rgba(0,0,0,.14);box-shadow:0 4px 10px rgba(0,0,0,.11)}.seat-square,.seat-dot{cursor:pointer;position:relative}.seat-tooltip{position:absolute;z-index:80;left:50%;bottom:calc(100% + 12px);width:330px;max-width:min(86vw,330px);transform:translateX(-50%) translateY(8px);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .14s ease,transform .14s ease,visibility .14s ease;background:#071324;color:#fff;border:1px solid rgba(240,215,143,.34);border-radius:18px;box-shadow:0 22px 54px rgba(7,19,36,.38);padding:12px;text-align:left}.seat-tooltip:after{content:"";position:absolute;left:50%;bottom:-7px;transform:translateX(-50%) rotate(45deg);width:14px;height:14px;background:#071324;border-right:1px solid rgba(240,215,143,.34);border-bottom:1px solid rgba(240,215,143,.34)}.seat-square:hover .seat-tooltip,.seat-square:focus-visible .seat-tooltip,.seat-dot:hover .seat-tooltip,.seat-dot:focus-visible .seat-tooltip{opacity:1;visibility:visible;transform:translateX(-50%) translateY(0)}.tip-grid{display:grid;grid-template-columns:72px minmax(0,1fr);gap:12px;align-items:start}.tip-photo{width:72px;height:88px;border-radius:14px;object-fit:cover;object-position:center top;background:linear-gradient(135deg,#1e3a5f,#0b1728);border:1px solid rgba(255,255,255,.22);display:grid;place-items:center;color:#f0d78f;font-weight:950;font-size:18px;overflow:hidden}.tip-photo img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}.tip-name{font-size:14px;line-height:1.16;font-weight:950;margin-bottom:6px;color:#fff}.tip-party{font-size:12px;line-height:1.18;color:#f0d78f;font-weight:850;margin-bottom:8px}.tip-row{display:grid;grid-template-columns:80px minmax(0,1fr);gap:8px;font-size:12px;line-height:1.25;margin-top:4px}.tip-row b{color:#aeb9c8;font-weight:800}.tip-note{font-size:12px;line-height:1.25;color:#cbd5e1}.legend{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 16px;margin-top:16px}.party{display:grid;grid-template-columns:34px 42px minmax(0,1fr);gap:9px;align-items:center}.dot{width:15px;height:15px;border-radius:50%}.party-logo{width:30px;height:30px;object-fit:contain;background:#fff;border:1px solid #e5edf6;border-radius:8px;padding:2px}.party .num{font-size:24px;line-height:1;font-weight:950}.party .name{font-size:12px;line-height:1.15;color:#334155}.party .short{font-weight:950;color:#111827}
+
+    .analysis-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}.table-card,.candidate-card{overflow:hidden}.content-pad{padding:18px}.table-wrap{overflow:auto;max-height:610px}table{width:100%;border-collapse:collapse;font-size:13px}th{position:sticky;top:0;background:#f8fafc;color:#526173;text-align:left;padding:12px 10px;border-bottom:2px solid #e5edf6;white-space:nowrap}td{padding:11px 10px;border-bottom:1px solid #e5edf6;color:#1f2937}th.num,td.num{text-align:right}.pos{color:var(--green);font-weight:950}.neg{color:var(--red);font-weight:950}.muted{color:#64748b}
+    .candidate-list{display:grid;gap:10px;max-height:610px;overflow:auto;padding-right:4px}.candidate{display:grid;grid-template-columns:72px minmax(0,1fr) auto;gap:12px;align-items:center;border:1px solid #e5edf6;background:#f8fafc;border-radius:18px;padding:11px}.candidate .avatar{width:72px;height:88px;border-radius:16px;background:linear-gradient(135deg,#dbeafe,#fff7df);display:grid;place-items:center;font-weight:950;color:#12446f;overflow:hidden}.candidate .avatar img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}.candidate b{display:block;line-height:1.15;font-size:14px}.candidate small{display:block;color:#64748b;font-size:12px;margin-top:3px}.candidate .seat-badge{border:1px solid #bdd7f0;background:#eef7ff;color:#174a78;border-radius:999px;padding:7px 9px;font-size:11px;font-weight:950;white-space:nowrap}.empty{border:1px dashed #cbd5e1;background:#fff;border-radius:16px;padding:20px;color:#64748b;text-align:center}
+    .mobile-priority{display:none}.mobile-toggle{width:100%;border:1px solid #d7e2ef;background:#fff;border-radius:14px;padding:11px 12px;color:#174a78;font-weight:950;cursor:pointer;margin-top:12px}.mobile-candidate-group{display:grid;gap:10px}.seat-drawer{display:none}
+
+    .method-card{margin-top:18px;padding:18px;border-radius:24px;background:linear-gradient(135deg,#fff,#f7f9fc);border:1px solid var(--line);box-shadow:var(--soft);display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}.method-card p{margin:0;color:#526173;font-size:13px}.method-card b{color:#172033}.method-card .stamp{font-weight:950;color:var(--gold);border:1px solid #efd38a;border-radius:999px;padding:9px 12px;background:#fffaf0;font-size:12px;text-transform:uppercase;letter-spacing:.05em}.footer{background:#050b14;color:#cdd6e3;padding:28px 5%;text-align:center;font-size:13px}
+
+    @media(max-width:1180px){.hero-inner,.workbench,.analysis-grid,.projection-grid,.total-senate{grid-template-columns:1fr}.side-panel{position:relative;top:auto}.control-deck{grid-template-columns:1fr}.status-box{grid-template-columns:1fr}.status-right{border-left:0;border-top:1px solid #dce5ef}.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-card{max-width:520px}.legend{grid-template-columns:1fr}.camera-strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:720px){.topline{display:none}body{overflow-x:hidden;background:#f6f8fb}.navbar{position:relative}.nav-inner{width:100%;align-items:flex-start;flex-direction:column;padding:10px 14px;gap:10px}.brand{min-width:0;gap:10px}.brand-mark{width:42px;height:42px;border-radius:13px}.brand-title{font-size:14px}.brand-sub{font-size:11px}.nav-links{width:100%;display:flex;flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;gap:8px;padding-bottom:2px;scrollbar-width:none}.nav-links::-webkit-scrollbar{display:none}.nav-links a{white-space:nowrap;font-size:12px;padding:7px 10px}.hero{padding:28px 0 56px}.hero:after{display:none}.hero-inner{width:min(100% - 28px,520px);display:block}.eyebrow{font-size:10px;letter-spacing:.1em;margin-bottom:10px}.eyebrow:before{width:28px}h1{font-size:34px;line-height:1.02;letter-spacing:0;margin-bottom:12px}.hero-copy{font-size:15px;line-height:1.48}.hero-actions{display:grid;grid-template-columns:1fr 1fr;margin-top:16px}.hero-actions a,.hero-actions button{text-align:center;padding:10px 11px}.hero-card{display:none}main{width:100%;margin:-30px 0 42px;padding:0 12px}.card{border-radius:18px;box-shadow:0 10px 28px rgba(15,23,42,.08)}.control-deck{grid-template-columns:1fr;gap:12px;padding:14px;border-radius:22px}.control label{font-size:11px}select{border-radius:14px;padding:11px 12px}.refresh-btn{width:100%;min-height:46px;border-radius:14px}.status-box{grid-template-columns:1fr;border-radius:16px}.status-left{padding:12px 14px}.status-percent{font-size:30px}.status-ratio{font-size:12px}.status-right{padding:10px 14px}.camera-strip{display:flex;grid-template-columns:none;gap:10px;overflow-x:auto;margin:14px -12px 14px;padding:0 12px 4px;scroll-snap-type:x mandatory;scrollbar-width:none}.camera-strip::-webkit-scrollbar{display:none}.camera-tile{flex:0 0 162px;scroll-snap-align:start;padding:12px;border-radius:16px}.camera-tile b{font-size:13px}.camera-tile .count{font-size:22px;margin-top:7px}.mobile-priority{display:block;margin:8px 0 14px;overflow:hidden}.mobile-priority .section-head{padding:14px}.mobile-candidate-group{max-height:none}.mobile-candidate-group.is-hidden{display:none}.kpi-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:14px 0}.kpi{padding:13px;border-radius:16px}.kpi .label{font-size:9px;letter-spacing:.05em;min-height:28px}.kpi .value{font-size:24px}.kpi .sub{font-size:11px}.workbench,.analysis-grid,.projection-grid,.total-senate{grid-template-columns:1fr}.side-panel{position:relative;top:auto;padding:14px}.side-title{font-size:22px}.side-text,.technical-note{display:none}.mode-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.mode-card{border-radius:14px;padding:10px}.mode-card b{font-size:12px;line-height:1.15}.mode-card small{display:none}.section-head{align-items:flex-start;flex-direction:column;gap:10px;padding:15px 16px}.section-head h2{font-size:24px;letter-spacing:0}.section-head p{font-size:13px}.pill{align-self:flex-start;font-size:10px;line-height:1.15;white-space:normal}.projection-body{padding:12px}.seat-stage{min-height:0;padding:14px;border-radius:18px;overflow:visible}.seat-stage.medium,.seat-stage.total{min-height:0}.seat-mosaic{gap:7px}.seat-mosaic.pa{grid-template-columns:repeat(5,44px)}.seat-mosaic.pa .seat-square{height:48px;border-radius:14px}.seat-mosaic.s30,.seat-mosaic.regional{grid-template-columns:repeat(6,40px)}.seat-mosaic.s30 .seat-square,.seat-mosaic.regional .seat-square{height:40px;border-radius:12px}.seat-mosaic.s60{grid-template-columns:repeat(6,38px)}.seat-mosaic.dip{grid-template-columns:repeat(10,26px);gap:6px}.seat-mosaic.dip .seat-square{height:26px;min-height:26px;border-radius:8px}.seat-mosaic.large{grid-template-columns:repeat(2,78px)}.seat-mosaic.large .seat-square{height:78px;border-radius:18px}.senate-block{padding:12px;border-radius:16px}.hemicycle{height:280px}.seat-dot{width:13px;height:13px}.seat-tooltip{display:none}.legend{grid-template-columns:1fr;gap:8px;margin-top:12px}.party{grid-template-columns:14px 34px minmax(0,1fr)}.party .num{font-size:20px}.content-pad{padding:12px}.table-wrap{max-height:none;overflow:auto;-webkit-overflow-scrolling:touch}table{min-width:620px;font-size:12px}th,td{padding:9px 8px}.candidate-list{max-height:none;padding-right:0}.candidate{grid-template-columns:54px minmax(0,1fr);gap:10px;padding:10px;border-radius:15px}.candidate .avatar{width:54px;height:66px;border-radius:13px}.candidate b{font-size:13px}.candidate small{font-size:11px}.candidate .seat-badge{grid-column:1/-1;width:fit-content;font-size:10px;padding:6px 8px}.seat-drawer{position:fixed;inset:auto 0 0;z-index:100;background:rgba(7,19,36,.38);padding:18px 12px 12px}.seat-drawer.show{display:block}.seat-drawer-panel{background:#071324;color:#fff;border:1px solid rgba(240,215,143,.32);border-radius:22px;padding:14px;box-shadow:0 -18px 54px rgba(7,19,36,.38)}.seat-drawer-close{width:100%;margin-top:12px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.08);color:#fff;border-radius:14px;padding:10px;font-weight:950}.seat-drawer .seat-tooltip{position:static;display:block;visibility:visible;opacity:1;transform:none;width:auto;max-width:none;background:transparent;border:0;box-shadow:none;padding:0}.seat-drawer .seat-tooltip:after{display:none}.method-card{grid-template-columns:1fr;margin-top:14px;padding:14px;border-radius:18px}.method-card .stamp{width:fit-content}.footer{padding:22px 14px}}
+    @media(max-width:420px){.hero-actions{grid-template-columns:1fr}.kpi-grid{grid-template-columns:1fr}.mode-list{grid-template-columns:1fr}.camera-tile{flex-basis:150px}.seat-mosaic.dip{grid-template-columns:repeat(8,27px)}.seat-mosaic.s30,.seat-mosaic.regional{grid-template-columns:repeat(5,40px)}}
+  </style>
+</head>
+<body>
+  <div class="topline"><span><b>Observatorio EV:</b> proyección técnica parlamentaria EG2026.</span><span>Lectura referencial basada en fuente normalizada; no sustituye proclamación oficial.</span></div>
+  <header class="navbar"><div class="nav-inner"><a class="brand" href="/"><span class="brand-mark">EV</span><span><span class="brand-title">EV Abogados</span><br><span class="brand-sub">Eder Velásquez · derecho público · legislación · análisis electoral</span></span></a><nav class="nav-links"><a href="/">Inicio</a><a href="/equipo/">Nuestro Equipo</a><a href="/blog/">Blog</a><a class="active" href="/elecciones-2026/">Elecciones 2026</a></nav></div></header>
+  <section class="hero"><div class="hero-inner"><div><div class="eyebrow">Elecciones generales 2026</div><h1>Observatorio de composición parlamentaria.</h1><p class="hero-copy">Interfaz propia de EV Abogados para revisar escenarios de distribución de curules, cámaras bicamerales, Parlamento Andino y candidatos con opción de representación conforme a datos públicos normalizados.</p><div class="hero-actions"><a class="primary" href="#panel">Ver panel</a><button id="heroRefresh" type="button">Actualizar datos</button></div></div><aside class="hero-card"><div class="label">Avance de actas</div><div class="big" id="heroPercent">—</div><div class="small" id="heroStatusText">Esperando carga de datos.</div></aside></div></section>
+
+  <main id="panel">
+    <section class="card control-deck">
+      <div class="control"><label for="camara">Cámara</label><select id="camara"><option value="diputados">Diputados</option><option value="senadoTotal">Senadores</option><option value="andino">Parlamento Andino</option></select></div>
+      <div class="control"><label for="circ">Circunscripción</label><select id="circ"><option value="">Totales</option></select></div>
+      <div class="status-box"><div class="status-left"><div class="status-caption">Actas contabilizadas</div><div class="status-percent" id="statusPercent">—</div><div class="status-ratio" id="statusRatio">Cargando fuente...</div></div><div class="status-right"><span class="label">Última actualización</span><span class="status-time" id="statusTime">—</span><span class="status-source" id="statusSource">Fuente: —</span></div></div>
+      <button class="refresh-btn" id="refresh" type="button">Actualizar</button>
+    </section>
+
+    <div id="sourceAlert" class="source-alert"></div>
+
+    <section class="camera-strip" id="cameraStrip"></section>
+    <section class="card mobile-priority" id="mobileCandidateSection">
+      <div class="section-head">
+        <div>
+          <h2 id="mobileCandidateTitle">Candidatos con valla</h2>
+          <p id="mobileCandidateSub">Primero se muestra el escenario legal aplicando valla.</p>
+        </div>
+      </div>
+      <div class="content-pad">
+        <div id="mobileCandidatesBarrier" class="mobile-candidate-group"></div>
+        <button class="mobile-toggle" id="mobileNoBarrierToggle" type="button">Ver candidatos sin valla</button>
+        <div id="mobileCandidatesNoBarrier" class="mobile-candidate-group is-hidden"></div>
+      </div>
+    </section>
+    <section id="kpis" class="kpi-grid"></section>
+
+    <section class="workbench">
+      <aside class="card side-panel"><h2 class="side-title">Lectura técnica de la representación</h2><p class="side-text">Las cámaras pequeñas se muestran como escaños cuadrados. Diputados mantiene lectura territorial. La vista de senadores agrupa el bloque nacional y el regional.</p><div class="mode-list" id="modeList"><article class="mode-card active" data-view="comparison"><b>Composición de curules</b><small>Escaños con y sin valla</small></article><article class="mode-card" data-view="candidates"><b>Candidatos proyectados</b><small>Según voto preferencial disponible</small></article><article class="mode-card" data-view="table"><b>Matriz de partidos</b><small>Votos, porcentaje y diferencia</small></article></div><div class="technical-note"><b>Nota:</b> si una cámara todavía no tiene fuente normalizada, el panel mostrará estructura sin votos o un aviso de datos pendientes.</div></aside>
+      <section class="main-panel">
+        <section class="projection-grid" id="comparisonSection"><article class="card projection-card"><div class="section-head"><div><h2 id="titleSB">Sin valla electoral</h2><p id="subSB">Distribución técnica antes de barrera.</p></div><span class="pill" id="pillSB">D'Hondt</span></div><div class="projection-body"><div id="stageSB" class="seat-stage"><div id="seatsSB"></div></div><div id="legendSB" class="legend"></div></div></article><article class="card projection-card"><div class="section-head"><div><h2 id="titleCB">Con valla electoral</h2><p id="subCB">Distribución técnica aplicando barrera referencial.</p></div><span class="pill" id="pillCB">Escenario legal</span></div><div class="projection-body"><div id="stageCB" class="seat-stage"><div id="seatsCB"></div></div><div id="legendCB" class="legend"></div></div></article></section>
+        <section class="analysis-grid"><article class="card table-card" id="tableSection"><div class="section-head"><div><h2>Matriz por organización</h2><p>Votos, porcentaje y diferencia de curules.</p></div></div><div class="content-pad table-wrap"><table><thead><tr><th>Organización política</th><th class="num">Votos</th><th class="num">%</th><th class="num">Sin valla</th><th class="num">Con valla</th><th class="num">Dif.</th></tr></thead><tbody id="tableBody"></tbody></table></div></article><article class="card candidate-card" id="candidateSection"><div class="section-head"><div><h2>Candidatos que alcanzarían curul</h2><p>Proyección referencial por organización y circunscripción.</p></div></div><div class="content-pad"><div id="candidateList" class="candidate-list"></div></div></article></section>
+      </section>
+    </section>
+    <section class="method-card"><p><b>Advertencia metodológica:</b> esta herramienta tiene finalidad informativa y analítica. No reemplaza la proclamación oficial ni las decisiones de los organismos electorales competentes. La exactitud depende de la fuente normalizada disponible.</p><span class="stamp">EV · Observatorio</span></section>
+    <div class="seat-drawer" id="seatDrawer" aria-hidden="true"><div class="seat-drawer-panel"><div id="seatDrawerContent"></div><button class="seat-drawer-close" id="seatDrawerClose" type="button">Cerrar</button></div></div>
+  </main>
+  <footer class="footer">© <span id="year"></span> EV Abogados · Eder Velásquez · Observatorio parlamentario EG2026</footer>
+
+  <script>
+    const fmt = new Intl.NumberFormat('es-PE');
+    let RAW = null;
+    let currentView = 'comparison';
+    const $ = (id) => document.getElementById(id);
+    const clean = (v) => String(v ?? '').trim();
+    const numeric = (v) => Number(v || 0);
+    const normalize = (v) => clean(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase();
+    const percentText = (n, whole=false) => {
+      const value = Number(n || 0);
+      const normalized = whole || value > 1 ? value : value * 100;
+      return `${normalized.toFixed(2)} %`;
+    };
+    const cameraMeta = {
+      diputados:{label:'Diputados', seats:130, sub:'Distrito múltiple'},
+      senadoNacional:{label:'Senado nacional', seats:30, sub:'Distrito único', hidden:true},
+      senadoRegional:{label:'Senado regional', seats:30, sub:'Ámbito regional', hidden:true},
+      senadoTotal:{label:'Senadores', seats:60, sub:'Totales, nacional y regional'},
+      andino:{label:'Parlamento Andino', seats:5, sub:'5 representantes'}
+    };
+    const diputadosSeatMap = {
+      'AMAZONAS':2,'ÁNCASH':5,'APURÍMAC':2,'AREQUIPA':6,'AYACUCHO':3,'CAJAMARCA':6,
+      'CALLAO':4,'CUSCO':5,'HUANCAVELICA':2,'HUÁNUCO':3,'ICA':4,'JUNÍN':5,
+      'LA LIBERTAD':7,'LAMBAYEQUE':5,'LIMA METROPOLITANA':32,'LIMA PROVINCIAS':4,
+      'RESIDENTES EN EL EXTRANJERO':2,'LORETO':4,'MADRE DE DIOS':2,'MOQUEGUA':2,
+      'PASCO':2,'PIURA':7,'PUNO':5,'SAN MARTÍN':4,'TACNA':2,'TUMBES':2,'UCAYALI':3
+    };
+    const regionalSeatMap = {
+      'AMAZONAS':1,'ÁNCASH':1,'APURÍMAC':1,'AREQUIPA':1,'AYACUCHO':1,'CAJAMARCA':1,
+      'CALLAO':1,'CUSCO':1,'HUANCAVELICA':1,'HUÁNUCO':1,'ICA':1,'JUNÍN':1,
+      'LA LIBERTAD':1,'LAMBAYEQUE':1,'LIMA METROPOLITANA':4,'LIMA PROVINCIAS':1,
+      'RESIDENTES EN EL EXTRANJERO':1,'LORETO':1,'MADRE DE DIOS':1,'MOQUEGUA':1,
+      'PASCO':1,'PIURA':1,'PUNO':1,'SAN MARTÍN':1,'TACNA':1,'TUMBES':1,'UCAYALI':1
+    };
+
+    const QUALIFIED_PARTIES_2026 = new Set([
+      'FUERZA POPULAR',
+      'RENOVACION POPULAR',
+      'RENOVACIÓN POPULAR',
+      'AHORA NACION',
+      'AHORA NACIÓN',
+      'PARTIDO CIVICO OBRAS',
+      'PARTIDO CÍVICO OBRAS',
+      'PARTIDO DEL BUEN GOBIERNO',
+      'JUNTOS POR EL PERU',
+      'JUNTOS POR EL PERÚ'
+    ].map(normalize));
+    const REGIONAL_SCOPE_PREFIX = 'REGIONAL::';
+    function isQualifiedParty2026(party){const value=normalize(party);return QUALIFIED_PARTIES_2026.has(value)||value.startsWith('AHORA NACION')||value.startsWith('PARTIDO CIVICO OBRAS')||value.startsWith('PARTIDO DEL BUEN GOBIERNO')||value.startsWith('JUNTOS POR EL PERU')||value.startsWith('RENOVACION POPULAR')||value==='FUERZA POPULAR';}
+    function regionalScopeName(value){return String(value||'').startsWith(REGIONAL_SCOPE_PREFIX)?String(value).slice(REGIONAL_SCOPE_PREFIX.length):'';}
+
+    function hashColor(str){let h=0;const s=String(str||'');for(let i=0;i<s.length;i++) h=(h*31+s.charCodeAt(i))>>>0;return `hsl(${h%360} 62% 43%)`;}
+    function getCamera(){return $('camara').value;}
+    function getCirc(){return $('circ').value;}
+    function emptyCamera(key){return {name:cameraMeta[key]?.label || key,barrier:.05,parties:[],circunscripciones:[],nationalVotes:[],candidates:[],blankNull:0};}
+    function clone(obj){return JSON.parse(JSON.stringify(obj || {}));}
+    function dataFor(key){
+      const cams = RAW?.camaras || {};
+      if(key === 'senadoNacional') return normalizeCamera(cams.senadoNacional || cams.senado_nacional || cams.senado || emptyCamera(key), 'senadoNacional');
+      if(key === 'senadoRegional') return normalizeCamera(cams.senadoRegional || cams.senado_regional || cams.senadoMultiple || cams.senadoDistritoMultiple || emptyCamera(key), 'senadoRegional');
+      if(key === 'senadoTotal') return mergeSenateTotal();
+      if(key === 'andino') return normalizeCamera(cams.andino || cams.parlamentoAndino || emptyCamera(key), 'andino');
+      return normalizeCamera(cams.diputados || emptyCamera(key), 'diputados');
+    }
+    function officialSeatMapFor(key){
+      if(key==='diputados') return diputadosSeatMap;
+      if(key==='senadoRegional') return regionalSeatMap;
+      if(key==='senadoNacional') return {'NACIONAL':30};
+      if(key==='andino') return {'NACIONAL':5};
+      return {};
+    }
+    function canonicalCircName(value,key){
+      const norm=normalize(String(value||'').replace(/^REGIONAL · /,'').replace(/^NACIONAL · /,''));
+      if(!norm || norm==='PENDIENTE') return key==='senadoNacional'||key==='andino'?'NACIONAL':'PENDIENTE';
+      if(norm.includes('EXTRANJERO')) return 'RESIDENTES EN EL EXTRANJERO';
+      if(norm==='LIMA') return 'LIMA METROPOLITANA';
+      if(key==='senadoNacional'||key==='andino') return 'NACIONAL';
+      const official=officialSeatMapFor(key);
+      for(const name of Object.keys(official)) if(normalize(name)===norm) return name;
+      return clean(value).toUpperCase();
+    }
+    function normalizeCamera(data, key){
+      const out = clone(data); out.name = cameraMeta[key]?.label || out.name || key; out.barrier = Number(out.barrier ?? .05);
+      out.parties = Array.isArray(out.parties) ? out.parties : [];
+      out.nationalVotes = Array.isArray(out.nationalVotes) ? out.nationalVotes : [];
+      out.candidates = Array.isArray(out.candidates) ? out.candidates : [];
+      out.blankNull = Number(out.blankNull || 0);
+      const official=officialSeatMapFor(key);
+      const rawCircs = Array.isArray(out.circunscripciones) ? out.circunscripciones : [];
+      const byName=new Map();
+      rawCircs.forEach(c=>{
+        const name=canonicalCircName(c?.name,key);
+        if(!name || name==='PENDIENTE') return;
+        const existing=byName.get(name)||{name,seats:official[name]??numeric(c?.seats),votes:[]};
+        existing.seats=(official[name] ?? numeric(c?.seats)) || existing.seats;
+        const votes=new Map((existing.votes||[]).map(v=>[v.party,numeric(v.votes)]));
+        (c.votes||[]).forEach(v=>{ if(v?.party) votes.set(v.party, Math.max(votes.get(v.party)||0,numeric(v.votes))); });
+        existing.votes=[...votes.entries()].map(([party,votes])=>({party,votes})).sort((a,b)=>b.votes-a.votes);
+        byName.set(name,existing);
+      });
+      const officialNames=Object.keys(official);
+      if(officialNames.length){
+        out.circunscripciones=officialNames.map(name=>byName.get(name)||{name,seats:official[name],votes:[]});
+      } else {
+        out.circunscripciones=[...byName.values()];
+      }
+      if(!out.circunscripciones.length && out.nationalVotes.length){out.circunscripciones=[{name:'NACIONAL',seats:cameraMeta[key]?.seats||1,votes:out.nationalVotes}];}
+      return out;
+    }
+    function mergeSenateTotal(){
+      const nacional = dataFor('senadoNacional');
+      const regional = dataFor('senadoRegional');
+      const parties = new Map();
+      [...(nacional.parties||[]),...(regional.parties||[])].forEach(p=>{if(p?.name&&!parties.has(p.name)) parties.set(p.name,p)});
+      const circs = [];
+      (nacional.circunscripciones||[]).forEach(c=>circs.push({...c,name:`NACIONAL · ${c.name || 'NACIONAL'}`,group:'Nacional'}));
+      (regional.circunscripciones||[]).forEach(c=>circs.push({...c,name:`REGIONAL · ${c.name}`,group:'Regional'}));
+      return {name:'Senadores',barrier:.05,parties:[...parties.values()],circunscripciones:circs,nationalVotes:aggregateNationalFromCircs(circs),candidates:[...(nacional.candidates||[]).map(c=>({...c,senateBlock:'Nacional'})),...(regional.candidates||[]).map(c=>({...c,senateBlock:'Regional'}))],allocations:{noBarrier:[...((nacional.allocations?.noBarrier)||[]).map(a=>({...a,circunscripcion:`NACIONAL · ${a.circunscripcion||'NACIONAL'}`,group:'Nacional'})),...((regional.allocations?.noBarrier)||[]).map(a=>({...a,circunscripcion:`REGIONAL · ${a.circunscripcion}`,group:'Regional'}))],barrier:[...((nacional.allocations?.barrier)||[]).map(a=>({...a,circunscripcion:`NACIONAL · ${a.circunscripcion||'NACIONAL'}`,group:'Nacional'})),...((regional.allocations?.barrier)||[]).map(a=>({...a,circunscripcion:`REGIONAL · ${a.circunscripcion}`,group:'Regional'}))]},blankNull:numeric(nacional.blankNull)+numeric(regional.blankNull),_parts:{nacional,regional}};
+    }
+
+    function seatsByDhondt(votes, seats){const totalSeats=Math.max(0,Number(seats||0));if(!totalSeats||!votes.length)return new Map();const rows=[];votes.forEach(v=>{const value=Number(v.votes||0);if(value<=0)return;for(let d=1;d<=totalSeats;d++)rows.push({party:v.party,votes:value,q:value/d});});rows.sort((a,b)=>b.q-a.q||b.votes-a.votes||a.party.localeCompare(b.party,'es'));const out=new Map();rows.slice(0,totalSeats).forEach(r=>out.set(r.party,(out.get(r.party)||0)+1));return out;}
+    function aggregateVotes(circs){const out=new Map();(circs||[]).forEach(c=>(c.votes||[]).forEach(v=>out.set(v.party,(out.get(v.party)||0)+numeric(v.votes))));return [...out.entries()].map(([party,votes])=>({party,votes})).sort((a,b)=>b.votes-a.votes);}
+    function allocateAcrossCircunscripciones(circs, eligible=null){const out=new Map();(circs||[]).forEach(c=>{let votes=(c.votes||[]).slice();if(eligible)votes=votes.filter(v=>eligible.has(v.party));const alloc=seatsByDhondt(votes,numeric(c.seats));alloc.forEach((seats,party)=>out.set(party,(out.get(party)||0)+seats));});return out;}
+    function rawSeatsByDistrict(circs){return allocateAcrossCircunscripciones(circs,null);}
+
+    function stripScopeName(value){return clean(String(value||'').replace(/^REGIONAL · /,'').replace(/^NACIONAL · /,''));}
+    function allocationMatchesCirc(allocation, circ){const a=normalize(stripScopeName(allocation.circunscripcion||allocation.scope||allocation.name));const c=normalize(stripScopeName(circ.name||''));return a&&c&&(a===c||a.includes(c)||c.includes(a));}
+    function precomputedAllocation(data, scenario, circs, expectedSeats){
+      const rows=(data.allocations&&Array.isArray(data.allocations[scenario]))?data.allocations[scenario]:[];
+      if(!rows.length||!circs.length)return null;
+      const out=new Map();
+      for(const row of rows){
+        const party=row.party||row.organizacion||row.organizacionPolitica;
+        const seats=numeric(row.seats??row.curules??row.escanos??row['escaños']);
+        if(!party||!seats)continue;
+        if(!circs.some(c=>allocationMatchesCirc(row,c)))continue;
+        out.set(party,(out.get(party)||0)+seats);
+      }
+      const total=[...out.values()].reduce((s,n)=>s+numeric(n),0);
+      if(expectedSeats && total!==expectedSeats) return null;
+      return out.size?out:null;
+    }
+    function qualifyingParties(data, cameraKey){const allCircs=data.circunscripciones||[];const nationalVotes=(data.nationalVotes&&data.nationalVotes.length)?data.nationalVotes:aggregateVotes(allCircs);const nationalTotal=nationalVotes.reduce((s,v)=>s+numeric(v.votes),0)||1;const barrier=Number(data.barrier??.05);const rawSeats=rawSeatsByDistrict(allCircs);let minSeats=0;if(cameraKey==='diputados')minSeats=7;else if(cameraKey==='senadoTotal'||cameraKey==='senadoNacional'||cameraKey==='senadoRegional')minSeats=3;const eligible=new Set();nationalVotes.forEach(v=>{const share=nationalTotal?numeric(v.votes)/nationalTotal:0;const seats=rawSeats.get(v.party)||0;if(minSeats){if(share>=barrier && seats>=minSeats)eligible.add(v.party);}else if(share>=barrier)eligible.add(v.party);});if(cameraKey==='diputados'||cameraKey==='senadoTotal'||cameraKey==='senadoNacional'||cameraKey==='senadoRegional'){return new Set([...eligible].filter(isQualifiedParty2026));}return eligible;}
+    function displayCameraName(){const r=regionalScopeName(getCirc());if(getCamera()==='senadoTotal'&&getCirc()==='NACIONAL')return 'Senadores · Nacional';if(getCamera()==='senadoTotal'&&getCirc()==='REGIONAL')return 'Senadores · Regional';if(getCamera()==='senadoTotal'&&r)return `Senadores · ${r}`;return dataFor(getCamera()).name;}
+    function getPartyMap(){const map=new Map();if(!RAW?.camaras)return map;Object.keys(cameraMeta).forEach(k=>{(dataFor(k).parties||[]).forEach(p=>map.set(p.name,p));});return map;}
+    function logoSources(meta, party){
+      const existing=[meta?.logo,meta?.logoUrl,meta?.urlLogo].filter(Boolean);
+      const short=clean(meta?.short||initials(party));
+      const code=normalize(short).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      const name=normalize(party).toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+      const local=[];
+      for(const slug of [code,name,short]){
+        const safe=String(slug||'').replace(/[^A-Za-z0-9_-]+/g,'-').replace(/^-|-$/g,'');
+        if(safe) local.push(`/logos/${safe}.png`,`/logos/${safe}.jpg`,`/logos/${safe}.webp`);
+      }
+      const base='https://congresoeg2026.akllaperu.pe';
+      const paths=['logos','logo','img','imagenes','images','assets','assets/logos','assets/img','simbolos'];
+      const guessed=[];
+      for(const dir of paths){for(const slug of [code,name]){if(slug) guessed.push(`${base}/${dir}/${slug}.png`,`${base}/${dir}/${slug}.jpg`,`${base}/${dir}/${slug}.webp`);}}
+      return [...new Set([...existing,...local,...guessed])];
+    }
+    function logoOnError(img,label){
+      try{
+        const list=JSON.parse(img.dataset.sources||'[]');
+        const idx=Number(img.dataset.idx||0)+1;
+        if(idx<list.length){img.dataset.idx=String(idx);img.src=list[idx];return;}
+      }catch{}
+      img.replaceWith(document.createTextNode(label));
+    }
+
+    function aggregateForCurrentSelection(){
+      const camera=getCamera();
+      const data=dataFor(camera);
+      const selectedCirc=getCirc();
+      const allCircs=data.circunscripciones||[];
+      let circs;
+      const selectedRegional=regionalScopeName(selectedCirc);
+      if(camera==='senadoTotal' && selectedCirc==='NACIONAL') circs=allCircs.filter(c=>normalize(c.group||c.name).includes('NACIONAL'));
+      else if(camera==='senadoTotal' && selectedCirc==='REGIONAL') circs=allCircs.filter(c=>normalize(c.group||c.name).includes('REGIONAL'));
+      else if(camera==='senadoTotal' && selectedRegional) circs=allCircs.filter(c=>normalize(c.group||'').includes('REGIONAL') && normalize(c.name).includes(normalize(selectedRegional)));
+      else circs=selectedCirc?allCircs.filter(c=>c.name===selectedCirc):allCircs;
+      const totalSeats=circs.reduce((s,c)=>s+numeric(c.seats),0);
+      const votes=aggregateVotes(circs);
+      const valid=votes.reduce((s,v)=>s+v.votes,0);
+      const nationalVotes=(data.nationalVotes&&data.nationalVotes.length)?data.nationalVotes:aggregateVotes(allCircs);
+      const nationalTotal=nationalVotes.reduce((s,v)=>s+numeric(v.votes),0)||valid||1;
+      let seatsNoBarrier=precomputedAllocation(data,'noBarrier',circs,totalSeats)||allocateAcrossCircunscripciones(circs,null);
+      const fallbackEligible=qualifyingParties(data,camera);
+      let seatsBarrier=allocateAcrossCircunscripciones(circs,fallbackEligible);
+      const eligible=fallbackEligible;
+      return {data,selectedCirc,circs,totalSeats,votes,valid,nationalTotal,eligible,seatsNoBarrier,seatsBarrier};
+    }
+    function aggregateNationalFromCircs(circs){const totals=new Map();(circs||[]).forEach(c=>(c.votes||[]).forEach(v=>totals.set(v.party,(totals.get(v.party)||0)+numeric(v.votes))));return [...totals.entries()].map(([party,votes])=>({party,votes})).sort((a,b)=>b.votes-a.votes);}
+    function initials(value){return clean(value).split(/\s+/).filter(w=>!['DE','DEL','LA','EL','Y','POR','PARA','LOS','LAS'].includes(w.toUpperCase())).slice(0,3).map(w=>w[0]||'').join('').toUpperCase()||'—';}
+
+    function seatArray(map,total){const arr=[];[...map.entries()].sort((a,b)=>b[1]-a[1]).forEach(([party,n])=>{for(let i=0;i<n;i++)arr.push(party)});while(arr.length<total)arr.push('Sin asignar');return arr.slice(0,total);}
+    function candidateImage(c){return c?.imageUrl||c?.fotoUrl||c?.photoUrl||c?.foto||c?.imagen||c?.urlFoto||c?.urlImagen||'';}
+    function candidateAge(c){return c?.edad??c?.age??c?.edadActual??c?.anios??c?.años??'';}
+    function esc(value){return String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));}
+    function candidateKey(c){return [c?.name,c?.party,c?.circunscripcion,c?.posicion,c?.votosPref].map(v=>String(v??'')).join('|');}
+    function candidateMatchesCirc(c,circ){if(!circ)return true;const cc=clean(c?.circunscripcion||'');const sc=clean(circ||'');return !cc||cc==='NACIONAL'||cc===sc||sc.includes(cc)||cc.includes(sc);}
+    function seatDetailsForMap(agg,map,total){const arr=[];const scope=agg?.selectedCirc||'';const allowedCircs=new Set((agg?.circs||[]).map(c=>clean(c.name)));const candidates=(agg?.data?.candidates||[]).filter(c=>candidateAllowedByScope(c,scope)).slice().sort((a,b)=>numeric(b.votosPref)-numeric(a.votosPref));const used=new Set();[...map.entries()].sort((a,b)=>b[1]-a[1]).forEach(([party,n])=>{const list=candidates.filter(c=>clean(c.party)===clean(party)&&(!scope||scope==='REGIONAL'||scope==='NACIONAL'||allowedCircs.has(clean(c.circunscripcion))||candidateMatchesCirc(c,scope)));for(let i=0;i<n;i++){let c=list.find(item=>!used.has(candidateKey(item)))||null;if(c)used.add(candidateKey(c));arr.push({party,candidate:c,seat:i+1,total:n,circ:scope||c?.circunscripcion||'NACIONAL'});}});while(arr.length<total)arr.push({party:'Sin asignar',candidate:null});return arr.slice(0,total);}
+    function tooltipHTML(detail,meta,index){const party=detail?.party||'Sin asignar';const c=detail?.candidate;if(party==='Sin asignar'||party==='Pendiente')return `<span class="seat-tooltip"><span class="tip-note">${party==='Pendiente'?'Datos regionales pendientes de normalización.':'Curul pendiente de asignación.'}</span></span>`;const img=candidateImage(c);const age=candidateAge(c);const initialsText=(meta?.short||initials(party)).slice(0,3);if(!c)return `<span class="seat-tooltip"><span class="tip-name">${esc(party)}</span><span class="tip-note">Curul proyectada. La fuente aún no incluye detalle suficiente del candidato.</span></span>`;return `<span class="seat-tooltip"><span class="tip-grid"><span class="tip-photo">${img?`<img src="${esc(img)}" alt="${esc(c.name||'Candidato')}" onerror="this.remove()">`:esc(initialsText)}</span><span><span class="tip-name">${esc(c.name||'Candidato sin nombre')}</span><span class="tip-party">${esc(c.party||party)}</span><span class="tip-row"><b>Edad</b><span>${age?esc(age)+' años':'No informada'}</span></span><span class="tip-row"><b>Votos</b><span>${fmt.format(numeric(c.votosPref))}</span></span><span class="tip-row"><b>Nro. preferencial</b><span>${c.posicion||'—'}</span></span><span class="tip-row"><b>Ámbito</b><span>${esc(c.circunscripcion||detail.circ||'NACIONAL')}</span></span></span></span></span>`;}
+    function renderSeatSquare(detail,partyMap,index,pending=false){const party=typeof detail==='string'?detail:(detail?.party||'Sin asignar');const meta=partyMap.get(party);const color=meta?.color||(party==='Sin asignar'?'#d8e0eb':party==='Pendiente'?'#edf2f7':hashColor(party));const label=party==='Sin asignar'?'—':party==='Pendiente'?'':(meta?.short||initials(party));const logos=logoSources(meta,party);const src=logos[0]||'';const safeSources=esc(JSON.stringify(logos));const content=src?`<img class="seat-logo" src="${esc(src)}" data-sources="${safeSources}" data-idx="0" alt="${esc(party)}" onerror="logoOnError(this,'${esc(label)}')">`:label;const cls=(pending?' pending-seat':(party==='Sin asignar'?' empty-seat':''))+(src?' has-logo':'');return `<span class="seat-square${cls}" style="background:${color}" tabindex="0" aria-label="${esc(party)}">${content}${tooltipHTML(typeof detail==='string'?{party,candidate:null}:detail,meta,index)}</span>`;}
+    function renderMosaic(el,map,total,partyMap,type,agg){const details=seatDetailsForMap(agg,map,total);const cls=type==='andino'?'pa':type==='senadoTotal'?'s60':type==='senadoRegional'?'regional':type==='mini'?'mini':type==='large'?'large':type==='diputados'?'dip':'s30';el.innerHTML=`<div class="seat-mosaic ${cls}">${details.map((d,i)=>renderSeatSquare(d,partyMap,i)).join('')}</div>`;}
+    function renderHemicycle(el,map,total,partyMap,agg){el.innerHTML='';const details=seatDetailsForMap(agg,map,total);if(!total){el.innerHTML='<div class="empty">Sin curules para mostrar.</div>';return;}const box=document.createElement('div');box.className='hemicycle';el.appendChild(box);const width=620,height=350,cx=width/2,cy=height+18,rowCount=total<=30?3:7,perRow=Math.ceil(total/rowCount),minR=85,maxR=326;let idx=0;for(let r=0;r<rowCount;r++){const rad=rowCount===1?150:minR+(maxR-minR)*(r/(rowCount-1));const remaining=total-idx;const count=Math.min(perRow,remaining);const start=203,end=337;for(let j=0;j<count;j++){const deg=start+(end-start)*(count===1?.5:j/(count-1));const a=deg*Math.PI/180;const detail=details[idx++]||{party:'Sin asignar',candidate:null};const party=detail.party;const meta=partyMap.get(party);const color=meta?.color||(party==='Sin asignar'?'#d8e0eb':hashColor(party));const x=cx+rad*Math.cos(a),y=cy+rad*Math.sin(a);const seat=document.createElement('span');seat.className='seat-dot';seat.tabIndex=0;seat.setAttribute('aria-label',party);seat.style.left=`${x}px`;seat.style.top=`${y}px`;seat.style.background=color;seat.innerHTML=tooltipHTML(detail,meta,idx);box.appendChild(seat);}}}
+    function renderTotalSenate(el,map,total,partyMap,agg){
+      const cam=dataFor('senadoTotal'), nacional=cam._parts?.nacional||emptyCamera('senadoNacional'), regional=cam._parts?.regional||emptyCamera('senadoRegional');
+      const scenarioEligible=map===agg?.seatsNoBarrier?null:(agg?.eligible||qualifyingParties(cam,'senadoTotal'));
+      const aggNMap=allocateAcrossCircunscripciones(nacional.circunscripciones||[],scenarioEligible);
+      const aggRMap=allocateAcrossCircunscripciones(regional.circunscripciones||[],scenarioEligible);
+      const hasR=(regional.circunscripciones||[]).some(c=>(c.votes||[]).length);
+      const aggN={data:cam,selectedCirc:'NACIONAL',circs:nacional.circunscripciones||[]};
+      const aggR={data:cam,selectedCirc:'REGIONAL',circs:regional.circunscripciones||[]};
+      el.innerHTML=`<div class="total-senate"><div class="senate-block"><h3>Senado nacional · 30</h3><p>Distrito único nacional.</p><div class="seat-mosaic s30">${seatDetailsForMap(aggN,aggNMap,30).map((d,i)=>renderSeatSquare(d,partyMap,i)).join('')}</div></div><div class="senate-block"><h3>Senado regional · 30</h3><p>${hasR?'Ámbitos regionales agregados.':'Datos regionales pendientes de normalización.'}</p><div class="seat-mosaic regional">${hasR?seatDetailsForMap(aggR,aggRMap,30).map((d,i)=>renderSeatSquare(d,partyMap,i)).join(''):Array.from({length:30}).map(()=>renderSeatSquare({party:'Pendiente',candidate:null},partyMap,0,true)).join('')}</div></div></div>`;
+    }
+    function allocationForCamera(cam){const key=normalize(cam.name).includes('DIPUTADOS')?'diputados':normalize(cam.name).includes('SENADOR')?'senadoTotal':'';const circs=cam.circunscripciones||[];const eligible=key?qualifyingParties(cam,key):null;return allocateAcrossCircunscripciones(circs,eligible);}
+    function renderSeats(el,map,total,partyMap,agg){const cam=getCamera();const selected=getCirc();el.className='';if(cam==='andino'){$('stageSB').className=$('stageCB').className='seat-stage small';renderMosaic(el,map,5,partyMap,'andino',agg);return;}if(cam==='senadoTotal'){if(selected==='NACIONAL'){$('stageSB').className=$('stageCB').className='seat-stage medium';renderMosaic(el,map,30,partyMap,'senadoNacional',agg);return;}if(selected==='REGIONAL'){$('stageSB').className=$('stageCB').className='seat-stage medium';renderMosaic(el,map,30,partyMap,'senadoRegional',agg);return;}if(regionalScopeName(selected)){$('stageSB').className=$('stageCB').className='seat-stage medium';renderMosaic(el,map,total,partyMap,total<=4?'large':'senadoRegional',agg);return;}$('stageSB').className=$('stageCB').className='seat-stage total';renderTotalSenate(el,map,total,partyMap,agg);return;}if(cam==='diputados'){$('stageSB').className=$('stageCB').className='seat-stage medium';renderMosaic(el,map,total,partyMap,total<=4?'large':total<=15?'mini':'diputados',agg);return;}$('stageSB').className=$('stageCB').className='seat-stage';renderHemicycle(el,map,total,partyMap,agg);}
+    function renderLegend(el,map,partyMap){const rows=[...map.entries()].sort((a,b)=>b[1]-a[1]);if(!rows.length){el.innerHTML='<div class="empty">Sin asignación proyectada.</div>';return;}el.innerHTML=rows.map(([party,n])=>{const meta=partyMap.get(party)||{short:initials(party),color:hashColor(party)};const logos=logoSources(meta,party);const logo=logos[0]||'';const safeSources=esc(JSON.stringify(logos));const marker=logo?`<img class="party-logo" src="${esc(logo)}" data-sources="${safeSources}" data-idx="0" alt="${esc(party)}" onerror="logoOnError(this,'${esc(meta.short||initials(party))}')">`:`<span class="dot" style="background:${meta.color}"></span>`;return `<div class="party">${marker}<span class="num">${n}</span><span class="name"><span class="short">${meta.short||initials(party)}</span><br>${party}</span></div>`;}).join('');}
+    function renderKPIs(agg){const blankNull=numeric(agg.data.blankNull);const useful=[...agg.seatsBarrier.entries()].reduce((sum,[party,seats])=>seats>0?sum+numeric(agg.votes.find(v=>v.party===party)?.votes):sum,0);const lost=Math.max(0,agg.valid-useful);const rows=[['Votos válidos',agg.valid,'Suma de votos válidamente emitidos'],['Nulos y blancos',blankNull,'Dato consignado en la fuente normalizada'],['Votos útiles',useful,'Votos con representación proyectada'],['Sin representación',lost,'Votos no convertidos en curules']];$('kpis').innerHTML=rows.map(([label,value,sub])=>`<article class="card kpi"><div class="label">${agg.data.name} · ${label}</div><div class="value">${fmt.format(value)}</div><div class="sub">${sub}</div></article>`).join('');}
+    function renderTable(agg){const rows=agg.votes.map(v=>{const noBarrier=agg.seatsNoBarrier.get(v.party)||0,barrier=agg.seatsBarrier.get(v.party)||0,diff=barrier-noBarrier,pct=agg.valid?v.votes/agg.valid:0;return `<tr><td>${v.party}${agg.eligible.has(v.party)?'':' <span class="muted">· fuera de valla</span>'}</td><td class="num">${fmt.format(v.votes)}</td><td class="num">${percentText(pct)}</td><td class="num">${noBarrier}</td><td class="num">${barrier}</td><td class="num ${diff>=0?'pos':'neg'}">${diff>0?'+':''}${diff}</td></tr>`;}).join('');$('tableBody').innerHTML=rows||'<tr><td colspan="6" class="muted">No hay votos cargados para esta selección.</td></tr>';}
+    function candidateAllowedByScope(c,scope){const circ=normalize(c?.circunscripcion||'');const block=normalize(c?.senateBlock||'');const regional=regionalScopeName(scope);if(scope==='NACIONAL')return block.includes('NACIONAL')||circ==='NACIONAL'||circ.includes('DISTRITO UNICO');if(scope==='REGIONAL')return block.includes('REGIONAL')||(circ&&circ!=='NACIONAL'&&!circ.includes('DISTRITO UNICO'));if(regional)return (block.includes('REGIONAL')||(circ&&circ!=='NACIONAL'&&!circ.includes('DISTRITO UNICO'))) && normalize(regional) && (circ.includes(normalize(regional))||normalize(regional).includes(circ));return true;}
+    function candidateFitsAllocation(c,circ,selectedCirc){const cc=normalize(c?.circunscripcion||'');const cleanCirc=normalize(String(circ||'').replace(/^REGIONAL · /,'').replace(/^NACIONAL · /,''));if(selectedCirc==='NACIONAL'||cleanCirc==='NACIONAL'||cleanCirc==='SENADO NACIONAL')return cc==='NACIONAL'||cc.includes('DISTRITO UNICO');if(selectedCirc==='REGIONAL'||String(circ||'').startsWith('REGIONAL · '))return cc&&cc!=='NACIONAL'&&!cc.includes('DISTRITO UNICO')&&(cc===cleanCirc||cc.includes(cleanCirc)||cleanCirc.includes(cc));const regional=regionalScopeName(selectedCirc);if(regional)return cc===normalize(regional)||cc.includes(normalize(regional))||normalize(regional).includes(cc);return !cc||cc===cleanCirc||cleanCirc.includes(cc)||cc.includes(cleanCirc);}
+    function uniqueCandidates(list){const used=new Set();const out=[];for(const c of list||[]){const key=candidateKey(c);if(used.has(key))continue;used.add(key);out.push(c);}return out;}
+    function projectedCandidatesFor(agg,eligible=null){const data=agg.data,selectedCirc=agg.selectedCirc,byCirc=new Map(),targetCircs=agg.circs||[];targetCircs.forEach(circ=>{let votes=(circ.votes||[]).slice().sort((a,b)=>numeric(b.votes)-numeric(a.votes));if(eligible)votes=votes.filter(v=>eligible.has(v.party));const allocation=seatsByDhondt(votes,numeric(circ.seats));byCirc.set(circ.name,allocation);});const candidates=uniqueCandidates((data.candidates||[]).filter(c=>candidateAllowedByScope(c,selectedCirc))).sort((a,b)=>numeric(b.votosPref)-numeric(a.votosPref));const used=new Set();const winners=[];for(const [circ,allocation] of byCirc.entries()){for(const [party,seats] of allocation.entries()){const list=candidates.filter(c=>clean(c.party)===clean(party)&&candidateFitsAllocation(c,circ,selectedCirc)&&!used.has(candidateKey(c)));list.slice(0,seats).forEach((c,index)=>{used.add(candidateKey(c));winners.push({...c,projectedSeat:index+1,projectedCirc:circ,projectedPartySeats:seats});});}}return winners.sort((a,b)=>clean(a.projectedCirc).localeCompare(clean(b.projectedCirc),'es')||clean(a.party).localeCompare(clean(b.party),'es')||numeric(a.projectedSeat)-numeric(b.projectedSeat));}
+    function projectedCandidates(agg){return projectedCandidatesFor(agg,qualifyingParties(agg.data,getCamera()));}
+    function renderCandidates(agg){let winners=uniqueCandidates(projectedCandidates(agg));if(!winners.length){const fallback=uniqueCandidates((agg.data.candidates||[]).filter(c=>!agg.selectedCirc||candidateAllowedByScope(c,agg.selectedCirc)).sort((a,b)=>numeric(b.votosPref)-numeric(a.votosPref))).slice(0,50);if(!fallback.length){$('candidateList').innerHTML='<div class="empty">La fuente todavía no incluye candidatos para esta cámara o circunscripción.</div>';return;}$('candidateList').innerHTML=fallback.map(c=>candidateHTML(c,'Mayor votación')).join('');return;}$('candidateList').innerHTML=winners.slice(0,100).map(c=>candidateHTML(c,`Curul ${c.projectedSeat}/${c.projectedPartySeats}`)).join('');}
+    function renderMobileCandidates(agg){const title=$('mobileCandidateTitle'),sub=$('mobileCandidateSub'),withBox=$('mobileCandidatesBarrier'),withoutBox=$('mobileCandidatesNoBarrier'),toggle=$('mobileNoBarrierToggle');if(!title||!withBox)return;title.textContent=`${displayCameraName()} · candidatos con valla`;sub.textContent=agg.selectedCirc?`Selección: ${regionalScopeName(agg.selectedCirc)||agg.selectedCirc}. Escenario legal primero.`:'Escenario legal primero; puede comparar contra la proyección sin valla.';const withWinners=uniqueCandidates(projectedCandidatesFor(agg,qualifyingParties(agg.data,getCamera())));const withoutWinners=uniqueCandidates(projectedCandidatesFor(agg,null));const fallback=uniqueCandidates((agg.data.candidates||[]).filter(c=>!agg.selectedCirc||candidateAllowedByScope(c,agg.selectedCirc)).sort((a,b)=>numeric(b.votosPref)-numeric(a.votosPref))).slice(0,20);withBox.innerHTML=(withWinners.length?withWinners:fallback).slice(0,40).map(c=>candidateHTML(c,withWinners.length?`Con valla · curul ${c.projectedSeat}/${c.projectedPartySeats}`:'Mayor votación')).join('')||'<div class="empty">La fuente todavía no incluye candidatos para esta selección.</div>';withoutBox.innerHTML=withoutWinners.slice(0,40).map(c=>candidateHTML(c,`Sin valla · curul ${c.projectedSeat}/${c.projectedPartySeats}`)).join('')||'<div class="empty">Sin candidatos proyectados en el escenario sin valla.</div>';toggle.textContent=withoutBox.classList.contains('is-hidden')?'Ver candidatos sin valla':'Ocultar candidatos sin valla';}
+    function candidateHTML(c,badge){const short=clean(c.partyShort)||initials(c.party);const img=candidateImage(c);const age=candidateAge(c);return `<article class="candidate"><div class="avatar">${img?`<img src="${esc(img)}" alt="${esc(c.name||'Candidato')}" onerror="this.remove()">`:short.slice(0,3)}</div><div><b>${c.name||'Candidato sin nombre'}</b><small>${c.party||'Organización no informada'} · ${c.circunscripcion||c.projectedCirc||'NACIONAL'}</small><small>Votos pref.: <b>${fmt.format(numeric(c.votosPref))}</b> · Edad: ${age?esc(age)+' años':'—'} · Nro. preferencial: ${c.posicion||'—'}</small></div><span class="seat-badge">${badge}</span></article>`;}
+    function fillCircunscripciones(){const data=dataFor(getCamera());const select=$('circ');const current=select.value;if(getCamera()==='senadoTotal'){const regional=(dataFor('senadoRegional').circunscripciones||[]).map(c=>c.name).filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));select.innerHTML='<option value="">Totales</option><option value="NACIONAL">Nacional</option><option value="REGIONAL">Regional</option>'+regional.map(name=>`<option value="${REGIONAL_SCOPE_PREFIX}${name}">Regional · ${name}</option>`).join('');const valid=['','NACIONAL','REGIONAL',...regional.map(name=>REGIONAL_SCOPE_PREFIX+name)];select.value=valid.includes(current)?current:'';return;}const options=(data.circunscripciones||[]).map(c=>c.name).filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));select.innerHTML='<option value="">Totales</option>'+options.map(name=>`<option value="${name}">${name}</option>`).join('');select.value=options.includes(current)?current:'';}
+    function statusForCurrentCamera(){const cam=getCamera();const circ=getCirc();if(cam==='senadoTotal')return dataFor('senadoTotal').status||RAW?.status||{};return dataFor(cam).status||RAW?.status||{};}
+    function barrierLabel(){const pct=`${Math.round(numeric(dataFor(getCamera()).barrier??.05)*100)} %`;const cam=getCamera();if(cam==='diputados')return `${pct} + 7 diputados`;if(cam==='senadoTotal'||cam==='senadoNacional'||cam==='senadoRegional')return `${pct} + 3 senadores`;return `${pct} valla`;}
+    function renderStatus(){const status=statusForCurrentCamera(),percent=status.percent,percentDisplay=percent==null?'—':(Number(percent)>1?`${Number(percent).toFixed(2)} %`:percentText(percent));$('statusPercent').textContent=percentDisplay;$('heroPercent').textContent=percentDisplay;$('statusRatio').innerHTML=status.processed!=null?`<b>${fmt.format(status.processed)}</b> / ${fmt.format(status.total||0)} actas`:'Fuente cargada sin detalle de actas.';$('heroStatusText').textContent=status.processed!=null?`${fmt.format(status.processed)} actas procesadas de ${fmt.format(status.total||0)}.`:'Fuente cargada.';const updated=status.updated||RAW?.status?.updated||RAW?.updatedAt;$('statusTime').textContent=updated?new Date(updated).toLocaleString('es-PE'):'—';$('statusSource').textContent=RAW?.sourceMode==='sample'?'Fuente: demostrativa':'Fuente: normalizada';const alert=$('sourceAlert');if(RAW?.sourceMode==='sample'){alert.className='source-alert show';alert.textContent='Modo demostrativo: configure ONPE_PARLAMENTO_JSON_URL en Cloudflare Pages para consumir la fuente normalizada real.';}else{alert.className='source-alert';alert.textContent='';}}
+    function renderCameraStrip(){const current=getCamera(),scope=getCirc();const tiles=[
+      {key:'diputados',label:'Diputados',sub:'Distrito múltiple',seats:130,camera:'diputados',circ:''},
+      {key:'senadoTotal',label:'Senadores',sub:'Totales',seats:60,camera:'senadoTotal',circ:''},
+      {key:'senadoNacionalTile',label:'Senado nacional',sub:'30 escaños',seats:30,camera:'senadoTotal',circ:'NACIONAL'},
+      {key:'senadoRegionalTile',label:'Senado regional',sub:'30 escaños',seats:30,camera:'senadoTotal',circ:'REGIONAL'},
+      {key:'andino',label:'Parlamento Andino',sub:'5 representantes',seats:5,camera:'andino',circ:''}
+    ];$('cameraStrip').innerHTML=tiles.map(t=>{const active=current===t.camera&&(t.camera!=='senadoTotal'||scope===t.circ);return `<article class="camera-tile ${active?'active':''}" data-camera="${t.camera}" data-circ="${t.circ}"><b>${t.label}</b><small>${t.sub}</small><div class="count">${t.seats}</div></article>`;}).join('');document.querySelectorAll('.camera-tile').forEach(el=>el.addEventListener('click',()=>{$('camara').value=el.dataset.camera;fillCircunscripciones();$('circ').value=el.dataset.circ||'';renderAll();}));}
+    function renderAll(){if(!RAW)return;renderStatus();renderCameraStrip();const agg=aggregateForCurrentSelection();const partyMap=getPartyMap();$('titleSB').textContent=`${displayCameraName()} · Sin valla`;$('titleCB').textContent=`${displayCameraName()} · Con valla`;$('subSB').textContent=getCamera()==='senadoTotal'?(getCirc()==='NACIONAL'?'Bloque nacional de 30 escaños.':getCirc()==='REGIONAL'?'Bloque regional de 30 escaños.':regionalScopeName(getCirc())?`Distrito electoral regional: ${regionalScopeName(getCirc())}.`:'Lectura combinada nacional y regional de 60 escaños.'):'Distribución técnica antes de barrera.';$('subCB').textContent=getCamera()==='senadoTotal'?(getCirc()==='NACIONAL'?'Bloque nacional aplicando filtro referencial.':getCirc()==='REGIONAL'?'Bloque regional aplicando filtro referencial.':regionalScopeName(getCirc())?`Distrito regional aplicando filtro referencial.`:'Bloque nacional más bloque regional.'):'Distribución técnica aplicando barrera referencial.';$('pillSB').textContent=`${agg.totalSeats||cameraMeta[getCamera()]?.seats||0} curules`;$('pillCB').textContent=barrierLabel();renderSeats($('seatsSB'),agg.seatsNoBarrier,agg.totalSeats||cameraMeta[getCamera()]?.seats||0,partyMap,agg);renderSeats($('seatsCB'),agg.seatsBarrier,agg.totalSeats||cameraMeta[getCamera()]?.seats||0,partyMap,agg);renderLegend($('legendSB'),agg.seatsNoBarrier,partyMap);renderLegend($('legendCB'),agg.seatsBarrier,partyMap);renderMobileCandidates(agg);renderKPIs(agg);renderTable(agg);renderCandidates(agg);applyViewMode();}
+    async function loadData(){$('sourceAlert').className='source-alert show';$('sourceAlert').textContent='Actualizando lectura de datos...';const response=await fetch('/api/parlamento',{cache:'no-store'});if(!response.ok)throw new Error(`No se pudo cargar /api/parlamento: HTTP ${response.status}`);RAW=await response.json();fillCircunscripciones();renderStatus();renderAll();if(RAW?.sourceMode!=='sample')$('sourceAlert').className='source-alert';}
+    function applyViewMode(){document.querySelectorAll('.mode-card').forEach(el=>el.classList.toggle('active',el.dataset.view===currentView));$('comparisonSection').style.display=currentView==='candidates'||currentView==='table'?'none':'grid';$('tableSection').style.display=currentView==='candidates'?'none':'block';$('candidateSection').style.display=currentView==='table'?'none':'block';}
+    function showError(error){$('sourceAlert').className='source-alert show';$('sourceAlert').textContent=error.message||'No se pudo actualizar la fuente.';}
+    $('camara').addEventListener('change',()=>{fillCircunscripciones();renderAll();});$('circ').addEventListener('change',renderAll);$('refresh').addEventListener('click',()=>loadData().catch(showError));$('heroRefresh').addEventListener('click',()=>loadData().catch(showError));document.querySelectorAll('.mode-card').forEach(el=>el.addEventListener('click',()=>{currentView=el.dataset.view;applyViewMode();}));$('mobileNoBarrierToggle').addEventListener('click',()=>{$('mobileCandidatesNoBarrier').classList.toggle('is-hidden');$('mobileNoBarrierToggle').textContent=$('mobileCandidatesNoBarrier').classList.contains('is-hidden')?'Ver candidatos sin valla':'Ocultar candidatos sin valla';});document.addEventListener('click',(event)=>{const seat=event.target.closest?.('.seat-square,.seat-dot');if(!seat||!window.matchMedia('(max-width:720px)').matches)return;const tip=seat.querySelector('.seat-tooltip');if(!tip)return;$('seatDrawerContent').innerHTML=tip.outerHTML;$('seatDrawer').classList.add('show');$('seatDrawer').setAttribute('aria-hidden','false');});$('seatDrawerClose').addEventListener('click',()=>{$('seatDrawer').classList.remove('show');$('seatDrawer').setAttribute('aria-hidden','true');});$('seatDrawer').addEventListener('click',(event)=>{if(event.target===$('seatDrawer'))$('seatDrawerClose').click();});$('year').textContent=new Date().getFullYear();loadData().catch(showError);setInterval(()=>loadData().catch(()=>{}),180000);
+  </script>
+</body>
+</html>
