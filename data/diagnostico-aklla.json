@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T04:08:10.869Z",
+  "generatedAt": "2026-05-05T09:32:32.263Z",
   "akllaBaseUrl": "https://congresoeg2026.akllaperu.pe",
   "files": {
     "resumenDiputados": {
@@ -111,7 +111,7 @@
           "RESULTADO": 2,
           "ENTERO": 2,
           "RESIDUO": 0,
-          "rnd": 0.160355758387595,
+          "rnd": 0.987741251010448,
           "ESCAÑOS": 2,
           "AÑO": 2026,
           "__sheetName": "Sheet 1"
@@ -125,7 +125,7 @@
           "RESULTADO": 0.914273421533828,
           "ENTERO": 0,
           "RESIDUO": 0.914273421533828,
-          "rnd": 0.941249997587875,
+          "rnd": 0.314599475124851,
           "ESCAÑOS": 0,
           "AÑO": 2026,
           "__sheetName": "Sheet 1"
@@ -139,7 +139,7 @@
           "RESULTADO": 0.706894697214155,
           "ENTERO": 0,
           "RESIDUO": 0.706894697214155,
-          "rnd": 0.649851339170709,
+          "rnd": 0.189649195643142,
           "ESCAÑOS": 0,
           "AÑO": 2026,
           "__sheetName": "Sheet 1"
@@ -161,12 +161,12 @@
       "sampleRows": [
         {
           "DESCRIPCION_OP": "AHORA NACIÓN - AN",
-          "SUMA_VOTOS_PART": 1035396,
-          "CIFRA_REPARTIDORA": 294228.2,
-          "RESULTADO": 3.51902366938315,
+          "SUMA_VOTOS_PART": 1037082,
+          "CIFRA_REPARTIDORA": 294731.8,
+          "RESULTADO": 3.51873126686703,
           "ENTERO": 3,
-          "RESIDUO": 0.519023669383152,
-          "rnd": 0.323142637964338,
+          "RESIDUO": 0.51873126686703,
+          "rnd": 0.235676064155996,
           "ESCAÑOS": 3,
           "AÑO": 2026,
           "circunscripción": "DISTRITO NACIONAL",
@@ -174,12 +174,12 @@
         },
         {
           "DESCRIPCION_OP": "ALIANZA PARA EL PROGRESO",
-          "SUMA_VOTOS_PART": 316864,
-          "CIFRA_REPARTIDORA": 294228.2,
-          "RESULTADO": 1.0769328024982,
+          "SUMA_VOTOS_PART": 317298,
+          "CIFRA_REPARTIDORA": 294731.8,
+          "RESULTADO": 1.076565202669,
           "ENTERO": 1,
-          "RESIDUO": 0.076932802498197,
-          "rnd": 0.367886569350958,
+          "RESIDUO": 0.0765652026690029,
+          "rnd": 0.966595725622028,
           "ESCAÑOS": 1,
           "AÑO": 2026,
           "circunscripción": "DISTRITO NACIONAL",
@@ -187,12 +187,12 @@
         },
         {
           "DESCRIPCION_OP": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "SUMA_VOTOS_PART": 63129,
-          "CIFRA_REPARTIDORA": 294228.2,
-          "RESULTADO": 0.214557951957018,
+          "SUMA_VOTOS_PART": 63215,
+          "CIFRA_REPARTIDORA": 294731.8,
+          "RESULTADO": 0.214483133479319,
           "ENTERO": 0,
-          "RESIDUO": 0.214557951957018,
-          "rnd": 0.0490637656766921,
+          "RESIDUO": 0.214483133479319,
+          "rnd": 0.0302584262099117,
           "ESCAÑOS": 0,
           "AÑO": 2026,
           "circunscripción": "DISTRITO NACIONAL",
@@ -222,7 +222,7 @@
           "RESULTADO": 1,
           "ENTERO": 1,
           "RESIDUO": 0,
-          "rnd": 0.586886772653088,
+          "rnd": 0.433725450420752,
           "ESCAÑOS": 1,
           "AÑO": 2026,
           "__sheetName": "Sheet 1"
@@ -236,7 +236,7 @@
           "RESULTADO": 0.404098489204872,
           "ENTERO": 0,
           "RESIDUO": 0.404098489204872,
-          "rnd": 0.365289100212976,
+          "rnd": 0.596667673671618,
           "ESCAÑOS": 0,
           "AÑO": 2026,
           "__sheetName": "Sheet 1"
@@ -250,7 +250,7 @@
           "RESULTADO": 0.370275497935072,
           "ENTERO": 0,
           "RESIDUO": 0.370275497935072,
-          "rnd": 0.775869636097923,
+          "rnd": 0.634250915842131,
           "ESCAÑOS": 0,
           "AÑO": 2026,
           "__sheetName": "Sheet 1"
@@ -273,7 +273,7 @@
         {
           "AÑO": 2026,
           "DESCRIPCION_OP": "AHORA NACIÓN - AN",
-          "SUMA_VOTOS_PART": 987871,
+          "SUMA_VOTOS_PART": 990453,
           "ESCAÑOS_ANDINO_CB": 0,
           "LINK_FOTO": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980",
           "COLOR": "#e90305",
@@ -283,7 +283,7 @@
         {
           "AÑO": 2026,
           "DESCRIPCION_OP": "ALIANZA PARA EL PROGRESO",
-          "SUMA_VOTOS_PART": 211286,
+          "SUMA_VOTOS_PART": 211569,
           "ESCAÑOS_ANDINO_CB": 0,
           "LINK_FOTO": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257",
           "COLOR": "#1e5bab",
@@ -293,7 +293,7 @@
         {
           "AÑO": 2026,
           "DESCRIPCION_OP": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "SUMA_VOTOS_PART": 56573,
+          "SUMA_VOTOS_PART": 56684,
           "ESCAÑOS_ANDINO_CB": 0,
           "LINK_FOTO": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173",
           "COLOR": "#d70780",
