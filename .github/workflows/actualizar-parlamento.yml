@@ -19,23 +19,21 @@ jobs:
       - name: Configurar Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
+          cache: npm
 
-      - name: Instalar dependencias
+      - name: Instalar dependencias necesarias
         run: |
-          if [ -f package-lock.json ]; then
-            npm ci
-          else
-            npm install
-          fi
+          npm ci --omit=dev --no-audit --no-fund
+          node -e "import('xlsx').then(() => console.log('xlsx instalado correctamente'))"
 
       - name: Actualizar JSON parlamentario
         run: npm run update:parlamento
 
-      - name: Guardar cambios si hubo actualización
+      - name: Guardar cambios si hubo actualizaciÃ³n
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/parlamento-2026.json
+          git add data/parlamento-2026.json data/diagnostico-aklla.json
           git diff --cached --quiet || git commit -m "Actualizar datos parlamentarios"
           git push
