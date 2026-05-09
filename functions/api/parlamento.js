@@ -13,13 +13,14 @@ export async function onRequestGet({ env, request }) {
     const candidates = [];
     if (env.ONPE_PARLAMENTO_JSON_URL) candidates.push(env.ONPE_PARLAMENTO_JSON_URL);
     candidates.push(new URL("/data/parlamento-2026.json", request.url).toString());
+    candidates.push("https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json");
 
     let lastError = null;
     for (const sourceUrl of candidates) {
       try {
         const upstream = await fetch(sourceUrl, {
-          headers: { "User-Agent": "EVA-Abogados-Parlamento/1.0" },
-          cf: { cacheTtl: 120, cacheEverything: true }
+          headers: { "User-Agent": "EV-Abogados-Parlamento/1.0", "Cache-Control": "no-cache" },
+          cf: { cacheTtl: 0, cacheEverything: false }
         });
         if (!upstream.ok) throw new Error(`Fuente electoral no disponible: ${upstream.status}`);
         const data = await upstream.json();
