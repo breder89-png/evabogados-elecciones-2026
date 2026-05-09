@@ -10,6 +10,15 @@ const diagnosticFile = path.join(dataDir, "diagnostico-dapper.json");
 const previousFile = outFile;
 
 const DAPPER_BASE_URL = trimSlash(process.env.DAPPER_BASE_URL || "https://elecciones2026.dapperglobal.com");
+const JNE_SERVICE_BASE_URL = trimSlash(process.env.JNE_SERVICE_BASE_URL || "https://web.jne.gob.pe/serviciovotoinformado");
+const JNE_IMAGE_BASE_URL = trimSlash(process.env.JNE_IMAGE_BASE_URL || "https://mpesije.jne.gob.pe/apidocs");
+const JNE_PROCESS_ID = 124;
+const JNE_ELECTION = {
+  andino: 3,
+  diputados: 15,
+  senadoNacional: 20,
+  senadoRegional: 21
+};
 
 const DISTRICT_NAME = new Map([
   [1, "AMAZONAS"],
@@ -39,6 +48,37 @@ const DISTRICT_NAME = new Map([
   [25, "TUMBES"],
   [26, "UCAYALI"],
   [27, "RESIDENTES EN EL EXTRANJERO"]
+]);
+
+const JNE_UBIGEO_BY_DISTRICT = new Map([
+  ["AMAZONAS", "010000"],
+  ["ÁNCASH", "020000"],
+  ["APURÍMAC", "030000"],
+  ["AREQUIPA", "040000"],
+  ["AYACUCHO", "050000"],
+  ["CAJAMARCA", "060000"],
+  ["CALLAO", "240000"],
+  ["CUSCO", "070000"],
+  ["HUANCAVELICA", "080000"],
+  ["HUÁNUCO", "090000"],
+  ["ICA", "100000"],
+  ["JUNÍN", "110000"],
+  ["LA LIBERTAD", "120000"],
+  ["LAMBAYEQUE", "130000"],
+  ["LIMA METROPOLITANA", "140100"],
+  ["LIMA PROVINCIAS", "140000"],
+  ["LORETO", "150000"],
+  ["MADRE DE DIOS", "160000"],
+  ["MOQUEGUA", "170000"],
+  ["PASCO", "180000"],
+  ["PIURA", "190000"],
+  ["PUNO", "200000"],
+  ["SAN MARTÍN", "210000"],
+  ["TACNA", "220000"],
+  ["TUMBES", "230000"],
+  ["UCAYALI", "250000"],
+  ["RESIDENTES EN EL EXTRANJERO", "140133"],
+  ["NACIONAL", ""]
 ]);
 
 const PARTY_CANONICAL = new Map([
@@ -106,6 +146,10 @@ async function main() {
     fetchJson("/api/pe-legislative-district?tipo=senadores&distrito=nacional")
   ]);
 
+  const jneEnrichment = await buildJneCandidateEnrichment({ districts, seatsPayload, andinoPayload });
+  enrich.jneByDni = jneEnrichment.byDni;
+  enrich.jneByKey = jneEnrichment.byKey;
+
   const cameras = {};
   cameras.diputados = buildDistrictCamera({
     key: "diputados",
@@ -153,6 +197,7 @@ async function main() {
     sourceMode: "generated-dapper-onpe-fallback-v1",
     sourceNotes: [
       "Respaldo temporal generado desde endpoints públicos de Dapper Global, usados por proyecciones periodísticas y declarados con fuente ONPE.",
+      "Las fotos de candidatos se completan, cuando están disponibles, cruzando DNI/lista con Voto Informado del JNE.",
       "No es endpoint crudo oficial de ONPE; es una normalización externa. Úsese como continuidad operativa mientras AKLLA esté caída o desfasada.",
       "La web mantiene su propia lectura de valla electoral y D'Hondt sobre los votos normalizados por cámara y circunscripción."
     ]
@@ -164,6 +209,10 @@ async function main() {
     dapperBaseUrl: DAPPER_BASE_URL,
     updatedAt: payload.updatedAt,
     districts: districts.length,
+    fotosJne: {
+      porDni: jneEnrichment.byDni.size,
+      porClave: jneEnrichment.byKey.size
+    },
     cameras: Object.fromEntries(Object.entries(cameras).filter(([k]) => !["senado", "senadoTotal"].includes(k)).map(([k, c]) => [k, {
       parties: c.parties.length,
       circunscripciones: c.circunscripciones.length,
@@ -306,16 +355,22 @@ function mapCandidate(candidate, key, enrich) {
     ? "NACIONAL"
     : districtName(candidate);
   const old = enrich.candidates.get(candidateKey({ name, party: party.name, circunscripcion })) || {};
+  const dni = cleanDocument(candidate.candidateDni ?? candidate.txDocId ?? candidate.dni ?? candidate.numeroDocumento ?? old.dni);
+  const jne = (dni && enrich.jneByDni?.get(dni))
+    || enrich.jneByKey?.get(candidateKey({ name, party: party.name, circunscripcion }))
+    || {};
 
   return {
     name,
     party: party.name,
     partyShort: party.short,
     circunscripcion,
+    dni: dni || jne.dni || old.dni || "",
     votosPref: number(candidate.candidateVotes ?? candidate.preferentialVotes ?? candidate.votes ?? candidate.votosPref),
     posicion: positiveOrNull(candidate.listNumber ?? candidate.position ?? candidate.posicion),
     edad: old.edad || null,
-    imageUrl: old.imageUrl || "",
+    imageUrl: old.imageUrl || jne.imageUrl || "",
+    idHojaVida: positiveOrNull(candidate.idHojaVida ?? candidate.idhojavida ?? jne.idHojaVida ?? old.idHojaVida),
     tipoCandidatura: key === "senadoNacional" ? "Senado nacional" : key === "senadoRegional" ? "Senado regional" : key === "andino" ? "Parlamento Andino" : "Diputados",
     numEscanioPartido: positiveOrNull(candidate.seatNumber ?? candidate.numEscanioPartido),
     senateBlock: key === "senadoNacional" ? "Nacional" : key === "senadoRegional" ? "Regional" : undefined
@@ -353,6 +408,100 @@ function candidatePartyVotes(candidates) {
     const party = canonicalParty(c.partyName || c.party || c.partido);
     return { party: party.name, votes: 0, color: c.color };
   });
+}
+
+async function buildJneCandidateEnrichment({ districts, seatsPayload, andinoPayload }) {
+  const byDni = new Map();
+  const byKey = new Map();
+  const targets = new Map();
+  const addTarget = (key, idTipoEleccion, circunscripcion) => {
+    const ubigeo = JNE_UBIGEO_BY_DISTRICT.get(circunscripcion) ?? JNE_UBIGEO_BY_DISTRICT.get(clean(circunscripcion)) ?? "";
+    targets.set(key, { idTipoEleccion, strUbiDepartamento: ubigeo, circunscripcion });
+  };
+
+  for (const candidate of electedByHouse(seatsPayload, "diputados")) {
+    const circunscripcion = districtName(candidate);
+    addTarget(`diputados:${circunscripcion}`, JNE_ELECTION.diputados, circunscripcion);
+  }
+  if (electedByHouse(seatsPayload, "senate").some((c) => normalize(c.mode) === "NACIONAL")) {
+    addTarget("senado-nacional", JNE_ELECTION.senadoNacional, "NACIONAL");
+  }
+  for (const candidate of electedByHouse(seatsPayload, "senate").filter((c) => normalize(c.mode) === "REGIONAL")) {
+    const circunscripcion = districtName(candidate);
+    addTarget(`senado-regional:${circunscripcion}`, JNE_ELECTION.senadoRegional, circunscripcion);
+  }
+  if ((andinoPayload?.parties || []).some((party) => (party.candidates || []).length)) {
+    addTarget("andino", JNE_ELECTION.andino, "NACIONAL");
+  }
+
+  let token = "";
+  try {
+    token = await fetchJneToken();
+  } catch (error) {
+    console.warn(`Aviso: no se pudo obtener token JNE para fotos: ${error.message}`);
+    return { byDni, byKey };
+  }
+
+  for (const target of targets.values()) {
+    try {
+      const rows = await fetchJneCandidates(target, token);
+      for (const row of rows || []) addJneCandidate(row, target.circunscripcion, byDni, byKey);
+    } catch (error) {
+      console.warn(`Aviso: no se pudieron leer fotos JNE ${target.circunscripcion}: ${error.message}`);
+    }
+  }
+
+  return { byDni, byKey };
+}
+
+function addJneCandidate(row, circunscripcion, byDni, byKey) {
+  const name = properName(`${row?.txNom || ""} ${row?.txApePat || ""} ${row?.txApeMat || ""}`);
+  const party = canonicalParty(row?.txOrgPol || row?.organizacionPolitica);
+  const dni = cleanDocument(row?.txDocId || row?.numeroDocumento);
+  const imageUrl = row?.txNombre ? `${JNE_IMAGE_BASE_URL}/${String(row.txNombre).replace(/^\/+/, "")}` : "";
+  if (!name || !party.name) return;
+  const item = {
+    name,
+    party: party.name,
+    circunscripcion,
+    dni,
+    imageUrl,
+    idHojaVida: positiveOrNull(row?.idHojaVida)
+  };
+  if (dni) byDni.set(dni, item);
+  byKey.set(candidateKey(item), item);
+}
+
+async function fetchJneToken() {
+  const response = await fetch(`${JNE_SERVICE_BASE_URL}/api/authentication/token`, {
+    headers: {
+      "accept": "application/json,text/plain,*/*",
+      "user-agent": "EVAbogadosParlamentoUpdater/1.0"
+    }
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status} al solicitar token JNE`);
+  const json = await response.json();
+  if (!json?.token) throw new Error("token JNE vacío");
+  return json.token;
+}
+
+async function fetchJneCandidates({ idTipoEleccion, strUbiDepartamento }, token) {
+  const response = await fetch(`${JNE_SERVICE_BASE_URL}/api/candidatos/listarcandidatos`, {
+    method: "POST",
+    headers: {
+      "accept": "application/json,text/plain,*/*",
+      "content-type": "application/json",
+      "user-agent": "EVAbogadosParlamentoUpdater/1.0",
+      "X-Session-Token": token
+    },
+    body: JSON.stringify({
+      idProcesoElectoral: JNE_PROCESS_ID,
+      strUbiDepartamento,
+      idTipoEleccion
+    })
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status} al consultar candidatos JNE`);
+  return response.json();
 }
 
 function buildParties(rows, enrich) {
@@ -587,6 +736,10 @@ function normalize(value) {
 
 function clean(value) {
   return String(value || "").replace(/\s+/g, " ").trim().toUpperCase();
+}
+
+function cleanDocument(value) {
+  return String(value || "").replace(/\D+/g, "").trim();
 }
 
 function number(value) {
