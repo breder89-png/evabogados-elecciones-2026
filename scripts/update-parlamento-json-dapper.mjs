@@ -636,16 +636,18 @@ function normalizeCandidateRecord(candidate) {
 
 function mergeCandidateRecords(existing, incoming) {
   if (!existing) return incoming;
+  const authoritative = !incoming.sourceBackup || existing.sourceBackup ? incoming : existing;
+  const supplemental = authoritative === incoming ? existing : incoming;
   return {
-    ...incoming,
-    ...existing,
-    votosPref: number(existing.votosPref) || number(incoming.votosPref),
-    posicion: existing.posicion || incoming.posicion || null,
-    edad: existing.edad || incoming.edad || null,
-    imageUrl: existing.imageUrl || incoming.imageUrl || "",
-    dni: existing.dni || incoming.dni || "",
-    idHojaVida: existing.idHojaVida || incoming.idHojaVida || null,
-    sourceBackup: existing.sourceBackup && !incoming.sourceBackup
+    ...supplemental,
+    ...authoritative,
+    votosPref: number(authoritative.votosPref) || number(supplemental.votosPref),
+    posicion: authoritative.posicion || supplemental.posicion || null,
+    edad: authoritative.edad || supplemental.edad || null,
+    imageUrl: authoritative.imageUrl || supplemental.imageUrl || "",
+    dni: authoritative.dni || supplemental.dni || "",
+    idHojaVida: authoritative.idHojaVida || supplemental.idHojaVida || null,
+    sourceBackup: Boolean(authoritative.sourceBackup && supplemental.sourceBackup)
   };
 }
 
@@ -669,16 +671,35 @@ function backupCandidatesForCamera(enrich, cameraKey, circNames = []) {
 
 function mergeCandidateLists(primary = [], secondary = []) {
   const map = new Map();
+  const aliases = new Map();
   for (const candidate of [...secondary, ...primary]) {
     if (!candidate?.name) continue;
     const normalized = normalizeCandidateRecord(candidate);
-    map.set(candidateKey(normalized), mergeCandidateRecords(map.get(candidateKey(normalized)), normalized));
+    const keys = candidateIdentityKeys(normalized);
+    const targetKey = keys.map((key) => aliases.get(key)).find(Boolean) || keys[0] || candidateKey(normalized);
+    const merged = mergeCandidateRecords(map.get(targetKey), normalized);
+    map.set(targetKey, merged);
+    for (const key of candidateIdentityKeys(merged)) aliases.set(key, targetKey);
+    for (const key of keys) aliases.set(key, targetKey);
   }
   return [...map.values()].sort((a, b) =>
     normalize(a.circunscripcion).localeCompare(normalize(b.circunscripcion), "es") ||
     normalize(a.party).localeCompare(normalize(b.party), "es") ||
     number(b.votosPref) - number(a.votosPref)
   );
+}
+
+function candidateIdentityKeys(candidate) {
+  const party = normalize(candidate.party);
+  const circ = normalize(candidate.circunscripcion);
+  const position = number(candidate.posicion);
+  const keys = [];
+  if (candidate.dni) keys.push(`dni|${cleanDocument(candidate.dni)}`);
+  if (candidate.idHojaVida) keys.push(`hv|${number(candidate.idHojaVida)}`);
+  if (party && circ && position) keys.push(`slot|${party}|${circ}|${position}`);
+  if (candidate.imageUrl && party && circ) keys.push(`img|${normalize(candidate.imageUrl)}|${party}|${circ}`);
+  keys.push(`name|${candidateKey(candidate)}`);
+  return keys.filter(Boolean);
 }
 
 function indexByParty(parties) {
