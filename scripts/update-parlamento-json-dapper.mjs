@@ -8,6 +8,7 @@ const dataDir = path.join(rootDir, "data");
 const outFile = path.join(dataDir, "parlamento-2026.json");
 const diagnosticFile = path.join(dataDir, "diagnostico-dapper.json");
 const previousFile = outFile;
+const candidateBackupFile = path.join(dataDir, "candidatos-respaldo-2026.json");
 
 const DAPPER_BASE_URL = trimSlash(process.env.DAPPER_BASE_URL || "https://elecciones2026.dapperglobal.com");
 const JNE_SERVICE_BASE_URL = trimSlash(process.env.JNE_SERVICE_BASE_URL || "https://web.jne.gob.pe/serviciovotoinformado");
@@ -128,7 +129,8 @@ const LOGO_FALLBACKS = new Map([
 async function main() {
   await mkdir(dataDir, { recursive: true });
   const previous = await loadJson(previousFile, {});
-  const enrich = buildEnrichment(previous);
+  const candidateBackup = await loadJson(candidateBackupFile, {});
+  const enrich = buildEnrichment(previous, candidateBackup);
 
   const [districtsPayload, seatsPayload, andinoPayload] = await Promise.all([
     fetchJson("/api/pe-electoral-districts"),
@@ -198,6 +200,7 @@ async function main() {
     sourceNotes: [
       "Respaldo temporal generado desde endpoints públicos de Dapper Global, usados por proyecciones periodísticas y declarados con fuente ONPE.",
       "Las fotos de candidatos se completan, cuando están disponibles, cruzando DNI/lista con Voto Informado del JNE.",
+      "Los candidatos faltantes para escenarios sin valla se conservan desde un respaldo histórico del proveedor anterior, sin alterar los votos por partido actualizados por Dapper.",
       "No es endpoint crudo oficial de ONPE; es una normalización externa. Úsese como continuidad operativa mientras AKLLA esté caída o desfasada.",
       "La web mantiene su propia lectura de valla electoral y D'Hondt sobre los votos normalizados por cámara y circunscripción."
     ]
@@ -212,6 +215,10 @@ async function main() {
     fotosJne: {
       porDni: jneEnrichment.byDni.size,
       porClave: jneEnrichment.byKey.size
+    },
+    respaldoCandidatos: {
+      disponible: Boolean(candidateBackup?.camaras),
+      porCamara: Object.fromEntries(Object.entries(enrich.candidatesByCamera || {}).map(([key, list]) => [key, list.length]))
     },
     cameras: Object.fromEntries(Object.entries(cameras).filter(([k]) => !["senado", "senadoTotal"].includes(k)).map(([k, c]) => [k, {
       parties: c.parties.length,
@@ -252,7 +259,10 @@ function buildDistrictCamera({ key, name, seats, rows, elected, enrich, barrierA
   }).filter((c) => c.name && c.votes.length);
 
   const parties = buildParties([...circunscripciones.flatMap((c) => c.votes), ...candidatePartyVotes(elected)], enrich);
-  const candidates = mapElectedCandidates(elected, key, enrich);
+  const candidates = mergeCandidateLists(
+    mapElectedCandidates(elected, key, enrich),
+    backupCandidatesForCamera(enrich, key, circunscripciones.map((c) => c.name))
+  );
   const nationalVotes = aggregateVotes(circunscripciones);
   const status = combineStatusObjects(...circunscripciones.map((c) => c.status));
 
@@ -289,7 +299,10 @@ function buildSingleCamera({ key, name, seats, source, elected, enrich, barrierA
     parties: buildParties([...circ.votes, ...candidatePartyVotes(elected)], enrich),
     circunscripciones: [circ],
     nationalVotes: circ.votes,
-    candidates: mapElectedCandidates(elected, key, enrich),
+    candidates: mergeCandidateLists(
+      mapElectedCandidates(elected, key, enrich),
+      backupCandidatesForCamera(enrich, key, [circ.name])
+    ),
     blankNull: circ.blankNull,
     status: circ.status,
     allocations: {
@@ -327,6 +340,8 @@ function buildAndinoCamera(source, enrich) {
     status
   };
 
+  const mergedCandidates = mergeCandidateLists(candidates, backupCandidatesForCamera(enrich, "andino", [circ.name]));
+
   return {
     name: "Parlamento Andino",
     seats: number(source.totalSeats) || 5,
@@ -334,7 +349,7 @@ function buildAndinoCamera(source, enrich) {
     parties: buildParties([...votes, ...candidatePartyVotes(candidates)], enrich),
     circunscripciones: [circ],
     nationalVotes: votes,
-    candidates,
+    candidates: mergedCandidates,
     blankNull: circ.blankNull,
     status,
     allocations: {
@@ -569,10 +584,12 @@ function mergeSenateAlias(nacional, regional) {
   };
 }
 
-function buildEnrichment(previous) {
+function buildEnrichment(previous, candidateBackup = {}) {
   const parties = new Map();
   const candidates = new Map();
-  for (const camera of Object.values(previous?.camaras || {})) {
+  const candidatesByCamera = {};
+
+  for (const [cameraKey, camera] of Object.entries(previous?.camaras || {})) {
     for (const party of camera?.parties || []) {
       if (!party?.name) continue;
       const canonical = canonicalParty(party.name);
@@ -582,11 +599,86 @@ function buildEnrichment(previous) {
     }
     for (const candidate of camera?.candidates || []) {
       if (!candidate?.name) continue;
-      const party = canonicalParty(candidate.party);
-      candidates.set(candidateKey({ ...candidate, party: party.name }), candidate);
+      const normalized = normalizeCandidateRecord(candidate);
+      candidates.set(candidateKey(normalized), mergeCandidateRecords(candidates.get(candidateKey(normalized)), normalized));
+      addCandidateToCamera(candidatesByCamera, cameraKey, normalized);
     }
   }
-  return { parties, candidates };
+
+  for (const [cameraKey, camera] of Object.entries(candidateBackup?.camaras || {})) {
+    for (const candidate of camera?.candidates || []) {
+      if (!candidate?.name) continue;
+      const normalized = { ...normalizeCandidateRecord(candidate), sourceBackup: true };
+      candidates.set(candidateKey(normalized), mergeCandidateRecords(candidates.get(candidateKey(normalized)), normalized));
+      addCandidateToCamera(candidatesByCamera, cameraKey, normalized);
+    }
+  }
+
+  return { parties, candidates, candidatesByCamera };
+}
+
+function normalizeCandidateRecord(candidate) {
+  const party = canonicalParty(candidate.partyName || candidate.party || candidate.partido);
+  return {
+    ...candidate,
+    name: properName(candidate.name || candidate.candidateName || candidate.candidato),
+    party: party.name,
+    partyShort: candidate.partyShort || party.short,
+    circunscripcion: districtName(candidate),
+    votosPref: number(candidate.votosPref ?? candidate.candidateVotes ?? candidate.preferentialVotes ?? candidate.votes),
+    posicion: positiveOrNull(candidate.posicion ?? candidate.listNumber ?? candidate.position),
+    edad: candidate.edad || null,
+    imageUrl: candidate.imageUrl || candidate.fotoUrl || candidate.photoUrl || "",
+    dni: cleanDocument(candidate.dni ?? candidate.candidateDni ?? candidate.txDocId ?? candidate.numeroDocumento),
+    idHojaVida: positiveOrNull(candidate.idHojaVida ?? candidate.idhojavida)
+  };
+}
+
+function mergeCandidateRecords(existing, incoming) {
+  if (!existing) return incoming;
+  return {
+    ...incoming,
+    ...existing,
+    votosPref: number(existing.votosPref) || number(incoming.votosPref),
+    posicion: existing.posicion || incoming.posicion || null,
+    edad: existing.edad || incoming.edad || null,
+    imageUrl: existing.imageUrl || incoming.imageUrl || "",
+    dni: existing.dni || incoming.dni || "",
+    idHojaVida: existing.idHojaVida || incoming.idHojaVida || null,
+    sourceBackup: existing.sourceBackup && !incoming.sourceBackup
+  };
+}
+
+function addCandidateToCamera(candidatesByCamera, cameraKey, candidate) {
+  if (cameraKey === "senado" || cameraKey === "senadoTotal") return;
+  const key = canonicalCameraKey(cameraKey);
+  candidatesByCamera[key] ||= [];
+  candidatesByCamera[key] = mergeCandidateLists(candidatesByCamera[key], [candidate]);
+}
+
+function canonicalCameraKey(cameraKey) {
+  if (cameraKey === "senado") return "senadoTotal";
+  return cameraKey;
+}
+
+function backupCandidatesForCamera(enrich, cameraKey, circNames = []) {
+  const allowedCircs = new Set(circNames.map(normalize));
+  return (enrich.candidatesByCamera?.[canonicalCameraKey(cameraKey)] || [])
+    .filter((candidate) => !allowedCircs.size || allowedCircs.has(normalize(candidate.circunscripcion)));
+}
+
+function mergeCandidateLists(primary = [], secondary = []) {
+  const map = new Map();
+  for (const candidate of [...secondary, ...primary]) {
+    if (!candidate?.name) continue;
+    const normalized = normalizeCandidateRecord(candidate);
+    map.set(candidateKey(normalized), mergeCandidateRecords(map.get(candidateKey(normalized)), normalized));
+  }
+  return [...map.values()].sort((a, b) =>
+    normalize(a.circunscripcion).localeCompare(normalize(b.circunscripcion), "es") ||
+    normalize(a.party).localeCompare(normalize(b.party), "es") ||
+    number(b.votosPref) - number(a.votosPref)
+  );
 }
 
 function indexByParty(parties) {
@@ -607,7 +699,7 @@ function betterLogo(next, current) {
 function districtName(row) {
   const code = Number(row?.districtCode ?? row?.distrito ?? row?.code);
   if (DISTRICT_NAME.has(code)) return DISTRICT_NAME.get(code);
-  const raw = row?.districtName || row?.distritoName || row?.name || row?.circunscripcion || "NACIONAL";
+  const raw = row?.districtName || row?.distritoName || row?.circunscripcion || row?.district || row?.name || "NACIONAL";
   const norm = normalize(raw);
   if (norm.includes("RESIDENTES") || norm.includes("EXTRANJERO")) return "RESIDENTES EN EL EXTRANJERO";
   if (norm === "LA LIBERTAD" || norm === "LA LIBERTAD") return "LA LIBERTAD";
