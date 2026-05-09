@@ -1,4 +1,4 @@
--- Esquema D1 para el blog de EVA Abogados.
+-- Esquema D1 para el blog de EV Abogados.
 -- Ejecutar una sola vez en la base de datos D1 vinculada al proyecto Pages.
 
 CREATE TABLE IF NOT EXISTS posts (
@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS posts (
   category TEXT NOT NULL DEFAULT 'General',
   tags TEXT NOT NULL DEFAULT '[]',
   status TEXT NOT NULL DEFAULT 'published' CHECK (status IN ('draft', 'published')),
-  author TEXT NOT NULL DEFAULT 'EVA Abogados',
+  author TEXT NOT NULL DEFAULT 'EV Abogados',
   created_at TEXT NOT NULL DEFAULT (datetime('now')),
   updated_at TEXT NOT NULL DEFAULT (datetime('now')),
   published_at TEXT
@@ -25,16 +25,48 @@ INSERT OR IGNORE INTO posts (
   id, slug, title, excerpt, body, image_url, category, tags, status, author, created_at, updated_at, published_at
 ) VALUES (
   1,
-  'bienvenida-al-blog-de-eva-abogados',
-  'Bienvenida al blog de EVA Abogados',
+  'bienvenida-al-blog-de-ev-abogados',
+  'Bienvenida al blog de EV Abogados',
   'Un espacio institucional para publicar análisis jurídico, legislativo, administrativo y empresarial.',
   'Este blog ha sido preparado como una subpágina institucional para publicar análisis, comentarios y notas técnicas.\n\nPuede utilizarse para desarrollar contenidos sobre legislación peruana, derecho administrativo, gestión pública, empresa, tecnología, derecho digital y actualidad normativa.\n\nDesde el panel de administración se pueden crear, editar, publicar o dejar en borrador las entradas, ahora con imagen principal para cada publicación.',
   '',
   'Institucional',
-  '["EVA Abogados", "blog", "análisis"]',
+  '["EV Abogados", "blog", "análisis"]',
   'published',
-  'EVA Abogados',
+  'EV Abogados',
   datetime('now'),
   datetime('now'),
   datetime('now')
 );
+
+CREATE TABLE IF NOT EXISTS post_stats (
+  post_id INTEGER PRIMARY KEY,
+  views INTEGER NOT NULL DEFAULT 0,
+  likes INTEGER NOT NULL DEFAULT 0,
+  dislikes INTEGER NOT NULL DEFAULT 0,
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY(post_id) REFERENCES posts(id)
+);
+
+CREATE TABLE IF NOT EXISTS site_metrics (
+  key TEXT PRIMARY KEY,
+  value INTEGER NOT NULL DEFAULT 0,
+  updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+INSERT OR IGNORE INTO site_metrics (key, value) VALUES ('total_visits', 0);
+
+CREATE TABLE IF NOT EXISTS post_comments (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  post_id INTEGER NOT NULL,
+  author_name TEXT NOT NULL,
+  author_facebook TEXT NOT NULL DEFAULT '',
+  body TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'pending' CHECK (status IN ('pending', 'approved', 'rejected')),
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  updated_at TEXT NOT NULL DEFAULT (datetime('now')),
+  FOREIGN KEY(post_id) REFERENCES posts(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_post_comments_post_status ON post_comments(post_id, status, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_post_comments_status_date ON post_comments(status, created_at DESC);
