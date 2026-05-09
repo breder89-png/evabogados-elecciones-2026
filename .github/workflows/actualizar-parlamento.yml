@@ -21,9 +21,6 @@ jobs:
         with:
           node-version: 22
 
-      - name: Instalar dependencias
-        run: npm install --no-audit --no-fund
-
       - name: Generar JSON parlamentario
         run: npm run update:parlamento:dapper
         env:
