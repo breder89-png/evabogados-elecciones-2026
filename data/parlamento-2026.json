@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T03:10:56.984Z",
+  "updatedAt": "2026-05-09T03:16:52.986Z",
   "status": {
     "percent": 85.604,
     "processed": 317647,
@@ -7,7 +7,7 @@
     "jee": 0,
     "pending": 53417,
     "blankNull": 20174006,
-    "updated": "2026-05-09T02:45:07.913Z"
+    "updated": "2026-05-09T03:00:08.394Z"
   },
   "camaras": {
     "diputados": {
@@ -524,7 +524,7 @@
             "jee": 0,
             "pending": 541,
             "blankNull": 187777,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -1252,7 +1252,7 @@
             "jee": 0,
             "pending": 225,
             "blankNull": 171916,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -1660,7 +1660,7 @@
             "jee": 0,
             "pending": 414,
             "blankNull": 112923,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -1816,7 +1816,7 @@
             "jee": 0,
             "pending": 719,
             "blankNull": 113499,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -2268,7 +2268,7 @@
             "jee": 0,
             "pending": 485,
             "blankNull": 208031,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -2432,7 +2432,7 @@
             "jee": 0,
             "pending": 2447,
             "blankNull": 1157942,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -2588,7 +2588,7 @@
             "jee": 0,
             "pending": 427,
             "blankNull": 162613,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -2728,7 +2728,7 @@
             "jee": 0,
             "pending": 840,
             "blankNull": 112061,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -3116,7 +3116,7 @@
             "jee": 0,
             "pending": 90,
             "blankNull": 53302,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -3812,7 +3812,7 @@
             "jee": 0,
             "pending": 142,
             "blankNull": 43390,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -4096,7 +4096,7 @@
             "jee": 0,
             "pending": 1009,
             "blankNull": 89078,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         }
       ],
@@ -6435,7 +6435,7 @@
         "jee": 0,
         "pending": 13697,
         "blankNull": 4693855,
-        "updated": "2026-05-09T02:45:07.913Z"
+        "updated": "2026-05-09T03:00:08.394Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -7188,7 +7188,7 @@
             "jee": 0,
             "pending": 15780,
             "blankNull": 4238386,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         }
       ],
@@ -7419,7 +7419,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 283735,
+          "votosPref": 283781,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -7435,7 +7435,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 109168,
+          "votosPref": 109188,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -7451,7 +7451,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 57101,
+          "votosPref": 57111,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -7467,7 +7467,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 28702,
+          "votosPref": 28704,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -7483,7 +7483,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 23800,
+          "votosPref": 23805,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -7499,7 +7499,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 23082,
+          "votosPref": 23084,
           "posicion": 5,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e4aee02d-e85d-44f7-aaca-9eb286ee132f.jpg",
@@ -7515,7 +7515,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 10043,
+          "votosPref": 10045,
           "posicion": 9,
           "edad": 66,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8b5d10f4-a0ec-4744-b29f-59271274b78c.jpg",
@@ -7611,7 +7611,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 191167,
+          "votosPref": 191239,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -7627,7 +7627,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 75691,
+          "votosPref": 75721,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -7643,7 +7643,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 31037,
+          "votosPref": 31049,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -7659,7 +7659,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 15937,
+          "votosPref": 15941,
           "posicion": 5,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ca28ff0a-b929-4dae-87b6-d49dc63f75ac.jpg",
@@ -7675,7 +7675,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 177973,
+          "votosPref": 178016,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -7691,7 +7691,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 165838,
+          "votosPref": 165877,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -7707,7 +7707,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 130516,
+          "votosPref": 130546,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -7723,7 +7723,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 43825,
+          "votosPref": 43834,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -7739,7 +7739,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 20020,
+          "votosPref": 20026,
           "posicion": 9,
           "edad": 57,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7348e9ca-1d86-470e-af99-1be833a166d3.jpg",
@@ -7899,7 +7899,7 @@
         "jee": 0,
         "pending": 15780,
         "blankNull": 4238386,
-        "updated": "2026-05-09T02:45:07.913Z"
+        "updated": "2026-05-09T03:00:08.394Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -8283,7 +8283,7 @@
             "jee": 0,
             "pending": 192,
             "blankNull": 105143,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -8435,7 +8435,7 @@
             "jee": 0,
             "pending": 593,
             "blankNull": 201254,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -8579,7 +8579,7 @@
             "jee": 0,
             "pending": 59,
             "blankNull": 71202,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -8723,7 +8723,7 @@
             "jee": 0,
             "pending": 142,
             "blankNull": 229120,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -8847,7 +8847,7 @@
             "jee": 0,
             "pending": 178,
             "blankNull": 95913,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -8979,7 +8979,7 @@
             "jee": 0,
             "pending": 453,
             "blankNull": 436621,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -9267,7 +9267,7 @@
             "jee": 0,
             "pending": 534,
             "blankNull": 212912,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -9375,7 +9375,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -9511,7 +9511,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -10255,7 +10255,7 @@
             "jee": 0,
             "pending": 2066,
             "blankNull": 1406167,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -10407,7 +10407,7 @@
             "jee": 0,
             "pending": 266,
             "blankNull": 175482,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -10543,7 +10543,7 @@
             "jee": 0,
             "pending": 707,
             "blankNull": 126665,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -10659,7 +10659,7 @@
             "jee": 0,
             "pending": 62,
             "blankNull": 37537,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -11047,7 +11047,7 @@
             "jee": 0,
             "pending": 1071,
             "blankNull": 345639,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -11299,7 +11299,7 @@
             "jee": 0,
             "pending": 538,
             "blankNull": 232792,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -11567,7 +11567,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           }
         },
         {
@@ -11699,7 +11699,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         },
         {
@@ -11839,7 +11839,7 @@
             "jee": 0,
             "pending": 1017,
             "blankNull": 85834,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           }
         }
       ],
@@ -12239,7 +12239,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 77716,
+          "votosPref": 77734,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -12303,7 +12303,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LORETO",
-          "votosPref": 8355,
+          "votosPref": 8370,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/39addd4e-6c93-405b-9e93-56a0892eae72.jpg",
@@ -12350,7 +12350,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "MOQUEGUA",
-          "votosPref": 2148,
+          "votosPref": 2152,
           "posicion": 1,
           "edad": 53,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8a462ad7-557a-40c5-80af-4f87c81544ea.jpg",
@@ -12498,7 +12498,7 @@
         "jee": 0,
         "pending": 11849,
         "blankNull": 5491056,
-        "updated": "2026-05-09T02:45:07.913Z"
+        "updated": "2026-05-09T03:00:08.394Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -14378,7 +14378,7 @@
             "jee": 0,
             "pending": 15780,
             "blankNull": 4238386,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Nacional"
         },
@@ -14499,7 +14499,7 @@
             "jee": 0,
             "pending": 192,
             "blankNull": 105143,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -14652,7 +14652,7 @@
             "jee": 0,
             "pending": 593,
             "blankNull": 201254,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -14797,7 +14797,7 @@
             "jee": 0,
             "pending": 59,
             "blankNull": 71202,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -14942,7 +14942,7 @@
             "jee": 0,
             "pending": 142,
             "blankNull": 229120,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -15067,7 +15067,7 @@
             "jee": 0,
             "pending": 178,
             "blankNull": 95913,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -15200,7 +15200,7 @@
             "jee": 0,
             "pending": 453,
             "blankNull": 436621,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -15490,7 +15490,7 @@
             "jee": 0,
             "pending": 534,
             "blankNull": 212912,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -15599,7 +15599,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -15736,7 +15736,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -16485,7 +16485,7 @@
             "jee": 0,
             "pending": 2066,
             "blankNull": 1406167,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -16638,7 +16638,7 @@
             "jee": 0,
             "pending": 266,
             "blankNull": 175482,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -16775,7 +16775,7 @@
             "jee": 0,
             "pending": 707,
             "blankNull": 126665,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -16892,7 +16892,7 @@
             "jee": 0,
             "pending": 62,
             "blankNull": 37537,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -17283,7 +17283,7 @@
             "jee": 0,
             "pending": 1071,
             "blankNull": 345639,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -17537,7 +17537,7 @@
             "jee": 0,
             "pending": 538,
             "blankNull": 232792,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -17807,7 +17807,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -17940,7 +17940,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -18081,7 +18081,7 @@
             "jee": 0,
             "pending": 1017,
             "blankNull": 85834,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         }
@@ -18321,7 +18321,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 283735,
+          "votosPref": 283781,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -18337,7 +18337,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 109168,
+          "votosPref": 109188,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -18353,7 +18353,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 57101,
+          "votosPref": 57111,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -18369,7 +18369,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 28702,
+          "votosPref": 28704,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -18385,7 +18385,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 23800,
+          "votosPref": 23805,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -18401,7 +18401,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 23082,
+          "votosPref": 23084,
           "posicion": 5,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e4aee02d-e85d-44f7-aaca-9eb286ee132f.jpg",
@@ -18417,7 +18417,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 10043,
+          "votosPref": 10045,
           "posicion": 9,
           "edad": 66,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8b5d10f4-a0ec-4744-b29f-59271274b78c.jpg",
@@ -18513,7 +18513,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 191167,
+          "votosPref": 191239,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -18529,7 +18529,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 75691,
+          "votosPref": 75721,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -18545,7 +18545,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 31037,
+          "votosPref": 31049,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -18561,7 +18561,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 15937,
+          "votosPref": 15941,
           "posicion": 5,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ca28ff0a-b929-4dae-87b6-d49dc63f75ac.jpg",
@@ -18577,7 +18577,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 177973,
+          "votosPref": 178016,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -18593,7 +18593,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 165838,
+          "votosPref": 165877,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -18609,7 +18609,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 130516,
+          "votosPref": 130546,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -18625,7 +18625,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 43825,
+          "votosPref": 43834,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -18641,7 +18641,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 20020,
+          "votosPref": 20026,
           "posicion": 9,
           "edad": 57,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7348e9ca-1d86-470e-af99-1be833a166d3.jpg",
@@ -19037,7 +19037,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 77716,
+          "votosPref": 77734,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -19101,7 +19101,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LORETO",
-          "votosPref": 8355,
+          "votosPref": 8370,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/39addd4e-6c93-405b-9e93-56a0892eae72.jpg",
@@ -19148,7 +19148,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "MOQUEGUA",
-          "votosPref": 2148,
+          "votosPref": 2152,
           "posicion": 1,
           "edad": 53,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8a462ad7-557a-40c5-80af-4f87c81544ea.jpg",
@@ -19296,7 +19296,7 @@
         "jee": 0,
         "pending": 27629,
         "blankNull": 9729442,
-        "updated": "2026-05-09T02:45:07.913Z"
+        "updated": "2026-05-09T03:00:08.394Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -19861,7 +19861,7 @@
             "jee": 0,
             "pending": 15780,
             "blankNull": 4238386,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Nacional"
         },
@@ -19982,7 +19982,7 @@
             "jee": 0,
             "pending": 192,
             "blankNull": 105143,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -20135,7 +20135,7 @@
             "jee": 0,
             "pending": 593,
             "blankNull": 201254,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -20280,7 +20280,7 @@
             "jee": 0,
             "pending": 59,
             "blankNull": 71202,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -20425,7 +20425,7 @@
             "jee": 0,
             "pending": 142,
             "blankNull": 229120,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -20550,7 +20550,7 @@
             "jee": 0,
             "pending": 178,
             "blankNull": 95913,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -20683,7 +20683,7 @@
             "jee": 0,
             "pending": 453,
             "blankNull": 436621,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -20973,7 +20973,7 @@
             "jee": 0,
             "pending": 534,
             "blankNull": 212912,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -21082,7 +21082,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -21219,7 +21219,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -21968,7 +21968,7 @@
             "jee": 0,
             "pending": 2066,
             "blankNull": 1406167,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -22121,7 +22121,7 @@
             "jee": 0,
             "pending": 266,
             "blankNull": 175482,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -22258,7 +22258,7 @@
             "jee": 0,
             "pending": 707,
             "blankNull": 126665,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -22375,7 +22375,7 @@
             "jee": 0,
             "pending": 62,
             "blankNull": 37537,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -22766,7 +22766,7 @@
             "jee": 0,
             "pending": 1071,
             "blankNull": 345639,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -23020,7 +23020,7 @@
             "jee": 0,
             "pending": 538,
             "blankNull": 232792,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -23290,7 +23290,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T02:45:07.913Z"
           },
           "group": "Regional"
         },
@@ -23423,7 +23423,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-09T02:45:07.913Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         },
@@ -23564,7 +23564,7 @@
             "jee": 0,
             "pending": 1017,
             "blankNull": 85834,
-            "updated": "2026-05-09T02:30:17.258Z"
+            "updated": "2026-05-09T03:00:08.394Z"
           },
           "group": "Regional"
         }
@@ -23804,7 +23804,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 283735,
+          "votosPref": 283781,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -23820,7 +23820,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 109168,
+          "votosPref": 109188,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -23836,7 +23836,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 57101,
+          "votosPref": 57111,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -23852,7 +23852,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 28702,
+          "votosPref": 28704,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -23868,7 +23868,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 23800,
+          "votosPref": 23805,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -23884,7 +23884,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 23082,
+          "votosPref": 23084,
           "posicion": 5,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e4aee02d-e85d-44f7-aaca-9eb286ee132f.jpg",
@@ -23900,7 +23900,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 10043,
+          "votosPref": 10045,
           "posicion": 9,
           "edad": 66,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8b5d10f4-a0ec-4744-b29f-59271274b78c.jpg",
@@ -23996,7 +23996,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 191167,
+          "votosPref": 191239,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -24012,7 +24012,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 75691,
+          "votosPref": 75721,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -24028,7 +24028,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 31037,
+          "votosPref": 31049,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -24044,7 +24044,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 15937,
+          "votosPref": 15941,
           "posicion": 5,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ca28ff0a-b929-4dae-87b6-d49dc63f75ac.jpg",
@@ -24060,7 +24060,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 177973,
+          "votosPref": 178016,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -24076,7 +24076,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 165838,
+          "votosPref": 165877,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -24092,7 +24092,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 130516,
+          "votosPref": 130546,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -24108,7 +24108,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 43825,
+          "votosPref": 43834,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -24124,7 +24124,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 20020,
+          "votosPref": 20026,
           "posicion": 9,
           "edad": 57,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7348e9ca-1d86-470e-af99-1be833a166d3.jpg",
@@ -24520,7 +24520,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 77716,
+          "votosPref": 77734,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -24584,7 +24584,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LORETO",
-          "votosPref": 8355,
+          "votosPref": 8370,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/39addd4e-6c93-405b-9e93-56a0892eae72.jpg",
@@ -24631,7 +24631,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "MOQUEGUA",
-          "votosPref": 2148,
+          "votosPref": 2152,
           "posicion": 1,
           "edad": 53,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8a462ad7-557a-40c5-80af-4f87c81544ea.jpg",
@@ -24779,7 +24779,7 @@
         "jee": 0,
         "pending": 27629,
         "blankNull": 9729442,
-        "updated": "2026-05-09T02:45:07.913Z"
+        "updated": "2026-05-09T03:00:08.394Z"
       },
       "allocations": {
         "noBarrier": [],
