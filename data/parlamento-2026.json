@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-09T02:18:57.315Z",
+  "updatedAt": "2026-05-09T02:51:56.937Z",
   "status": {
-    "percent": 85.587,
-    "processed": 317584,
+    "percent": 85.595,
+    "processed": 317613,
     "total": 371064,
     "jee": 0,
-    "pending": 53480,
-    "blankNull": 20170443,
-    "updated": "2026-05-09T02:00:19.419Z"
+    "pending": 53451,
+    "blankNull": 20172387,
+    "updated": "2026-05-09T02:30:17.258Z"
   },
   "camaras": {
     "diputados": {
@@ -372,7 +372,7 @@
             "jee": 0,
             "pending": 239,
             "blankNull": 99649,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:30:17.258Z"
           }
         },
         {
@@ -820,7 +820,7 @@
             "jee": 0,
             "pending": 162,
             "blankNull": 189022,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -1400,7 +1400,7 @@
             "jee": 0,
             "pending": 584,
             "blankNull": 193417,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -2868,7 +2868,7 @@
             "jee": 0,
             "pending": 68,
             "blankNull": 30250,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -3116,7 +3116,7 @@
             "jee": 0,
             "pending": 90,
             "blankNull": 53302,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -3268,7 +3268,7 @@
             "jee": 0,
             "pending": 1366,
             "blankNull": 343282,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -3562,7 +3562,7 @@
         {
           "name": "TACNA",
           "seats": 2,
-          "blankNull": 50566,
+          "blankNull": 50804,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -3682,13 +3682,13 @@
             }
           ],
           "status": {
-            "percent": 94.717,
-            "processed": 986,
+            "percent": 95.101,
+            "processed": 990,
             "total": 1041,
             "jee": 0,
-            "pending": 55,
-            "blankNull": 50566,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "pending": 51,
+            "blankNull": 50804,
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -4265,7 +4265,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MERY ELIANA INFANTES CASTAÑEDA",
@@ -4280,7 +4280,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MERY INFANTES CASTAÑEDA",
@@ -4323,7 +4323,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LUZMILA GAMARRA PITA",
@@ -4352,7 +4352,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS DOMINGUEZ HERRERA",
@@ -4381,7 +4381,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DANIEL VARAS SEGUIN",
@@ -4410,7 +4410,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDGAR LA CRUZ",
@@ -4439,7 +4439,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANALIO BETO UGARTE MEDINA",
@@ -4454,7 +4454,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JESUS PEREZ ALCCAHUAMAN",
@@ -4470,7 +4470,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LUZ SOTO FERRARI",
@@ -4499,7 +4499,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARLENY ARMINTA VALENCIA",
@@ -4528,7 +4528,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AMALIA PALOMINO PACHECO",
@@ -4557,7 +4557,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LUIS MASCO CACERES",
@@ -4586,7 +4586,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDGAR GONZALES POLAR",
@@ -4615,7 +4615,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GLORIA HIRACHE PIZARRO",
@@ -4644,7 +4644,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CHRISTIAN ARANDA VASQUEZ",
@@ -4660,7 +4660,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FRESHMAN BUITRON MARTINEZ",
@@ -4676,7 +4676,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO MANAY PILLACA",
@@ -4705,7 +4705,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PILAR SULCA CASTILLO",
@@ -4721,7 +4721,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SEGUNDO TICLLA RAFAEL",
@@ -4750,7 +4750,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "YENIFER PAREDES NAVARRO",
@@ -4779,7 +4779,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GABRIEL GONZALES DELGADO",
@@ -4808,7 +4808,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JESSICA GUEVARA RAMIREZ",
@@ -4837,7 +4837,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN VILLANUEVA CALDERON",
@@ -4866,7 +4866,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LUIS JIBAJA RAMOS",
@@ -4895,7 +4895,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AURISTELA OBANDO MORGAN",
@@ -4924,7 +4924,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANGEL BOBADILLA GALINDO",
@@ -4953,7 +4953,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FERNANDO GARCIA HUBY",
@@ -4982,7 +4982,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS ARTURO CORONEL SARMIENTO",
@@ -4997,7 +4997,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS YALTA SOTELO",
@@ -5026,7 +5026,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR AUGUSTO HOLGUIN LOAIZA",
@@ -5041,7 +5041,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR HOLGUIN LOAIZA",
@@ -5071,7 +5071,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JULIAN LUIS PEREZ MALLQUI",
@@ -5086,7 +5086,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JULIAN PEREZ MALLQUI",
@@ -5116,7 +5116,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDWIN ESPINOZA HUILLCA",
@@ -5132,7 +5132,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CATHERIN NORMA PALOMINO CASAVILCA",
@@ -5147,7 +5147,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CATHERIN PALOMINO CASAVILCA",
@@ -5177,7 +5177,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KARINA BETETA RUBIN",
@@ -5206,7 +5206,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "YULI AMBROSIO DOMINGUEZ",
@@ -5235,7 +5235,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARCO FLORES VALDIZAN",
@@ -5264,7 +5264,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS ZEGARRA SANCHEZ",
@@ -5293,7 +5293,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE YATACO TORREALVA",
@@ -5322,7 +5322,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LILA PRADO VALLEJOS",
@@ -5351,7 +5351,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MADY YONZ NUÑEZ",
@@ -5380,7 +5380,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR MUEDAS BALBIESE",
@@ -5409,7 +5409,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANA PATIÑO URCO",
@@ -5438,7 +5438,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARLON AGUIRRE RAMOS",
@@ -5467,7 +5467,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MAXIMO PERALTA JORPA",
@@ -5483,7 +5483,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARMEN DE PEZET",
@@ -5512,7 +5512,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GILMER TRUJILLO ZEGARRA",
@@ -5528,7 +5528,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LETICIA LEIVA BAYLON",
@@ -5557,7 +5557,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GEANMARCO QUEZADA CASTRO",
@@ -5586,7 +5586,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARINO LAVADO VALDIVIA",
@@ -5615,7 +5615,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DEMETRIO VALQUI CALDERON",
@@ -5644,7 +5644,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NORA LLAQUE LINARES",
@@ -5673,7 +5673,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DIEGO BAZAN CALDERON",
@@ -5702,7 +5702,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MILTON SMIT GAMBOA BENITES",
@@ -5717,7 +5717,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE PALMA MENDOZA",
@@ -5746,7 +5746,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAVIER CASTRO CRUZ",
@@ -5775,7 +5775,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ERNESTO ZUNINI YERREN",
@@ -5804,7 +5804,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SEGUNDO CASTREJON FERNANDEZ",
@@ -5833,7 +5833,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA CORDOVA LOBATON",
@@ -5862,7 +5862,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HARVEY COLCHADO HUAMANI",
@@ -5891,7 +5891,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "INDIRA HUILCA FLORES",
@@ -5920,7 +5920,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "BERNARDINO MANRIQUE OLIVERA",
@@ -5949,7 +5949,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANGEL MENESES CRISPIN",
@@ -5978,7 +5978,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CECILIA DE VETTORI",
@@ -6007,7 +6007,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DIETHELL COLUMBUS MURATA",
@@ -6023,7 +6023,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROSANGELLA BARBARAN REYES",
@@ -6052,7 +6052,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PIER FIGARI MENDOZA",
@@ -6081,7 +6081,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARCO PACHECO QUISPE",
@@ -6110,7 +6110,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PIERANGELI DODERO JOVICH",
@@ -6139,7 +6139,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FLOR MEZA RIVERA",
@@ -6168,7 +6168,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GIANNINA AVENDAÑO VILCA",
@@ -6197,7 +6197,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JEENNY GONZALES VIGIL",
@@ -6226,7 +6226,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR PIÑAN MAMANI",
@@ -6255,7 +6255,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANDREA MEDINA STEIN",
@@ -6284,7 +6284,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAUL CAMARGO PORTA",
@@ -6313,7 +6313,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "OSCAR RETO OTERO",
@@ -6342,7 +6342,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NATHALY MOLINA SOTO",
@@ -6371,7 +6371,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LUIS QUISPE CANDIA",
@@ -6400,7 +6400,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HILDA LA TORRE",
@@ -6429,7 +6429,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROSSANA ALAYZA MACCERA",
@@ -6459,7 +6459,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROSSANA HERMINIA ALAYZA MACCERA",
@@ -6474,7 +6474,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROMINA URIBE SAENZ",
@@ -6503,7 +6503,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DELSY YESELY ROMERO ALVAREZ",
@@ -6518,7 +6518,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DIEGO EDGAR GUEVARA VIVANCO",
@@ -6533,7 +6533,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DIEGO EDUARDO MARTIN SHOOBRIDGE BORGO",
@@ -6548,7 +6548,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JORGE LUIS CALMET ZEGARRA",
@@ -6563,7 +6563,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NORMA YARROW LUMBRERAS",
@@ -6592,7 +6592,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE BAELLA MALCA",
@@ -6621,7 +6621,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROXANA ROCHA GALLEGOS",
@@ -6650,7 +6650,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAVIER CIPRIANI THORNE",
@@ -6679,7 +6679,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GUSTAVO SEGURA FIGUEROA",
@@ -6708,7 +6708,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FRANK KRKLEC TORRES",
@@ -6724,7 +6724,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PAOLA MARTINEZ PAITAN",
@@ -6753,7 +6753,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LEO PAZ LANCHO",
@@ -6782,7 +6782,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALDO BRAVO QUISPE",
@@ -6811,7 +6811,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GLADYS DE ALVAREZ",
@@ -6840,7 +6840,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEXANDER SALAS RIVERA",
@@ -6856,7 +6856,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ARTURO EUSEBIO PADILLA",
@@ -6885,7 +6885,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MILAGROS SANTANA VERA",
@@ -6914,7 +6914,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RITA MERCEDES CHAVEZ PAREDES",
@@ -6929,7 +6929,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NARY PINASCO MONTENEGRO",
@@ -6958,7 +6958,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR VIDAURRE FLORIDAS",
@@ -6987,7 +6987,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANA YUFFRA LUGO",
@@ -7016,7 +7016,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AZUCENA ISLA ROJAS",
@@ -7032,7 +7032,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAIME MARIN GARCIA",
@@ -7047,7 +7047,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAMES HOLGUIN AGUIRRE",
@@ -7076,7 +7076,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HAYDEE POMA HUAMANI",
@@ -7105,7 +7105,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GRACIELA CHIPANA CONDORI",
@@ -7121,7 +7121,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NERY FERNANDEZ NINA",
@@ -7150,7 +7150,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JESUS CANTA HILARIO",
@@ -7193,7 +7193,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KIM TAMI MUÑOZ YURIVILCA",
@@ -7208,7 +7208,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOEL GERSON CAMONES MEDRANO",
@@ -7223,7 +7223,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR REVILLA VILLANUEVA",
@@ -7252,7 +7252,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDUARDO CASTILLO RIVAS",
@@ -7281,7 +7281,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARMELA PAUCARA PAXI",
@@ -7297,7 +7297,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA LUISA SILUPU INGA",
@@ -7312,7 +7312,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA SILUPU INGA",
@@ -7355,7 +7355,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL HUAMAN CORNEJO",
@@ -7384,7 +7384,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DAVID DIONISIO QUENAYA BLANCO",
@@ -7399,7 +7399,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FELIX CHANG APUY",
@@ -7428,7 +7428,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HELARD SONCO VILLANUEVA",
@@ -7457,7 +7457,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JESSICA PEREZ QUISPE",
@@ -7486,7 +7486,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR TITO ROJAS",
@@ -7515,7 +7515,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "REMIGIO CONDORI FLORES",
@@ -7531,7 +7531,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DINA HANCCO HANCCO",
@@ -7560,7 +7560,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "OSCAR GONZALES HUAMAN",
@@ -7575,7 +7575,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LIZ HULI MENDOZA BERNEDO",
@@ -7590,7 +7590,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LIZ MENDOZA BERNEDO",
@@ -7619,7 +7619,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JORGE ZEBALLOS APONTE",
@@ -7648,7 +7648,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LUIS ALEGRIA GARCIA",
@@ -7677,7 +7677,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FRANCISCO GATICA VEGA",
@@ -7707,7 +7707,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JACQUELINE VIVIANA TAPULLIMA INSAPILLO",
@@ -7722,7 +7722,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JACQUELINE TAPULLIMA INSAPILLO",
@@ -7765,7 +7765,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN CABRERA NIETO",
@@ -7794,7 +7794,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL ALDO CELIZ CASTILLO",
@@ -7809,7 +7809,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL CELIZ CASTILLO",
@@ -7838,7 +7838,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA RAMOS ROSALES",
@@ -7867,7 +7867,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JESSICA NAVAS SANCHEZ",
@@ -7896,7 +7896,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAIME ABENSUR PINASCO",
@@ -7925,7 +7925,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "OSWAR CAHUAZA MITIVIRE",
@@ -7942,15 +7942,15 @@
           "numEscanioPartido": null
         }
       ],
-      "blankNull": 4693061,
+      "blankNull": 4693299,
       "status": {
-        "percent": 85.218,
-        "processed": 79053,
+        "percent": 85.222,
+        "processed": 79057,
         "total": 92766,
         "jee": 0,
-        "pending": 13713,
-        "blankNull": 4693061,
-        "updated": "2026-05-09T02:00:19.419Z"
+        "pending": 13709,
+        "blankNull": 4693299,
+        "updated": "2026-05-09T02:30:17.258Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -8291,12 +8291,12 @@
             "seats": 2
           },
           {
-            "circunscripcion": "UCAYALI",
+            "circunscripcion": "MOQUEGUA",
             "party": "JUNTOS POR EL PERÚ",
             "seats": 1
           },
           {
-            "circunscripcion": "MOQUEGUA",
+            "circunscripcion": "UCAYALI",
             "party": "JUNTOS POR EL PERÚ",
             "seats": 1
           },
@@ -8553,300 +8553,300 @@
         {
           "name": "NACIONAL",
           "seats": 30,
-          "blankNull": 4237461,
+          "blankNull": 4238386,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 1848588
+              "votes": 1848969
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1500062
+              "votes": 1500245
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1435847
+              "votes": 1436288
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1365547
+              "votes": 1365897
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1112858
+              "votes": 1113067
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1051887
+              "votes": 1052147
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 729157
+              "votes": 729326
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 458304
+              "votes": 458411
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 353116
+              "votes": 353216
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 322290
+              "votes": 322354
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 275205
+              "votes": 275256
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 215654
+              "votes": 215697
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 209208
+              "votes": 209256
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 193547
+              "votes": 193587
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 163067
+              "votes": 163094
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 140751
+              "votes": 140774
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 128675
+              "votes": 128685
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 126161
+              "votes": 126195
             },
             {
               "party": "VENCEREMOS",
-              "votes": 113876
+              "votes": 113893
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 103806
+              "votes": 103811
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 102140
+              "votes": 102168
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 96241
+              "votes": 96255
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 94465
+              "votes": 94478
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 64084
+              "votes": 64108
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 62777
+              "votes": 62789
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 58933
+              "votes": 58954
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 55663
+              "votes": 55668
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 49598
+              "votes": 49613
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 45939
+              "votes": 45953
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 27573
+              "votes": 27574
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 22613
+              "votes": 22617
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 18336
+              "votes": 18339
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 18061
+              "votes": 18064
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 17486
+              "votes": 17489
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 13474
+              "votes": 13478
             }
           ],
           "status": {
-            "percent": 82.973,
-            "processed": 76971,
+            "percent": 82.989,
+            "processed": 76986,
             "total": 92766,
             "jee": 0,
-            "pending": 15795,
-            "blankNull": 4237461,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "pending": 15780,
+            "blankNull": 4238386,
+            "updated": "2026-05-09T02:30:17.258Z"
           }
         }
       ],
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1848588
+          "votes": 1848969
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1500062
+          "votes": 1500245
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1435847
+          "votes": 1436288
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1365547
+          "votes": 1365897
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1112858
+          "votes": 1113067
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1051887
+          "votes": 1052147
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 729157
+          "votes": 729326
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 458304
+          "votes": 458411
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 353116
+          "votes": 353216
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 322290
+          "votes": 322354
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 275205
+          "votes": 275256
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 215654
+          "votes": 215697
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 209208
+          "votes": 209256
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 193547
+          "votes": 193587
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 163067
+          "votes": 163094
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 140751
+          "votes": 140774
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 128675
+          "votes": 128685
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 126161
+          "votes": 126195
         },
         {
           "party": "VENCEREMOS",
-          "votes": 113876
+          "votes": 113893
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 103806
+          "votes": 103811
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 102140
+          "votes": 102168
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 96241
+          "votes": 96255
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 94465
+          "votes": 94478
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 64084
+          "votes": 64108
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 62777
+          "votes": 62789
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 58933
+          "votes": 58954
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 55663
+          "votes": 55668
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 49598
+          "votes": 49613
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 45939
+          "votes": 45953
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 27573
+          "votes": 27574
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 22613
+          "votes": 22617
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 18336
+          "votes": 18339
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 18061
+          "votes": 18064
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 17486
+          "votes": 17489
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 13474
+          "votes": 13478
         }
       ],
       "candidates": [
@@ -8878,7 +8878,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAIME DELGADO ZEGARRA",
@@ -8908,7 +8908,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RUTH LUQUE IBARRA",
@@ -8924,7 +8924,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIRTHA VASQUEZ CHUQUILIN",
@@ -8954,7 +8954,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN JOSE SANTIVAÑEZ ANTUNEZ",
@@ -8969,7 +8969,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL TORRES MORALES",
@@ -8999,7 +8999,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARTHA CHAVEZ COSSIO",
@@ -9029,7 +9029,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FERNANDO ROSPIGLIOSI CAPURRO",
@@ -9059,7 +9059,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARMEN JUAREZ GALLEGOS",
@@ -9089,7 +9089,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARTHA MOYANO DELGADO",
@@ -9119,7 +9119,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR ASTUDILLO SALCEDO",
@@ -9149,7 +9149,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS MESIA RAMIREZ",
@@ -9179,7 +9179,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE CASTILLO TERRONES",
@@ -9209,7 +9209,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SILVANA ROBLES ARAUJO",
@@ -9239,7 +9239,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "BERNARDO QUITO SARMIENTO",
@@ -9269,7 +9269,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SAUL ARMACANQUI MORALES",
@@ -9299,7 +9299,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "IBER MARAVI OLARTE",
@@ -9329,7 +9329,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DANIEL BARRAGAN COLOMA",
@@ -9359,7 +9359,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AGRIPINA FLORES CORDOVA",
@@ -9389,7 +9389,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "WALTER GAGO RODRIGUEZ",
@@ -9419,7 +9419,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROGER ASTUCURI LAURA",
@@ -9449,7 +9449,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FLAVIO FIGALLO RIVADENEYRA",
@@ -9479,7 +9479,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PATRICIA ITURREGUI BYRNE",
@@ -9509,7 +9509,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SUSANA MATUTE CHARUN",
@@ -9539,7 +9539,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS CABALLERO LEON",
@@ -9569,7 +9569,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JORGE GAVIDIA RODRIGUEZ",
@@ -9599,7 +9599,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AMELIA JULIA PRINCIPE TRUJILLO",
@@ -9614,7 +9614,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VLADIMIR ANTONIO MEZA VILLARREAL",
@@ -9629,7 +9629,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALFONSO CARLOS ESPA Y GARCES-ALVEAR",
@@ -9644,7 +9644,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA SOLEDAD PEREZ TELLO",
@@ -9659,7 +9659,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL LÓPEZ ALIAGA",
@@ -9689,7 +9689,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO MUÑANTE BARRIOS",
@@ -9705,7 +9705,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KATHERINE AMPUERO MEZA",
@@ -9735,7 +9735,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA ALCORTA SUERO",
@@ -9765,7 +9765,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ESTANISLAO MANCHA PINEDA",
@@ -9795,18 +9795,18 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         }
       ],
-      "blankNull": 4237461,
+      "blankNull": 4238386,
       "status": {
-        "percent": 82.973,
-        "processed": 76971,
+        "percent": 82.989,
+        "processed": 76986,
         "total": 92766,
         "jee": 0,
-        "pending": 15795,
-        "blankNull": 4237461,
-        "updated": "2026-05-09T02:00:19.419Z"
+        "pending": 15780,
+        "blankNull": 4238386,
+        "updated": "2026-05-09T02:30:17.258Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -10190,7 +10190,7 @@
             "jee": 0,
             "pending": 192,
             "blankNull": 105143,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -11282,7 +11282,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:00:19.419Z"
           }
         },
         {
@@ -11418,7 +11418,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -12816,7 +12816,7 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "blankNull": 345559,
+          "blankNull": 345639,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -12948,13 +12948,13 @@
             }
           ],
           "status": {
-            "percent": 79.701,
-            "processed": 4209,
+            "percent": 79.72,
+            "processed": 4210,
             "total": 5281,
             "jee": 0,
-            "pending": 1072,
-            "blankNull": 345559,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "pending": 1071,
+            "blankNull": 345639,
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -13082,7 +13082,7 @@
             "jee": 0,
             "pending": 264,
             "blankNull": 224678,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -13474,7 +13474,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -13606,7 +13606,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           }
         },
         {
@@ -13929,7 +13929,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NILZA CHACON TRUJILLO",
@@ -13959,7 +13959,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANDRES RAMOS HUILLCAS",
@@ -13989,7 +13989,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUVER FLORES SUAREZ",
@@ -14019,7 +14019,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDYSON MORALES RAMIREZ",
@@ -14049,7 +14049,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SEGUNDO TAPIA BERNAL",
@@ -14079,7 +14079,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JACQUES RODRICH ACKERMAN",
@@ -14109,7 +14109,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "WILFREDO VERANO SARAVIA",
@@ -14125,7 +14125,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOAQUIN YAURI TUNQUE",
@@ -14141,7 +14141,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SERAFIN ANDRES LUJAN",
@@ -14157,7 +14157,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL YAMASHIRO ORE",
@@ -14187,7 +14187,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DAVID JIMENEZ HEREDIA",
@@ -14217,7 +14217,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR FLORES RUIZ",
@@ -14247,7 +14247,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO AGUINAGA RECUENCO",
@@ -14277,7 +14277,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARCO MIYASHIRO ARASHIRO",
@@ -14307,7 +14307,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NORA BONIFAZ CARMONA",
@@ -14323,7 +14323,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FRANCISCO CALISTO GIAMPIETRI",
@@ -14353,7 +14353,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA DE AGUAYO",
@@ -14383,7 +14383,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ELARD MELGAR VALDEZ",
@@ -14413,7 +14413,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN AGUILA CARDENAS",
@@ -14443,7 +14443,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HUGO CCAHUANA AYMACHOQUE",
@@ -14473,7 +14473,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR CUTIPA CCAMA",
@@ -14503,7 +14503,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PERCY OSORIO PALPAN",
@@ -14533,7 +14533,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KARLA SCHAEFER CUCULIZA",
@@ -14563,7 +14563,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE CHIPANA CHIPANA",
@@ -14593,7 +14593,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL ANGEL VELASQUEZ GARCIA",
@@ -14608,7 +14608,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL VELASQUEZ GARCIA",
@@ -14638,7 +14638,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR NORIEGA REATEGUI",
@@ -14683,7 +14683,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HECTOR JOSE VENTURA ANGEL",
@@ -14698,7 +14698,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HECTOR VENTURA ANGEL",
@@ -14729,18 +14729,18 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         }
       ],
-      "blankNull": 5489913,
+      "blankNull": 5489993,
       "status": {
-        "percent": 87.202,
-        "processed": 80894,
+        "percent": 87.203,
+        "processed": 80895,
         "total": 92766,
         "jee": 0,
-        "pending": 11872,
-        "blankNull": 5489913,
-        "updated": "2026-05-09T02:00:19.419Z"
+        "pending": 11871,
+        "blankNull": 5489993,
+        "updated": "2026-05-09T02:15:03.661Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -15101,284 +15101,284 @@
         {
           "name": "NACIONAL",
           "seats": 5,
-          "blankNull": 5750008,
+          "blankNull": 5750709,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 1776038
+              "votes": 1776153
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1474223
+              "votes": 1474312
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1422227
+              "votes": 1422456
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1403815
+              "votes": 1403884
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1130349
+              "votes": 1130445
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1004976
+              "votes": 1005106
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 726511
+              "votes": 726575
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 437549
+              "votes": 437593
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 261610
+              "votes": 261641
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 243662
+              "votes": 243704
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 215624
+              "votes": 215691
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 210397
+              "votes": 210409
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 167393
+              "votes": 167405
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 133018
+              "votes": 133037
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 128106
+              "votes": 128162
             },
             {
               "party": "VENCEREMOS",
-              "votes": 121837
+              "votes": 121860
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 112338
+              "votes": 112361
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 107756
+              "votes": 107757
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 106883
+              "votes": 106900
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 97485
+              "votes": 97501
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 88308
+              "votes": 88332
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 84024
+              "votes": 84032
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 63610
+              "votes": 63622
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 57556
+              "votes": 57557
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 57329
+              "votes": 57332
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 50448
+              "votes": 50451
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 49511
+              "votes": 49513
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 31553
+              "votes": 31557
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 22168
+              "votes": 22174
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 20066
+              "votes": 20068
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 18039
+              "votes": 18042
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 11524
+              "votes": 11526
             },
             {
               "party": "PERÚ MODERNO",
-              "votes": 11359
+              "votes": 11361
             }
           ],
           "status": {
-            "percent": 86.956,
-            "processed": 80666,
+            "percent": 86.966,
+            "processed": 80675,
             "total": 92766,
             "jee": 0,
-            "pending": 12100,
-            "blankNull": 5750008,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "pending": 12091,
+            "blankNull": 5750709,
+            "updated": "2026-05-09T02:30:17.258Z"
           }
         }
       ],
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1776038
+          "votes": 1776153
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1474223
+          "votes": 1474312
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1422227
+          "votes": 1422456
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1403815
+          "votes": 1403884
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1130349
+          "votes": 1130445
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1004976
+          "votes": 1005106
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 726511
+          "votes": 726575
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 437549
+          "votes": 437593
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 261610
+          "votes": 261641
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 243662
+          "votes": 243704
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 215624
+          "votes": 215691
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 210397
+          "votes": 210409
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 167393
+          "votes": 167405
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 133018
+          "votes": 133037
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 128106
+          "votes": 128162
         },
         {
           "party": "VENCEREMOS",
-          "votes": 121837
+          "votes": 121860
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 112338
+          "votes": 112361
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 107756
+          "votes": 107757
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 106883
+          "votes": 106900
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 97485
+          "votes": 97501
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 88308
+          "votes": 88332
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 84024
+          "votes": 84032
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 63610
+          "votes": 63622
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 57556
+          "votes": 57557
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 57329
+          "votes": 57332
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 50448
+          "votes": 50451
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 49511
+          "votes": 49513
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 31553
+          "votes": 31557
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 22168
+          "votes": 22174
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 20066
+          "votes": 20068
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 18039
+          "votes": 18042
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 11524
+          "votes": 11526
         },
         {
           "party": "PERÚ MODERNO",
-          "votes": 11359
+          "votes": 11361
         }
       ],
       "candidates": [
@@ -15549,7 +15549,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROSARIO GUEVARA BADILLO",
@@ -15578,7 +15578,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PEDRO CASANOVA SAAVEDRA",
@@ -15607,7 +15607,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ZARA ZANABRIA POMA",
@@ -15664,7 +15664,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROSARIO MORI ISUISA",
@@ -15693,7 +15693,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JORGE MANCO ZACONETTI",
@@ -15722,7 +15722,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RICHARD HIDALGO MORENO",
@@ -15835,7 +15835,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ERNESTO LEON DIAZ",
@@ -15864,7 +15864,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CONSTANTINO LOA ORTIZ",
@@ -15880,7 +15880,7 @@
           "tipoCandidatura": "SEGUNDO SUPLENTE",
           "numEscanioPartido": null,
           "senateBlock": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROSA ZEGARRA FARFAN",
@@ -15923,7 +15923,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PAMELA OSORIO ESPINOZA",
@@ -15952,7 +15952,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA ÑAÑEZ MILLONES",
@@ -15981,7 +15981,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS AQUIÑO GOMERO",
@@ -16262,7 +16262,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "GUILLERMO VALDIVIESO MENDEZ",
@@ -16291,7 +16291,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "LEONCIO MERINO DURAN",
@@ -16320,7 +16320,7 @@
           "senateBlock": null,
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EVERLENY BELLO SOLORZANO",
@@ -16379,15 +16379,15 @@
           "numEscanioPartido": null
         }
       ],
-      "blankNull": 5750008,
+      "blankNull": 5750709,
       "status": {
-        "percent": 86.956,
-        "processed": 80666,
+        "percent": 86.966,
+        "processed": 80675,
         "total": 92766,
         "jee": 0,
-        "pending": 12100,
-        "blankNull": 5750008,
-        "updated": "2026-05-09T02:00:19.419Z"
+        "pending": 12091,
+        "blankNull": 5750709,
+        "updated": "2026-05-09T02:30:17.258Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -16626,157 +16626,157 @@
         {
           "name": "SENADO NACIONAL",
           "seats": 30,
-          "blankNull": 4237461,
+          "blankNull": 4238386,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 1848588
+              "votes": 1848969
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1500062
+              "votes": 1500245
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1435847
+              "votes": 1436288
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1365547
+              "votes": 1365897
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1112858
+              "votes": 1113067
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1051887
+              "votes": 1052147
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 729157
+              "votes": 729326
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 458304
+              "votes": 458411
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 353116
+              "votes": 353216
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 322290
+              "votes": 322354
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 275205
+              "votes": 275256
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 215654
+              "votes": 215697
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 209208
+              "votes": 209256
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 193547
+              "votes": 193587
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 163067
+              "votes": 163094
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 140751
+              "votes": 140774
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 128675
+              "votes": 128685
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 126161
+              "votes": 126195
             },
             {
               "party": "VENCEREMOS",
-              "votes": 113876
+              "votes": 113893
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 103806
+              "votes": 103811
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 102140
+              "votes": 102168
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 96241
+              "votes": 96255
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 94465
+              "votes": 94478
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 64084
+              "votes": 64108
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 62777
+              "votes": 62789
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 58933
+              "votes": 58954
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 55663
+              "votes": 55668
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 49598
+              "votes": 49613
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 45939
+              "votes": 45953
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 27573
+              "votes": 27574
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 22613
+              "votes": 22617
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 18336
+              "votes": 18339
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 18061
+              "votes": 18064
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 17486
+              "votes": 17489
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 13474
+              "votes": 13478
             }
           ],
           "status": {
-            "percent": 82.973,
-            "processed": 76971,
+            "percent": 82.989,
+            "processed": 76986,
             "total": 92766,
             "jee": 0,
-            "pending": 15795,
-            "blankNull": 4237461,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "pending": 15780,
+            "blankNull": 4238386,
+            "updated": "2026-05-09T02:30:17.258Z"
           },
           "group": "Nacional"
         },
@@ -16897,7 +16897,7 @@
             "jee": 0,
             "pending": 192,
             "blankNull": 105143,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -17997,7 +17997,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:00:19.419Z"
           },
           "group": "Regional"
         },
@@ -18134,7 +18134,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -19543,7 +19543,7 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "blankNull": 345559,
+          "blankNull": 345639,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -19675,13 +19675,13 @@
             }
           ],
           "status": {
-            "percent": 79.701,
-            "processed": 4209,
+            "percent": 79.72,
+            "processed": 4210,
             "total": 5281,
             "jee": 0,
-            "pending": 1072,
-            "blankNull": 345559,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "pending": 1071,
+            "blankNull": 345639,
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -19810,7 +19810,7 @@
             "jee": 0,
             "pending": 264,
             "blankNull": 224678,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -20205,7 +20205,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -20338,7 +20338,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -20487,143 +20487,143 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 3738335
+          "votes": 3738716
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 2899302
+          "votes": 2899743
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 2802814
+          "votes": 2803164
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 2699516
+          "votes": 2699699
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2216724
+          "votes": 2216933
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 2098073
+          "votes": 2098333
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 1478521
+          "votes": 1478690
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 865798
+          "votes": 865905
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 621221
+          "votes": 621285
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 563132
+          "votes": 563183
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 437554
+          "votes": 437602
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 431792
+          "votes": 431835
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 430536
+          "votes": 430576
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 403473
+          "votes": 403573
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 363424
+          "votes": 363451
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 284883
+          "votes": 284906
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 277019
+          "votes": 277029
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 240358
+          "votes": 240392
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 212630
+          "votes": 212635
         },
         {
           "party": "VENCEREMOS",
-          "votes": 209057
+          "votes": 209074
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 207906
+          "votes": 207919
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 188387
+          "votes": 188415
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 145681
+          "votes": 145695
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 134696
+          "votes": 134720
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 127983
+          "votes": 127995
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 120091
+          "votes": 120112
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 114057
+          "votes": 114062
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 105255
+          "votes": 105270
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 93933
+          "votes": 93947
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 61978
+          "votes": 61979
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 38747
+          "votes": 38751
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 34567
+          "votes": 34570
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 34053
+          "votes": 34056
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 34042
+          "votes": 34045
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 19508
+          "votes": 19512
         },
         {
           "party": "SALVEMOS AL PERÚ",
@@ -20663,7 +20663,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAIME DELGADO ZEGARRA",
@@ -20693,7 +20693,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RUTH LUQUE IBARRA",
@@ -20709,7 +20709,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Nacional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIRTHA VASQUEZ CHUQUILIN",
@@ -20739,7 +20739,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN JOSE SANTIVAÑEZ ANTUNEZ",
@@ -20754,7 +20754,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL TORRES MORALES",
@@ -20784,7 +20784,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARTHA CHAVEZ COSSIO",
@@ -20814,7 +20814,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FERNANDO ROSPIGLIOSI CAPURRO",
@@ -20844,7 +20844,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARMEN JUAREZ GALLEGOS",
@@ -20874,7 +20874,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARTHA MOYANO DELGADO",
@@ -20904,7 +20904,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR ASTUDILLO SALCEDO",
@@ -20934,7 +20934,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS MESIA RAMIREZ",
@@ -20964,7 +20964,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE CASTILLO TERRONES",
@@ -20994,7 +20994,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SILVANA ROBLES ARAUJO",
@@ -21024,7 +21024,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "BERNARDO QUITO SARMIENTO",
@@ -21054,7 +21054,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SAUL ARMACANQUI MORALES",
@@ -21084,7 +21084,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "IBER MARAVI OLARTE",
@@ -21114,7 +21114,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DANIEL BARRAGAN COLOMA",
@@ -21144,7 +21144,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AGRIPINA FLORES CORDOVA",
@@ -21174,7 +21174,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "WALTER GAGO RODRIGUEZ",
@@ -21204,7 +21204,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROGER ASTUCURI LAURA",
@@ -21234,7 +21234,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FLAVIO FIGALLO RIVADENEYRA",
@@ -21264,7 +21264,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PATRICIA ITURREGUI BYRNE",
@@ -21294,7 +21294,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SUSANA MATUTE CHARUN",
@@ -21324,7 +21324,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS CABALLERO LEON",
@@ -21354,7 +21354,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JORGE GAVIDIA RODRIGUEZ",
@@ -21384,7 +21384,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AMELIA JULIA PRINCIPE TRUJILLO",
@@ -21399,7 +21399,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VLADIMIR ANTONIO MEZA VILLARREAL",
@@ -21414,7 +21414,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALFONSO CARLOS ESPA Y GARCES-ALVEAR",
@@ -21429,7 +21429,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA SOLEDAD PEREZ TELLO",
@@ -21444,7 +21444,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL LÓPEZ ALIAGA",
@@ -21474,7 +21474,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO MUÑANTE BARRIOS",
@@ -21490,7 +21490,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Nacional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KATHERINE AMPUERO MEZA",
@@ -21520,7 +21520,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA ALCORTA SUERO",
@@ -21550,7 +21550,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ESTANISLAO MANCHA PINEDA",
@@ -21580,7 +21580,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE ARISTA ARBILDO",
@@ -21610,7 +21610,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NILZA CHACON TRUJILLO",
@@ -21640,7 +21640,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANDRES RAMOS HUILLCAS",
@@ -21670,7 +21670,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUVER FLORES SUAREZ",
@@ -21700,7 +21700,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDYSON MORALES RAMIREZ",
@@ -21730,7 +21730,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SEGUNDO TAPIA BERNAL",
@@ -21760,7 +21760,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JACQUES RODRICH ACKERMAN",
@@ -21790,7 +21790,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "WILFREDO VERANO SARAVIA",
@@ -21806,7 +21806,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOAQUIN YAURI TUNQUE",
@@ -21822,7 +21822,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SERAFIN ANDRES LUJAN",
@@ -21838,7 +21838,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL YAMASHIRO ORE",
@@ -21868,7 +21868,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DAVID JIMENEZ HEREDIA",
@@ -21898,7 +21898,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR FLORES RUIZ",
@@ -21928,7 +21928,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO AGUINAGA RECUENCO",
@@ -21958,7 +21958,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARCO MIYASHIRO ARASHIRO",
@@ -21988,7 +21988,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NORA BONIFAZ CARMONA",
@@ -22004,7 +22004,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FRANCISCO CALISTO GIAMPIETRI",
@@ -22034,7 +22034,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA DE AGUAYO",
@@ -22064,7 +22064,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ELARD MELGAR VALDEZ",
@@ -22094,7 +22094,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN AGUILA CARDENAS",
@@ -22124,7 +22124,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HUGO CCAHUANA AYMACHOQUE",
@@ -22154,7 +22154,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR CUTIPA CCAMA",
@@ -22184,7 +22184,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PERCY OSORIO PALPAN",
@@ -22214,7 +22214,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KARLA SCHAEFER CUCULIZA",
@@ -22244,7 +22244,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE CHIPANA CHIPANA",
@@ -22274,7 +22274,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL ANGEL VELASQUEZ GARCIA",
@@ -22289,7 +22289,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL VELASQUEZ GARCIA",
@@ -22319,7 +22319,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR NORIEGA REATEGUI",
@@ -22364,7 +22364,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HECTOR JOSE VENTURA ANGEL",
@@ -22379,7 +22379,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HECTOR VENTURA ANGEL",
@@ -22410,18 +22410,18 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         }
       ],
-      "blankNull": 9727374,
+      "blankNull": 9728379,
       "status": {
-        "percent": 85.088,
-        "processed": 157865,
+        "percent": 85.096,
+        "processed": 157881,
         "total": 185532,
         "jee": 0,
-        "pending": 27667,
-        "blankNull": 9727374,
-        "updated": "2026-05-09T02:00:19.419Z"
+        "pending": 27651,
+        "blankNull": 9728379,
+        "updated": "2026-05-09T02:30:17.258Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -22836,157 +22836,157 @@
         {
           "name": "SENADO NACIONAL",
           "seats": 30,
-          "blankNull": 4237461,
+          "blankNull": 4238386,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 1848588
+              "votes": 1848969
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1500062
+              "votes": 1500245
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1435847
+              "votes": 1436288
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1365547
+              "votes": 1365897
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1112858
+              "votes": 1113067
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1051887
+              "votes": 1052147
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 729157
+              "votes": 729326
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 458304
+              "votes": 458411
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 353116
+              "votes": 353216
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 322290
+              "votes": 322354
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 275205
+              "votes": 275256
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 215654
+              "votes": 215697
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 209208
+              "votes": 209256
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 193547
+              "votes": 193587
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 163067
+              "votes": 163094
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 140751
+              "votes": 140774
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 128675
+              "votes": 128685
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 126161
+              "votes": 126195
             },
             {
               "party": "VENCEREMOS",
-              "votes": 113876
+              "votes": 113893
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 103806
+              "votes": 103811
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 102140
+              "votes": 102168
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 96241
+              "votes": 96255
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 94465
+              "votes": 94478
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 64084
+              "votes": 64108
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 62777
+              "votes": 62789
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 58933
+              "votes": 58954
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 55663
+              "votes": 55668
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 49598
+              "votes": 49613
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 45939
+              "votes": 45953
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 27573
+              "votes": 27574
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 22613
+              "votes": 22617
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 18336
+              "votes": 18339
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 18061
+              "votes": 18064
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 17486
+              "votes": 17489
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 13474
+              "votes": 13478
             }
           ],
           "status": {
-            "percent": 82.973,
-            "processed": 76971,
+            "percent": 82.989,
+            "processed": 76986,
             "total": 92766,
             "jee": 0,
-            "pending": 15795,
-            "blankNull": 4237461,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "pending": 15780,
+            "blankNull": 4238386,
+            "updated": "2026-05-09T02:30:17.258Z"
           },
           "group": "Nacional"
         },
@@ -23107,7 +23107,7 @@
             "jee": 0,
             "pending": 192,
             "blankNull": 105143,
-            "updated": "2026-05-09T02:00:19.419Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -24207,7 +24207,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:00:19.419Z"
           },
           "group": "Regional"
         },
@@ -24344,7 +24344,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -25753,7 +25753,7 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "blankNull": 345559,
+          "blankNull": 345639,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -25885,13 +25885,13 @@
             }
           ],
           "status": {
-            "percent": 79.701,
-            "processed": 4209,
+            "percent": 79.72,
+            "processed": 4210,
             "total": 5281,
             "jee": 0,
-            "pending": 1072,
-            "blankNull": 345559,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "pending": 1071,
+            "blankNull": 345639,
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -26020,7 +26020,7 @@
             "jee": 0,
             "pending": 264,
             "blankNull": 224678,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -26415,7 +26415,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -26548,7 +26548,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-09T01:45:11.760Z"
+            "updated": "2026-05-09T02:15:03.661Z"
           },
           "group": "Regional"
         },
@@ -26697,143 +26697,143 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 3738335
+          "votes": 3738716
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 2899302
+          "votes": 2899743
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 2802814
+          "votes": 2803164
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 2699516
+          "votes": 2699699
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2216724
+          "votes": 2216933
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 2098073
+          "votes": 2098333
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 1478521
+          "votes": 1478690
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 865798
+          "votes": 865905
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 621221
+          "votes": 621285
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 563132
+          "votes": 563183
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 437554
+          "votes": 437602
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 431792
+          "votes": 431835
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 430536
+          "votes": 430576
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 403473
+          "votes": 403573
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 363424
+          "votes": 363451
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 284883
+          "votes": 284906
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 277019
+          "votes": 277029
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 240358
+          "votes": 240392
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 212630
+          "votes": 212635
         },
         {
           "party": "VENCEREMOS",
-          "votes": 209057
+          "votes": 209074
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 207906
+          "votes": 207919
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 188387
+          "votes": 188415
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 145681
+          "votes": 145695
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 134696
+          "votes": 134720
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 127983
+          "votes": 127995
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 120091
+          "votes": 120112
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 114057
+          "votes": 114062
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 105255
+          "votes": 105270
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 93933
+          "votes": 93947
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 61978
+          "votes": 61979
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 38747
+          "votes": 38751
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 34567
+          "votes": 34570
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 34053
+          "votes": 34056
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 34042
+          "votes": 34045
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 19508
+          "votes": 19512
         },
         {
           "party": "SALVEMOS AL PERÚ",
@@ -26873,7 +26873,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JAIME DELGADO ZEGARRA",
@@ -26903,7 +26903,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RUTH LUQUE IBARRA",
@@ -26919,7 +26919,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Nacional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIRTHA VASQUEZ CHUQUILIN",
@@ -26949,7 +26949,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN JOSE SANTIVAÑEZ ANTUNEZ",
@@ -26964,7 +26964,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL TORRES MORALES",
@@ -26994,7 +26994,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARTHA CHAVEZ COSSIO",
@@ -27024,7 +27024,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FERNANDO ROSPIGLIOSI CAPURRO",
@@ -27054,7 +27054,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARMEN JUAREZ GALLEGOS",
@@ -27084,7 +27084,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARTHA MOYANO DELGADO",
@@ -27114,7 +27114,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CESAR ASTUDILLO SALCEDO",
@@ -27144,7 +27144,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS MESIA RAMIREZ",
@@ -27174,7 +27174,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE CASTILLO TERRONES",
@@ -27204,7 +27204,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SILVANA ROBLES ARAUJO",
@@ -27234,7 +27234,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "BERNARDO QUITO SARMIENTO",
@@ -27264,7 +27264,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SAUL ARMACANQUI MORALES",
@@ -27294,7 +27294,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "IBER MARAVI OLARTE",
@@ -27324,7 +27324,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DANIEL BARRAGAN COLOMA",
@@ -27354,7 +27354,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AGRIPINA FLORES CORDOVA",
@@ -27384,7 +27384,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "WALTER GAGO RODRIGUEZ",
@@ -27414,7 +27414,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ROGER ASTUCURI LAURA",
@@ -27444,7 +27444,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FLAVIO FIGALLO RIVADENEYRA",
@@ -27474,7 +27474,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PATRICIA ITURREGUI BYRNE",
@@ -27504,7 +27504,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SUSANA MATUTE CHARUN",
@@ -27534,7 +27534,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "CARLOS CABALLERO LEON",
@@ -27564,7 +27564,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JORGE GAVIDIA RODRIGUEZ",
@@ -27594,7 +27594,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "AMELIA JULIA PRINCIPE TRUJILLO",
@@ -27609,7 +27609,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VLADIMIR ANTONIO MEZA VILLARREAL",
@@ -27624,7 +27624,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALFONSO CARLOS ESPA Y GARCES-ALVEAR",
@@ -27639,7 +27639,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA SOLEDAD PEREZ TELLO",
@@ -27654,7 +27654,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL LÓPEZ ALIAGA",
@@ -27684,7 +27684,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO MUÑANTE BARRIOS",
@@ -27700,7 +27700,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Nacional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KATHERINE AMPUERO MEZA",
@@ -27730,7 +27730,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA ALCORTA SUERO",
@@ -27760,7 +27760,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ESTANISLAO MANCHA PINEDA",
@@ -27790,7 +27790,7 @@
           "senateBlock": "Nacional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE ARISTA ARBILDO",
@@ -27820,7 +27820,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NILZA CHACON TRUJILLO",
@@ -27850,7 +27850,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ANDRES RAMOS HUILLCAS",
@@ -27880,7 +27880,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUVER FLORES SUAREZ",
@@ -27910,7 +27910,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "EDYSON MORALES RAMIREZ",
@@ -27940,7 +27940,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SEGUNDO TAPIA BERNAL",
@@ -27970,7 +27970,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JACQUES RODRICH ACKERMAN",
@@ -28000,7 +28000,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "WILFREDO VERANO SARAVIA",
@@ -28016,7 +28016,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOAQUIN YAURI TUNQUE",
@@ -28032,7 +28032,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "SERAFIN ANDRES LUJAN",
@@ -28048,7 +28048,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "RAFAEL YAMASHIRO ORE",
@@ -28078,7 +28078,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "DAVID JIMENEZ HEREDIA",
@@ -28108,7 +28108,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR FLORES RUIZ",
@@ -28138,7 +28138,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ALEJANDRO AGUINAGA RECUENCO",
@@ -28168,7 +28168,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARCO MIYASHIRO ARASHIRO",
@@ -28198,7 +28198,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "NORA BONIFAZ CARMONA",
@@ -28214,7 +28214,7 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "FRANCISCO CALISTO GIAMPIETRI",
@@ -28244,7 +28244,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MARIA DE AGUAYO",
@@ -28274,7 +28274,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "ELARD MELGAR VALDEZ",
@@ -28304,7 +28304,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JUAN AGUILA CARDENAS",
@@ -28334,7 +28334,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HUGO CCAHUANA AYMACHOQUE",
@@ -28364,7 +28364,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR CUTIPA CCAMA",
@@ -28394,7 +28394,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "PERCY OSORIO PALPAN",
@@ -28424,7 +28424,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "KARLA SCHAEFER CUCULIZA",
@@ -28454,7 +28454,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "JOSE CHIPANA CHIPANA",
@@ -28484,7 +28484,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL ANGEL VELASQUEZ GARCIA",
@@ -28499,7 +28499,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "MIGUEL VELASQUEZ GARCIA",
@@ -28529,7 +28529,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "VICTOR NORIEGA REATEGUI",
@@ -28574,7 +28574,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HECTOR JOSE VENTURA ANGEL",
@@ -28589,7 +28589,7 @@
           "senateBlock": "Regional",
           "dni": "",
           "idHojaVida": null,
-          "sourceBackup": false
+          "sourceBackup": true
         },
         {
           "name": "HECTOR VENTURA ANGEL",
@@ -28620,18 +28620,18 @@
           "tipoCandidatura": "TITULAR",
           "numEscanioPartido": null,
           "senateBlock": "Regional",
-          "sourceBackup": false
+          "sourceBackup": true
         }
       ],
-      "blankNull": 9727374,
+      "blankNull": 9728379,
       "status": {
-        "percent": 85.088,
-        "processed": 157865,
+        "percent": 85.096,
+        "processed": 157881,
         "total": 185532,
         "jee": 0,
-        "pending": 27667,
-        "blankNull": 9727374,
-        "updated": "2026-05-09T02:00:19.419Z"
+        "pending": 27651,
+        "blankNull": 9728379,
+        "updated": "2026-05-09T02:30:17.258Z"
       },
       "allocations": {
         "noBarrier": [],
