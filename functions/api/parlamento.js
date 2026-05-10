@@ -12,11 +12,9 @@ export async function onRequestGet({ env, request }) {
   try {
     const candidates = [
       "https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json",
-  new URL("/data/parlamento-2026.json", request.url).toString()
+      new URL("/data/parlamento-2026.json", request.url).toString()
     ];
     if (env.ONPE_PARLAMENTO_JSON_URL) candidates.push(env.ONPE_PARLAMENTO_JSON_URL);
-    candidates.push(new URL("/data/parlamento-2026.json", request.url).toString());
-    candidates.push("https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json");
 
     let lastError = null;
     for (const sourceUrl of candidates) {
