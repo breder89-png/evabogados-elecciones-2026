@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-05-10T22:20:16.336Z",
+  "updatedAt": "2026-05-10T22:31:59.439Z",
   "status": {
-    "percent": 86.228,
-    "processed": 319960,
+    "percent": 86.238,
+    "processed": 319999,
     "total": 371064,
     "jee": 0,
-    "pending": 51104,
-    "blankNull": 20331187,
-    "updated": "2026-05-10T22:00:05.108Z"
+    "pending": 51065,
+    "blankNull": 20334106,
+    "updated": "2026-05-10T22:15:03.220Z"
   },
   "camaras": {
     "diputados": {
@@ -372,7 +372,7 @@
             "jee": 0,
             "pending": 226,
             "blankNull": 100983,
-            "updated": "2026-05-10T22:00:05.108Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -524,7 +524,7 @@
             "jee": 0,
             "pending": 536,
             "blankNull": 187951,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -660,7 +660,7 @@
             "jee": 0,
             "pending": 43,
             "blankNull": 79156,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -820,7 +820,7 @@
             "jee": 0,
             "pending": 129,
             "blankNull": 190698,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -948,7 +948,7 @@
             "jee": 0,
             "pending": 133,
             "blankNull": 94970,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -1100,7 +1100,7 @@
             "jee": 0,
             "pending": 816,
             "blankNull": 213183,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -1252,7 +1252,7 @@
             "jee": 0,
             "pending": 224,
             "blankNull": 171976,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -1400,7 +1400,7 @@
             "jee": 0,
             "pending": 575,
             "blankNull": 194040,
-            "updated": "2026-05-10T20:30:03.115Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -1524,7 +1524,7 @@
             "jee": 0,
             "pending": 162,
             "blankNull": 63209,
-            "updated": "2026-05-10T20:30:03.115Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -1660,7 +1660,7 @@
             "jee": 0,
             "pending": 414,
             "blankNull": 112923,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -1816,7 +1816,7 @@
             "jee": 0,
             "pending": 719,
             "blankNull": 113499,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -1968,159 +1968,159 @@
             "jee": 0,
             "pending": 329,
             "blankNull": 208615,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
           "name": "LA LIBERTAD",
           "seats": 7,
-          "blankNull": 273300,
+          "blankNull": 275398,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 120860
+              "votes": 121816
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 73677
+              "votes": 74098
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 67113
+              "votes": 67569
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 63849
+              "votes": 64105
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 52391
+              "votes": 52631
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 42943
+              "votes": 43246
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 40642
+              "votes": 40876
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 33976
+              "votes": 34171
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 31815
+              "votes": 31994
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 30916
+              "votes": 31029
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 21436
+              "votes": 21531
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 20158
+              "votes": 20290
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 19713
+              "votes": 19786
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 12313
+              "votes": 12381
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 10258
+              "votes": 10306
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 8965
+              "votes": 9013
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 7626
+              "votes": 7657
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 7481
+              "votes": 7518
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 5958
+              "votes": 5991
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 5590
+              "votes": 5631
             },
             {
               "party": "VENCEREMOS",
-              "votes": 4338
+              "votes": 4368
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 3755
+              "votes": 3781
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 3618
+              "votes": 3639
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 3431
+              "votes": 3448
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 3120
+              "votes": 3135
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2795
+              "votes": 2809
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 2688
+              "votes": 2703
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 2542
+              "votes": 2556
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 2225
+              "votes": 2243
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 2190
+              "votes": 2204
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 2127
+              "votes": 2146
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 1239
+              "votes": 1248
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1156
+              "votes": 1159
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 1077
+              "votes": 1084
             }
           ],
           "status": {
-            "percent": 84.76,
-            "processed": 4494,
+            "percent": 85.27,
+            "processed": 4521,
             "total": 5302,
             "jee": 0,
-            "pending": 808,
-            "blankNull": 273300,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "pending": 781,
+            "blankNull": 275398,
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -2268,7 +2268,7 @@
             "jee": 0,
             "pending": 473,
             "blankNull": 208870,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -2432,7 +2432,7 @@
             "jee": 0,
             "pending": 2371,
             "blankNull": 1162746,
-            "updated": "2026-05-10T21:15:02.285Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -2588,7 +2588,7 @@
             "jee": 0,
             "pending": 395,
             "blankNull": 164702,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -2728,7 +2728,7 @@
             "jee": 0,
             "pending": 776,
             "blankNull": 115414,
-            "updated": "2026-05-10T21:30:04.358Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -2868,7 +2868,7 @@
             "jee": 0,
             "pending": 68,
             "blankNull": 30250,
-            "updated": "2026-05-10T21:30:04.358Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -2996,7 +2996,7 @@
             "jee": 0,
             "pending": 12,
             "blankNull": 37659,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -3116,7 +3116,7 @@
             "jee": 0,
             "pending": 84,
             "blankNull": 53889,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -3268,7 +3268,7 @@
             "jee": 0,
             "pending": 1308,
             "blankNull": 348347,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -3416,7 +3416,7 @@
             "jee": 0,
             "pending": 331,
             "blankNull": 176633,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -3556,7 +3556,7 @@
             "jee": 0,
             "pending": 640,
             "blankNull": 158997,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -3688,7 +3688,7 @@
             "jee": 0,
             "pending": 38,
             "blankNull": 51449,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -3812,7 +3812,7 @@
             "jee": 0,
             "pending": 142,
             "blankNull": 43390,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -3952,7 +3952,7 @@
             "jee": 0,
             "pending": 400,
             "blankNull": 83002,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -4096,142 +4096,142 @@
             "jee": 0,
             "pending": 1009,
             "blankNull": 89078,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         }
       ],
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1812166
+          "votes": 1813122
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1425178
+          "votes": 1425418
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1360147
+          "votes": 1360403
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1345548
+          "votes": 1346004
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1094483
+          "votes": 1094596
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1053247
+          "votes": 1053550
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 732878
+          "votes": 733112
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 389233
+          "votes": 389306
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 339183
+          "votes": 339378
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 326124
+          "votes": 326256
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 261212
+          "votes": 261260
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 238900
+          "votes": 238968
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 234598
+          "votes": 234777
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 219402
+          "votes": 219497
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 214423
+          "votes": 214471
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 170607
+          "votes": 170644
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 145600
+          "votes": 145615
         },
         {
           "party": "VENCEREMOS",
-          "votes": 141434
+          "votes": 141464
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 120546
+          "votes": 120579
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 118315
+          "votes": 118336
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 109705
+          "votes": 110126
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 106294
+          "votes": 106325
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 95212
+          "votes": 95227
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 86485
+          "votes": 86526
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 81201
+          "votes": 81218
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 76956
+          "votes": 76982
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 66410
+          "votes": 66424
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 62930
+          "votes": 62944
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 51543
+          "votes": 51557
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 41921
+          "votes": 41940
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 24117
+          "votes": 24126
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 23144
+          "votes": 23162
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 19847
+          "votes": 19854
         },
         {
           "party": "SALVEMOS AL PERÚ",
@@ -4239,7 +4239,7 @@
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 17784
+          "votes": 17787
         },
         {
           "party": "PERÚ MODERNO",
@@ -6427,15 +6427,15 @@
           "numEscanioPartido": null
         }
       ],
-      "blankNull": 4728929,
+      "blankNull": 4731027,
       "status": {
-        "percent": 85.813,
-        "processed": 79605,
+        "percent": 85.842,
+        "processed": 79632,
         "total": 92766,
         "jee": 0,
-        "pending": 13161,
-        "blankNull": 4728929,
-        "updated": "2026-05-10T22:00:05.108Z"
+        "pending": 13134,
+        "blankNull": 4731027,
+        "updated": "2026-05-10T22:15:03.220Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -7188,7 +7188,7 @@
             "jee": 0,
             "pending": 15228,
             "blankNull": 4269973,
-            "updated": "2026-05-10T22:00:05.108Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         }
       ],
@@ -7899,7 +7899,7 @@
         "jee": 0,
         "pending": 15228,
         "blankNull": 4269973,
-        "updated": "2026-05-10T22:00:05.108Z"
+        "updated": "2026-05-10T22:15:03.220Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -8283,7 +8283,7 @@
             "jee": 0,
             "pending": 183,
             "blankNull": 105911,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -8435,7 +8435,7 @@
             "jee": 0,
             "pending": 579,
             "blankNull": 202038,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -8579,7 +8579,7 @@
             "jee": 0,
             "pending": 56,
             "blankNull": 71387,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -8723,7 +8723,7 @@
             "jee": 0,
             "pending": 109,
             "blankNull": 231152,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -8847,7 +8847,7 @@
             "jee": 0,
             "pending": 148,
             "blankNull": 97723,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -8979,7 +8979,7 @@
             "jee": 0,
             "pending": 453,
             "blankNull": 436621,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -9123,7 +9123,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 177635,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -9267,7 +9267,7 @@
             "jee": 0,
             "pending": 515,
             "blankNull": 214174,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -9375,7 +9375,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -9511,7 +9511,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -9659,7 +9659,7 @@
             "jee": 0,
             "pending": 516,
             "blankNull": 136803,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -9795,155 +9795,155 @@
             "jee": 0,
             "pending": 193,
             "blankNull": 234694,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
           "name": "LA LIBERTAD",
           "seats": 1,
-          "blankNull": 283083,
+          "blankNull": 283904,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 124003
+              "votes": 124293
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 75077
+              "votes": 75464
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 66261
+              "votes": 66455
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 65503
+              "votes": 65713
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 50704
+              "votes": 50854
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 44190
+              "votes": 44351
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 40243
+              "votes": 40336
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 35706
+              "votes": 35780
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 32984
+              "votes": 33049
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 30383
+              "votes": 30445
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 22442
+              "votes": 22528
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 20118
+              "votes": 20171
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 18731
+              "votes": 18784
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 11661
+              "votes": 11692
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 9416
+              "votes": 9434
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 7999
+              "votes": 8017
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 6107
+              "votes": 6136
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 5746
+              "votes": 5765
             },
             {
               "party": "VENCEREMOS",
-              "votes": 4732
+              "votes": 4744
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 4560
+              "votes": 4566
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 4201
+              "votes": 4205
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 4096
+              "votes": 4146
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 3603
+              "votes": 3617
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 3277
+              "votes": 3288
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2595
+              "votes": 2600
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 2362
+              "votes": 2365
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 2277
+              "votes": 2290
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 2114
+              "votes": 2117
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 1914
+              "votes": 1918
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 1684
+              "votes": 1685
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 1132
+              "votes": 1137
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1123
+              "votes": 1126
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 820
+              "votes": 823
             }
           ],
           "status": {
-            "percent": 84.93,
-            "processed": 4503,
+            "percent": 85.157,
+            "processed": 4515,
             "total": 5302,
             "jee": 0,
-            "pending": 799,
-            "blankNull": 283083,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "pending": 787,
+            "blankNull": 283904,
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -10095,7 +10095,7 @@
             "jee": 0,
             "pending": 548,
             "blankNull": 214714,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -10255,7 +10255,7 @@
             "jee": 0,
             "pending": 1984,
             "blankNull": 1411288,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -10407,7 +10407,7 @@
             "jee": 0,
             "pending": 256,
             "blankNull": 176201,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -10543,7 +10543,7 @@
             "jee": 0,
             "pending": 695,
             "blankNull": 127189,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -10659,7 +10659,7 @@
             "jee": 0,
             "pending": 62,
             "blankNull": 37537,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -10791,7 +10791,7 @@
             "jee": 0,
             "pending": 6,
             "blankNull": 38777,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -10903,7 +10903,7 @@
             "jee": 0,
             "pending": 75,
             "blankNull": 48985,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -11047,7 +11047,7 @@
             "jee": 0,
             "pending": 1051,
             "blankNull": 347301,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           }
         },
         {
@@ -11175,7 +11175,7 @@
             "jee": 0,
             "pending": 228,
             "blankNull": 227643,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -11299,7 +11299,7 @@
             "jee": 0,
             "pending": 538,
             "blankNull": 232792,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -11427,7 +11427,7 @@
             "jee": 0,
             "pending": 56,
             "blankNull": 53144,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -11567,7 +11567,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -11699,7 +11699,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         },
         {
@@ -11839,130 +11839,130 @@
             "jee": 0,
             "pending": 921,
             "blankNull": 95941,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         }
       ],
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1901386
+          "votes": 1901676
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1473801
+          "votes": 1473951
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1445966
+          "votes": 1446160
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1209762
+          "votes": 1209972
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1111066
+          "votes": 1111227
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1053081
+          "votes": 1053143
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 754090
+          "votes": 754183
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 410167
+          "votes": 410220
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 300829
+          "votes": 300894
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 290046
+          "votes": 290099
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 239156
+          "votes": 239187
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 230207
+          "votes": 230225
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 217997
+          "votes": 218071
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 201464
+          "votes": 201482
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 149676
+          "votes": 149705
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 145931
+          "votes": 145934
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 114822
+          "votes": 114836
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 114345
+          "votes": 114351
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 110655
+          "votes": 111042
         },
         {
           "party": "VENCEREMOS",
-          "votes": 95842
+          "votes": 95854
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 87043
+          "votes": 87054
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 71024
+          "votes": 71028
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 65615
+          "votes": 65665
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 61614
+          "votes": 61627
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 58895
+          "votes": 58900
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 56007
+          "votes": 56011
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 50927
+          "votes": 51013
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 49711
+          "votes": 49730
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 48361
+          "votes": 48364
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 34721
+          "votes": 34726
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
@@ -11970,15 +11970,15 @@
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 16615
+          "votes": 16618
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 16236
+          "votes": 16237
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 15790
+          "votes": 15793
         },
         {
           "party": "SALVEMOS AL PERÚ",
@@ -12490,15 +12490,15 @@
           "numEscanioPartido": null
         }
       ],
-      "blankNull": 5534776,
+      "blankNull": 5535597,
       "status": {
-        "percent": 87.875,
-        "processed": 81518,
+        "percent": 87.888,
+        "processed": 81530,
         "total": 92766,
         "jee": 0,
-        "pending": 11248,
-        "blankNull": 5534776,
-        "updated": "2026-05-10T20:00:05.878Z"
+        "pending": 11236,
+        "blankNull": 5535597,
+        "updated": "2026-05-10T22:15:03.220Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -13001,7 +13001,7 @@
             "jee": 0,
             "pending": 11467,
             "blankNull": 5797509,
-            "updated": "2026-05-10T22:00:05.108Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           }
         }
       ],
@@ -13989,7 +13989,7 @@
         "jee": 0,
         "pending": 11467,
         "blankNull": 5797509,
-        "updated": "2026-05-10T22:00:05.108Z"
+        "updated": "2026-05-10T22:15:03.220Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -14378,7 +14378,7 @@
             "jee": 0,
             "pending": 15228,
             "blankNull": 4269973,
-            "updated": "2026-05-10T22:00:05.108Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Nacional"
         },
@@ -14499,7 +14499,7 @@
             "jee": 0,
             "pending": 183,
             "blankNull": 105911,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -14652,7 +14652,7 @@
             "jee": 0,
             "pending": 579,
             "blankNull": 202038,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -14797,7 +14797,7 @@
             "jee": 0,
             "pending": 56,
             "blankNull": 71387,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -14942,7 +14942,7 @@
             "jee": 0,
             "pending": 109,
             "blankNull": 231152,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -15067,7 +15067,7 @@
             "jee": 0,
             "pending": 148,
             "blankNull": 97723,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -15200,7 +15200,7 @@
             "jee": 0,
             "pending": 453,
             "blankNull": 436621,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -15345,7 +15345,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 177635,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -15490,7 +15490,7 @@
             "jee": 0,
             "pending": 515,
             "blankNull": 214174,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -15599,7 +15599,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -15736,7 +15736,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -15885,7 +15885,7 @@
             "jee": 0,
             "pending": 516,
             "blankNull": 136803,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -16022,156 +16022,156 @@
             "jee": 0,
             "pending": 193,
             "blankNull": 234694,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
         {
           "name": "LA LIBERTAD",
           "seats": 1,
-          "blankNull": 283083,
+          "blankNull": 283904,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 124003
+              "votes": 124293
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 75077
+              "votes": 75464
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 66261
+              "votes": 66455
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 65503
+              "votes": 65713
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 50704
+              "votes": 50854
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 44190
+              "votes": 44351
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 40243
+              "votes": 40336
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 35706
+              "votes": 35780
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 32984
+              "votes": 33049
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 30383
+              "votes": 30445
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 22442
+              "votes": 22528
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 20118
+              "votes": 20171
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 18731
+              "votes": 18784
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 11661
+              "votes": 11692
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 9416
+              "votes": 9434
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 7999
+              "votes": 8017
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 6107
+              "votes": 6136
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 5746
+              "votes": 5765
             },
             {
               "party": "VENCEREMOS",
-              "votes": 4732
+              "votes": 4744
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 4560
+              "votes": 4566
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 4201
+              "votes": 4205
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 4096
+              "votes": 4146
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 3603
+              "votes": 3617
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 3277
+              "votes": 3288
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2595
+              "votes": 2600
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 2362
+              "votes": 2365
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 2277
+              "votes": 2290
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 2114
+              "votes": 2117
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 1914
+              "votes": 1918
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 1684
+              "votes": 1685
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 1132
+              "votes": 1137
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1123
+              "votes": 1126
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 820
+              "votes": 823
             }
           ],
           "status": {
-            "percent": 84.93,
-            "processed": 4503,
+            "percent": 85.157,
+            "processed": 4515,
             "total": 5302,
             "jee": 0,
-            "pending": 799,
-            "blankNull": 283083,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "pending": 787,
+            "blankNull": 283904,
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -16324,7 +16324,7 @@
             "jee": 0,
             "pending": 548,
             "blankNull": 214714,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -16485,7 +16485,7 @@
             "jee": 0,
             "pending": 1984,
             "blankNull": 1411288,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -16638,7 +16638,7 @@
             "jee": 0,
             "pending": 256,
             "blankNull": 176201,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -16775,7 +16775,7 @@
             "jee": 0,
             "pending": 695,
             "blankNull": 127189,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -16892,7 +16892,7 @@
             "jee": 0,
             "pending": 62,
             "blankNull": 37537,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -17025,7 +17025,7 @@
             "jee": 0,
             "pending": 6,
             "blankNull": 38777,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -17138,7 +17138,7 @@
             "jee": 0,
             "pending": 75,
             "blankNull": 48985,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -17283,7 +17283,7 @@
             "jee": 0,
             "pending": 1051,
             "blankNull": 347301,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -17412,7 +17412,7 @@
             "jee": 0,
             "pending": 228,
             "blankNull": 227643,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -17537,7 +17537,7 @@
             "jee": 0,
             "pending": 538,
             "blankNull": 232792,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -17666,7 +17666,7 @@
             "jee": 0,
             "pending": 56,
             "blankNull": 53144,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -17807,7 +17807,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -17940,7 +17940,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -18081,7 +18081,7 @@
             "jee": 0,
             "pending": 921,
             "blankNull": 95941,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         }
@@ -18089,131 +18089,131 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 3762246
+          "votes": 3762536
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 2918032
+          "votes": 2918182
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 2819524
+          "votes": 2819718
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 2720539
+          "votes": 2720749
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2231946
+          "votes": 2232107
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 2112411
+          "votes": 2112473
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 1487452
+          "votes": 1487545
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 871373
+          "votes": 871426
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 625958
+          "votes": 626023
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 567584
+          "votes": 567637
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 441297
+          "votes": 441315
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 435166
+          "votes": 435240
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 434220
+          "votes": 434251
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 406308
+          "votes": 406394
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 366280
+          "votes": 366298
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 287831
+          "votes": 287834
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 279342
+          "votes": 279371
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 241772
+          "votes": 241786
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 216312
+          "votes": 216699
         },
         {
           "party": "VENCEREMOS",
-          "votes": 210383
+          "votes": 210395
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 209514
+          "votes": 209520
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 189995
+          "votes": 190006
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 146599
+          "votes": 146618
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 135466
+          "votes": 135470
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 128849
+          "votes": 128899
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 120938
+          "votes": 120951
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 115081
+          "votes": 115086
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 105897
+          "votes": 105901
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 94590
+          "votes": 94593
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 62579
+          "votes": 62584
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 38998
+          "votes": 38999
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 34798
+          "votes": 34801
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
@@ -18221,7 +18221,7 @@
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 34269
+          "votes": 34272
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
@@ -19288,15 +19288,15 @@
           "numEscanioPartido": null
         }
       ],
-      "blankNull": 9804749,
+      "blankNull": 9805570,
       "status": {
-        "percent": 85.73,
-        "processed": 159056,
+        "percent": 85.736,
+        "processed": 159068,
         "total": 185532,
         "jee": 0,
-        "pending": 26476,
-        "blankNull": 9804749,
-        "updated": "2026-05-10T22:00:05.108Z"
+        "pending": 26464,
+        "blankNull": 9805570,
+        "updated": "2026-05-10T22:15:03.220Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -19861,7 +19861,7 @@
             "jee": 0,
             "pending": 15228,
             "blankNull": 4269973,
-            "updated": "2026-05-10T22:00:05.108Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Nacional"
         },
@@ -19982,7 +19982,7 @@
             "jee": 0,
             "pending": 183,
             "blankNull": 105911,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -20135,7 +20135,7 @@
             "jee": 0,
             "pending": 579,
             "blankNull": 202038,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -20280,7 +20280,7 @@
             "jee": 0,
             "pending": 56,
             "blankNull": 71387,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -20425,7 +20425,7 @@
             "jee": 0,
             "pending": 109,
             "blankNull": 231152,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -20550,7 +20550,7 @@
             "jee": 0,
             "pending": 148,
             "blankNull": 97723,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -20683,7 +20683,7 @@
             "jee": 0,
             "pending": 453,
             "blankNull": 436621,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -20828,7 +20828,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 177635,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -20973,7 +20973,7 @@
             "jee": 0,
             "pending": 515,
             "blankNull": 214174,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -21082,7 +21082,7 @@
             "jee": 0,
             "pending": 153,
             "blankNull": 78547,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -21219,7 +21219,7 @@
             "jee": 0,
             "pending": 390,
             "blankNull": 115761,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -21368,7 +21368,7 @@
             "jee": 0,
             "pending": 516,
             "blankNull": 136803,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -21505,156 +21505,156 @@
             "jee": 0,
             "pending": 193,
             "blankNull": 234694,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
         {
           "name": "LA LIBERTAD",
           "seats": 1,
-          "blankNull": 283083,
+          "blankNull": 283904,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 124003
+              "votes": 124293
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 75077
+              "votes": 75464
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 66261
+              "votes": 66455
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 65503
+              "votes": 65713
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 50704
+              "votes": 50854
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 44190
+              "votes": 44351
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 40243
+              "votes": 40336
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 35706
+              "votes": 35780
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 32984
+              "votes": 33049
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 30383
+              "votes": 30445
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 22442
+              "votes": 22528
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 20118
+              "votes": 20171
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 18731
+              "votes": 18784
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 11661
+              "votes": 11692
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 9416
+              "votes": 9434
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 7999
+              "votes": 8017
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 6107
+              "votes": 6136
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 5746
+              "votes": 5765
             },
             {
               "party": "VENCEREMOS",
-              "votes": 4732
+              "votes": 4744
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 4560
+              "votes": 4566
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 4201
+              "votes": 4205
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 4096
+              "votes": 4146
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 3603
+              "votes": 3617
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 3277
+              "votes": 3288
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2595
+              "votes": 2600
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 2362
+              "votes": 2365
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 2277
+              "votes": 2290
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 2114
+              "votes": 2117
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 1914
+              "votes": 1918
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 1684
+              "votes": 1685
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 1132
+              "votes": 1137
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1123
+              "votes": 1126
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 820
+              "votes": 823
             }
           ],
           "status": {
-            "percent": 84.93,
-            "processed": 4503,
+            "percent": 85.157,
+            "processed": 4515,
             "total": 5302,
             "jee": 0,
-            "pending": 799,
-            "blankNull": 283083,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "pending": 787,
+            "blankNull": 283904,
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -21807,7 +21807,7 @@
             "jee": 0,
             "pending": 548,
             "blankNull": 214714,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -21968,7 +21968,7 @@
             "jee": 0,
             "pending": 1984,
             "blankNull": 1411288,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -22121,7 +22121,7 @@
             "jee": 0,
             "pending": 256,
             "blankNull": 176201,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -22258,7 +22258,7 @@
             "jee": 0,
             "pending": 695,
             "blankNull": 127189,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -22375,7 +22375,7 @@
             "jee": 0,
             "pending": 62,
             "blankNull": 37537,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -22508,7 +22508,7 @@
             "jee": 0,
             "pending": 6,
             "blankNull": 38777,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -22621,7 +22621,7 @@
             "jee": 0,
             "pending": 75,
             "blankNull": 48985,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -22766,7 +22766,7 @@
             "jee": 0,
             "pending": 1051,
             "blankNull": 347301,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:00:05.108Z"
           },
           "group": "Regional"
         },
@@ -22895,7 +22895,7 @@
             "jee": 0,
             "pending": 228,
             "blankNull": 227643,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -23020,7 +23020,7 @@
             "jee": 0,
             "pending": 538,
             "blankNull": 232792,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -23149,7 +23149,7 @@
             "jee": 0,
             "pending": 56,
             "blankNull": 53144,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -23290,7 +23290,7 @@
             "jee": 0,
             "pending": 159,
             "blankNull": 42263,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -23423,7 +23423,7 @@
             "jee": 0,
             "pending": 416,
             "blankNull": 95472,
-            "updated": "2026-05-10T19:45:03.898Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         },
@@ -23564,7 +23564,7 @@
             "jee": 0,
             "pending": 921,
             "blankNull": 95941,
-            "updated": "2026-05-10T20:00:05.878Z"
+            "updated": "2026-05-10T22:15:03.220Z"
           },
           "group": "Regional"
         }
@@ -23572,131 +23572,131 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 3762246
+          "votes": 3762536
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 2918032
+          "votes": 2918182
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 2819524
+          "votes": 2819718
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 2720539
+          "votes": 2720749
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2231946
+          "votes": 2232107
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 2112411
+          "votes": 2112473
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 1487452
+          "votes": 1487545
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 871373
+          "votes": 871426
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 625958
+          "votes": 626023
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 567584
+          "votes": 567637
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 441297
+          "votes": 441315
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 435166
+          "votes": 435240
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 434220
+          "votes": 434251
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 406308
+          "votes": 406394
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 366280
+          "votes": 366298
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 287831
+          "votes": 287834
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 279342
+          "votes": 279371
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 241772
+          "votes": 241786
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 216312
+          "votes": 216699
         },
         {
           "party": "VENCEREMOS",
-          "votes": 210383
+          "votes": 210395
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 209514
+          "votes": 209520
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 189995
+          "votes": 190006
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 146599
+          "votes": 146618
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 135466
+          "votes": 135470
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 128849
+          "votes": 128899
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 120938
+          "votes": 120951
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 115081
+          "votes": 115086
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 105897
+          "votes": 105901
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 94590
+          "votes": 94593
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 62579
+          "votes": 62584
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 38998
+          "votes": 38999
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 34798
+          "votes": 34801
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
@@ -23704,7 +23704,7 @@
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 34269
+          "votes": 34272
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
@@ -24771,15 +24771,15 @@
           "numEscanioPartido": null
         }
       ],
-      "blankNull": 9804749,
+      "blankNull": 9805570,
       "status": {
-        "percent": 85.73,
-        "processed": 159056,
+        "percent": 85.736,
+        "processed": 159068,
         "total": 185532,
         "jee": 0,
-        "pending": 26476,
-        "blankNull": 9804749,
-        "updated": "2026-05-10T22:00:05.108Z"
+        "pending": 26464,
+        "blankNull": 9805570,
+        "updated": "2026-05-10T22:15:03.220Z"
       },
       "allocations": {
         "noBarrier": [],
