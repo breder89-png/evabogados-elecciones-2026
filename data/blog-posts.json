@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "slug": "bienvenida-al-blog-de-ev-abogados",
+      "title": "Bienvenida al blog de EV Abogados",
+      "excerpt": "Un espacio institucional para publicar análisis jurídico, legislativo, administrativo y empresarial.",
+      "body": "Este blog ha sido preparado como una subpágina institucional para publicar análisis, comentarios y notas técnicas.\n\nPuede utilizarse para desarrollar contenidos sobre legislación peruana, derecho administrativo, gestión pública, empresa, tecnología, derecho digital y actualidad normativa.\n\nDesde el panel de administración se pueden crear, editar, publicar o dejar en borrador las entradas, ahora con imagen principal para cada publicación.",
+      "image_url": "",
+      "category": "Institucional",
+      "tags": ["EV Abogados", "blog", "análisis"],
+      "status": "published",
+      "author": "EV Abogados",
+      "created_at": "2026-05-10T00:00:00.000Z",
+      "updated_at": "2026-05-10T00:00:00.000Z",
+      "published_at": "2026-05-10T00:00:00.000Z"
+    }
+  ]
+}
