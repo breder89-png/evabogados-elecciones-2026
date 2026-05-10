@@ -27,7 +27,7 @@ jobs:
         env:
           DAPPER_BASE_URL: https://elecciones2026.dapperglobal.com
 
-      - name: Guardar cambios si hubo actualización
+      - name: Guardar cambios si hubo actualizacion
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
