@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-10T14:40:07.691Z",
+  "generatedAt": "2026-05-10T17:38:48.628Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-10T14:39:14.798Z",
+  "updatedAt": "2026-05-10T17:38:19.931Z",
   "districts": 27,
   "fotosJne": {
     "porDni": 8955,
@@ -28,7 +28,7 @@
         "jee": 0,
         "pending": 13223,
         "blankNull": 4724905,
-        "updated": "2026-05-10T10:00:00.469Z"
+        "updated": "2026-05-10T14:30:02.847Z"
       }
     },
     "senadoNacional": {
@@ -36,13 +36,13 @@
       "circunscripciones": 1,
       "candidates": 35,
       "status": {
-        "percent": 83.483,
-        "processed": 77444,
+        "percent": 83.513,
+        "processed": 77472,
         "total": 92766,
         "jee": 0,
-        "pending": 15322,
-        "blankNull": 4264744,
-        "updated": "2026-05-10T14:15:00.475Z"
+        "pending": 15294,
+        "blankNull": 4266385,
+        "updated": "2026-05-10T17:15:02.152Z"
       }
     },
     "senadoRegional": {
@@ -56,7 +56,7 @@
         "jee": 0,
         "pending": 11339,
         "blankNull": 5528664,
-        "updated": "2026-05-10T10:00:00.469Z"
+        "updated": "2026-05-10T14:30:02.847Z"
       }
     },
     "andino": {
@@ -64,13 +64,13 @@
       "circunscripciones": 1,
       "candidates": 56,
       "status": {
-        "percent": 87.512,
-        "processed": 81181,
+        "percent": 87.54,
+        "processed": 81207,
         "total": 92766,
         "jee": 0,
-        "pending": 11585,
-        "blankNull": 5788807,
-        "updated": "2026-05-10T14:15:00.475Z"
+        "pending": 11559,
+        "blankNull": 5791193,
+        "updated": "2026-05-10T17:15:02.152Z"
       }
     }
   }
