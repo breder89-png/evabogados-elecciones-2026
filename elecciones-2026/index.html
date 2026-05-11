@@ -129,6 +129,27 @@
   .territory-rank{min-height:0;max-height:none}
   .map-tip{max-width:210px}
 }
+/* Ajustes finales: mapa sin desbordes, scroll vertical natural y leyendas completas. */
+html,body{max-width:100%;overflow-x:hidden}
+main,.card,.spotlight-grid,.projection-grid,.analysis-grid,.territory-panel,.territory-map,.territory-rank,#seatsCB{min-width:0;max-width:100%}
+.spotlight-grid{grid-template-columns:minmax(0,1fr) minmax(280px,320px)}
+.winner-strip,.mobile-scroll-panel,.compact-leader-list,.candidate-list{overscroll-behavior-y:auto;overscroll-behavior-x:contain;touch-action:pan-y;-webkit-overflow-scrolling:touch}
+.winner-strip{overscroll-behavior:auto}
+.compact-leader-list{max-height:420px}
+.territory-panel{grid-template-columns:minmax(0,1.12fr) minmax(270px,.88fr);gap:16px;overflow:hidden}
+.territory-map{height:min(62vh,620px);min-height:520px;width:100%}
+.territory-rank{max-height:min(62vh,620px);min-height:520px}
+.territory-svg{max-width:100%;overflow:visible}
+.map-region.dimmed{fill-opacity:.18!important;filter:saturate(.72)}
+.map-tip{display:none}
+.world-map-card{width:min(520px,88%);aspect-ratio:1.55;border:0;background:transparent;color:#172033;display:grid;place-items:center;cursor:pointer}
+.world-map-card svg{width:100%;height:100%;overflow:visible}
+.world-map-card path,.world-map-card circle,.world-map-card ellipse{fill:none;stroke:#0f4c81;stroke-width:3;vector-effect:non-scaling-stroke}
+.world-map-card .world-fill{fill:#eef7ff;stroke:#bdd7f0}
+.world-map-card b{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:#172033}
+.world-map-card small{display:block;color:#64748b;font-size:11px;margin-top:4px}
+@media(max-width:1180px){.spotlight-grid{grid-template-columns:1fr}.compact-leaders{border-left:0;border-top:1px solid #e5edf6}.territory-panel{grid-template-columns:1fr}.territory-map{height:520px}.territory-rank{min-height:0;max-height:440px}}
+@media(max-width:720px){.winner-strip.many{max-height:min(620px,64vh);overscroll-behavior-y:auto}.territory-map{height:430px;min-height:430px}.territory-rank{max-height:360px}.world-map-card{width:92%}}
 </style>
 </head>
 <body>
@@ -528,6 +549,52 @@
         :rows.slice().sort((a,b)=>numeric(b.seats)-numeric(a.seats)||numeric(b.valid)-numeric(a.valid)).slice(0,8);
       el.innerHTML=`<div class="territory-panel"><div class="territory-map" id="territoryMapCanvas"><div class="map-note">Cargando mapa local...</div></div><div class="territory-rank"><h3>${scope?'Voto territorial':'Regiones destacadas'}</h3>${selectedRows.map(r=>scope?`<div class="territory-row"><b>${esc(r.party)}<small>${fmt.format(numeric(r.votes))} votos</small></b><span>${percentText(agg.valid?numeric(r.votes)/agg.valid:0)}</span></div>`:`<div class="territory-row"><b>${esc(r.name)}<small>${esc(r.party)} · ${fmt.format(r.valid)} votos</small></b><span>${fmt.format(r.seats)}</span></div>`).join('')||'<div class="empty">Sin datos territoriales.</div>'}</div></div>`;
       setTimeout(()=>renderLocalTerritory(rows,selectedKey),0);
+    }
+    function isExteriorName(value){const n=normalize(regionalScopeName(value)||value);return n.includes('EXTRANJERO')||n.includes('EXTERIOR');}
+    function selectedMapKeyForScope(scope){if(!scope||scope==='NACIONAL'||scope==='REGIONAL')return '';const name=regionalScopeName(scope)||scope;return isExteriorName(name)?'EXTERIOR':circMapKey(name);}
+    function setCircFromMap(value){if(!value)return;const select=$('circ');const options=[...select.options].map(o=>o.value);const candidates=[value,REGIONAL_SCOPE_PREFIX+value,clean(value).toUpperCase(),REGIONAL_SCOPE_PREFIX+clean(value).toUpperCase()];const found=candidates.find(v=>options.includes(v));if(found!==undefined){select.value=found;renderAll();}}
+    function leadingPartyForCirc(c){return (c.votes||[]).slice().sort((a,b)=>numeric(b.votes)-numeric(a.votes))[0]||null;}
+    function territoryRowsFromCircs(circs,partyMap,opts={}){
+      const rows=[];
+      (circs||[]).forEach(c=>{
+        const name=stripScopeName(c.name||'');
+        if(!name||normalize(name)==='NACIONAL'||normalize(name)==='SENADO NACIONAL')return;
+        const exterior=isExteriorName(name);
+        const key=exterior?'EXTERIOR':circMapKey(name);
+        if(!key)return;
+        const lead=leadingPartyForCirc(c);
+        const party=lead?.party||'Sin datos';
+        const valid=(c.votes||[]).reduce((s,v)=>s+numeric(v.votes),0);
+        rows.push({key,name,circValue:opts.regional?REGIONAL_SCOPE_PREFIX+name:name,party,meta:partyMap.get(party)||{short:initials(party),color:hashColor(party)},seats:numeric(c.seats),valid,leadVotes:numeric(lead?.votes),isExterior:exterior});
+      });
+      return rows;
+    }
+    function territoryRowsForCurrentCamera(agg,partyMap){
+      const cam=getCamera();
+      if(cam==='senadoTotal')return territoryRowsFromCircs(dataFor('senadoRegional').circunscripciones||[],partyMap,{regional:true});
+      if(cam==='andino'){
+        const raw=RAW?.camaras?.andino||RAW?.camaras?.parlamentoAndino||{};
+        const rows=territoryRowsFromCircs(raw.circunscripciones||[],partyMap);
+        return rows.some(r=>r.key&&r.key!=='EXTERIOR')?rows:[];
+      }
+      return territoryRowsFromCircs(agg.data.circunscripciones||[],partyMap);
+    }
+    function nationalMapRow(agg,partyMap){const lead=agg.votes[0]||{};const party=lead.party||'Sin datos';return {key:'NACIONAL',name:'Perú',party,meta:partyMap.get(party)||{short:initials(party),color:hashColor(party)},seats:agg.totalSeats||cameraMeta[getCamera()]?.seats||0,valid:agg.valid,leadVotes:numeric(lead.votes)};}
+    function renderTerritoryFallback(target,rows,selectedKey){const visible=rows.slice().sort((a,b)=>numeric(b.seats)-numeric(a.seats)||numeric(b.valid)-numeric(a.valid)).slice(0,30);target.innerHTML=`<div class="map-fallback">${visible.map(r=>`<button type="button" class="${r.key===selectedKey?'active':''}" data-circ="${esc(r.circValue)}" title="${esc(r.name)} · ${esc(r.party)}">${esc((r.name||r.key).replace(/^LIMA METROPOLITANA$/,'LIMA').slice(0,3))}<small>${fmt.format(r.seats)}</small></button>`).join('')}</div><div class="map-note">Seleccione una región.</div>`;target.querySelectorAll('button[data-circ]').forEach(btn=>btn.addEventListener('click',()=>setCircFromMap(btn.dataset.circ)));}
+    function renderExteriorTerritory(target,row){target.innerHTML=`<button type="button" class="world-map-card" aria-label="Ver residentes en el extranjero"><svg viewBox="0 0 240 150" role="img" aria-label="Mapa mundial referencial"><circle class="world-fill" cx="120" cy="75" r="58"></circle><ellipse cx="120" cy="75" rx="58" ry="22"></ellipse><ellipse cx="120" cy="75" rx="22" ry="58"></ellipse><path d="M62 75h116M120 17v116M78 48c22 12 62 12 84 0M78 102c22-12 62-12 84 0"></path><path d="M74 72c16-16 31-22 48-18 10 2 21 0 34-7M82 94c14 7 29 8 43 3 13-5 25-2 38 7"></path></svg><span><b>Residentes en el extranjero</b><small>${esc(row?.party||'Sin datos')} · ${fmt.format(numeric(row?.valid||row?.leadVotes||0))} votos</small></span></button><div class="map-note">Ámbito exterior.</div>`;target.querySelector('.world-map-card')?.addEventListener('click',()=>setCircFromMap(row?.circValue||'RESIDENTES EN EL EXTRANJERO'));}
+    function renderNationalTerritory(target,row){const draw=geo=>{territoryGeoJSON=geo;const features=geo.features||[];const pts=features.flatMap(f=>geoPoints(f.geometry?.coordinates||[])).map(p=>[p[0],-p[1]]);if(!features.length||!pts.length){target.innerHTML='<div class="empty">Mapa nacional no disponible.</div>';return;}const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys),pad=Math.max(maxX-minX,maxY-minY)*.04;const paths=features.map(f=>`<path class="map-region" d="${geoPath(f.geometry)}" fill="${row.meta.color||'#d8e0eb'}" fill-opacity=".78"><title>${esc(row.name)} · ${esc(row.party)} · ${fmt.format(row.valid)} votos</title></path>`).join('');target.innerHTML=`<svg class="territory-svg" viewBox="${minX-pad} ${minY-pad} ${maxX-minX+pad*2} ${maxY-minY+pad*2}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Mapa nacional del Perú">${paths}</svg><div class="map-note">${esc(row.party)} · ${fmt.format(row.valid)} votos</div>`;};if(territoryGeoJSON)draw(territoryGeoJSON);else{const urls=['/data/peru-regions.geo.json','../data/peru-regions.geo.json','data/peru-regions.geo.json'];let i=0;const next=()=>fetch(urls[i++],{cache:'force-cache'}).then(r=>{if(!r.ok)throw new Error('map');return r.json();}).then(draw).catch(()=>i<urls.length?next():target.innerHTML='<div class="empty">Mapa nacional no disponible.</div>');next();}}
+    function renderLocalTerritory(rows,selectedKey){const target=$('territoryMapCanvas');if(!target)return;const exterior=rows.find(r=>r.key==='EXTERIOR');if(selectedKey==='EXTERIOR'){renderExteriorTerritory(target,exterior);return;}const byKey=territoryByMapKey(rows.filter(r=>r.key!=='EXTERIOR'));const draw=geo=>{territoryGeoJSON=geo;const features=geo.features||[];const pts=features.flatMap(f=>geoPoints(f.geometry?.coordinates||[])).map(p=>[p[0],-p[1]]);if(!features.length||!pts.length){renderTerritoryFallback(target,rows,selectedKey);return;}const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys),pad=Math.max(maxX-minX,maxY-minY)*.04;const paths=features.map(f=>{const raw=f.properties?.name||f.properties?.NAME_1||f.properties?.region||'';const key=mapNameKey(raw);const row=byKey.get(key);const active=selectedKey&&key===selectedKey;const dimmed=selectedKey&&!active;const label=row?`${row.name} · ${row.party} · ${fmt.format(row.valid)} votos · ${fmt.format(row.seats)} curules`:key;return `<path class="map-region ${active?'active':''} ${dimmed?'dimmed':''}" data-key="${esc(key)}" data-circ="${esc(row?.circValue||'')}" d="${geoPath(f.geometry)}" fill="${row?.meta?.color||'#d8e0eb'}" fill-opacity="${row?(active?'.96':'.82'):'.18'}"><title>${esc(label)}</title></path>`;}).join('');target.innerHTML=`<svg class="territory-svg" viewBox="${minX-pad} ${minY-pad} ${maxX-minX+pad*2} ${maxY-minY+pad*2}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Mapa interactivo del Perú">${paths}</svg><div class="map-note">Haga clic en una región para filtrarla.</div>`;target.querySelectorAll('.map-region').forEach(path=>path.addEventListener('click',()=>setCircFromMap(path.dataset.circ)));};if(territoryGeoJSON)draw(territoryGeoJSON);else{const urls=['/data/peru-regions.geo.json','../data/peru-regions.geo.json','data/peru-regions.geo.json'];let i=0;const next=()=>fetch(urls[i++],{cache:'force-cache'}).then(r=>{if(!r.ok)throw new Error('map');return r.json();}).then(draw).catch(()=>i<urls.length?next():renderTerritoryFallback(target,rows,selectedKey));next();}}
+    function renderTerritoryMap(el,agg,partyMap){
+      const scope=getCirc(),scopeName=regionalScopeName(scope)||scope||'Perú',cam=getCamera();
+      const rows=territoryRowsForCurrentCamera(agg,partyMap);
+      const selectedKey=selectedMapKeyForScope(scope);
+      const selectedVotes=(agg.circs[0]?.votes||[]).slice().sort((a,b)=>numeric(b.votes)-numeric(a.votes)).slice(0,8);
+      const ranking=scope?selectedVotes:rows.slice().filter(r=>r.key!=='EXTERIOR').sort((a,b)=>numeric(b.seats)-numeric(a.seats)||numeric(b.valid)-numeric(a.valid)).slice(0,8);
+      const nationalFallback=!rows.length;
+      const heading=scope?'Voto territorial':(nationalFallback?'Voto nacional':'Regiones destacadas');
+      const rankHTML=scope?ranking.map(r=>`<div class="territory-row"><b>${esc(r.party)}<small>${fmt.format(numeric(r.votes))} votos</small></b><span>${percentText(agg.valid?numeric(r.votes)/agg.valid:0)}</span></div>`).join(''):nationalFallback?agg.votes.slice(0,8).map(r=>`<div class="territory-row"><b>${esc(r.party)}<small>${fmt.format(numeric(r.votes))} votos</small></b><span>${percentText(agg.valid?numeric(r.votes)/agg.valid:0)}</span></div>`).join(''):ranking.map(r=>`<div class="territory-row"><b>${esc(r.name)}<small>${esc(r.party)} · ${fmt.format(r.valid)} votos</small></b><span>${fmt.format(r.seats)}</span></div>`).join('');
+      el.innerHTML=`<div class="territory-panel"><div class="territory-map" id="territoryMapCanvas"><div class="map-note">Cargando mapa local...</div></div><div class="territory-rank"><h3>${heading}</h3>${rankHTML||'<div class="empty">Sin datos territoriales.</div>'}</div></div>`;
+      setTimeout(()=>{if(selectedKey==='EXTERIOR')renderExteriorTerritory($('territoryMapCanvas'),rows.find(r=>r.key==='EXTERIOR')||{circValue:scopeName,party:selectedVotes[0]?.party,valid:agg.valid});else if(nationalFallback)renderNationalTerritory($('territoryMapCanvas'),nationalMapRow(agg,partyMap));else renderLocalTerritory(rows,selectedKey);},0);
     }
     function renderAll(){if(!RAW)return;renderStatus();renderCameraStrip();const agg=aggregateForCurrentSelection();const partyMap=getPartyMap();renderSpotlight(agg,partyMap);$('titleSB').textContent=`${displayCameraName()} · Sin valla`;$('titleCB').textContent=getCirc()?`Mapa · ${regionalScopeName(getCirc())||getCirc()}`:'Mapa territorial';$('subSB').textContent=getCamera()==='senadoTotal'?(getCirc()==='NACIONAL'?'Bloque nacional de 30 escaños.':getCirc()==='REGIONAL'?'Bloque regional de 30 escaños.':regionalScopeName(getCirc())?`Distrito electoral regional: ${regionalScopeName(getCirc())}.`:'Lectura combinada nacional y regional de 60 escaños.'):'Distribución técnica antes de barrera.';$('subCB').textContent=getCirc()?'Voto y fuerzas principales de la circunscripción.':'Lectura rápida por territorio, inspirada en mapas de resultados.';$('pillSB').textContent=`${agg.totalSeats||cameraMeta[getCamera()]?.seats||0} curules`;$('pillCB').textContent=getCirc()?'territorio':'Perú';renderSeats($('seatsSB'),agg.seatsNoBarrier,agg.totalSeats||cameraMeta[getCamera()]?.seats||0,partyMap,agg);renderTerritoryMap($('seatsCB'),agg,partyMap);renderLegend($('legendSB'),agg.seatsNoBarrier,partyMap);$('legendCB').innerHTML='';renderMobileCandidates(agg);renderKPIs(agg);renderTable(agg);renderCandidates(agg);applyViewMode();}
     const PARLAMENTO_JSON_FALLBACK='https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json';

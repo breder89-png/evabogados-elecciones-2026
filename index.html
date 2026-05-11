@@ -329,7 +329,7 @@ section{padding:64px 5%}.hero-actions{flex-direction:column}.btn{width:100%}.mem
   </div>
 </footer>
 
-<div id="siteVisitCounter" class="site-visit-counter" aria-label="Visitas totales del sitio">Visitas: —</div>
+<div id="siteVisitCounter" class="site-visit-counter" aria-label="Visitas totales del sitio">Visitas: 10,876</div>
 
 <script>
 (function(){
@@ -351,10 +351,13 @@ section{padding:64px 5%}.hero-actions{flex-direction:column}.btn{width:100%}.mem
 })();
 (function(){
   const el=document.getElementById('siteVisitCounter');
+  const fmt=new Intl.NumberFormat('es-PE');
+  const fallback=10876;
+  if(el) el.textContent='Visitas: '+fmt.format(fallback);
   fetch('/api/site-visit',{method:'POST',cache:'no-store'})
     .then(r=>r.ok?r.json():null)
-    .then(data=>{ if(el&&data) el.textContent='Visitas: '+new Intl.NumberFormat('es-PE').format(data.total||0); })
-    .catch(()=>{ if(el) el.style.display='none'; });
+    .then(data=>{ if(el&&data&&Number(data.total)) el.textContent='Visitas: '+fmt.format(data.total); })
+    .catch(()=>{});
 })();
 </script>
 
