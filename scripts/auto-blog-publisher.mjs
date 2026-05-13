@@ -65,6 +65,23 @@ async function fetchNews() {
   return items.slice(0, 18);
 }
 
+function pickImageUrl(seedText = "") {
+  const pool = String(process.env.AUTO_BLOG_IMAGE_URLS || process.env.AUTO_BLOG_IMAGE_URL || "")
+    .split(",")
+    .map((url) => url.trim())
+    .filter(Boolean);
+
+  if (!pool.length) return "";
+
+  let hash = 0;
+  for (let i = 0; i < seedText.length; i++) {
+    hash = ((hash << 5) - hash) + seedText.charCodeAt(i);
+    hash |= 0;
+  }
+
+  return pool[Math.abs(hash) % pool.length];
+}
+
 function buildSystemPrompt() {
   return `Eres editor jurídico de EV Abogados en Perú. Redacta una publicación de análisis político, electoral o parlamentario peruano con estilo jurídico claro, sobrio y comprensible para público general.
 
@@ -111,7 +128,7 @@ async function generatePost(newsItems) {
     category: String(post.category || "Actualidad electoral").trim(),
     tags: Array.isArray(post.tags) ? post.tags.slice(0, 8) : ["Perú", "elecciones", "Congreso"],
     body: String(post.body).trim(),
-    image_url: String(process.env.AUTO_BLOG_IMAGE_URL || "").trim(),
+    image_url: pickImageUrl(post.title || post.category || "EV Abogados"),
     author: process.env.AUTO_BLOG_AUTHOR || "EV Abogados",
     status: process.env.AUTO_BLOG_STATUS === "draft" ? "draft" : "published"
   };
