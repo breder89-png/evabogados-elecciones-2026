@@ -4,24 +4,6 @@ function html(body, status = 200) {
     headers: {
       "content-type": "text/html; charset=utf-8",
       "cache-control": "no-store"
-      .content{
-  text-align:justify;
-  text-justify:inter-word;
-}
-
-.content p,
-.content li{
-  text-align:justify;
-  text-justify:inter-word;
-}
-
-.content h2,
-.content h3,
-.content .share-row,
-.comments,
-.comment{
-  text-align:left;
-}
     }
   });
 }
