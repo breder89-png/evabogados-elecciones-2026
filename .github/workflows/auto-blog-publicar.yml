@@ -22,8 +22,9 @@ jobs:
           node-version: "22"
           cache: "npm"
 
-      - name: Instalar dependencias
-        run: npm ci
+      - name: Verificar script de automatización
+        run: |
+          test -f scripts/auto-blog-publisher.mjs || (echo "Falta scripts/auto-blog-publisher.mjs" && exit 1)
 
       - name: Revisar noticias y publicar o generar borrador
         run: node scripts/auto-blog-publisher.mjs
