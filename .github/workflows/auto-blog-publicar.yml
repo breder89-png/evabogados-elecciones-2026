@@ -1,0 +1,46 @@
+name: Auto publicar blog EV
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:30 hora Perú, de lunes a viernes.
+    - cron: "30 13 * * 1-5"
+
+permissions:
+  contents: read
+
+jobs:
+  auto-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Revisar noticias y publicar o generar borrador
+        run: node scripts/auto-blog-publisher.mjs
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          BLOG_ADMIN_URL: ${{ vars.BLOG_ADMIN_URL }}
+          BLOG_ADMIN_TOKEN: ${{ secrets.BLOG_ADMIN_TOKEN }}
+          NEWS_RSS_URLS: ${{ vars.NEWS_RSS_URLS }}
+          AUTO_BLOG_IMAGE_URL: ${{ vars.AUTO_BLOG_IMAGE_URL }}
+          AUTO_BLOG_AUTHOR: ${{ vars.AUTO_BLOG_AUTHOR }}
+          AUTO_BLOG_STATUS: ${{ vars.AUTO_BLOG_STATUS }}
+
+      - name: Subir borrador/reporte si existe
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: auto-blog-drafts
+          path: drafts/auto-blog
+          if-no-files-found: ignore
