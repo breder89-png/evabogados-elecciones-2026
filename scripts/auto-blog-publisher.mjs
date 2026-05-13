@@ -66,11 +66,24 @@ async function fetchNews() {
 }
 
 function buildSystemPrompt() {
-  return `Eres editor jurídico de EV Abogados en Perú. Redacta una publicación breve pero sólida sobre actualidad política, electoral o parlamentaria peruana. Debe tener título sobrio, bajada inicial, enfoque jurídico claro, categoría, etiquetas y cuerpo en HTML semántico. No inventes hechos: usa solo las noticias proporcionadas. Si la noticia parece extraordinaria por proclamación oficial, 100% de actas, decisión del JNE/ONPE o hecho parlamentario decisivo, priorízala. Devuelve JSON estricto con estas claves: title, excerpt, category, tags, body, imagePrompt.`;
+  return `Eres editor jurídico de EV Abogados en Perú. Redacta una publicación de análisis político, electoral o parlamentario peruano con estilo jurídico claro, sobrio y comprensible para público general.
+
+Reglas obligatorias:
+1. El texto debe tener entre 750 y 1,050 palabras.
+2. Debe iniciar con una bajada o resumen inicial de 2 a 3 oraciones.
+3. Debe desarrollar análisis, no solo resumen noticioso.
+4. Debe explicar el contexto institucional, el hecho noticioso, la relevancia jurídica o parlamentaria, los posibles efectos y una conclusión prudente.
+5. No uses tono sensacionalista.
+6. No inventes hechos, cifras ni decisiones no contenidas en las noticias proporcionadas.
+7. No afirmes proclamaciones, resultados oficiales o efectos jurídicos definitivos si la fuente solo permite hablar de avance, tendencia o información preliminar.
+8. Usa lenguaje jurídico claro, pero entendible para lectores no especialistas.
+9. El cuerpo debe estar en HTML semántico usando <p>, <h2> y, si corresponde, <h3>.
+10. Incluye una sección final breve titulada “Lectura jurídica” o “Relevancia institucional”.
+11. Devuelve JSON estricto con estas claves: title, excerpt, category, tags, body, imagePrompt.`;
 }
 
 async function generatePost(newsItems) {
-  const prompt = `Noticias disponibles:\n${newsItems.map((item, i) => `${i + 1}. ${item.title}\nResumen: ${item.description}\nFecha: ${item.pubDate || "s/f"}\nLink: ${item.link || item.sourceUrl}`).join("\n\n")}\n\nRedacta un post para EV Abogados. Mantén tono jurídico claro y prudente.`;
+  const prompt = `Noticias disponibles:\n${newsItems.map((item, i) => `${i + 1}. ${item.title}\nResumen: ${item.description}\nFecha: ${item.pubDate || "s/f"}\nLink: ${item.link || item.sourceUrl}`).join("\n\n")}\n\nRedacta un post para EV Abogados de entre 750 y 1,050 palabras. No hagas una nota corta. Debe contener análisis jurídico-político real, contexto, explicación institucional, efectos prácticos y cierre. El texto debe servir para un blog profesional de derecho electoral, derecho parlamentario y análisis político peruano.`;
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
