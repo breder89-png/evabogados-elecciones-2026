@@ -1,7 +1,5 @@
 name: Auto publicar blog EV
 
-name: Auto publicar blog EV
-
 on:
   workflow_dispatch:
   schedule:
