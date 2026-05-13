@@ -39,6 +39,7 @@ jobs:
           BLOG_ADMIN_TOKEN: ${{ secrets.BLOG_ADMIN_TOKEN }}
           NEWS_RSS_URLS: ${{ vars.NEWS_RSS_URLS }}
           AUTO_BLOG_IMAGE_URL: ${{ vars.AUTO_BLOG_IMAGE_URL }}
+          AUTO_BLOG_IMAGE_URLS: ${{ vars.AUTO_BLOG_IMAGE_URLS }}
           AUTO_BLOG_AUTHOR: ${{ vars.AUTO_BLOG_AUTHOR }}
           AUTO_BLOG_STATUS: ${{ vars.AUTO_BLOG_STATUS }}
 
