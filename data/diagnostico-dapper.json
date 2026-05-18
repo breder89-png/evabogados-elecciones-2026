@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-18T12:03:57.325Z",
+  "generatedAt": "2026-05-18T18:23:43.604Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-18T12:03:00.920Z",
+  "updatedAt": "2026-05-18T18:22:48.710Z",
   "districts": 27,
   "fotosJne": {
     "porDni": 8955,
@@ -10,7 +10,7 @@
   "respaldoCandidatos": {
     "disponible": true,
     "porCamara": {
-      "diputados": 145,
+      "diputados": 146,
       "senadoNacional": 35,
       "senadoRegional": 31,
       "andino": 57
@@ -22,13 +22,13 @@
       "circunscripciones": 27,
       "candidates": 146,
       "status": {
-        "percent": 92.069,
-        "processed": 85409,
+        "percent": 92.159,
+        "processed": 85492,
         "total": 92766,
         "jee": 0,
-        "pending": 7357,
-        "blankNull": 5141719,
-        "updated": "2026-05-18T04:30:02.359Z"
+        "pending": 7274,
+        "blankNull": 5147777,
+        "updated": "2026-05-18T17:45:05.152Z"
       }
     },
     "senadoNacional": {
@@ -36,13 +36,13 @@
       "circunscripciones": 1,
       "candidates": 35,
       "status": {
-        "percent": 90.815,
-        "processed": 84245,
+        "percent": 90.965,
+        "processed": 84385,
         "total": 92766,
         "jee": 0,
-        "pending": 8521,
-        "blankNull": 4717729,
-        "updated": "2026-05-18T06:00:00.474Z"
+        "pending": 8381,
+        "blankNull": 4728798,
+        "updated": "2026-05-18T18:00:08.109Z"
       }
     },
     "senadoRegional": {
@@ -50,13 +50,13 @@
       "circunscripciones": 27,
       "candidates": 31,
       "status": {
-        "percent": 93.168,
-        "processed": 86428,
+        "percent": 93.255,
+        "processed": 86509,
         "total": 92766,
         "jee": 0,
-        "pending": 6338,
-        "blankNull": 5921259,
-        "updated": "2026-05-17T22:30:06.208Z"
+        "pending": 6257,
+        "blankNull": 5927285,
+        "updated": "2026-05-18T06:00:00.474Z"
       }
     },
     "andino": {
@@ -64,13 +64,13 @@
       "circunscripciones": 1,
       "candidates": 57,
       "status": {
-        "percent": 93.045,
-        "processed": 86314,
+        "percent": 93.124,
+        "processed": 86387,
         "total": 92766,
         "jee": 0,
-        "pending": 6452,
-        "blankNull": 6204040,
-        "updated": "2026-05-18T06:00:00.474Z"
+        "pending": 6379,
+        "blankNull": 6209822,
+        "updated": "2026-05-18T18:15:04.579Z"
       }
     }
   }
