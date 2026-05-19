@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-19T10:48:36.841Z",
+  "generatedAt": "2026-05-19T18:18:01.403Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-19T10:47:25.085Z",
+  "updatedAt": "2026-05-19T18:00:30.183Z",
   "districts": 27,
   "fotosJne": {
     "porDni": 8955,
@@ -22,27 +22,27 @@
       "circunscripciones": 27,
       "candidates": 147,
       "status": {
-        "percent": 92.64,
-        "processed": 85938,
+        "percent": 92.767,
+        "processed": 86056,
         "total": 92766,
         "jee": 0,
-        "pending": 6828,
-        "blankNull": 5184275,
-        "updated": "2026-05-19T03:45:10.397Z"
+        "pending": 6710,
+        "blankNull": 5192959,
+        "updated": "2026-05-19T17:00:47.339Z"
       }
     },
     "senadoNacional": {
-      "parties": 36,
+      "parties": 35,
       "circunscripciones": 1,
       "candidates": 35,
       "status": {
-        "percent": 91.52,
-        "processed": 84899,
+        "percent": 91.605,
+        "processed": 84978,
         "total": 92766,
         "jee": 0,
-        "pending": 7867,
-        "blankNull": 4768937,
-        "updated": "2026-05-19T05:30:00.437Z"
+        "pending": 7788,
+        "blankNull": 4777010,
+        "updated": "2026-05-19T18:00:30.183Z"
       }
     },
     "senadoRegional": {
@@ -50,13 +50,13 @@
       "circunscripciones": 27,
       "candidates": 32,
       "status": {
-        "percent": 92.901,
-        "processed": 87171,
-        "total": 93832,
+        "percent": 93.701,
+        "processed": 86923,
+        "total": 92766,
         "jee": 0,
-        "pending": 6661,
-        "blankNull": 6095385,
-        "updated": "2026-05-19T02:30:09.609Z"
+        "pending": 5843,
+        "blankNull": 5964031,
+        "updated": "2026-05-19T05:30:00.437Z"
       }
     },
     "andino": {
@@ -64,13 +64,13 @@
       "circunscripciones": 1,
       "candidates": 57,
       "status": {
-        "percent": 93.618,
-        "processed": 86846,
+        "percent": 93.785,
+        "processed": 87001,
         "total": 92766,
         "jee": 0,
-        "pending": 5920,
-        "blankNull": 6252102,
-        "updated": "2026-05-19T05:30:00.437Z"
+        "pending": 5765,
+        "blankNull": 6264309,
+        "updated": "2026-05-19T17:30:59.418Z"
       }
     }
   }
