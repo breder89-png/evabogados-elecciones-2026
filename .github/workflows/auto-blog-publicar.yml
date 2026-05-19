@@ -3,7 +3,7 @@ name: Auto publicar blog EV
 on:
   workflow_dispatch:
   schedule:
-  # 7:03 p. m. Perú
+  # 07:00 y 17:00 hora Perú, de lunes a viernes.
   - cron: "3 0 * * *"
 
 permissions:
