@@ -4,7 +4,9 @@ import path from "node:path";
 const REQUIRED_FOR_GENERATION = ["OPENAI_API_KEY"];
 const REQUIRED_FOR_PUBLISH = ["BLOG_ADMIN_URL", "BLOG_ADMIN_TOKEN"];
 const DEFAULT_RSS = [
-  "https://news.google.com/rss/search?q=Per%C3%BA%20pol%C3%ADtica%20OR%20Congreso%20OR%20JNE%20OR%20ONPE&hl=es-419&gl=PE&ceid=PE:es-419"
+  "https://news.google.com/rss/search?q=Per%C3%BA%20pol%C3%ADtica%20OR%20Congreso%20OR%20parlamentario%20OR%20legislativo%20OR%20leyes%20OR%20jur%C3%ADdico%20OR%20legal%20OR%20JNE%20OR%20ONPE&hl=es-419&gl=PE&ceid=PE:es-419",
+  "https://news.google.com/rss/search?q=Per%C3%BA%20Congreso%20ley%20dictamen%20comisi%C3%B3n%20pleno&hl=es-419&gl=PE&ceid=PE:es-419",
+  "https://news.google.com/rss/search?q=Per%C3%BA%20TC%20Poder%20Judicial%20Fiscal%C3%ADa%20JNE%20ONPE%20reforma%20pol%C3%ADtica&hl=es-419&gl=PE&ceid=PE:es-419"
 ];
 
 function todayStamp() {
@@ -83,7 +85,7 @@ function pickImageUrl(seedText = "") {
 }
 
 function buildSystemPrompt() {
-  return `Eres editor jurídico de EV Abogados en Perú. Redacta una publicación de análisis político, electoral o parlamentario peruano con estilo jurídico claro, sobrio y comprensible para público general.
+  return `Eres editor jurídico de EV Abogados en Perú. Redacta una publicación breve pero sólida sobre actualidad política, parlamentaria, electoral, jurídica o legal peruana, con preferencia por asuntos vinculados al Congreso, Parlamento Andino, reformas políticas, legislación, control constitucional, organismos electorales, justicia, administración pública y derecho público. No conviertas todos los posts en notas electorales: alterna el enfoque según la noticia más relevante y evita repetir el mismo ángulo si hay alternativas políticas, parlamentarias, jurídicas o legales. Debe tener título sobrio, bajada inicial, enfoque jurídico claro, categoría, etiquetas y cuerpo en HTML semántico. No inventes hechos: usa solo las noticias proporcionadas. Prioriza hechos oficiales o de alto impacto institucional, como normas aprobadas, dictámenes, debates parlamentarios relevantes, decisiones del TC/Poder Judicial/Fiscalía/JNE/ONPE, reformas legales o acontecimientos políticos con implicancia jurídica.
 
 Reglas obligatorias:
 1. El texto debe tener entre 750 y 1,050 palabras.
@@ -96,11 +98,13 @@ Reglas obligatorias:
 8. Usa lenguaje jurídico claro, pero entendible para lectores no especialistas.
 9. El cuerpo debe estar en HTML semántico usando <p>, <h2> y, si corresponde, <h3>.
 10. Incluye una sección final breve titulada “Lectura jurídica” o “Relevancia institucional”.
-11. Devuelve JSON estricto con estas claves: title, excerpt, category, tags, body, imagePrompt.`;
+11. No conviertas todos los posts en notas electorales. No repitas el mismo tema ni el mismo ángulo si existen noticias relevantes distintas. Elige la noticia con mayor importancia institucional, jurídica o política del día, especialmente normas aprobadas, dictámenes, debates parlamentarios relevantes, decisiones del TC/Poder Judicial/Fiscalía/JNE/ONPE, reformas legales, crisis políticas o hechos públicos con consecuencia legal.
+12. Debes producir un análisis jurídico claro, prudente y útil para el lector. No inventes hechos: usa solo las noticias proporcionadas.
+13. Devuelve JSON estricto con estas claves: title, excerpt, category, tags, body, imagePrompt.`;
 }
 
 async function generatePost(newsItems) {
-  const prompt = `Noticias disponibles:\n${newsItems.map((item, i) => `${i + 1}. ${item.title}\nResumen: ${item.description}\nFecha: ${item.pubDate || "s/f"}\nLink: ${item.link || item.sourceUrl}`).join("\n\n")}\n\nRedacta un post para EV Abogados de entre 750 y 1,050 palabras. No hagas una nota corta. Debe contener análisis jurídico-político real, contexto, explicación institucional, efectos prácticos y cierre. El texto debe servir para un blog profesional de derecho electoral, derecho parlamentario y análisis político peruano.`;
+  const prompt = `Noticias disponibles:\n${newsItems.map((item, i) => `${i + 1}. ${item.title}\nResumen: ${item.description}\nFecha: ${item.pubDate || "s/f"}\nLink: ${item.link || item.sourceUrl}`).join("\n\n")}\n\nElige una sola noticia: la más resaltante del día por importancia política, legal, parlamentaria, electoral o jurídica. Evita escoger otra nota electoral si hay una noticia institucional distinta con más relevancia. Evita repetir tema, enfoque o redacción respecto de publicaciones recientes si las noticias disponibles permiten variar. Redacta un post para EV Abogados con tono jurídico claro, prudente y profesional.`;
   const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
@@ -125,8 +129,8 @@ async function generatePost(newsItems) {
   return {
     title: String(post.title).trim(),
     excerpt: String(post.excerpt || "").trim(),
-    category: String(post.category || "Actualidad electoral").trim(),
-    tags: Array.isArray(post.tags) ? post.tags.slice(0, 8) : ["Perú", "elecciones", "Congreso"],
+    category: String(post.category || "Actualidad política y legal").trim(),
+    tags: Array.isArray(post.tags) ? post.tags.slice(0, 8) : ["Perú", "política", "Congreso", "Derecho Público", "Diputados", "Senadores"],
     body: String(post.body).trim(),
     image_url: pickImageUrl(post.title || post.category || "EV Abogados"),
     author: process.env.AUTO_BLOG_AUTHOR || "EV Abogados",
