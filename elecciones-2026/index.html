@@ -349,6 +349,21 @@ main,.card,.spotlight-grid,.projection-grid,.analysis-grid,.territory-panel,.ter
 
     function seatsByDhondt(votes, seats){const totalSeats=Math.max(0,Number(seats||0));if(!totalSeats||!votes.length)return new Map();const rows=[];votes.forEach(v=>{const value=Number(v.votes||0);if(value<=0)return;for(let d=1;d<=totalSeats;d++)rows.push({party:v.party,votes:value,q:value/d});});rows.sort((a,b)=>b.q-a.q||b.votes-a.votes||a.party.localeCompare(b.party,'es'));const out=new Map();rows.slice(0,totalSeats).forEach(r=>out.set(r.party,(out.get(r.party)||0)+1));return out;}
     function aggregateVotes(circs){const out=new Map();(circs||[]).forEach(c=>(c.votes||[]).forEach(v=>out.set(v.party,(out.get(v.party)||0)+numeric(v.votes))));return [...out.entries()].map(([party,votes])=>({party,votes})).sort((a,b)=>b.votes-a.votes);}
+    function mapSeatTotal(map){return [...(map||new Map()).values()].reduce((sum,n)=>sum+numeric(n),0);}
+    function completeMissingSeats(map,votes,total,eligible=null){
+      const out=new Map(map||[]);
+      let missing=Math.max(0,numeric(total)-mapSeatTotal(out));
+      if(!missing)return out;
+      let rows=(votes||[]).slice().filter(v=>numeric(v.votes)>0);
+      if(eligible)rows=rows.filter(v=>eligible.has(v.party));
+      while(missing>0&&rows.length){
+        rows.sort((a,b)=>(numeric(b.votes)/(numeric(out.get(b.party))+1))-(numeric(a.votes)/(numeric(out.get(a.party))+1))||numeric(b.votes)-numeric(a.votes)||clean(a.party).localeCompare(clean(b.party),'es'));
+        const party=rows[0].party;
+        out.set(party,(out.get(party)||0)+1);
+        missing--;
+      }
+      return out;
+    }
     function allocateAcrossCircunscripciones(circs, eligible=null){const out=new Map();(circs||[]).forEach(c=>{let votes=(c.votes||[]).slice();if(eligible)votes=votes.filter(v=>eligible.has(v.party));const alloc=seatsByDhondt(votes,numeric(c.seats));alloc.forEach((seats,party)=>out.set(party,(out.get(party)||0)+seats));});return out;}
     function rawSeatsByDistrict(circs){return allocateAcrossCircunscripciones(circs,null);}
 
@@ -418,8 +433,10 @@ main,.card,.spotlight-grid,.projection-grid,.analysis-grid,.territory-panel,.ter
       const nationalVotes=(data.nationalVotes&&data.nationalVotes.length)?data.nationalVotes:aggregateVotes(allCircs);
       const nationalTotal=nationalVotes.reduce((s,v)=>s+numeric(v.votes),0)||valid||1;
       let seatsNoBarrier=precomputedAllocation(data,'noBarrier',circs,totalSeats)||allocateAcrossCircunscripciones(circs,null);
+      seatsNoBarrier=completeMissingSeats(seatsNoBarrier,votes,totalSeats,null);
       const fallbackEligible=qualifyingParties(data,camera);
       let seatsBarrier=allocateAcrossCircunscripciones(circs,fallbackEligible);
+      seatsBarrier=completeMissingSeats(seatsBarrier,votes,totalSeats,fallbackEligible);
       const eligible=fallbackEligible;
       return {data,selectedCirc,circs,totalSeats,votes,valid,nationalTotal,eligible,seatsNoBarrier,seatsBarrier};
     }
