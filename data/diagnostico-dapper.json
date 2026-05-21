@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-21T20:12:11.253Z",
+  "generatedAt": "2026-05-21T22:51:22.373Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-21T20:11:44.012Z",
+  "updatedAt": "2026-05-21T22:51:08.985Z",
   "districts": 27,
   "fotosJne": {
     "porDni": 8957,
@@ -19,16 +19,16 @@
   "cameras": {
     "diputados": {
       "parties": 37,
-      "circunscripciones": 27,
+      "circunscripciones": 26,
       "candidates": 150,
       "status": {
-        "percent": 95.192,
-        "processed": 88306,
-        "total": 92766,
+        "percent": 95.286,
+        "processed": 82996,
+        "total": 87102,
         "jee": 0,
-        "pending": 4460,
-        "blankNull": 5367940,
-        "updated": "2026-05-21T18:15:21.101Z"
+        "pending": 4106,
+        "blankNull": 5107112,
+        "updated": "2026-05-21T22:15:05.862Z"
       }
     },
     "senadoNacional": {
@@ -36,13 +36,13 @@
       "circunscripciones": 1,
       "candidates": 35,
       "status": {
-        "percent": 93.502,
-        "processed": 86738,
+        "percent": 93.739,
+        "processed": 86958,
         "total": 92766,
         "jee": 0,
-        "pending": 6028,
-        "blankNull": 4903878,
-        "updated": "2026-05-21T19:45:07.344Z"
+        "pending": 5808,
+        "blankNull": 4920412,
+        "updated": "2026-05-21T22:30:35.646Z"
       }
     },
     "senadoRegional": {
@@ -56,7 +56,7 @@
         "jee": 0,
         "pending": 4442,
         "blankNull": 6083262,
-        "updated": "2026-05-21T18:15:21.101Z"
+        "updated": "2026-05-21T20:00:15.488Z"
       }
     },
     "andino": {
@@ -64,13 +64,13 @@
       "circunscripciones": 1,
       "candidates": 57,
       "status": {
-        "percent": 95.145,
-        "processed": 88262,
+        "percent": 95.469,
+        "processed": 88563,
         "total": 92766,
         "jee": 0,
-        "pending": 4504,
-        "blankNull": 6372303,
-        "updated": "2026-05-21T19:45:07.344Z"
+        "pending": 4203,
+        "blankNull": 6400175,
+        "updated": "2026-05-21T22:30:35.646Z"
       }
     }
   }
