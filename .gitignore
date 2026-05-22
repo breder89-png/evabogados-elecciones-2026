@@ -3,3 +3,11 @@ node_modules/
 .dev.vars
 .env
 *.log
+
+tmp-historico-onpe/
+tmp-*/
+*.csv
+*.zip
+
+evabogados-web-elecciones-v45-blog-api-fix/
+evabogados-elecciones-2026/
