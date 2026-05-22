@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-22T21:48:41.671Z",
+  "generatedAt": "2026-05-22T23:41:08.261Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-22T21:47:54.913Z",
+  "updatedAt": "2026-05-22T23:40:48.599Z",
   "districts": 27,
   "fotosJne": {
     "porDni": 8957,
@@ -22,13 +22,13 @@
       "circunscripciones": 27,
       "candidates": 151,
       "status": {
-        "percent": 96.064,
-        "processed": 89115,
-        "total": 92766,
+        "percent": 96.216,
+        "processed": 86812,
+        "total": 90226,
         "jee": 0,
-        "pending": 3651,
-        "blankNull": 5438740,
-        "updated": "2026-05-22T21:30:22.800Z"
+        "pending": 3414,
+        "blankNull": 5290515,
+        "updated": "2026-05-22T23:30:42.641Z"
       }
     },
     "senadoNacional": {
@@ -36,13 +36,13 @@
       "circunscripciones": 1,
       "candidates": 35,
       "status": {
-        "percent": 94.628,
-        "processed": 87783,
+        "percent": 94.921,
+        "processed": 88054,
         "total": 92766,
         "jee": 0,
-        "pending": 4983,
-        "blankNull": 4982443,
-        "updated": "2026-05-22T21:30:22.800Z"
+        "pending": 4712,
+        "blankNull": 5004069,
+        "updated": "2026-05-22T23:15:07.149Z"
       }
     },
     "senadoRegional": {
@@ -56,7 +56,7 @@
         "jee": 0,
         "pending": 3461,
         "blankNull": 6175586,
-        "updated": "2026-05-22T21:30:22.800Z"
+        "updated": "2026-05-22T21:45:11.639Z"
       }
     },
     "andino": {
@@ -64,13 +64,13 @@
       "circunscripciones": 1,
       "candidates": 57,
       "status": {
-        "percent": 96.145,
-        "processed": 89190,
+        "percent": 96.437,
+        "processed": 89461,
         "total": 92766,
         "jee": 0,
-        "pending": 3576,
-        "blankNull": 6460134,
-        "updated": "2026-05-22T21:30:22.800Z"
+        "pending": 3305,
+        "blankNull": 6484331,
+        "updated": "2026-05-22T23:30:42.641Z"
       }
     }
   }
