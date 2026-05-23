@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-23T02:25:45.789Z",
+  "generatedAt": "2026-05-23T02:30:11.593Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-23T02:22:12.788Z",
+  "updatedAt": "2026-05-23T02:29:58.641Z",
   "districts": 27,
   "fotosJne": {
-    "porDni": 8957,
-    "porClave": 8959
+    "porDni": 528,
+    "porClave": 528
   },
   "respaldoCandidatos": {
     "disponible": true,
@@ -18,45 +18,42 @@
   },
   "cameras": {
     "diputados": {
-      "parties": 37,
-      "circunscripciones": 27,
+      "parties": 0,
+      "circunscripciones": 0,
       "candidates": 151,
       "status": {
-        "percent": 96.45,
-        "processed": 89473,
-        "total": 92766,
-        "jee": 0,
-        "pending": 3293,
-        "blankNull": 5474036,
-        "updated": "2026-05-23T02:00:31.348Z"
+        "percent": null,
+        "processed": null,
+        "total": null,
+        "jee": null,
+        "pending": null,
+        "blankNull": 0
       }
     },
     "senadoNacional": {
-      "parties": 35,
+      "parties": 0,
       "circunscripciones": 1,
       "candidates": 35,
       "status": {
-        "percent": 95.161,
-        "processed": 88277,
-        "total": 92766,
-        "jee": 0,
-        "pending": 4489,
-        "blankNull": 5027852,
-        "updated": "2026-05-23T02:15:09.957Z"
+        "percent": null,
+        "processed": null,
+        "total": null,
+        "jee": null,
+        "pending": null,
+        "blankNull": 0
       }
     },
     "senadoRegional": {
-      "parties": 37,
-      "circunscripciones": 27,
+      "parties": 0,
+      "circunscripciones": 0,
       "candidates": 33,
       "status": {
-        "percent": 96.683,
-        "processed": 89689,
-        "total": 92766,
-        "jee": 0,
-        "pending": 3077,
-        "blankNull": 6217776,
-        "updated": "2026-05-23T02:00:31.348Z"
+        "percent": null,
+        "processed": null,
+        "total": null,
+        "jee": null,
+        "pending": null,
+        "blankNull": 0
       }
     },
     "andino": {
