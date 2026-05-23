@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-23T07:36:39.241Z",
+  "generatedAt": "2026-05-23T11:44:27.481Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-23T07:33:25.629Z",
+  "updatedAt": "2026-05-23T11:40:23.325Z",
   "districts": 27,
   "fotosJne": {
-    "porDni": 8829,
-    "porClave": 8831
+    "porDni": 8957,
+    "porClave": 8959
   },
   "respaldoCandidatos": {
     "disponible": true,
