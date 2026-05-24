@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-24T11:55:28.489Z",
+  "generatedAt": "2026-05-24T15:47:55.349Z",
   "dapperBaseUrl": "https://elecciones2026.dapperglobal.com",
-  "updatedAt": "2026-05-24T11:46:41.591Z",
+  "updatedAt": "2026-05-24T15:34:46.876Z",
   "districts": 27,
   "fotosJne": {
     "porDni": 8957,
@@ -19,15 +19,15 @@
   "cameras": {
     "diputados": {
       "parties": 37,
-      "circunscripciones": 26,
-      "candidates": 151,
+      "circunscripciones": 27,
+      "candidates": 152,
       "status": {
-        "percent": 96.938,
-        "processed": 88649,
-        "total": 91449,
+        "percent": 96.977,
+        "processed": 89962,
+        "total": 92766,
         "jee": 0,
-        "pending": 2800,
-        "blankNull": 5432985,
+        "pending": 2804,
+        "blankNull": 5514229,
         "updated": "2026-05-24T05:15:00.453Z"
       }
     },
@@ -50,12 +50,12 @@
       "circunscripciones": 27,
       "candidates": 33,
       "status": {
-        "percent": 97.346,
-        "processed": 90304,
-        "total": 92766,
+        "percent": 97.331,
+        "processed": 89788,
+        "total": 92250,
         "jee": 0,
         "pending": 2462,
-        "blankNull": 6268324,
+        "blankNull": 6214606,
         "updated": "2026-05-24T05:15:00.453Z"
       }
     },
