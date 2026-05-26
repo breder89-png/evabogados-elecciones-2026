@@ -11,8 +11,8 @@ export async function onRequestOptions() {
 export async function onRequestGet({ env, request }) {
   try {
     const candidates = [
-      { label: "github-action", url: "https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json" },
       { label: "local", url: new URL("/data/parlamento-2026.json", request.url).toString() },
+      { label: "github-action", url: "https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json" },
       { label: "external-env", url: env.ONPE_PARLAMENTO_JSON_URL }
     ].filter((source) => source.url);
 

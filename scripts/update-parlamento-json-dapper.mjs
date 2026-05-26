@@ -11,6 +11,7 @@ const previousFile = outFile;
 const candidateBackupFile = path.join(dataDir, "candidatos-respaldo-2026.json");
 
 const DAPPER_BASE_URL = trimSlash(process.env.DAPPER_BASE_URL || "https://elecciones2026.dapperglobal.com");
+const DECIDE_CDN_BASE_URL = trimSlash(process.env.DECIDE_CDN_BASE_URL || "https://dwin6afrwpy9h.cloudfront.net");
 const JNE_SERVICE_BASE_URL = trimSlash(process.env.JNE_SERVICE_BASE_URL || "https://web.jne.gob.pe/serviciovotoinformado");
 const JNE_IMAGE_BASE_URL = trimSlash(process.env.JNE_IMAGE_BASE_URL || "https://mpesije.jne.gob.pe/apidocs");
 const JNE_PROCESS_ID = 124;
@@ -131,6 +132,9 @@ async function main() {
   const previous = await loadJson(previousFile, {});
   const candidateBackup = await loadJson(candidateBackupFile, {});
   const enrich = buildEnrichment(previous, candidateBackup);
+  if (process.env.USE_LEGACY_DAPPER !== "1") {
+    return mainDecideLive({ previous, candidateBackup, enrich });
+  }
 
   const [districtsPayload, seatsPayload, andinoPayload] = await Promise.all([
     fetchJson("/api/pe-electoral-districts"),
@@ -793,6 +797,297 @@ function assertPayloadComplete(payload) {
 
 function blankNullFromScrutiny(scrutiny) {
   return Math.max(0, number(scrutiny?.totalVotesEmitted) - number(scrutiny?.totalVotesValid));
+}
+
+async function mainDecideLive({ enrich }) {
+  const manifest = await fetchDecideJson("publish/_current.json");
+  const [dipSeats, dipElected, senSeats, senElected, andinoSeats, andinoElected] = await Promise.all([
+    fetchDecideJson(manifest.diputados_escanos),
+    fetchDecideJson(manifest.diputados_electos),
+    fetchDecideJson(manifest.senadores_escanos),
+    fetchDecideJson(manifest.senadores_electos),
+    fetchDecideJson(manifest.parlamento_andino_escanos),
+    fetchDecideJson(manifest.parlamento_andino_electos)
+  ]);
+
+  const cameras = {};
+  cameras.diputados = buildDecideDistrictCamera({
+    key: "diputados",
+    name: "Diputados",
+    seats: number(dipSeats?._metadata?.total_escanos) || 130,
+    source: dipSeats,
+    elected: dipElected,
+    enrich
+  });
+  cameras.senadoNacional = buildDecideSingleCamera({
+    key: "senadoNacional",
+    name: "Senado nacional único",
+    seats: 30,
+    source: senSeats?.distrito_unico,
+    metadata: senSeats?._metadata,
+    elected: senElected?.distrito_unico,
+    enrich
+  });
+  cameras.senadoRegional = buildDecideDistrictCamera({
+    key: "senadoRegional",
+    name: "Senado regional",
+    seats: 30,
+    source: senSeats?.distrito_multiple || {},
+    elected: senElected?.distrito_multiple || {},
+    enrich,
+    nested: true
+  });
+  cameras.andino = buildDecideAndinoCamera(andinoSeats, andinoElected, enrich);
+  cameras.senado = mergeSenateAlias(cameras.senadoNacional, cameras.senadoRegional);
+  cameras.senadoTotal = cameras.senado;
+
+  const payload = {
+    year: 2026,
+    updatedAt: decideUpdatedAt(manifest, dipSeats?._metadata, senSeats?._metadata, andinoSeats?._metadata),
+    status: decideNationalStatus(dipSeats?._metadata?.acta_onpe?.eleccion) || combineStatusObjects(cameras.diputados.status, cameras.senado.status, cameras.andino.status),
+    camaras: cameras,
+    sourceMode: "generated-decideperu-live-v1",
+    sourceNotes: [
+      "Generado desde los JSON live publicados por Decide Perú/Dapper en CloudFront.",
+      "La web carga primero el JSON estático local para reducir la primera carga.",
+      "Cuando la fuente live no trae actas por circunscripción, se evita inventar porcentajes territoriales."
+    ]
+  };
+  assertPayloadComplete(payload);
+  await writeFile(outFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+  await writeFile(diagnosticFile, `${JSON.stringify({
+    generatedAt: new Date().toISOString(),
+    decideBaseUrl: DECIDE_CDN_BASE_URL,
+    manifestUpdatedAt: manifest.updated_at,
+    updatedAt: payload.updatedAt,
+    cameras: Object.fromEntries(Object.entries(cameras).filter(([k]) => !["senado", "senadoTotal"].includes(k)).map(([k, c]) => [k, {
+      parties: c.parties.length,
+      circunscripciones: c.circunscripciones.length,
+      candidates: c.candidates.length,
+      status: c.status
+    }]))
+  }, null, 2)}\n`, "utf8");
+  console.log(`OK: ${path.relative(rootDir, outFile)}`);
+  console.log(`Fuente: ${DECIDE_CDN_BASE_URL}/publish/_current.json`);
+}
+
+async function fetchDecideJson(pathname) {
+  const cleanPath = String(pathname || "").replace(/^\/+/, "");
+  const url = cleanPath.startsWith("http") ? cleanPath : `${DECIDE_CDN_BASE_URL}/${cleanPath}`;
+  const response = await fetch(url, {
+    headers: {
+      "accept": "application/json,text/plain,*/*",
+      "user-agent": "EVAbogadosParlamentoUpdater/2.0"
+    }
+  });
+  if (!response.ok) throw new Error(`HTTP ${response.status} al consultar ${url}`);
+  return response.json();
+}
+
+function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, nested = false }) {
+  const entries = Object.entries(source || {}).filter(([districtKey]) => districtKey !== "_metadata");
+  const circunscripciones = entries.map(([districtKey, row]) => decideCircFromRow(districtKey, row)).filter((c) => c.name && c.votes.length);
+  const candidates = mergeCandidateLists(
+    decideCandidatesFromElected(elected, key, enrich),
+    circunscripciones.flatMap((circ) => decideCandidatesFromParties((nested ? source[decideKeyForName(circ.name)] : source[decideKeyForName(circ.name)])?.partidos, key, circ.name, enrich))
+  );
+  return {
+    name,
+    seats,
+    barrier: 0.05,
+    parties: buildParties([...circunscripciones.flatMap((c) => c.votes), ...candidatePartyVotes(candidates)], enrich),
+    circunscripciones,
+    nationalVotes: aggregateVotes(circunscripciones),
+    candidates,
+    blankNull: sum(circunscripciones.map((c) => c.blankNull)),
+    status: combineStatusObjects(...circunscripciones.map((c) => c.status)),
+    allocations: {
+      noBarrier: [],
+      barrier: circunscripciones.flatMap((circ) => circ.allocations || [])
+    }
+  };
+}
+
+function buildDecideSingleCamera({ key, name, seats, source, metadata, elected, enrich }) {
+  const circ = decideCircFromRow("NACIONAL", { ...source, total_escanos: seats }, metadata);
+  return {
+    name,
+    seats,
+    barrier: 0.05,
+    parties: buildParties([...circ.votes, ...candidatePartyVotes(decideCandidatesFromElected(elected, key, enrich))], enrich),
+    circunscripciones: [circ],
+    nationalVotes: circ.votes,
+    candidates: mergeCandidateLists(decideCandidatesFromElected(elected, key, enrich), decideCandidatesFromParties(source?.partidos, key, "NACIONAL", enrich)),
+    blankNull: circ.blankNull,
+    status: circ.status,
+    allocations: { noBarrier: [], barrier: circ.allocations || [] }
+  };
+}
+
+function buildDecideAndinoCamera(source, elected, enrich) {
+  const votes = Object.entries(source || {}).filter(([key]) => key !== "_metadata").map(([partyName, row]) => {
+    const party = canonicalParty(partyName);
+    return { party: party.name, votes: number(row?.votos) };
+  }).filter((v) => v.party && v.votes > 0);
+  const circ = {
+    name: "NACIONAL",
+    seats: 5,
+    blankNull: 0,
+    votes,
+    status: decideNationalStatus(source?._metadata?.acta_onpe?.eleccion),
+    allocations: Object.entries(source || {}).filter(([key]) => key !== "_metadata").map(([partyName, row]) => ({
+      circunscripcion: "NACIONAL",
+      party: canonicalParty(partyName).name,
+      seats: number(row?.escanos)
+    })).filter((row) => row.seats > 0)
+  };
+  const candidates = mergeCandidateLists(
+    decideCandidatesFromElected(elected, "andino", enrich),
+    Object.entries(source || {}).filter(([key]) => key !== "_metadata").flatMap(([partyName, row]) => decideCandidateRows(row?.candidatos_lista, "andino", "NACIONAL", partyName, enrich))
+  );
+  return {
+    name: "Parlamento Andino",
+    seats: 5,
+    barrier: 0.05,
+    parties: buildParties([...votes, ...candidatePartyVotes(candidates)], enrich),
+    circunscripciones: [circ],
+    nationalVotes: votes,
+    candidates,
+    blankNull: 0,
+    status: circ.status,
+    allocations: { noBarrier: [], barrier: circ.allocations }
+  };
+}
+
+function decideCircFromRow(districtKey, row, metadata = null) {
+  const name = decideDistrictName(districtKey);
+  const participation = row?.participacion_territorio || {};
+  const votes = Object.entries(row?.partidos || {}).map(([partyName, partyRow]) => {
+    const party = canonicalParty(partyName);
+    return { party: party.name, votes: number(partyRow?.votos) };
+  }).filter((v) => v.party && v.votes > 0).sort((a, b) => b.votes - a.votes);
+  const blankNull = number(participation.votos_blancos) + number(participation.votos_nulos);
+  return {
+    name,
+    seats: number(row?.total_escanos ?? row?.escanos ?? row?.escanos_cuadro_jne),
+    blankNull,
+    votes,
+    status: statusFromDecideParticipation(participation, metadata?.acta_onpe?.eleccion),
+    allocations: Object.entries(row?.partidos || {}).map(([partyName, partyRow]) => ({
+      circunscripcion: name,
+      party: canonicalParty(partyName).name,
+      seats: number(partyRow?.escanos)
+    })).filter((item) => item.seats > 0)
+  };
+}
+
+function decideCandidatesFromElected(elected, key, enrich) {
+  const rows = [];
+  if (Array.isArray(elected)) rows.push(...elected);
+  else if (elected && typeof elected === "object") {
+    for (const [districtKey, group] of Object.entries(elected)) {
+      if (Array.isArray(group)) rows.push(...group.map((row) => ({ ...row, REGION: decideDistrictName(districtKey) })));
+      else rows.push(...flattenDecideCandidateRows(group).map((row) => ({ ...row, REGION: row.REGION || decideDistrictName(districtKey) })));
+    }
+  }
+  return rows.map((row) => decideCandidate(row, key, decideDistrictName(row.REGION || row.region || row.departamento || "NACIONAL"), row.PARTIDO || row.partido || row.party, enrich));
+}
+
+function flattenDecideCandidateRows(value) {
+  if (Array.isArray(value)) return value;
+  if (!value || typeof value !== "object") return [];
+  return Object.values(value).flatMap((item) => flattenDecideCandidateRows(item));
+}
+
+function decideCandidatesFromParties(parties, key, circName, enrich) {
+  return Object.entries(parties || {}).flatMap(([partyName, row]) => decideCandidateRows(row?.candidatos_lista, key, circName, partyName, enrich));
+}
+
+function decideCandidateRows(rows, key, circName, partyName, enrich) {
+  return (rows || []).map((row) => decideCandidate(row, key, circName, partyName, enrich));
+}
+
+function decideCandidate(row, key, circName, partyName, enrich) {
+  const party = canonicalParty(partyName || row?.PARTIDO || row?.partido || row?.organizacion_politica);
+  const name = properName(row?.CANDIDATO || row?.candidato || row?.nombre || row?.nombre_completo || row?.nombreCompleto);
+  const old = enrich.candidates.get(candidateKey({ name, party: party.name, circunscripcion: circName })) || {};
+  return {
+    name,
+    party: party.name,
+    partyShort: party.short,
+    circunscripcion: key === "senadoNacional" || key === "andino" ? "NACIONAL" : circName,
+    dni: cleanDocument(row?.dni || row?.DNI || old.dni),
+    votosPref: number(row?.TOTAL_VOTOS ?? row?.votos_preferenciales ?? row?.votos ?? row?.votosPref),
+    posicion: positiveOrNull(row?.NUMLISTA ?? row?.numlista ?? row?.posicion),
+    edad: old.edad || null,
+    imageUrl: old.imageUrl || row?.imageUrl || row?.fotoUrl || "",
+    idHojaVida: positiveOrNull(old.idHojaVida),
+    tipoCandidatura: key === "senadoNacional" ? "Senado nacional" : key === "senadoRegional" ? "Senado regional" : key === "andino" ? "Parlamento Andino" : "Diputados",
+    senateBlock: key === "senadoNacional" ? "Nacional" : key === "senadoRegional" ? "Regional" : undefined
+  };
+}
+
+function statusFromDecideParticipation(participation, fallbackElection) {
+  const total = number(participation?.total_actas);
+  const processed = number(participation?.actas_contabilizadas);
+  if (!total || !processed) {
+    return {
+      percent: null,
+      processed: null,
+      total: null,
+      jee: null,
+      pending: null,
+      blankNull: number(participation?.votos_blancos) + number(participation?.votos_nulos),
+      updated: fallbackElection?.fecha_actualizacion_onpe || null
+    };
+  }
+  const jee = number(participation?.actas_enviadas_jee);
+  const pending = Math.max(0, number(participation?.actas_pendientes_jee) || total - processed - jee);
+  return {
+    percent: number(participation?.pct_actas_contabilizadas) || Number(((processed / total) * 100).toFixed(3)),
+    processed,
+    total,
+    jee,
+    pending,
+    blankNull: number(participation?.votos_blancos) + number(participation?.votos_nulos),
+    updated: fallbackElection?.fecha_actualizacion_onpe || null
+  };
+}
+
+function decideNationalStatus(election) {
+  if (!election) return null;
+  return {
+    percent: number(election.actas_contabilizadas_pct),
+    processed: number(election.actas_contabilizadas),
+    total: number(election.total_actas),
+    jee: number(election.actas_enviadas_jee),
+    pending: number(election.actas_pendientes_jee),
+    blankNull: number(election.total_votos_emitidos) - number(election.total_votos_validos),
+    updated: election.fecha_actualizacion_onpe || null
+  };
+}
+
+function decideUpdatedAt(manifest, ...metadata) {
+  return latestDate(manifest?.updated_at, ...metadata.map((item) => item?.acta_onpe?.eleccion?.fecha_actualizacion_onpe)) || new Date().toISOString();
+}
+
+function decideDistrictName(key) {
+  const value = String(key || "NACIONAL").replace(/_/g, " ");
+  const norm = normalize(value);
+  if (norm === "ANCASH") return "ÁNCASH";
+  if (norm === "APURIMAC") return "APURÍMAC";
+  if (norm === "HUANUCO") return "HUÁNUCO";
+  if (norm === "JUNIN") return "JUNÍN";
+  if (norm === "SAN MARTIN") return "SAN MARTÍN";
+  if (norm.includes("EXTRANJERO")) return "RESIDENTES EN EL EXTRANJERO";
+  if (norm === "NACIONAL" || norm === "DISTRITO UNICO") return "NACIONAL";
+  return clean(value);
+}
+
+function decideKeyForName(name) {
+  const norm = normalize(name).replace(/\s+/g, "_");
+  if (norm === "RESIDENTES_EN_EL_EXTRANJERO") return "PERUANOS_RESIDENTES_EN_EL_EXTRANJERO";
+  return norm;
 }
 
 async function fetchJson(pathname) {
