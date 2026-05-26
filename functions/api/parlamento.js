@@ -11,30 +11,113 @@ export async function onRequestOptions() {
 export async function onRequestGet({ env, request }) {
   try {
     const candidates = [
-      "https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json",
-      new URL("/data/parlamento-2026.json", request.url).toString()
-    ];
-    if (env.ONPE_PARLAMENTO_JSON_URL) candidates.push(env.ONPE_PARLAMENTO_JSON_URL);
+      { label: "github-action", url: "https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json" },
+      { label: "local", url: new URL("/data/parlamento-2026.json", request.url).toString() },
+      { label: "external-env", url: env.ONPE_PARLAMENTO_JSON_URL }
+    ].filter((source) => source.url);
 
     let lastError = null;
-    for (const sourceUrl of candidates) {
+    const validSources = [];
+    for (const source of candidates) {
       try {
-        const upstream = await fetch(sourceUrl, {
+        const upstream = await fetch(source.url, {
           headers: { "User-Agent": "EV-Abogados-Parlamento/1.0", "Cache-Control": "no-cache" },
           cf: { cacheTtl: 0, cacheEverything: false }
         });
         if (!upstream.ok) throw new Error(`Fuente electoral no disponible: ${upstream.status}`);
         const data = await upstream.json();
-        return json({ ...data, sourceMode: data.sourceMode || "upstream", proxiedAt: new Date().toISOString() });
+        validateParlamentoData(data, source.url);
+        validSources.push({ source, data, score: scoreParlamentoData(data) });
       } catch (error) {
         lastError = error;
       }
+    }
+
+    if (validSources.length) {
+      validSources.sort((a, b) =>
+        b.score.updatedAt - a.score.updatedAt ||
+        b.score.statusUpdatedAt - a.score.statusUpdatedAt ||
+        b.score.processedActas - a.score.processedActas ||
+        b.score.totalVotes - a.score.totalVotes ||
+        b.score.candidateRows - a.score.candidateRows
+      );
+      const best = validSources[0];
+      return json({
+        ...best.data,
+        sourceMode: best.data.sourceMode || best.source.label,
+        proxiedAt: new Date().toISOString(),
+        proxiedSource: best.source.label,
+        proxiedScore: best.score
+      });
     }
 
     throw lastError || new Error("No se encontró fuente electoral normalizada.");
   } catch (error) {
     return json({ error: error.message, sourceMode: "error", fallback: sampleData() }, 502);
   }
+}
+
+function validateParlamentoData(data, sourceUrl) {
+  if (!data || typeof data !== "object") throw new Error(`Fuente inválida desde ${sourceUrl}`);
+  if (data.error || data.sourceMode === "error") throw new Error(`Fuente con error desde ${sourceUrl}`);
+  const score = scoreParlamentoData(data);
+  if (!score.cameraRows || !score.circRows || !score.totalVotes) {
+    throw new Error(`Fuente incompleta desde ${sourceUrl}`);
+  }
+  const diputados = data?.camaras?.diputados;
+  const callao = (diputados?.circunscripciones || []).find((c) => normalize(c.name) === "CALLAO");
+  const callaoValid = (callao?.votes || []).reduce((sum, row) => sum + Number(row.votes || 0), 0);
+  if (callao && callaoValid > 0 && callaoValid < 50000) {
+    throw new Error(`Fuente descartada por votos anómalos en Callao (${callaoValid}) desde ${sourceUrl}`);
+  }
+}
+
+function scoreParlamentoData(data) {
+  const cameras = Object.values(data?.camaras || {}).filter((camera) => camera && typeof camera === "object");
+  let circRows = 0;
+  let voteRows = 0;
+  let totalVotes = 0;
+  let candidateRows = 0;
+  let processedActas = 0;
+  let statusUpdatedAt = 0;
+  cameras.forEach((camera) => {
+    candidateRows += Array.isArray(camera.candidates) ? camera.candidates.length : 0;
+    (camera.circunscripciones || []).forEach((circ) => {
+      circRows += 1;
+      const status = circ.status || {};
+      processedActas += Number(status.processed || status.countedActas || 0);
+      statusUpdatedAt = Math.max(statusUpdatedAt, Date.parse(status.updated || status.updatedAt || "") || 0);
+      (circ.votes || []).forEach((row) => {
+        const votes = Number(row.votes || 0);
+        if (row.party && votes > 0) voteRows += 1;
+        totalVotes += votes;
+      });
+    });
+    (camera.nationalVotes || []).forEach((row) => {
+      const votes = Number(row.votes || 0);
+      if (row.party && votes > 0) voteRows += 1;
+      totalVotes += votes;
+    });
+  });
+  return {
+    updatedAt: Date.parse(data?.updatedAt || data?.generatedAt || "") || 0,
+    statusUpdatedAt,
+    cameraRows: cameras.length,
+    circRows,
+    voteRows,
+    totalVotes,
+    candidateRows,
+    processedActas
+  };
+}
+
+function normalize(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toUpperCase();
 }
 
 function json(data, status = 200) {

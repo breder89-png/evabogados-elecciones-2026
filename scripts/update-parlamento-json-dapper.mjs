@@ -141,6 +141,9 @@ async function main() {
   const districts = (districtsPayload.districts || [])
     .filter((d) => Number.isFinite(Number(d.code)))
     .sort((a, b) => Number(a.code) - Number(b.code));
+  if (districts.length < 20) {
+    throw new Error(`Dapper devolvió ${districts.length} distritos; se cancela para no publicar un JSON parlamentario incompleto.`);
+  }
 
   const [diputadosRows, senadoRegionalRows, senadoNacionalRow] = await Promise.all([
     fetchDistrictSeries("diputados", districts),
@@ -205,6 +208,7 @@ async function main() {
       "La web mantiene su propia lectura de valla electoral y D'Hondt sobre los votos normalizados por cámara y circunscripción."
     ]
   };
+  assertPayloadComplete(payload);
 
   await writeFile(outFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
   await writeFile(diagnosticFile, `${JSON.stringify({
@@ -773,6 +777,18 @@ function combineStatusObjects(...items) {
     blankNull: sum(rows.map((r) => r.blankNull)),
     updated: latestDate(...rows.map((r) => r.updated))
   };
+}
+
+function assertPayloadComplete(payload) {
+  const required = ["diputados", "senadoRegional", "andino"];
+  for (const key of required) {
+    const camera = payload?.camaras?.[key];
+    const circRows = Array.isArray(camera?.circunscripciones) ? camera.circunscripciones.length : 0;
+    const voteRows = (camera?.circunscripciones || []).reduce((sum, circ) => sum + (Array.isArray(circ.votes) ? circ.votes.length : 0), 0);
+    if (!circRows || !voteRows) {
+      throw new Error(`Fuente incompleta en ${key}: ${circRows} circunscripciones, ${voteRows} filas de votos. No se escribe ${path.relative(rootDir, outFile)}.`);
+    }
+  }
 }
 
 function blankNullFromScrutiny(scrutiny) {
