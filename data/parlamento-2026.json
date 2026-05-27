@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updatedAt": "2026-05-27T19:28:10.641Z",
+  "updatedAt": "2026-05-27T21:05:38.241Z",
   "status": {
     "percent": 98.007,
     "processed": 90917,
@@ -6992,8 +6992,8 @@
           "blankNull": 0,
           "votes": [
             {
-              "party": "JUNTOS POR EL PERÚ",
-              "votes": 3918
+              "party": "FUERZA POPULAR",
+              "votes": 145219
             }
           ],
           "status": {
@@ -7008,7 +7008,7 @@
           "allocations": [
             {
               "circunscripcion": "LA LIBERTAD",
-              "party": "JUNTOS POR EL PERÚ",
+              "party": "FUERZA POPULAR",
               "seats": 1
             }
           ]
@@ -7413,7 +7413,7 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1737538
+          "votes": 1882757
         },
         {
           "party": "RENOVACIÓN POPULAR",
@@ -7425,7 +7425,7 @@
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 635978
+          "votes": 632060
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
@@ -7614,15 +7614,15 @@
           "sourceBackup": false
         },
         {
-          "name": "NELLY CHAVEZ VILCHEZ",
-          "party": "JUNTOS POR EL PERÚ",
-          "partyShort": "JP",
+          "name": "VICTOR SEFERINO FLORES RUIZ",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
           "circunscripcion": "LA LIBERTAD",
           "dni": "",
-          "votosPref": 6347,
-          "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "votosPref": 16507,
+          "posicion": 1,
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8022ae32-73db-492b-9442-9ab351cf4ac6.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional"
@@ -7950,7 +7950,7 @@
           },
           {
             "circunscripcion": "LA LIBERTAD",
-            "party": "JUNTOS POR EL PERÚ",
+            "party": "FUERZA POPULAR",
             "seats": 1
           },
           {
@@ -8080,23 +8080,23 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2183180
+              "votes": 2138446
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1691849
+              "votes": 1801069
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1675328
+              "votes": 1762338
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1614867
+              "votes": 1699444
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1320873
+              "votes": 1403866
             }
           ],
           "status": {
@@ -8140,23 +8140,23 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2183180
+          "votes": 2138446
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1691849
+          "votes": 1801069
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1675328
+          "votes": 1762338
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1614867
+          "votes": 1699444
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1320873
+          "votes": 1403866
         }
       ],
       "candidates": [
@@ -8964,8 +8964,8 @@
           "blankNull": 0,
           "votes": [
             {
-              "party": "JUNTOS POR EL PERÚ",
-              "votes": 3918
+              "party": "FUERZA POPULAR",
+              "votes": 145219
             }
           ],
           "status": {
@@ -8980,7 +8980,7 @@
           "allocations": [
             {
               "circunscripcion": "LA LIBERTAD",
-              "party": "JUNTOS POR EL PERÚ",
+              "party": "FUERZA POPULAR",
               "seats": 1
             }
           ],
@@ -9400,7 +9400,7 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 3901964
+          "votes": 4047183
         },
         {
           "party": "RENOVACIÓN POPULAR",
@@ -9412,7 +9412,7 @@
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 2407976
+          "votes": 2404058
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
@@ -10055,15 +10055,15 @@
           "sourceBackup": false
         },
         {
-          "name": "NELLY CHAVEZ VILCHEZ",
-          "party": "JUNTOS POR EL PERÚ",
-          "partyShort": "JP",
+          "name": "VICTOR SEFERINO FLORES RUIZ",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
           "circunscripcion": "LA LIBERTAD",
           "dni": "",
-          "votosPref": 6347,
-          "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "votosPref": 16507,
+          "posicion": 1,
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8022ae32-73db-492b-9442-9ab351cf4ac6.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional"
@@ -10421,7 +10421,7 @@
           },
           {
             "circunscripcion": "LA LIBERTAD",
-            "party": "JUNTOS POR EL PERÚ",
+            "party": "FUERZA POPULAR",
             "seats": 1
           },
           {
@@ -10965,8 +10965,8 @@
           "blankNull": 0,
           "votes": [
             {
-              "party": "JUNTOS POR EL PERÚ",
-              "votes": 3918
+              "party": "FUERZA POPULAR",
+              "votes": 145219
             }
           ],
           "status": {
@@ -10981,7 +10981,7 @@
           "allocations": [
             {
               "circunscripcion": "LA LIBERTAD",
-              "party": "JUNTOS POR EL PERÚ",
+              "party": "FUERZA POPULAR",
               "seats": 1
             }
           ],
@@ -11401,7 +11401,7 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 3901964
+          "votes": 4047183
         },
         {
           "party": "RENOVACIÓN POPULAR",
@@ -11413,7 +11413,7 @@
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 2407976
+          "votes": 2404058
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
@@ -12056,15 +12056,15 @@
           "sourceBackup": false
         },
         {
-          "name": "NELLY CHAVEZ VILCHEZ",
-          "party": "JUNTOS POR EL PERÚ",
-          "partyShort": "JP",
+          "name": "VICTOR SEFERINO FLORES RUIZ",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
           "circunscripcion": "LA LIBERTAD",
           "dni": "",
-          "votosPref": 6347,
-          "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "votosPref": 16507,
+          "posicion": 1,
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8022ae32-73db-492b-9442-9ab351cf4ac6.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional"
@@ -12422,7 +12422,7 @@
           },
           {
             "circunscripcion": "LA LIBERTAD",
-            "party": "JUNTOS POR EL PERÚ",
+            "party": "FUERZA POPULAR",
             "seats": 1
           },
           {
