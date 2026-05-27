@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updatedAt": "2026-05-27T00:08:41.100Z",
+  "updatedAt": "2026-05-26T23:23:30.711Z",
   "status": {
     "percent": 97.702,
     "processed": 90634,
@@ -867,15 +867,15 @@
         {
           "name": "MOQUEGUA",
           "seats": 2,
-          "blankNull": 38539,
+          "blankNull": 223609,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 14195
+              "votes": 131394
             },
             {
-              "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 10477
+              "party": "AHORA NACIÓN - AN",
+              "votes": 93816
             }
           ],
           "status": {
@@ -884,7 +884,7 @@
             "total": null,
             "jee": null,
             "pending": null,
-            "blankNull": 38539,
+            "blankNull": 223609,
             "updated": null
           },
           "allocations": [
@@ -895,7 +895,7 @@
             },
             {
               "circunscripcion": "MOQUEGUA",
-              "party": "PARTIDO DEL BUEN GOBIERNO",
+              "party": "AHORA NACIÓN - AN",
               "seats": 1
             }
           ]
@@ -1205,23 +1205,23 @@
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1444292
+          "votes": 1561491
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1283224
+          "votes": 1272747
         },
         {
           "party": "RENOVACIÓN POPULAR",
           "votes": 1230415
         },
         {
-          "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 890581
+          "party": "AHORA NACIÓN - AN",
+          "votes": 918538
         },
         {
-          "party": "AHORA NACIÓN - AN",
-          "votes": 824722
+          "party": "PARTIDO CÍVICO OBRAS",
+          "votes": 890581
         }
       ],
       "candidates": [
@@ -4561,6 +4561,59 @@
           "tipoCandidatura": "Diputados"
         },
         {
+          "name": "ISAIAS JOSE ANCALLE PACHAO",
+          "party": "AHORA NACIÓN - AN",
+          "partyShort": "AN-",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 1774,
+          "posicion": 1,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados",
+          "sourceBackup": false
+        },
+        {
+          "name": "DENISSE LIZBETH MENDOZA VILCA",
+          "party": "AHORA NACIÓN - AN",
+          "partyShort": "AN-",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 1466,
+          "posicion": 2,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
+        },
+        {
+          "name": "LORENA ELIZABETH CUAYLA VIZCARRA",
+          "party": "AHORA NACIÓN - AN",
+          "partyShort": "AN-",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 374,
+          "posicion": 4,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
+        },
+        {
+          "name": "JOSE YGNACIO PRIETO BUSTOS",
+          "party": "AHORA NACIÓN - AN",
+          "partyShort": "AN-",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 225,
+          "posicion": 3,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
+        },
+        {
           "name": "GRACIELA CHIPANA CONDORI",
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
@@ -4581,59 +4634,6 @@
           "circunscripcion": "MOQUEGUA",
           "dni": "",
           "votosPref": 751,
-          "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
-        },
-        {
-          "name": "NERY RODOLFO FERNANDEZ NINA",
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "partyShort": "BG",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 1634,
-          "posicion": 1,
-          "edad": 53,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/acb6d8ba-0d30-48da-8ca6-e5f3f68f8a62.jpg",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados",
-          "sourceBackup": false
-        },
-        {
-          "name": "FIORELLA DINA VIZCARRA TIPO",
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "partyShort": "BG",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 522,
-          "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
-        },
-        {
-          "name": "JUAN VALENCIA URIBE",
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "partyShort": "BG",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 165,
-          "posicion": 3,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
-        },
-        {
-          "name": "YESICA YUREMA QUISPE MAMANI",
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "partyShort": "BG",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 130,
           "posicion": 4,
           "edad": null,
           "imageUrl": "",
@@ -5604,14 +5604,14 @@
           "tipoCandidatura": "Diputados"
         }
       ],
-      "blankNull": 5563806,
+      "blankNull": 5748876,
       "status": {
         "percent": null,
         "processed": 0,
         "total": 0,
         "jee": 0,
         "pending": 0,
-        "blankNull": 5563806,
+        "blankNull": 5748876,
         "updated": "1970-01-01T00:00:00.000Z"
       },
       "allocations": {
@@ -5894,7 +5894,7 @@
           },
           {
             "circunscripcion": "MOQUEGUA",
-            "party": "PARTIDO DEL BUEN GOBIERNO",
+            "party": "AHORA NACIÓN - AN",
             "seats": 1
           },
           {
@@ -8080,23 +8080,23 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 1999832
+              "votes": 4814532
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1644741
-            },
-            {
-              "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1595910
+              "votes": 3631794
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1513382
+              "votes": 3427586
+            },
+            {
+              "party": "PARTIDO DEL BUEN GOBIERNO",
+              "votes": 3397853
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1263746
+              "votes": 2917517
             }
           ],
           "status": {
@@ -8121,12 +8121,12 @@
             },
             {
               "circunscripcion": "NACIONAL",
-              "party": "PARTIDO DEL BUEN GOBIERNO",
+              "party": "RENOVACIÓN POPULAR",
               "seats": 1
             },
             {
               "circunscripcion": "NACIONAL",
-              "party": "RENOVACIÓN POPULAR",
+              "party": "PARTIDO DEL BUEN GOBIERNO",
               "seats": 1
             },
             {
@@ -8140,23 +8140,23 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1999832
+          "votes": 4814532
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1644741
-        },
-        {
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1595910
+          "votes": 3631794
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1513382
+          "votes": 3427586
+        },
+        {
+          "party": "PARTIDO DEL BUEN GOBIERNO",
+          "votes": 3397853
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1263746
+          "votes": 2917517
         }
       ],
       "candidates": [
@@ -8550,12 +8550,12 @@
           },
           {
             "circunscripcion": "NACIONAL",
-            "party": "PARTIDO DEL BUEN GOBIERNO",
+            "party": "RENOVACIÓN POPULAR",
             "seats": 1
           },
           {
             "circunscripcion": "NACIONAL",
-            "party": "RENOVACIÓN POPULAR",
+            "party": "PARTIDO DEL BUEN GOBIERNO",
             "seats": 1
           },
           {

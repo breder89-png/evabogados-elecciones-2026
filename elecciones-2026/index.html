@@ -724,6 +724,8 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
 <!-- EV_PATCH_V70_FIX_REAL_STACK -->
 <!-- EV_PATCH_V71_FOTOS_CACHE_MOVIL -->
 <!-- EV_PATCH_V72_FIX_ESPACIADO_CANDIDATOS -->
+<!-- EV_PATCH_V77_INTERFAZ_CORRECTA_LIVE_DAPPER -->
+<!-- EV_PATCH_V78_FIX_CONFIGYEAR -->
 </head>
 <body>
   <div class="topline"><span><b>Observatorio EV:</b> proyección técnica parlamentaria EG2026.</span><span>Lectura referencial basada en fuente normalizada; no sustituye proclamación oficial.</span></div>
@@ -882,8 +884,8 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
         diputadosSeatMap: diputadosSeatMap2026,
         qualifiedParties: QUALIFIED_PARTIES_2026,
         qualificationMode: 'computed',
-        urls: ['/data/parlamento-2026.json','/api/parlamento','https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json'],
-        liveUrls: ['/api/parlamento','https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json','/data/parlamento-2026.json']
+        urls: ['https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json','/data/parlamento-2026.json','/api/parlamento'],
+        liveUrls: ['https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json','/api/parlamento','/data/parlamento-2026.json']
       },
       '2021': {
         year: '2021',
@@ -1528,13 +1530,21 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       $('spotlightSub').textContent=activeParty?'Curules de la fuerza seleccionada. Haga click nuevamente en la fuerza para volver al total.':(scope?'Escenario con valla para la circunscripción seleccionada.':'Escenario con valla agrupado por fuerza política.');
       $('spotlightStats').innerHTML=[['Curules',fmt.format(activeParty?activeSeats:(agg.totalSeats||cameraMeta[cam]?.seats||0))],['Listas',fmt.format(activeParty?1:represented.length)],['Candidatos',fmt.format(list.length)]].map(([label,value])=>`<div class="spotlight-stat"><b>${value}</b><span>${label}</span></div>`).join('');
       const partyIndex=new Map();
-      box.innerHTML=list.map(c=>{
+      const renderCandidateChunk=(items)=>items.map(c=>{
         const total=scope?numeric(c.projectedPartySeats):(agg.seatsBarrier.get(c.party)||numeric(c.projectedPartySeats)||1);
         const next=(partyIndex.get(c.party)||0)+1;
         partyIndex.set(c.party,next);
         const seat=scope?numeric(c.projectedSeat)||next:next;
         return spotlightCandidateHTML(c,withWinners.length?`Curul ${seat}/${total}`:'Mayor votación');
-      }).join('')||'<div class="empty">Seleccione una circunscripción o espere a que la fuente publique candidatos para esta cámara.</div>';
+      }).join('');
+      if(list.length>28&&electionConfig().year==='2026'){
+        const first=list.slice(0,18),rest=list.slice(18);
+        box.innerHTML=renderCandidateChunk(first)||'<div class="empty">Seleccione una circunscripción o espere a que la fuente publique candidatos para esta cámara.</div>';
+        const appendRest=()=>box.insertAdjacentHTML('beforeend',renderCandidateChunk(rest));
+        if('requestIdleCallback' in window)requestIdleCallback(appendRest,{timeout:900});else setTimeout(appendRest,80);
+      }else{
+        box.innerHTML=renderCandidateChunk(list)||'<div class="empty">Seleccione una circunscripción o espere a que la fuente publique candidatos para esta cámara.</div>';
+      }
       const leaderBox=$('spotlightLeaders');
       leaderBox.className='compact-leader-list';
       leaderBox.innerHTML=represented.map(([party,seats])=>{
@@ -1792,14 +1802,30 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       window.addEventListener('resize',()=>{if(!isDesktop())hide();else if(activeSeat)positionFor(activeSeat);});
     }
 
+    async function fetchWithTimeout(url,options,ms){
+      const controller=new AbortController();
+      const timer=setTimeout(()=>controller.abort(),ms);
+      try{return await fetch(url,{...options,signal:controller.signal});}
+      finally{clearTimeout(timer);}
+    }
+
     async function fetchParlamentoJSON(config=electionConfig(),options={}){
-      const urls=options.live?(config.liveUrls||config.urls):config.urls;
-      const allowBrowserCache=!options.live;
+      const configured=options.live?(config.liveUrls||config.urls):config.urls;
+      const allowBrowserCache=!options.live&&config.year!=='2026';
+      const urls=config.year==='2026'
+        ? Array.from(new Set([
+            'https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json',
+            ...(configured||[]),
+            '/data/parlamento-2026.json',
+            '/api/parlamento'
+          ]))
+        : configured;
       let lastError=null;
       for(const url of urls){
         try{
           const bust=allowBrowserCache?'':(url.includes('?')?'&ts='+Date.now():'?ts='+Date.now());
-          const response=await fetch(url+bust,{cache:allowBrowserCache?'force-cache':'no-store'});
+          const timeout=(config.year==='2026'&&url.includes('raw.githubusercontent.com'))?1600:3200;
+          const response=await fetchWithTimeout(url+bust,{cache:allowBrowserCache?'force-cache':'no-store'},timeout);
           if(!response.ok)throw new Error(`${url}: HTTP ${response.status}`);
           const text=await response.text();
           const trimmed=text.trim();

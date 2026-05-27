@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "auto:blog": "node scripts/auto-blog-publisher.mjs",
-    "update:parlamento": "node scripts/update-parlamento-json.mjs",
+    "update:parlamento": "node scripts/update-parlamento-json-dapper.mjs",
     "update:parlamento:dapper": "node scripts/update-parlamento-json-dapper.mjs",
     "probe:onpe": "node scripts/probar-onpe-endpoints.mjs",
     "deploy": "wrangler pages deploy . --project-name=evabogados --branch=main",
-    "update-and-deploy": "node scripts/update-parlamento-json.mjs && wrangler pages deploy . --project-name=evabogados --branch=main"
+    "update-and-deploy": "node scripts/update-parlamento-json-dapper.mjs && wrangler pages deploy . --project-name=evabogados --branch=main"
   },
   "dependencies": {
     "xlsx": "^0.18.5"

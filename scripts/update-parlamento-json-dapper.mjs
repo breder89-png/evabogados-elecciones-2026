@@ -816,6 +816,7 @@ async function mainDecideLive({ enrich }) {
     name: "Diputados",
     seats: number(dipSeats?._metadata?.total_escanos) || 130,
     source: dipSeats,
+    metadata: dipSeats?._metadata,
     elected: dipElected,
     enrich
   });
@@ -833,6 +834,7 @@ async function mainDecideLive({ enrich }) {
     name: "Senado regional",
     seats: 30,
     source: senSeats?.distrito_multiple || {},
+    metadata: senSeats?._metadata,
     elected: senElected?.distrito_multiple || {},
     enrich,
     nested: true
@@ -884,9 +886,10 @@ async function fetchDecideJson(pathname) {
   return response.json();
 }
 
-function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, nested = false }) {
+function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, nested = false, metadata = null }) {
   const entries = Object.entries(source || {}).filter(([districtKey]) => districtKey !== "_metadata");
-  const circunscripciones = entries.map(([districtKey, row]) => decideCircFromRow(districtKey, row)).filter((c) => c.name && c.votes.length);
+  const meta = metadata || source?._metadata || null;
+  const circunscripciones = entries.map(([districtKey, row]) => decideCircFromRow(districtKey, row, meta)).filter((c) => c.name && c.votes.length);
   const candidates = mergeCandidateLists(
     decideCandidatesFromElected(elected, key, enrich),
     circunscripciones.flatMap((circ) => decideCandidatesFromParties((nested ? source[decideKeyForName(circ.name)] : source[decideKeyForName(circ.name)])?.partidos, key, circ.name, enrich))
@@ -961,12 +964,13 @@ function buildDecideAndinoCamera(source, elected, enrich) {
 
 function decideCircFromRow(districtKey, row, metadata = null) {
   const name = decideDistrictName(districtKey);
-  const participation = row?.participacion_territorio || {};
+  const participation = decideParticipationForDistrict(row, metadata, districtKey, name);
   const votes = Object.entries(row?.partidos || {}).map(([partyName, partyRow]) => {
     const party = canonicalParty(partyName);
     return { party: party.name, votes: number(partyRow?.votos) };
   }).filter((v) => v.party && v.votes > 0).sort((a, b) => b.votes - a.votes);
-  const blankNull = number(participation.votos_blancos) + number(participation.votos_nulos);
+  const blankNull = numberFromKeys(participation, ["votos_blancos", "votosBlancos", "blancos", "blank_votes"])
+    + numberFromKeys(participation, ["votos_nulos", "votosNulos", "nulos", "null_votes"]);
   return {
     name,
     seats: number(row?.total_escanos ?? row?.escanos ?? row?.escanos_cuadro_jne),
@@ -1028,42 +1032,132 @@ function decideCandidate(row, key, circName, partyName, enrich) {
 }
 
 function statusFromDecideParticipation(participation, fallbackElection) {
-  const total = number(participation?.total_actas);
-  const processed = number(participation?.actas_contabilizadas);
+  const source = participation || {};
+  const total = numberFromKeys(source, [
+    "total_actas", "totalActas", "actas_total", "actasTotal", "actas", "total"
+  ]);
+  const processed = numberFromKeys(source, [
+    "actas_contabilizadas", "actasContabilizadas", "contabilizadas", "procesadas", "processed"
+  ]);
+  const jee = numberFromKeys(source, [
+    "actas_enviadas_jee", "actasEnviadasJee", "para_envio_jEE", "para_envio_jee", "actas_para_envio_jee", "jee"
+  ]);
+  const explicitPending = numberFromKeys(source, [
+    "actas_pendientes_jee", "actasPendientesJee", "pendientes", "pending"
+  ]);
+  const percent = numberFromKeys(source, [
+    "pct_actas_contabilizadas", "actas_contabilizadas_pct", "porcentaje_actas_contabilizadas",
+    "porcentaje", "percent", "percentage"
+  ]);
+  const blankNull = numberFromKeys(source, ["votos_blancos", "votosBlancos", "blancos", "blank_votes"])
+    + numberFromKeys(source, ["votos_nulos", "votosNulos", "nulos", "null_votes"]);
+  const updated = firstTruthyFromKeys(source, [
+    "fecha_actualizacion_onpe", "fechaActualizacionOnpe", "updated_at", "updatedAt", "fecha_actualizacion"
+  ]) || fallbackElection?.fecha_actualizacion_onpe || null;
+
   if (!total || !processed) {
-    return {
-      percent: null,
-      processed: null,
-      total: null,
-      jee: null,
-      pending: null,
-      blankNull: number(participation?.votos_blancos) + number(participation?.votos_nulos),
-      updated: fallbackElection?.fecha_actualizacion_onpe || null
-    };
+    return { percent: percent || null, processed: processed || null, total: total || null, jee: jee || null, pending: explicitPending || null, blankNull, updated };
   }
-  const jee = number(participation?.actas_enviadas_jee);
-  const pending = Math.max(0, number(participation?.actas_pendientes_jee) || total - processed - jee);
+
+  const pending = explicitPending || Math.max(0, total - processed - jee);
   return {
-    percent: number(participation?.pct_actas_contabilizadas) || Number(((processed / total) * 100).toFixed(3)),
+    percent: percent || Number(((processed / total) * 100).toFixed(3)),
     processed,
     total,
     jee,
     pending,
-    blankNull: number(participation?.votos_blancos) + number(participation?.votos_nulos),
-    updated: fallbackElection?.fecha_actualizacion_onpe || null
+    blankNull,
+    updated
   };
 }
 
-function decideNationalStatus(election) {
+function decideParticipationForDistrict(row, metadata, districtKey, districtName) {
+  const direct = row?.participacion_territorio
+    || row?.participacion
+    || row?.participation
+    || row?.actas
+    || row?.acta_onpe?.territorio
+    || row?._metadata?.acta_onpe?.territorio;
+  if (direct && typeof direct === "object" && Object.keys(direct).length) return direct;
+
+  const acta = metadata?.acta_onpe || metadata?.actas_onpe || {};
+  const candidates = [
+    acta?.territorio,
+    acta?.territorios,
+    acta?.circunscripciones,
+    acta?.distritos,
+    acta?.departamentos,
+    acta?.detalle_territorial
+  ].filter(Boolean);
+
+  const keys = [
+    districtKey,
+    decideKeyForName(districtName),
+    districtName,
+    normalize(districtName),
+    String(districtKey || "").toLowerCase(),
+    String(districtKey || "").toUpperCase()
+  ].filter(Boolean);
+
+  for (const table of candidates) {
+    const found = lookupTerritorialStatus(table, keys, districtName);
+    if (found) return found;
+  }
+
+  return {};
+}
+
+function lookupTerritorialStatus(table, keys, districtName) {
+  if (Array.isArray(table)) {
+    return table.find((item) => {
+      const label = item?.name || item?.nombre || item?.region || item?.departamento || item?.circunscripcion || item?.territorio || item?.ubigeo;
+      return keys.some((key) => normalize(label) === normalize(key)) || normalize(label) === normalize(districtName);
+    }) || null;
+  }
+  if (table && typeof table === "object") {
+    for (const key of keys) {
+      if (table[key]) return table[key];
+      const alt = Object.entries(table).find(([k]) => normalize(k) === normalize(key));
+      if (alt) return alt[1];
+    }
+  }
+  return null;
+}
+
+function numberFromKeys(obj, keys) {
+  for (const key of keys) {
+    const value = obj?.[key];
+    const n = number(value);
+    if (n) return n;
+  }
+  return 0;
+}
+
+function firstTruthyFromKeys(obj, keys) {
+  for (const key of keys) {
+    const value = obj?.[key];
+    if (value) return value;
+  }
+  return null;
+}
+
+function decideNationalStatusfunction decideNationalStatus(election) {
   if (!election) return null;
+  const total = numberFromKeys(election, ["total_actas", "totalActas", "actas_total", "actasTotal", "total"]);
+  const processed = numberFromKeys(election, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "processed"]);
+  const jee = numberFromKeys(election, ["actas_enviadas_jee", "actasEnviadasJee", "jee"]);
+  const pending = numberFromKeys(election, ["actas_pendientes_jee", "actasPendientesJee", "pendientes", "pending"]);
+  const percent = numberFromKeys(election, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje", "percent"]);
+  const emitted = numberFromKeys(election, ["total_votos_emitidos", "totalVotosEmitidos", "emitidos"]);
+  const valid = numberFromKeys(election, ["total_votos_validos", "totalVotosValidos", "validos"]);
   return {
-    percent: number(election.actas_contabilizadas_pct),
-    processed: number(election.actas_contabilizadas),
-    total: number(election.total_actas),
-    jee: number(election.actas_enviadas_jee),
-    pending: number(election.actas_pendientes_jee),
-    blankNull: number(election.total_votos_emitidos) - number(election.total_votos_validos),
-    updated: election.fecha_actualizacion_onpe || null
+    percent: percent || (total && processed ? Number(((processed / total) * 100).toFixed(3)) : null),
+    processed: processed || null,
+    total: total || null,
+    jee: jee || null,
+    pending: pending || null,
+    blankNull: emitted && valid ? emitted - valid : 0,
+    updated: firstTruthyFromKeys(election, ["fecha_actualizacion_onpe", "fechaActualizacionOnpe", "updated_at", "updatedAt"]) || null
   };
 }
 
