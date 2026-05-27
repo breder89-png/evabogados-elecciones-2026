@@ -233,7 +233,11 @@ async function main() {
       circunscripciones: c.circunscripciones.length,
       candidates: c.candidates.length,
       status: c.status
-    }]))
+    }])),
+    statusSamples: ["LA LIBERTAD", "LAMBAYEQUE", "ÁNCASH", "PIURA"].reduce((acc, name) => {
+      acc[name] = Object.fromEntries(Object.entries(cameras).filter(([k]) => !["senado", "senadoTotal"].includes(k)).map(([k, c]) => [k, c.circunscripciones.find((x) => x.name === name)?.status || null]));
+      return acc;
+    }, {})
   }, null, 2)}\n`, "utf8");
 
   console.log(`OK: ${path.relative(rootDir, outFile)}`);
@@ -1081,34 +1085,101 @@ function decideParticipationForDistrict(row, metadata, districtKey, districtName
     String(districtKey || "").toUpperCase()
   ].filter(Boolean);
 
-  const direct = row?.participacion_territorio
-    || row?.participacion
-    || row?.participation
-    || row?.actas
-    || row?.acta_onpe?.territorio
-    || row?._metadata?.acta_onpe?.territorio;
-  const directFound = lookupTerritorialStatus(direct, keys, districtName) || (looksLikeStatus(direct) ? direct : null);
-  if (directFound) return directFound;
-
-  const acta = metadata?.acta_onpe || metadata?.actas_onpe || {};
-  const candidates = [
-    acta?.territorio,
-    acta?.territorios,
-    acta?.circunscripciones,
-    acta?.distritos,
-    acta?.departamentos,
-    acta?.detalle_territorial,
-    acta
+  // Importante: primero se revisan las tablas globales de actas que vienen en
+  // _metadata. En algunos cortes Decide/Dapper trae votos actualizados por
+  // distrito, pero deja un bloque `participacion_territorio` antiguo dentro
+  // del row. Si se lee primero ese bloque, La Libertad, Lambayeque, etc.
+  // quedan con actas del 22/23 de mayo aunque los votos estén al día.
+  const metadataActas = [
+    metadata?.acta_onpe,
+    metadata?.actas_onpe,
+    row?._metadata?.acta_onpe,
+    row?._metadata?.actas_onpe
   ].filter(Boolean);
 
-  for (const table of candidates) {
-    const found = lookupTerritorialStatus(table, keys, districtName);
-    if (found) return found;
+  const globalTables = [];
+  for (const acta of metadataActas) {
+    globalTables.push(
+      acta?.territorio,
+      acta?.territorios,
+      acta?.circunscripciones,
+      acta?.distritos,
+      acta?.departamentos,
+      acta?.detalle_territorial,
+      acta
+    );
   }
 
-  // Último recurso: búsqueda recursiva en row y metadata. Evita que cambios de
-  // estructura en el JSON live de Decide/Dapper dejen las actas territoriales en cero.
-  return recursiveTerritorialStatus({ row, metadata }, keys, districtName) || {};
+  const directTables = [
+    row?.participacion_territorio,
+    row?.participacion,
+    row?.participation,
+    row?.actas,
+    row?.acta_onpe?.territorio,
+    row?.acta_onpe,
+    row
+  ];
+
+  const found = [];
+  for (const table of [...globalTables, ...directTables].filter(Boolean)) {
+    const hit = lookupTerritorialStatus(table, keys, districtName);
+    if (hit && looksLikeStatus(hit)) found.push(hit);
+    else if (looksLikeStatus(table) && sameTerritoryLabel(table, keys, districtName)) found.push(table);
+  }
+
+  const recursive = recursiveTerritorialStatus({ metadata, row }, keys, districtName);
+  if (recursive) found.push(recursive);
+
+  return freshestStatus(found) || {};
+}
+
+function sameTerritoryLabel(item, keys, districtName) {
+  if (!item || typeof item !== "object") return false;
+  const label = item.name || item.nombre || item.region || item.departamento || item.circunscripcion || item.territorio || item.distrito || item.ubigeo || item.cod_ubigeo || item.codigo;
+  if (!label) return false;
+  const n = normalize(label);
+  return keys.some((key) => normalize(key) === n) || n === normalize(districtName);
+}
+
+function freshestStatus(items) {
+  const rows = (items || []).filter(Boolean);
+  if (!rows.length) return null;
+  return rows.sort((a, b) => {
+    const da = dateScoreFromStatus(a);
+    const db = dateScoreFromStatus(b);
+    if (db !== da) return db - da;
+    const pa = numberFromKeys(a, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "procesadas", "processed"]);
+    const pb = numberFromKeys(b, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "procesadas", "processed"]);
+    if (pb !== pa) return pb - pa;
+    const ta = numberFromKeys(a, ["total_actas", "totalActas", "actas_total", "actasTotal", "actas", "total"]);
+    const tb = numberFromKeys(b, ["total_actas", "totalActas", "actas_total", "actasTotal", "actas", "total"]);
+    return tb - ta;
+  })[0];
+}
+
+function dateScoreFromStatus(item) {
+  const raw = firstTruthyFromKeys(item || {}, [
+    "fecha_actualizacion_onpe",
+    "fechaActualizacionOnpe",
+    "updated_at",
+    "updatedAt",
+    "fecha_actualizacion",
+    "fechaActualizacion"
+  ]);
+  const d = parseSourceDate(raw);
+  return d ? d.getTime() : 0;
+}
+
+function parseSourceDate(value) {
+  if (!value) return null;
+  if (value instanceof Date && Number.isFinite(value.getTime())) return value;
+  let text = String(value).trim();
+  if (!text) return null;
+  // Decide/ONPE suele enviar ISO sin zona. Se interpreta como UTC para que
+  // 2026-05-26T22:00:09 se muestre 17:00:09 en Perú, no 22:00:09 local.
+  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(text)) text += "Z";
+  const d = new Date(text);
+  return Number.isFinite(d.getTime()) ? d : null;
 }
 
 function looksLikeStatus(obj) {
@@ -1127,7 +1198,7 @@ function recursiveTerritorialStatus(root, keys, districtName) {
     if (!item || typeof item !== "object" || seen.has(item)) continue;
     seen.add(item);
 
-    const label = item.name || item.nombre || item.region || item.departamento || item.circunscripcion || item.territorio || item.distrito || item.ubigeo;
+    const label = item.name || item.nombre || item.region || item.departamento || item.circunscripcion || item.territorio || item.distrito || item.ubigeo || item.cod_ubigeo || item.codigo;
     if (label && wanted.has(normalize(label)) && looksLikeStatus(item)) return item;
 
     if (!Array.isArray(item)) {
@@ -1149,16 +1220,22 @@ function recursiveTerritorialStatus(root, keys, districtName) {
 
 function lookupTerritorialStatus(table, keys, districtName) {
   if (Array.isArray(table)) {
-    return table.find((item) => {
-      const label = item?.name || item?.nombre || item?.region || item?.departamento || item?.circunscripcion || item?.territorio || item?.ubigeo;
+    return freshestStatus(table.filter((item) => {
+      const label = item?.name || item?.nombre || item?.region || item?.departamento || item?.circunscripcion || item?.territorio || item?.distrito || item?.ubigeo || item?.cod_ubigeo || item?.codigo;
       return keys.some((key) => normalize(label) === normalize(key)) || normalize(label) === normalize(districtName);
-    }) || null;
+    })) || null;
   }
   if (table && typeof table === "object") {
     for (const key of keys) {
       if (table[key]) return table[key];
       const alt = Object.entries(table).find(([k]) => normalize(k) === normalize(key));
       if (alt) return alt[1];
+    }
+    // Algunos objetos vienen como { rows: [...] } o { data: [...] }.
+    for (const nestedKey of ["rows", "data", "items", "results", "detalle"]) {
+      const nested = table[nestedKey];
+      const found = lookupTerritorialStatus(nested, keys, districtName);
+      if (found) return found;
     }
   }
   return null;

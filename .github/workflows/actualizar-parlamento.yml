@@ -3,7 +3,7 @@ name: Actualizar Parlamento 2026
 on:
   workflow_dispatch:
   schedule:
-    # GitHub no garantiza puntualidad exacta; esta cadencia solicita actualización frecuente.
+    # GitHub no garantiza puntualidad exacta. Esta cadencia solicita actualización frecuente.
     - cron: "3,8,13,18,23,28,33,38,43,48,53,58 * * * *"
 
 permissions:
@@ -16,6 +16,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Descargar repositorio
@@ -25,21 +26,21 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "22"
-          cache: "npm"
-
-      - name: Instalar dependencias
-        run: npm ci
 
       - name: Generar JSON parlamentario desde Decide/Dapper live
-        run: npm run update:parlamento:dapper
+        run: node scripts/update-parlamento-json-dapper.mjs
         env:
           DECIDE_CDN_BASE_URL: https://dwin6afrwpy9h.cloudfront.net
           USE_LEGACY_DAPPER: "0"
+
+      - name: Verificar JSON generado
+        run: |
+          node -e "const fs=require('fs'); const d=JSON.parse(fs.readFileSync('data/parlamento-2026.json','utf8')); const l=d.camaras.diputados.circunscripciones.find(c=>c.name==='LA LIBERTAD'); console.log('La Libertad actas:', l && l.status); if(!d.camaras?.diputados?.candidates?.length) process.exit(1);"
 
       - name: Guardar cambios si hubo actualización
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/parlamento-2026.json data/diagnostico-dapper.json
-          git diff --cached --quiet || git commit -m "Actualizar datos parlamentarios Decide/Dapper"
+          git diff --cached --quiet || git commit -m "Actualizar datos parlamentarios Decide Dapper"
           git push
