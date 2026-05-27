@@ -16,3 +16,6 @@ bucket_name = "evabogados-blog-images"
 
 # Secret requerido, NO se coloca aquí en producción:
 # BLOG_ADMIN_TOKEN="usa-un-token-largo-y-seguro"
+
+# Opcional. Si se activa, muestra comentarios editoriales de muestra cuando no existan comentarios aprobados reales.
+# BLOG_SAMPLE_COMMENTS="false"

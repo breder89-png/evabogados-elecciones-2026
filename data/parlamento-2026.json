@@ -65,13 +65,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 109858,
-            "updated": null
+            "percent": 88.498,
+            "processed": 1131,
+            "total": 1278,
+            "jee": 0,
+            "pending": 147,
+            "blankNull": 108451,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -104,13 +104,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 99.971,
+            "processed": 3471,
+            "total": 3472,
+            "jee": 0,
+            "pending": 1,
             "blankNull": 223075,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -146,13 +146,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 81498,
-            "updated": null
+            "percent": 99.62,
+            "processed": 1312,
+            "total": 1317,
+            "jee": 0,
+            "pending": 5,
+            "blankNull": 81198,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -189,13 +189,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 197692,
-            "updated": null
+            "percent": 99.953,
+            "processed": 4213,
+            "total": 4215,
+            "jee": 0,
+            "pending": 2,
+            "blankNull": 197558,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -240,13 +240,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1900,
+            "total": 1900,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 103190,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -276,13 +276,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 264021,
-            "updated": null
+            "percent": 97.948,
+            "processed": 4153,
+            "total": 4240,
+            "jee": 0,
+            "pending": 87,
+            "blankNull": 259506,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -316,13 +316,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 183750,
-            "updated": null
+            "percent": 95.342,
+            "processed": 2763,
+            "total": 2898,
+            "jee": 0,
+            "pending": 135,
+            "blankNull": 180889,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -365,13 +365,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 223609,
-            "updated": null
+            "percent": 92.041,
+            "processed": 3666,
+            "total": 3983,
+            "jee": 0,
+            "pending": 317,
+            "blankNull": 209679,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -407,13 +407,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 99.921,
+            "processed": 1272,
+            "total": 1273,
+            "jee": 0,
+            "pending": 1,
             "blankNull": 73285,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -438,13 +438,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 99.744,
+            "processed": 2335,
+            "total": 2341,
+            "jee": 0,
+            "pending": 6,
             "blankNull": 138595,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -482,13 +482,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 156571,
-            "updated": null
+            "percent": 90.463,
+            "processed": 2210,
+            "total": 2443,
+            "jee": 0,
+            "pending": 233,
+            "blankNull": 147334,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -540,13 +540,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 230648,
-            "updated": null
+            "percent": 99.729,
+            "processed": 3681,
+            "total": 3691,
+            "jee": 0,
+            "pending": 10,
+            "blankNull": 229928,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -595,13 +595,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 244317,
-            "updated": null
+            "percent": 99.109,
+            "processed": 3558,
+            "total": 3590,
+            "jee": 0,
+            "pending": 32,
+            "blankNull": 242066,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -648,13 +648,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 324158,
-            "updated": null
+            "percent": 98.321,
+            "processed": 5213,
+            "total": 5302,
+            "jee": 0,
+            "pending": 89,
+            "blankNull": 319815,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -715,13 +715,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 1312255,
-            "updated": null
+            "percent": 96.647,
+            "processed": 25484,
+            "total": 26368,
+            "jee": 0,
+            "pending": 884,
+            "blankNull": 1302013,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -775,13 +775,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 193732,
-            "updated": null
+            "percent": 99.826,
+            "processed": 2874,
+            "total": 2879,
+            "jee": 0,
+            "pending": 5,
+            "blankNull": 193488,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -816,13 +816,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 165440,
-            "updated": null
+            "percent": 97.887,
+            "processed": 2640,
+            "total": 2697,
+            "jee": 0,
+            "pending": 57,
+            "blankNull": 164258,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -848,13 +848,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 507,
+            "total": 507,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 35450,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -879,13 +879,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 223609,
-            "updated": null
+            "percent": 100,
+            "processed": 578,
+            "total": 578,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 38539,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -911,13 +911,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 802,
+            "total": 802,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 60741,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -942,13 +942,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 154961,
-            "updated": null
+            "percent": 90.72,
+            "processed": 2307,
+            "total": 2543,
+            "jee": 0,
+            "pending": 236,
+            "blankNull": 148306,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -986,13 +986,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 433390,
-            "updated": null
+            "percent": 87.881,
+            "processed": 4641,
+            "total": 5281,
+            "jee": 0,
+            "pending": 640,
+            "blankNull": 410997,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -1036,13 +1036,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 197053,
-            "updated": null
+            "percent": 99.941,
+            "processed": 3395,
+            "total": 3397,
+            "jee": 0,
+            "pending": 2,
+            "blankNull": 196904,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -1077,13 +1077,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 212925,
-            "updated": null
+            "percent": 97.751,
+            "processed": 2477,
+            "total": 2534,
+            "jee": 0,
+            "pending": 57,
+            "blankNull": 211968,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -1113,13 +1113,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1041,
+            "total": 1041,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 53636,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -1145,13 +1145,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 632,
+            "total": 632,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 57316,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -1176,13 +1176,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 94101,
-            "updated": null
+            "percent": 82.097,
+            "processed": 1284,
+            "total": 1564,
+            "jee": 0,
+            "pending": 280,
+            "blankNull": 92800,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -1430,12 +1430,12 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "ÁNCASH",
-          "dni": "",
+          "dni": "43403563",
           "votosPref": 8057,
           "posicion": 1,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/af149fdc-e8ae-4696-9f6c-7ce8751bab93.jpg",
+          "idHojaVida": 251260,
           "tipoCandidatura": "Diputados",
           "sourceBackup": false
         },
@@ -2084,12 +2084,12 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "CAJAMARCA",
-          "dni": "",
+          "dni": "44106846",
           "votosPref": 4226,
           "posicion": 5,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/118b911d-4431-4815-8ae0-fc14245c6e07.jpg",
+          "idHojaVida": 249245,
           "tipoCandidatura": "Diputados",
           "sourceBackup": false
         },
@@ -3509,12 +3509,12 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LAMBAYEQUE",
-          "dni": "",
+          "dni": "16787889",
           "votosPref": 5793,
           "posicion": 2,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/78074ff5-6c21-401f-b18c-66c503ea8eef.jpg",
+          "idHojaVida": 245942,
           "tipoCandidatura": "Diputados",
           "sourceBackup": false
         },
@@ -5606,13 +5606,13 @@
       ],
       "blankNull": 5748876,
       "status": {
-        "percent": null,
-        "processed": 0,
-        "total": 0,
+        "percent": 96.522,
+        "processed": 89540,
+        "total": 92766,
         "jee": 0,
-        "pending": 0,
-        "blankNull": 5748876,
-        "updated": "1970-01-01T00:00:00.000Z"
+        "pending": 3226,
+        "blankNull": 5480985,
+        "updated": "2026-05-23T02:30:16.390Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -6059,13 +6059,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 0,
-            "updated": null
+            "percent": 95.161,
+            "processed": 88277,
+            "total": 92766,
+            "jee": 0,
+            "pending": 4489,
+            "blankNull": 5027852,
+            "updated": "2026-05-23T02:45:18.349Z"
           },
           "allocations": [
             {
@@ -6421,8 +6421,8 @@
           "dni": "",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bf6bb226-708a-4728-ace7-69160b19478e.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado nacional",
           "senateBlock": "Nacional",
@@ -6496,8 +6496,8 @@
           "dni": "",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 29,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3a972a87-7dcc-40cd-b308-32dd15471ff9.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado nacional",
           "senateBlock": "Nacional",
@@ -6581,13 +6581,13 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": null,
-        "processed": null,
-        "total": null,
-        "jee": null,
-        "pending": null,
-        "blankNull": 0,
-        "updated": null
+        "percent": 95.161,
+        "processed": 88277,
+        "total": 92766,
+        "jee": 0,
+        "pending": 4489,
+        "blankNull": 5027852,
+        "updated": "2026-05-23T02:45:18.349Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -6673,13 +6673,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 114543,
-            "updated": null
+            "percent": 90.532,
+            "processed": 1157,
+            "total": 1278,
+            "jee": 0,
+            "pending": 121,
+            "blankNull": 112297,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6700,13 +6700,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 238244,
-            "updated": null
+            "percent": 96.659,
+            "processed": 3356,
+            "total": 3472,
+            "jee": 0,
+            "pending": 116,
+            "blankNull": 235792,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6727,13 +6727,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 74609,
-            "updated": null
+            "percent": 99.772,
+            "processed": 1314,
+            "total": 1317,
+            "jee": 0,
+            "pending": 3,
+            "blankNull": 74406,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6754,13 +6754,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 237995,
-            "updated": null
+            "percent": 99.976,
+            "processed": 4214,
+            "total": 4215,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 237931,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6781,13 +6781,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1900,
+            "total": 1900,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 106843,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6808,13 +6808,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 489334,
-            "updated": null
+            "percent": 98.019,
+            "processed": 4156,
+            "total": 4240,
+            "jee": 0,
+            "pending": 84,
+            "blankNull": 481994,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6835,13 +6835,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 189063,
-            "updated": null
+            "percent": 97.136,
+            "processed": 2815,
+            "total": 2898,
+            "jee": 0,
+            "pending": 83,
+            "blankNull": 186049,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6862,13 +6862,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 244740,
-            "updated": null
+            "percent": 93.673,
+            "processed": 3731,
+            "total": 3983,
+            "jee": 0,
+            "pending": 252,
+            "blankNull": 230668,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6889,13 +6889,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 89951,
-            "updated": null
+            "percent": 99.921,
+            "processed": 1272,
+            "total": 1273,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 89849,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6916,13 +6916,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 140595,
-            "updated": null
+            "percent": 99.744,
+            "processed": 2335,
+            "total": 2341,
+            "jee": 0,
+            "pending": 6,
+            "blankNull": 140524,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6943,13 +6943,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 166956,
-            "updated": null
+            "percent": 90.217,
+            "processed": 2204,
+            "total": 2443,
+            "jee": 0,
+            "pending": 239,
+            "blankNull": 156082,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6970,13 +6970,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 99.892,
+            "processed": 3687,
+            "total": 3691,
+            "jee": 0,
+            "pending": 4,
             "blankNull": 248646,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -6997,13 +6997,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 335259,
-            "updated": null
+            "percent": 98.321,
+            "processed": 5213,
+            "total": 5302,
+            "jee": 0,
+            "pending": 89,
+            "blankNull": 330419,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7024,13 +7024,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 258061,
-            "updated": null
+            "percent": 99.331,
+            "processed": 3566,
+            "total": 3590,
+            "jee": 0,
+            "pending": 24,
+            "blankNull": 256454,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7059,13 +7059,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 1544057,
-            "updated": null
+            "percent": 96.663,
+            "processed": 25488,
+            "total": 26368,
+            "jee": 0,
+            "pending": 880,
+            "blankNull": 1530910,
+            "updated": "2026-05-23T02:15:09.957Z"
           },
           "allocations": [
             {
@@ -7096,13 +7096,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 194435,
-            "updated": null
+            "percent": 99.826,
+            "processed": 2874,
+            "total": 2879,
+            "jee": 0,
+            "pending": 5,
+            "blankNull": 194144,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7123,13 +7123,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 175040,
-            "updated": null
+            "percent": 97.553,
+            "processed": 2631,
+            "total": 2697,
+            "jee": 0,
+            "pending": 66,
+            "blankNull": 173743,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7150,13 +7150,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 507,
+            "total": 507,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 43409,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7177,13 +7177,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 578,
+            "total": 578,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 39150,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7204,13 +7204,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 802,
+            "total": 802,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 54291,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7231,13 +7231,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 150081,
-            "updated": null
+            "percent": 89.422,
+            "processed": 2274,
+            "total": 2543,
+            "jee": 0,
+            "pending": 269,
+            "blankNull": 139918,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7258,13 +7258,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 412666,
-            "updated": null
+            "percent": 92.407,
+            "processed": 4880,
+            "total": 5281,
+            "jee": 0,
+            "pending": 401,
+            "blankNull": 404453,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7285,13 +7285,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 3397,
+            "total": 3397,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 244888,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7312,13 +7312,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 293812,
-            "updated": null
+            "percent": 98.185,
+            "processed": 2488,
+            "total": 2534,
+            "jee": 0,
+            "pending": 46,
+            "blankNull": 293416,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7339,13 +7339,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1041,
+            "total": 1041,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 56435,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7366,13 +7366,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 56888,
-            "updated": null
+            "percent": 99.842,
+            "processed": 631,
+            "total": 632,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 56785,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7393,13 +7393,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 112631,
-            "updated": null
+            "percent": 80.499,
+            "processed": 1259,
+            "total": 1564,
+            "jee": 0,
+            "pending": 305,
+            "blankNull": 104755,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -7735,8 +7735,8 @@
           "dni": "",
           "votosPref": 2895,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 41,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/43965a86-c97c-44b8-a5e7-00376bc2c77b.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional"
@@ -7877,13 +7877,13 @@
       ],
       "blankNull": 6312622,
       "status": {
-        "percent": null,
-        "processed": 0,
-        "total": 0,
+        "percent": 96.77,
+        "processed": 89770,
+        "total": 92766,
         "jee": 0,
-        "pending": 0,
-        "blankNull": 6312622,
-        "updated": "1970-01-01T00:00:00.000Z"
+        "pending": 2996,
+        "blankNull": 6224251,
+        "updated": "2026-05-23T02:30:16.390Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -8168,8 +8168,8 @@
           "dni": "09537000",
           "votosPref": 0,
           "posicion": 1,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 55,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/28a58063-8e4b-4dc5-b418-b84defcc0946.jpeg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8181,8 +8181,8 @@
           "dni": "06934971",
           "votosPref": 0,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 66,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b96c5328-841e-4b28-b1e9-c56b0b8b8f0f.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8194,8 +8194,8 @@
           "dni": "08476907",
           "votosPref": 0,
           "posicion": 3,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/a72a7fea-0468-49e6-9a02-6cdaef7e24ec.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8207,8 +8207,8 @@
           "dni": "48122474",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 65,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8220,8 +8220,8 @@
           "dni": "09882068",
           "votosPref": 0,
           "posicion": 5,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 65,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e4aee02d-e85d-44f7-aaca-9eb286ee132f.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8246,8 +8246,8 @@
           "dni": "07087349",
           "votosPref": 0,
           "posicion": 1,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 66,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/39c2ff7c-e231-4a2a-84bf-72aba866d30a.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8259,8 +8259,8 @@
           "dni": "09480815",
           "votosPref": 0,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 56,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/53782d0a-744b-4092-b901-09a1b1bfd8f1.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8272,8 +8272,8 @@
           "dni": "06039724",
           "votosPref": 0,
           "posicion": 3,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 73,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6f178c28-1b4b-4373-8878-7a60cdaddee8.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8286,8 +8286,8 @@
           "votosPref": 0,
           "posicion": 4,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b7431dff-9fbf-4e1b-808c-146df39c6968.jpg",
+          "idHojaVida": 244492,
           "tipoCandidatura": "Parlamento Andino"
         },
         {
@@ -8299,8 +8299,8 @@
           "votosPref": 0,
           "posicion": 5,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3587a2a-5e73-4532-9754-0dd3261a3123.jpg",
+          "idHojaVida": 254980,
           "tipoCandidatura": "Parlamento Andino"
         },
         {
@@ -8324,8 +8324,8 @@
           "dni": "10156981",
           "votosPref": 0,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 51,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5e345e68-62a9-4343-9d6c-fc9afc57cc8d.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8337,8 +8337,8 @@
           "dni": "31153136",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bf6bb226-708a-4728-ace7-69160b19478e.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8350,8 +8350,8 @@
           "dni": "10581238",
           "votosPref": 0,
           "posicion": 5,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 65,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ca28ff0a-b929-4dae-87b6-d49dc63f75ac.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8376,8 +8376,8 @@
           "dni": "07847517",
           "votosPref": 0,
           "posicion": 1,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 64,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ee13f735-8574-41a7-8ab9-9f2c4baa4bb0.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8389,8 +8389,8 @@
           "dni": "74922825",
           "votosPref": 0,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 26,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6444e77d-c858-4fec-8244-8be51939b732.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8402,8 +8402,8 @@
           "dni": "08010271",
           "votosPref": 0,
           "posicion": 3,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 63,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8415,8 +8415,8 @@
           "dni": "72266645",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 29,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3a972a87-7dcc-40cd-b308-32dd15471ff9.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8429,8 +8429,8 @@
           "votosPref": 0,
           "posicion": 5,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/20c35a67-3f75-4fa5-934d-0b7c85aa6387.jpg",
+          "idHojaVida": 251361,
           "tipoCandidatura": "Parlamento Andino"
         },
         {
@@ -8454,8 +8454,8 @@
           "dni": "10548467",
           "votosPref": 0,
           "posicion": 1,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 49,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bfb30ac2-9fa2-437a-a4a3-355ff90bf291.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8467,8 +8467,8 @@
           "dni": "08778400",
           "votosPref": 0,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 83,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0629ac12-8af9-4cc2-9f85-8b7f77c5eb4b.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8480,8 +8480,8 @@
           "dni": "10683474",
           "votosPref": 0,
           "posicion": 3,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 39,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8493,8 +8493,8 @@
           "dni": "41005446",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 44,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/a450089d-c542-4549-a927-ec0c0165a297.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Parlamento Andino"
         },
@@ -8507,8 +8507,8 @@
           "votosPref": 0,
           "posicion": 5,
           "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6eb3cd09-2cfc-4385-a5c7-b426f078ceca.jpg",
+          "idHojaVida": 252362,
           "tipoCandidatura": "Parlamento Andino"
         },
         {
@@ -8640,13 +8640,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 0,
-            "updated": null
+            "percent": 95.161,
+            "processed": 88277,
+            "total": 92766,
+            "jee": 0,
+            "pending": 4489,
+            "blankNull": 5027852,
+            "updated": "2026-05-23T02:45:18.349Z"
           },
           "allocations": [
             {
@@ -8693,13 +8693,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 114543,
-            "updated": null
+            "percent": 90.532,
+            "processed": 1157,
+            "total": 1278,
+            "jee": 0,
+            "pending": 121,
+            "blankNull": 112297,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8721,13 +8721,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 238244,
-            "updated": null
+            "percent": 96.659,
+            "processed": 3356,
+            "total": 3472,
+            "jee": 0,
+            "pending": 116,
+            "blankNull": 235792,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8749,13 +8749,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 74609,
-            "updated": null
+            "percent": 99.772,
+            "processed": 1314,
+            "total": 1317,
+            "jee": 0,
+            "pending": 3,
+            "blankNull": 74406,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8777,13 +8777,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 237995,
-            "updated": null
+            "percent": 99.976,
+            "processed": 4214,
+            "total": 4215,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 237931,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8805,13 +8805,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1900,
+            "total": 1900,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 106843,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8833,13 +8833,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 489334,
-            "updated": null
+            "percent": 98.019,
+            "processed": 4156,
+            "total": 4240,
+            "jee": 0,
+            "pending": 84,
+            "blankNull": 481994,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8861,13 +8861,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 189063,
-            "updated": null
+            "percent": 97.136,
+            "processed": 2815,
+            "total": 2898,
+            "jee": 0,
+            "pending": 83,
+            "blankNull": 186049,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8889,13 +8889,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 244740,
-            "updated": null
+            "percent": 93.673,
+            "processed": 3731,
+            "total": 3983,
+            "jee": 0,
+            "pending": 252,
+            "blankNull": 230668,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8917,13 +8917,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 89951,
-            "updated": null
+            "percent": 99.921,
+            "processed": 1272,
+            "total": 1273,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 89849,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8945,13 +8945,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 140595,
-            "updated": null
+            "percent": 99.744,
+            "processed": 2335,
+            "total": 2341,
+            "jee": 0,
+            "pending": 6,
+            "blankNull": 140524,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -8973,13 +8973,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 166956,
-            "updated": null
+            "percent": 90.217,
+            "processed": 2204,
+            "total": 2443,
+            "jee": 0,
+            "pending": 239,
+            "blankNull": 156082,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9001,13 +9001,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 99.892,
+            "processed": 3687,
+            "total": 3691,
+            "jee": 0,
+            "pending": 4,
             "blankNull": 248646,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9029,13 +9029,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 335259,
-            "updated": null
+            "percent": 98.321,
+            "processed": 5213,
+            "total": 5302,
+            "jee": 0,
+            "pending": 89,
+            "blankNull": 330419,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9057,13 +9057,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 258061,
-            "updated": null
+            "percent": 99.331,
+            "processed": 3566,
+            "total": 3590,
+            "jee": 0,
+            "pending": 24,
+            "blankNull": 256454,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9093,13 +9093,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 1544057,
-            "updated": null
+            "percent": 96.663,
+            "processed": 25488,
+            "total": 26368,
+            "jee": 0,
+            "pending": 880,
+            "blankNull": 1530910,
+            "updated": "2026-05-23T02:15:09.957Z"
           },
           "allocations": [
             {
@@ -9131,13 +9131,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 194435,
-            "updated": null
+            "percent": 99.826,
+            "processed": 2874,
+            "total": 2879,
+            "jee": 0,
+            "pending": 5,
+            "blankNull": 194144,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9159,13 +9159,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 175040,
-            "updated": null
+            "percent": 97.553,
+            "processed": 2631,
+            "total": 2697,
+            "jee": 0,
+            "pending": 66,
+            "blankNull": 173743,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9187,13 +9187,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 507,
+            "total": 507,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 43409,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9215,13 +9215,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 578,
+            "total": 578,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 39150,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9243,13 +9243,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 802,
+            "total": 802,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 54291,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9271,13 +9271,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 150081,
-            "updated": null
+            "percent": 89.422,
+            "processed": 2274,
+            "total": 2543,
+            "jee": 0,
+            "pending": 269,
+            "blankNull": 139918,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9299,13 +9299,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 412666,
-            "updated": null
+            "percent": 92.407,
+            "processed": 4880,
+            "total": 5281,
+            "jee": 0,
+            "pending": 401,
+            "blankNull": 404453,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9327,13 +9327,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 3397,
+            "total": 3397,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 244888,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9355,13 +9355,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 293812,
-            "updated": null
+            "percent": 98.185,
+            "processed": 2488,
+            "total": 2534,
+            "jee": 0,
+            "pending": 46,
+            "blankNull": 293416,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9383,13 +9383,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1041,
+            "total": 1041,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 56435,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9411,13 +9411,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 56888,
-            "updated": null
+            "percent": 99.842,
+            "processed": 631,
+            "total": 632,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 56785,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9439,13 +9439,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 112631,
-            "updated": null
+            "percent": 80.499,
+            "processed": 1259,
+            "total": 1564,
+            "jee": 0,
+            "pending": 305,
+            "blankNull": 104755,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -9777,8 +9777,8 @@
           "dni": "",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bf6bb226-708a-4728-ace7-69160b19478e.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado nacional",
           "senateBlock": "Nacional",
@@ -9852,8 +9852,8 @@
           "dni": "",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 29,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3a972a87-7dcc-40cd-b308-32dd15471ff9.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado nacional",
           "senateBlock": "Nacional",
@@ -10236,8 +10236,8 @@
           "dni": "",
           "votosPref": 2895,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 41,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/43965a86-c97c-44b8-a5e7-00376bc2c77b.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional"
@@ -10378,13 +10378,13 @@
       ],
       "blankNull": 6312622,
       "status": {
-        "percent": null,
-        "processed": 0,
-        "total": 0,
+        "percent": 95.966,
+        "processed": 178047,
+        "total": 185532,
         "jee": 0,
-        "pending": 0,
-        "blankNull": 6312622,
-        "updated": "1970-01-01T00:00:00.000Z"
+        "pending": 7485,
+        "blankNull": 11252103,
+        "updated": "2026-05-23T02:45:18.349Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -10641,13 +10641,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 0,
-            "updated": null
+            "percent": 95.161,
+            "processed": 88277,
+            "total": 92766,
+            "jee": 0,
+            "pending": 4489,
+            "blankNull": 5027852,
+            "updated": "2026-05-23T02:45:18.349Z"
           },
           "allocations": [
             {
@@ -10694,13 +10694,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 114543,
-            "updated": null
+            "percent": 90.532,
+            "processed": 1157,
+            "total": 1278,
+            "jee": 0,
+            "pending": 121,
+            "blankNull": 112297,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10722,13 +10722,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 238244,
-            "updated": null
+            "percent": 96.659,
+            "processed": 3356,
+            "total": 3472,
+            "jee": 0,
+            "pending": 116,
+            "blankNull": 235792,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10750,13 +10750,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 74609,
-            "updated": null
+            "percent": 99.772,
+            "processed": 1314,
+            "total": 1317,
+            "jee": 0,
+            "pending": 3,
+            "blankNull": 74406,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10778,13 +10778,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 237995,
-            "updated": null
+            "percent": 99.976,
+            "processed": 4214,
+            "total": 4215,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 237931,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10806,13 +10806,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1900,
+            "total": 1900,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 106843,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10834,13 +10834,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 489334,
-            "updated": null
+            "percent": 98.019,
+            "processed": 4156,
+            "total": 4240,
+            "jee": 0,
+            "pending": 84,
+            "blankNull": 481994,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10862,13 +10862,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 189063,
-            "updated": null
+            "percent": 97.136,
+            "processed": 2815,
+            "total": 2898,
+            "jee": 0,
+            "pending": 83,
+            "blankNull": 186049,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10890,13 +10890,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 244740,
-            "updated": null
+            "percent": 93.673,
+            "processed": 3731,
+            "total": 3983,
+            "jee": 0,
+            "pending": 252,
+            "blankNull": 230668,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10918,13 +10918,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 89951,
-            "updated": null
+            "percent": 99.921,
+            "processed": 1272,
+            "total": 1273,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 89849,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10946,13 +10946,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 140595,
-            "updated": null
+            "percent": 99.744,
+            "processed": 2335,
+            "total": 2341,
+            "jee": 0,
+            "pending": 6,
+            "blankNull": 140524,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -10974,13 +10974,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 166956,
-            "updated": null
+            "percent": 90.217,
+            "processed": 2204,
+            "total": 2443,
+            "jee": 0,
+            "pending": 239,
+            "blankNull": 156082,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11002,13 +11002,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 99.892,
+            "processed": 3687,
+            "total": 3691,
+            "jee": 0,
+            "pending": 4,
             "blankNull": 248646,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11030,13 +11030,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 335259,
-            "updated": null
+            "percent": 98.321,
+            "processed": 5213,
+            "total": 5302,
+            "jee": 0,
+            "pending": 89,
+            "blankNull": 330419,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11058,13 +11058,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 258061,
-            "updated": null
+            "percent": 99.331,
+            "processed": 3566,
+            "total": 3590,
+            "jee": 0,
+            "pending": 24,
+            "blankNull": 256454,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11094,13 +11094,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 1544057,
-            "updated": null
+            "percent": 96.663,
+            "processed": 25488,
+            "total": 26368,
+            "jee": 0,
+            "pending": 880,
+            "blankNull": 1530910,
+            "updated": "2026-05-23T02:15:09.957Z"
           },
           "allocations": [
             {
@@ -11132,13 +11132,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 194435,
-            "updated": null
+            "percent": 99.826,
+            "processed": 2874,
+            "total": 2879,
+            "jee": 0,
+            "pending": 5,
+            "blankNull": 194144,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11160,13 +11160,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 175040,
-            "updated": null
+            "percent": 97.553,
+            "processed": 2631,
+            "total": 2697,
+            "jee": 0,
+            "pending": 66,
+            "blankNull": 173743,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11188,13 +11188,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 507,
+            "total": 507,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 43409,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11216,13 +11216,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 578,
+            "total": 578,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 39150,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11244,13 +11244,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 802,
+            "total": 802,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 54291,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11272,13 +11272,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 150081,
-            "updated": null
+            "percent": 89.422,
+            "processed": 2274,
+            "total": 2543,
+            "jee": 0,
+            "pending": 269,
+            "blankNull": 139918,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11300,13 +11300,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 412666,
-            "updated": null
+            "percent": 92.407,
+            "processed": 4880,
+            "total": 5281,
+            "jee": 0,
+            "pending": 401,
+            "blankNull": 404453,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11328,13 +11328,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 3397,
+            "total": 3397,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 244888,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11356,13 +11356,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 293812,
-            "updated": null
+            "percent": 98.185,
+            "processed": 2488,
+            "total": 2534,
+            "jee": 0,
+            "pending": 46,
+            "blankNull": 293416,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11384,13 +11384,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
+            "percent": 100,
+            "processed": 1041,
+            "total": 1041,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 56435,
-            "updated": null
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11412,13 +11412,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 56888,
-            "updated": null
+            "percent": 99.842,
+            "processed": 631,
+            "total": 632,
+            "jee": 0,
+            "pending": 1,
+            "blankNull": 56785,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11440,13 +11440,13 @@
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 112631,
-            "updated": null
+            "percent": 80.499,
+            "processed": 1259,
+            "total": 1564,
+            "jee": 0,
+            "pending": 305,
+            "blankNull": 104755,
+            "updated": "2026-05-23T02:30:16.390Z"
           },
           "allocations": [
             {
@@ -11778,8 +11778,8 @@
           "dni": "",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 68,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bf6bb226-708a-4728-ace7-69160b19478e.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado nacional",
           "senateBlock": "Nacional",
@@ -11853,8 +11853,8 @@
           "dni": "",
           "votosPref": 0,
           "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 29,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3a972a87-7dcc-40cd-b308-32dd15471ff9.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado nacional",
           "senateBlock": "Nacional",
@@ -12237,8 +12237,8 @@
           "dni": "",
           "votosPref": 2895,
           "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
+          "edad": 41,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/43965a86-c97c-44b8-a5e7-00376bc2c77b.jpg",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional"
@@ -12379,13 +12379,13 @@
       ],
       "blankNull": 6312622,
       "status": {
-        "percent": null,
-        "processed": 0,
-        "total": 0,
+        "percent": 95.966,
+        "processed": 178047,
+        "total": 185532,
         "jee": 0,
-        "pending": 0,
-        "blankNull": 6312622,
-        "updated": "1970-01-01T00:00:00.000Z"
+        "pending": 7485,
+        "blankNull": 11252103,
+        "updated": "2026-05-23T02:45:18.349Z"
       },
       "allocations": {
         "noBarrier": [],

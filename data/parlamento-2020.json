@@ -1,0 +1,4493 @@
+{
+  "electionYear": 2020,
+  "sourceMode": "onpe-datos-abiertos",
+  "sourceLabel": "ONPE - Datos Abiertos ECE 2020",
+  "sourceUrls": [
+    "https://www.datosabiertos.gob.pe/sites/default/files/ECE_Congresal_2020_total.zip"
+  ],
+  "updatedAt": "2021-08-24T00:00:00-05:00",
+  "status": {
+    "percent": 100,
+    "processed": 44644,
+    "total": 44644,
+    "jee": 0,
+    "pending": 0,
+    "blankNull": 1889950,
+    "updated": "2021-08-24T00:00:00-05:00"
+  },
+  "camaras": {
+    "diputados": {
+      "name": "Congreso de la República",
+      "seats": 130,
+      "barrier": 0.05,
+      "parties": [
+        {
+          "name": "ACCIÓN POPULAR",
+          "short": "AP",
+          "color": "#cae1f7",
+          "logo": "/logos/partidos-2021/accion-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Acci%C3%B3n_Popular.png/40px-Acci%C3%B3n_Popular.png"
+        },
+        {
+          "name": "ALIANZA PARA EL PROGRESO",
+          "short": "APP",
+          "color": "#ffe8d2",
+          "logo": "/logos/partidos-2021/alianza-para-el-progreso-del-peru.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/40px-Alianza_para_el_Progreso_Peru.svg.png"
+        },
+        {
+          "name": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+          "short": "AVP",
+          "color": "#d70780",
+          "logo": "/logos/partidos-2021/avanza-pais-partido-de-integracion-social.svg"
+        },
+        {
+          "name": "DEMOCRACIA DIRECTA",
+          "short": "DD",
+          "color": "hsl(156 62% 43%)",
+          "logo": "/logos/partidos-2021/democracia-directa.svg"
+        },
+        {
+          "name": "DESCENTRALIZACIÓN DEMOCRÁTICA",
+          "short": "DD",
+          "logo": ""
+        },
+        {
+          "name": "FRENTE AMPLIO",
+          "short": "FA",
+          "color": "#d5f0df",
+          "logo": "/logos/partidos-2021/frente-amplio.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo-frente-amplio.svg/40px-Logo-frente-amplio.svg.png"
+        },
+        {
+          "name": "FREPAP",
+          "short": "FREPAP",
+          "color": "#eadbff",
+          "logo": "/logos/partidos-2021/frente-popular-agricola-fia-del-peru-frepap.svg",
+          "logoUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Frepap.svg"
+        },
+        {
+          "name": "FUERZA POPULAR",
+          "short": "FP",
+          "color": "#cfeff6",
+          "logo": "/logos/partidos-2021/fuerza-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Fuerza_popular.svg/40px-Fuerza_popular.svg.png"
+        },
+        {
+          "name": "JUNTOS POR EL PERU",
+          "short": "JP",
+          "color": "#dc2626",
+          "logo": "/logos/partidos-2021/juntos-por-el-peru.svg"
+        },
+        {
+          "name": "NO AGRUPADOS",
+          "short": "NA",
+          "logo": ""
+        },
+        {
+          "name": "NUEVA CONSTITUCIÓN",
+          "short": "NC",
+          "logo": ""
+        },
+        {
+          "name": "PARTIDO APRISTA PERUANO",
+          "short": "APRA",
+          "color": "#dc2626",
+          "logo": "/logos/partidos-2021/partido-aprista-peruano.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Congreso_Per%C3%BA_2020.svg/330px-Congreso_Per%C3%BA_2020.svg.png"
+        },
+        {
+          "name": "PARTIDO MORADO",
+          "short": "PM",
+          "color": "#ffd7ef",
+          "logo": "/logos/partidos-2021/partido-morado.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Logo_Partido_Morado.png/40px-Logo_Partido_Morado.png"
+        },
+        {
+          "name": "PARTIDO POLITICO CONTIGO",
+          "short": "PPC",
+          "color": "hsl(275 62% 43%)",
+          "logo": "/logos/partidos-2021/partido-politico-contigo.svg"
+        },
+        {
+          "name": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+          "short": "PL",
+          "color": "#b91c1c",
+          "logo": "/logos/partidos-2021/partido-politico-nacional-peru-libre.svg"
+        },
+        {
+          "name": "PARTIDO POPULAR CRISTIANO - PPC",
+          "short": "PPC",
+          "color": "hsl(134 62% 43%)",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/15"
+        },
+        {
+          "name": "PERU NACION",
+          "short": "PN",
+          "color": "hsl(96 62% 43%)",
+          "logo": "/logos/partidos-2021/peru-nacion.svg"
+        },
+        {
+          "name": "PERU PATRIA SEGURA",
+          "short": "PPS",
+          "color": "#0ea5e9",
+          "logo": "/logos/partidos-2021/peru-patria-segura.svg"
+        },
+        {
+          "name": "PODEMOS PERÚ",
+          "short": "POD",
+          "color": "#c9f2dc",
+          "logo": "/logos/partidos-2021/podemos-peru.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Logo_Podemos_Per%C3%BA.png/40px-Logo_Podemos_Per%C3%BA.png"
+        },
+        {
+          "name": "RENACIMIENTO UNIDO NACIONAL",
+          "short": "RUN",
+          "color": "hsl(140 62% 43%)",
+          "logo": "/logos/partidos-2021/renacimiento-unido-nacional.svg"
+        },
+        {
+          "name": "SOLIDARIDAD NACIONAL",
+          "short": "SN",
+          "color": "hsl(241 62% 43%)",
+          "logo": "/logos/partidos-2021/solidaridad-nacional.svg"
+        },
+        {
+          "name": "SOMOS PERÚ",
+          "short": "SP",
+          "color": "#dff3e8",
+          "logo": "/logos/partidos-2021/partido-democratico-somos-peru.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Logo_Partido_Democr%C3%A1tico_Somos_Per%C3%BA.svg/40px-Logo_Partido_Democr%C3%A1tico_Somos_Per%C3%BA.svg.png"
+        },
+        {
+          "name": "UNIÓN POR EL PERÚ",
+          "short": "UPP",
+          "color": "#d9dbff",
+          "logo": "/logos/partidos-2021/union-por-el-peru.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Logoupp1.png/40px-Logoupp1.png"
+        },
+        {
+          "name": "VAMOS PERU",
+          "short": "VP",
+          "color": "hsl(234 62% 43%)",
+          "logo": "/logos/partidos-2021/vamos-peru.svg"
+        },
+        {
+          "name": "VOTOS IMPUGNADOS",
+          "short": "VI",
+          "color": "hsl(192 62% 43%)",
+          "logo": "/logos/partidos-2021/votos-impugnados.svg"
+        }
+      ],
+      "circunscripciones": [
+        {
+          "name": "AMAZONAS",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 28740
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 25329
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 16120
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 15027
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 13121
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 9023
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 6373
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 6145
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 5960
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 5930
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 3137
+            },
+            {
+              "party": "FREPAP",
+              "votes": 2982
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 2428
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 1608
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 953
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 589
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 573
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 41428,
+          "status": {
+            "percent": 100,
+            "processed": 1082,
+            "total": 1082,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 41428,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "ÁNCASH",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 98391
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 48583
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 36821
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 35765
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 27393
+            },
+            {
+              "party": "FREPAP",
+              "votes": 26081
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 24646
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 22076
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 20082
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 14379
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 13579
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 12616
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 11575
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 11390
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 11074
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 10850
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 9764
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 8207
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 7874
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 6713
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 4747
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 174039,
+          "status": {
+            "percent": 100,
+            "processed": 3086,
+            "total": 3086,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 174039,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "APURÍMAC",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 29832
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 24801
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 20927
+            },
+            {
+              "party": "FREPAP",
+              "votes": 17970
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 12133
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 11343
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 9764
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 8312
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 5694
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 5254
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 4714
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 4422
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 2654
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 2210
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 1893
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 1588
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 875
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 48715,
+          "status": {
+            "percent": 100,
+            "processed": 1112,
+            "total": 1112,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 48715,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "AREQUIPA",
+          "seats": 6,
+          "votes": [
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 141777
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 72590
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 67219
+            },
+            {
+              "party": "FREPAP",
+              "votes": 61038
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 60884
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 54348
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 54100
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 44152
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 34409
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 24762
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 24539
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 23503
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 20939
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 19564
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 17056
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 16875
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 11846
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 8107
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 7630
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 7608
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 5526
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 127008,
+          "status": {
+            "percent": 100,
+            "processed": 3875,
+            "total": 3875,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 127008,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "AYACUCHO",
+          "seats": 3,
+          "votes": [
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 60420
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 25235
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 19223
+            },
+            {
+              "party": "FREPAP",
+              "votes": 18464
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 17244
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 13486
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 11296
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 9719
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 9516
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 9404
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 9308
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 9044
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 7151
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 6768
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 6490
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 6221
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 5042
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 3507
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 2423
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 60422,
+          "status": {
+            "percent": 100,
+            "processed": 1673,
+            "total": 1673,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 60422,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "CAJAMARCA",
+          "seats": 6,
+          "votes": [
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 97636
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 75610
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 48829
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 39945
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 38475
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 34517
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 33089
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 27827
+            },
+            {
+              "party": "FREPAP",
+              "votes": 26439
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 23529
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 21348
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 15871
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 14343
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 12708
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 8721
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 7289
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 6434
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 6188
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 5149
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 2527
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 168167,
+          "status": {
+            "percent": 100,
+            "processed": 3805,
+            "total": 3805,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 168167,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "CALLAO",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 50189
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 45087
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 44943
+            },
+            {
+              "party": "FREPAP",
+              "votes": 42416
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 39494
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 38693
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 34017
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 33490
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 23502
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 23292
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 21570
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 20584
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 20176
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 19499
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 14397
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 11735
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 11732
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 10932
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 7920
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 6787
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 3853
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 130322,
+          "status": {
+            "percent": 100,
+            "processed": 2772,
+            "total": 2772,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 130322,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "CUSCO",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 76564
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 70839
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 63384
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 56828
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 51766
+            },
+            {
+              "party": "FREPAP",
+              "votes": 45075
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 35855
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 31978
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 24924
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 24459
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 23894
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 18912
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 12242
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 11047
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 10842
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 10530
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 10491
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 7477
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 6725
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 4874
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 4700
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 139804,
+          "status": {
+            "percent": 100,
+            "processed": 3462,
+            "total": 3462,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 139804,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "HUANCAVELICA",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 24037
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 19272
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 16493
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 14430
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 9810
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 9024
+            },
+            {
+              "party": "FREPAP",
+              "votes": 9023
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 8466
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 7919
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 7846
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 6168
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 3962
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 3739
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 3288
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 2619
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 1811
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 1626
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 1556
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 39055,
+          "status": {
+            "percent": 100,
+            "processed": 1097,
+            "total": 1097,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 39055,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "HUÁNUCO",
+          "seats": 3,
+          "votes": [
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 65507
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 30381
+            },
+            {
+              "party": "FREPAP",
+              "votes": 28054
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 25152
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 22861
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 18770
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 13362
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 12360
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 11497
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 11484
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 10867
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 8331
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 5800
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 5231
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 5020
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 4192
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 3605
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 3225
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 2077
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 1950
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 1913
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 83163,
+          "status": {
+            "percent": 100,
+            "processed": 2022,
+            "total": 2022,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 83163,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "ICA",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 44614
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 42185
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 32531
+            },
+            {
+              "party": "FREPAP",
+              "votes": 29562
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 27540
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 26373
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 26073
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 23107
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 22202
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 16723
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 16577
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 16297
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 15856
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 12578
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 12267
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 11056
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 8966
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 8556
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 7330
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 5572
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 1539
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 116493,
+          "status": {
+            "percent": 100,
+            "processed": 1937,
+            "total": 1937,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 116493,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "JUNÍN",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 65063
+            },
+            {
+              "party": "FREPAP",
+              "votes": 60489
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 59101
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 55712
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 51294
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 36387
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 32697
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 29972
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 28616
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 22980
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 21840
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 20537
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 18375
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 17231
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 13237
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 10502
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 8578
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 8391
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 7514
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 4868
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 136031,
+          "status": {
+            "percent": 100,
+            "processed": 3329,
+            "total": 3329,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 136031,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LA LIBERTAD",
+          "seats": 7,
+          "votes": [
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 129620
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 88716
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 77613
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 67176
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 65750
+            },
+            {
+              "party": "FREPAP",
+              "votes": 64435
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 44143
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 40435
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 30783
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 27358
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 24592
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 21738
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 19636
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 18264
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 15651
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 11942
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 11906
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 11448
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 8599
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 6573
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 6039
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 249026,
+          "status": {
+            "percent": 100,
+            "processed": 4778,
+            "total": 4778,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 249026,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LAMBAYEQUE",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 68248
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 67048
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 60244
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 55917
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 52685
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 50825
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 42490
+            },
+            {
+              "party": "FREPAP",
+              "votes": 29248
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 23353
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 16476
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 14724
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 13244
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 12742
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 12118
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 11413
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 11056
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 9912
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 9360
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 9056
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 8969
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 2961
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 159715,
+          "status": {
+            "percent": 100,
+            "processed": 3279,
+            "total": 3279,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 159715,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LIMA METROPOLITANA",
+          "seats": 33,
+          "votes": [
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 134339
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 93620
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 81751
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 62347
+            },
+            {
+              "party": "FREPAP",
+              "votes": 50232
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 49569
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 41850
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 40637
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 34160
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 27378
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 24826
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 22088
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 17931
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 17025
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 16656
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 15229
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 12929
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 11218
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 10273
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 8244
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 7679
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 153249,
+          "status": {
+            "percent": 100,
+            "processed": 3961,
+            "total": 3961,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 153249,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LIMA PROVINCIAS",
+          "seats": 4,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LORETO",
+          "seats": 4,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "MADRE DE DIOS",
+          "seats": 1,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "MOQUEGUA",
+          "seats": 2,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "PASCO",
+          "seats": 2,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "PIURA",
+          "seats": 7,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "PUNO",
+          "seats": 5,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "SAN MARTÍN",
+          "seats": 4,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "TACNA",
+          "seats": 2,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "TUMBES",
+          "seats": 2,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "UCAYALI",
+          "seats": 3,
+          "votes": [],
+          "blankNull": 0,
+          "status": {
+            "percent": null,
+            "processed": 0,
+            "total": 0,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 0,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "RESIDENTES EN EL EXTRANJERO",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 27284
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 19221
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 18045
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 13980
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 11291
+            },
+            {
+              "party": "JUNTOS POR EL PERU",
+              "votes": 10404
+            },
+            {
+              "party": "PARTIDO POPULAR CRISTIANO - PPC",
+              "votes": 9928
+            },
+            {
+              "party": "FREPAP",
+              "votes": 7694
+            },
+            {
+              "party": "SOMOS PERÚ",
+              "votes": 7583
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 6939
+            },
+            {
+              "party": "UNIÓN POR EL PERÚ",
+              "votes": 6787
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 5787
+            },
+            {
+              "party": "VAMOS PERU",
+              "votes": 4868
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 4207
+            },
+            {
+              "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+              "votes": 3658
+            },
+            {
+              "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+              "votes": 3582
+            },
+            {
+              "party": "PERU PATRIA SEGURA",
+              "votes": 3449
+            },
+            {
+              "party": "SOLIDARIDAD NACIONAL",
+              "votes": 2765
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 2316
+            },
+            {
+              "party": "RENACIMIENTO UNIDO NACIONAL",
+              "votes": 1742
+            },
+            {
+              "party": "PARTIDO POLITICO CONTIGO",
+              "votes": 1624
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 63313,
+          "status": {
+            "percent": 100,
+            "processed": 3374,
+            "total": 3374,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 63313,
+            "updated": "2021-08-24T00:00:00-05:00"
+          }
+        }
+      ],
+      "nationalVotes": [
+        {
+          "party": "ACCIÓN POPULAR",
+          "votes": 738223
+        },
+        {
+          "party": "ALIANZA PARA EL PROGRESO",
+          "votes": 706839
+        },
+        {
+          "party": "UNIÓN POR EL PERÚ",
+          "votes": 582154
+        },
+        {
+          "party": "FREPAP",
+          "votes": 519202
+        },
+        {
+          "party": "SOMOS PERÚ",
+          "votes": 496222
+        },
+        {
+          "party": "FRENTE AMPLIO",
+          "votes": 483825
+        },
+        {
+          "party": "FUERZA POPULAR",
+          "votes": 452525
+        },
+        {
+          "party": "PARTIDO MORADO",
+          "votes": 451656
+        },
+        {
+          "party": "PODEMOS PERÚ",
+          "votes": 413233
+        },
+        {
+          "party": "JUNTOS POR EL PERU",
+          "votes": 348518
+        },
+        {
+          "party": "DEMOCRACIA DIRECTA",
+          "votes": 313456
+        },
+        {
+          "party": "PARTIDO POLITICO NACIONAL PERU LIBRE",
+          "votes": 275588
+        },
+        {
+          "party": "PARTIDO POPULAR CRISTIANO - PPC",
+          "votes": 259447
+        },
+        {
+          "party": "PARTIDO APRISTA PERUANO",
+          "votes": 238747
+        },
+        {
+          "party": "AVANZA PAIS - PARTIDO DE INTEGRACION SOCIAL",
+          "votes": 189979
+        },
+        {
+          "party": "VAMOS PERU",
+          "votes": 180680
+        },
+        {
+          "party": "RENACIMIENTO UNIDO NACIONAL",
+          "votes": 170960
+        },
+        {
+          "party": "PERU PATRIA SEGURA",
+          "votes": 128577
+        },
+        {
+          "party": "PERU NACION",
+          "votes": 106317
+        },
+        {
+          "party": "SOLIDARIDAD NACIONAL",
+          "votes": 104861
+        },
+        {
+          "party": "PARTIDO POLITICO CONTIGO",
+          "votes": 63899
+        },
+        {
+          "party": "VOTOS IMPUGNADOS",
+          "votes": 0
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Absalón Montoya Guivin",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "AMAZONAS",
+          "posicion": 1,
+          "votosPref": 19237,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Absal%C3%B3n_Montoya_Guivin",
+          "imageUrl": "/assets/congreso-oficial/2020/absalon-montoya-guivin.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/absalon-montoya-guivin.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Grimaldo Vásquez Tan",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "AMAZONAS",
+          "posicion": 1,
+          "votosPref": 12096,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Grimaldo_V%C3%A1squez_Tan",
+          "imageUrl": "/assets/congreso-oficial/2020/grimaldo-vasquez-tan.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/grimaldo-vasquez-tan.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Hirma Norma Alencastre Miranda",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 33316,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Hirma_Norma_Alencastre_Miranda",
+          "imageUrl": "/assets/congreso-oficial/2020/hirma-norma-alencastre-miranda.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/hirma-norma-alencastre-miranda.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Betto Barrionuevo Romero",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 33044,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Betto_Barrionuevo_Romero",
+          "imageUrl": "/assets/congreso-oficial/2020/betto-barrionuevo-romero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/betto-barrionuevo-romero.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "María Isabel Bartolo Romero",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 19048,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Isabel_Bartolo_Romero",
+          "imageUrl": "/assets/congreso-oficial/2020/maria-isabel-bartolo-romero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-isabel-bartolo-romero.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Otto Napoleón Guibovich Arteaga",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 14902,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Otto_Napole%C3%B3n_Guibovich_Arteaga",
+          "imageUrl": "/assets/congreso-oficial/2020/otto-napoleon-guibovich-arteaga.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/otto-napoleon-guibovich-arteaga.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jhosept Amado Pérez Mimbela",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 12985,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jhosept_Amado_P%C3%A9rez_Mimbela",
+          "imageUrl": "/assets/congreso-oficial/2020/jhosept-amado-perez-mimbela.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/jhosept-amado-perez-mimbela.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Lenin Abraham Checco Chauca",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "APURÍMAC",
+          "posicion": 1,
+          "votosPref": 14000,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Len%C3%ADn_Abraham_Checco_Chauca",
+          "imageUrl": "/assets/congreso-oficial/2020/lenin-abraham-checco-chauca.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/lenin-abraham-checco-chauca.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Omar Merino Lopez",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "APURÍMAC",
+          "posicion": 1,
+          "votosPref": 9826,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Omar_Merino_L%C3%B3pez",
+          "imageUrl": "/assets/congreso-oficial/2020/omar-merino-lopez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/omar-merino-lopez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "José Luis Ancalle Gutierrez",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 13932,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Ancalle_Guti%C3%A9rrez",
+          "imageUrl": "/assets/congreso-oficial/2020/jose-luis-ancalle-gutierrez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FRENTE AMPLIO",
+          "electoralParty": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/jose-luis-ancalle-gutierrez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Héctor Jesús Arias Cáceres",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 31899,
+          "sourceBackup": false,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/hector-jesus-arias-caceres.webp?v=71",
+          "historicalWinner": true,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/hector-jesus-arias-caceres.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Benigno Leonel Cabrera Pino",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 2,
+          "votosPref": 28784,
+          "sourceBackup": false,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/benigno-leonel-cabrera-pino.webp?v=71",
+          "historicalWinner": true,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/benigno-leonel-cabrera-pino.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "José Antonio Núñez Salas",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 26390,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_N%C3%BA%C3%B1ez_Salas",
+          "imageUrl": "/assets/congreso-oficial/2020/jose-antonio-nunez-salas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/jose-antonio-nunez-salas.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Daniel Oseda Yucra",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 14558,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Daniel_Oseda_Yucra",
+          "imageUrl": "/assets/congreso-oficial/2020/daniel-oseda-yucra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/daniel-oseda-yucra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rosario Paredes Eyzaguirre",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 19787,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rosario_Paredes_Eyzaguirre",
+          "imageUrl": "/assets/congreso-oficial/2020/rosario-paredes-eyzaguirre.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/rosario-paredes-eyzaguirre.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jim Ali Mamani Barriga",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "AYACUCHO",
+          "posicion": 1,
+          "votosPref": 26788,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jim_Ali_Mamani_Barriga",
+          "imageUrl": "/assets/congreso-oficial/2020/jim-ali-mamani-barriga.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/jim-ali-mamani-barriga.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Javier Mendoza Marquina",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "AYACUCHO",
+          "posicion": 1,
+          "votosPref": 22419,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Javier_Mendoza_Marquina",
+          "imageUrl": "/assets/congreso-oficial/2020/javier-mendoza-marquina.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/javier-mendoza-marquina.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Perci Rivas Ocejo",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "AYACUCHO",
+          "posicion": 1,
+          "votosPref": 8053,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Perci_Rivas_Ocejo",
+          "imageUrl": "/assets/congreso-oficial/2020/perci-rivas-ocejo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/perci-rivas-ocejo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Walter Benavides Gavidia",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 31758,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Walter_Benavides_Gavidia",
+          "imageUrl": "/assets/congreso-oficial/2020/walter-benavides-gavidia.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/walter-benavides-gavidia.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Moises Gonzalez Cruz",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 21527,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mois%C3%A9s_Gonz%C3%A1lez_Cruz",
+          "imageUrl": "/assets/congreso-oficial/2020/moises-gonzalez-cruz.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/moises-gonzalez-cruz.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Felícita Madaleine Tocto Guerrero",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 9996,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Felicita_Madaleine_Tocto_Guerrero",
+          "imageUrl": "/assets/congreso-oficial/2020/felicita-madaleine-tocto-guerrero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/felicita-madaleine-tocto-guerrero.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Hans Troyes Delgado",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 16090,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Hans_Troyes_Delgado",
+          "imageUrl": "/assets/congreso-oficial/2020/hans-troyes-delgado.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/hans-troyes-delgado.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mirtha Esther Vásquez Chuquilin",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 12687,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mirtha_Esther_V%C3%A1squez_Chuquil%C3%ADn",
+          "imageUrl": "/assets/congreso-oficial/2020/mirtha-esther-vasquez-chuquilin.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FRENTE AMPLIO",
+          "electoralParty": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/mirtha-esther-vasquez-chuquilin.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Widman Napoleón Vigo Gutiérrez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 8138,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Widman_Napole%C3%B3n_Vigo_Guti%C3%A9rrez",
+          "imageUrl": "/assets/congreso-oficial/2020/widman-napoleon-vigo-gutierrez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/widman-napoleon-vigo-gutierrez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Paul Gabriel García Oviedo",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "CALLAO",
+          "posicion": 1,
+          "votosPref": 19007,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Paul_Gabriel_Garc%C3%ADa_Oviedo",
+          "imageUrl": "/assets/congreso-oficial/2020/paul-gabriel-garcia-oviedo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/paul-gabriel-garcia-oviedo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Miguel Angel Gonzales Santos",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "CALLAO",
+          "posicion": 1,
+          "votosPref": 11329,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Gonzales_Santos",
+          "imageUrl": "/assets/congreso-oficial/2020/miguel-angel-gonzales-santos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/miguel-angel-gonzales-santos.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Marcos Antonio Pichilingue Gomez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CALLAO",
+          "posicion": 1,
+          "votosPref": 13506,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Marcos_Antonio_Pichilingue_G%C3%B3mez",
+          "imageUrl": "/assets/congreso-oficial/2020/marcos-antonio-pichilingue-gomez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/marcos-antonio-pichilingue-gomez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Alcides Rayme Marín",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "CALLAO",
+          "posicion": 1,
+          "votosPref": 9188,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Alcides_Rayme_Mar%C3%ADn",
+          "imageUrl": "/assets/congreso-oficial/2020/alcides-rayme-marin.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/alcides-rayme-marin.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Matilde Fernández Florez",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 6318,
+          "sourceBackup": false,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/matilde-fernandez-florez.webp?v=71",
+          "historicalWinner": true,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/matilde-fernandez-florez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Alexander Hidalgo Zamalloa",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 11278,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Alexander_Hidalgo_Zamalloa",
+          "imageUrl": "/assets/congreso-oficial/2020/alexander-hidalgo-zamalloa.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/alexander-hidalgo-zamalloa.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Juan de Dios Huamán Champi",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 10532,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Juan_de_Dios_Huam%C3%A1n_Champi",
+          "imageUrl": "/assets/congreso-oficial/2020/juan-de-dios-huaman-champi.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/juan-de-dios-huaman-champi.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Ruben Pantoja Calvo",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 21665,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rub%C3%A9n_Pantoja_Calvo",
+          "imageUrl": "/assets/congreso-oficial/2020/ruben-pantoja-calvo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/ruben-pantoja-calvo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jorge Vásquez Becerra",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 19600,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jorge_V%C3%A1squez_Becerra",
+          "imageUrl": "/assets/congreso-oficial/2020/jorge-vasquez-becerra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/jorge-vasquez-becerra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Posemoscrowte Irrhoscopt Chagua Payano",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "HUANCAVELICA",
+          "posicion": 1,
+          "votosPref": 13235,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Posemoscrowte_Irrhoscopt_Chagua_Payano",
+          "imageUrl": "/assets/congreso-oficial/2020/posemoscrowte-irrhoscopt-chagua-payano.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/posemoscrowte-irrhoscopt-chagua-payano.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Kenyon Eduardo Durand Bustamante",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "HUANCAVELICA",
+          "posicion": 1,
+          "votosPref": 4691,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Kenyon_Eduardo_Durand_Bustamante",
+          "imageUrl": "/assets/congreso-oficial/2020/kenyon-eduardo-durand-bustamante.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/kenyon-eduardo-durand-bustamante.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Wilmer Solis Bajonero Olivas",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "HUÁNUCO",
+          "posicion": 1,
+          "votosPref": 21568,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Wilmer_Sol%C3%ADs_Bajonero_Olivas",
+          "imageUrl": "/assets/congreso-oficial/2020/wilmer-solis-bajonero-olivas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/wilmer-solis-bajonero-olivas.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Yessy Nélida Fabián Díaz",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "HUÁNUCO",
+          "posicion": 1,
+          "votosPref": 13863,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Yessy_N%C3%A9lida_Fabi%C3%A1n_D%C3%ADaz",
+          "imageUrl": "/assets/congreso-oficial/2020/yessy-nelida-fabian-diaz.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/yessy-nelida-fabian-diaz.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Lusmila Pérez Espíritu",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "HUÁNUCO",
+          "posicion": 1,
+          "votosPref": 13494,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Lusmila_P%C3%A9rez_Esp%C3%ADritu",
+          "imageUrl": "/assets/congreso-oficial/2020/lusmila-perez-espiritu.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/lusmila-perez-espiritu.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Gilbert Juan Alonzo Fernández",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ICA",
+          "posicion": 1,
+          "votosPref": 8455,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Gilbert_Juan_Alonzo_Fern%C3%A1ndez",
+          "imageUrl": "/assets/congreso-oficial/2020/gilbert-juan-alonzo-fernandez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/gilbert-juan-alonzo-fernandez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Julia Benigna Ayquipa Torres",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "ICA",
+          "posicion": 1,
+          "votosPref": 5247,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Julia_Benigna_Ayquipa_Torres",
+          "imageUrl": "/assets/congreso-oficial/2020/julia-benigna-ayquipa-torres.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/julia-benigna-ayquipa-torres.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Julio Fredy Condori Flores",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "ICA",
+          "posicion": 1,
+          "votosPref": 24286,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Julio_Fredy_Condori_Flores",
+          "imageUrl": "/assets/congreso-oficial/2020/julio-fredy-condori-flores.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/julio-fredy-condori-flores.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Juan Carlos Oyola Rodríguez",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "ICA",
+          "posicion": 1,
+          "votosPref": 14123,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Juan_Carlos_Oyola_Rodr%C3%ADguez",
+          "imageUrl": "/assets/congreso-oficial/2020/juan-carlos-oyola-rodriguez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/juan-carlos-oyola-rodriguez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Roberto Carlos Chavarría Vilcatoma",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 1,
+          "votosPref": 21838,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Roberto_Carlos_Chavarr%C3%ADa_Vilcatoma",
+          "imageUrl": "/assets/congreso-oficial/2020/roberto-carlos-chavarria-vilcatoma.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/roberto-carlos-chavarria-vilcatoma.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Cesar Augusto Combina Salvatierra",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 1,
+          "votosPref": 26378,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/C%C3%A9sar_Augusto_Combina_Salvatierra",
+          "imageUrl": "/assets/congreso-oficial/2020/cesar-augusto-combina-salvatierra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/cesar-augusto-combina-salvatierra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Robledo Noé Gutarra Ramos",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 1,
+          "votosPref": 19091,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Robledo_No%C3%A9_Gutarra_Ramos",
+          "imageUrl": "/assets/congreso-oficial/2020/robledo-noe-gutarra-ramos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/robledo-noe-gutarra-ramos.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Freddy Llaulli Romero",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 1,
+          "votosPref": 14878,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Freddy_Llaulli_Romero",
+          "imageUrl": "/assets/congreso-oficial/2020/freddy-llaulli-romero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/freddy-llaulli-romero.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Erwin Tito Ortega",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 1,
+          "votosPref": 7971,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Erwin_Tito_Ortega",
+          "imageUrl": "/assets/congreso-oficial/2020/erwin-tito-ortega.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/erwin-tito-ortega.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Lenin Fernando Bazán Villanueva",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 20431,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Lenin_Fernando_Baz%C3%A1n_Villanueva",
+          "imageUrl": "/assets/congreso-oficial/2020/lenin-fernando-bazan-villanueva.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FRENTE AMPLIO",
+          "electoralParty": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/lenin-fernando-bazan-villanueva.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Anthony Renson Novoa Cruzado",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 15268,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Anthony_Renson_Novoa_Cruzado",
+          "imageUrl": "/assets/congreso-oficial/2020/anthony-renson-novoa-cruzado.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/anthony-renson-novoa-cruzado.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jesús del Carmen Núñez Marreros",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 14283,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jes%C3%BAs_del_Carmen_N%C3%BA%C3%B1ez_Marreros",
+          "imageUrl": "/assets/congreso-oficial/2020/jesus-del-carmen-nunez-marreros.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/jesus-del-carmen-nunez-marreros.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Tania Rosalia Rodas Malca",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 24999,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Tania_Rosal%C3%ADa_Rodas_Malca",
+          "imageUrl": "/assets/congreso-oficial/2020/tania-rosalia-rodas-malca.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/tania-rosalia-rodas-malca.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Luis Alberto Valdez Farías",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 34331,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Luis_Alberto_Valdez_Far%C3%ADas",
+          "imageUrl": "/assets/congreso-oficial/2020/luis-alberto-valdez-farias.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/luis-alberto-valdez-farias.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Miguel Angel Vivanco Reyes",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 15720,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Vivanco_Reyes",
+          "imageUrl": "/assets/congreso-oficial/2020/miguel-angel-vivanco-reyes.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/miguel-angel-vivanco-reyes.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mariano Andrés Yupanqui Miñano",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 13432,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mariano_Andr%C3%A9s_Yupanqui_Mi%C3%B1ano",
+          "imageUrl": "/assets/congreso-oficial/2020/mariano-andres-yupanqui-minano.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/mariano-andres-yupanqui-minano.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Humberto Acuña Peralta",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 24698,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Humberto_Acu%C3%B1a_Peralta",
+          "imageUrl": "/assets/congreso-oficial/2020/humberto-acuna-peralta.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/humberto-acuna-peralta.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rita Elena Ayasta de Díaz",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 11163,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rita_Elena_Ayasta_de_D%C3%ADaz",
+          "imageUrl": "/assets/congreso-oficial/2020/rita-elena-ayasta-de-diaz.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/rita-elena-ayasta-de-diaz.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rolando Campos Villalobos",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 25897,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rolando_Campos_Villalobos",
+          "imageUrl": "/assets/congreso-oficial/2020/rolando-campos-villalobos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/rolando-campos-villalobos.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "María Martina Gallardo Becerra",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 16935,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Martina_Gallardo_Becerra",
+          "imageUrl": "/assets/congreso-oficial/2020/maria-martina-gallardo-becerra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-martina-gallardo-becerra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jorge Luis Pérez Flores",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 28385,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jorge_Luis_P%C3%A9rez_Flores",
+          "imageUrl": "/assets/congreso-oficial/2020/jorge-luis-perez-flores.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/jorge-luis-perez-flores.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "María Teresa Cabrera Vega",
+          "imageUrl": "/assets/congreso-oficial/2020/maria-teresa-cabrera-vega.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-teresa-cabrera-vega.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Luis Felipe Castillo Oliva",
+          "imageUrl": "/assets/congreso-oficial/2020/luis-felipe-castillo-oliva.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/luis-felipe-castillo-oliva.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Guillermo Alejandro Antonio Aliaga Pajares",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/guillermo-alejandro-antonio-aliaga-pajares.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/guillermo-alejandro-antonio-aliaga-pajares.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Ricardo Miguel Burga Chuquipiondo",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/ricardo-miguel-burga-chuquipiondo.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/ricardo-miguel-burga-chuquipiondo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Wilmer Cayllahua Barrientos",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/wilmer-cayllahua-barrientos.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/wilmer-cayllahua-barrientos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "María Teresa Céspedes Cárdenas",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/maria-teresa-cespedes-cardenas.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-teresa-cespedes-cardenas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Martha Gladys Chávez Cossío",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/martha-gladys-chavez-cossio.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/martha-gladys-chavez-cossio.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Omar Karim Chehade Moya",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/omar-karim-chehade-moya.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/omar-karim-chehade-moya.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Diethell Columbus Murata",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/diethell-columbus-murata.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/diethell-columbus-murata.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Cindy Arlette Contreras Bautista",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/cindy-arlette-contreras-bautista.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FRENTE AMPLIO",
+          "electoralParty": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/cindy-arlette-contreras-bautista.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Gino Francisco Costa Santolalla",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/gino-francisco-costa-santolalla.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/gino-francisco-costa-santolalla.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Alberto de Belaunde de Cárdenas",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/alberto-de-belaunde-de-cardenas.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/alberto-de-belaunde-de-cardenas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Rennán Samuel Espinoza Rosales",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/rennan-samuel-espinoza-rosales.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/rennan-samuel-espinoza-rosales.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Yeremi Aron Espinoza Velarde",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/yeremi-aron-espinoza-velarde.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/yeremi-aron-espinoza-velarde.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Carlos Enrique Fernández Chacón",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/carlos-enrique-fernandez-chacon.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FRENTE AMPLIO",
+          "electoralParty": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/carlos-enrique-fernandez-chacon.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Cecilia García Rodríguez",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "PP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/cecilia-garcia-rodriguez.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/cecilia-garcia-rodriguez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Robinson Dociteo Gupioc Rios",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/robinson-dociteo-gupioc-rios.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/robinson-dociteo-gupioc-rios.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Leslye Carol Lazo Villón",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/leslye-carol-lazo-villon.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/leslye-carol-lazo-villon.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Carolina Lizárraga Houghton",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/carolina-lizarraga-houghton.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/carolina-lizarraga-houghton.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "José Luis Luna Morales",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/jose-luis-luna-morales.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/jose-luis-luna-morales.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Carlos Fernando Mesía Ramirez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/carlos-fernando-mesia-ramirez.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/carlos-fernando-mesia-ramirez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Daniel Federico Olivares Cortés",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/daniel-federico-olivares-cortes.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/daniel-federico-olivares-cortes.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "María del Carmen Omonte Durand",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/maria-del-carmen-omonte-durand.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-del-carmen-omonte-durand.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Isaías Pineda Santos",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/isaias-pineda-santos.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/isaias-pineda-santos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "María Cristina Retamozo Lezama",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/maria-cristina-retamozo-lezama.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-cristina-retamozo-lezama.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Walter Jesús Rivera Guerra",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/walter-jesus-rivera-guerra.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/walter-jesus-rivera-guerra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Luis Andrés Roel Alva",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/luis-andres-roel-alva.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/luis-andres-roel-alva.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Richard Rubio Gariza",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/richard-rubio-gariza.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/richard-rubio-gariza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Mónica Elizabeth Saavedra Ocharán",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/monica-elizabeth-saavedra-ocharan.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/monica-elizabeth-saavedra-ocharan.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Francisco Rafael Sagasti Hochhausler",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/francisco-rafael-sagasti-hochhausler.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/francisco-rafael-sagasti-hochhausler.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Orestes Pompeyo Sánchez Luis",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "POD",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/orestes-pompeyo-sanchez-luis.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PODEMOS PERÚ",
+          "electoralParty": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/orestes-pompeyo-sanchez-luis.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Rocío Yolanda Angélica Silva Santisteban Manrique",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/rocio-yolanda-angelica-silva-santisteban-manrique.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FRENTE AMPLIO",
+          "electoralParty": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/rocio-yolanda-angelica-silva-santisteban-manrique.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Zenaida Solis Gutiérrez",
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/zenaida-solis-gutierrez.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/zenaida-solis-gutierrez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Daniel Belizario Urresti Elera",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "PP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/daniel-belizario-urresti-elera.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/daniel-belizario-urresti-elera.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "Valeria Carolina Valer Collado",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/valeria-carolina-valer-collado.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/valeria-carolina-valer-collado.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2020,
+          "name": "José Alejandro Vega Antonio",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 0,
+          "elected": true,
+          "imageUrl": "/assets/congreso-oficial/2020/jose-alejandro-vega-antonio.webp?v=71",
+          "source": "Congreso/ONPE enriquecido V58",
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/jose-alejandro-vega-antonio.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "PODEMOS PERÚ",
+          "partyShort": "PP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Carlos Alberto Almerí Veramendi",
+          "imageUrl": "/assets/congreso-oficial/2020/carlos-alberto-almeri-veramendi.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/carlos-alberto-almeri-veramendi.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Alfredo Benites Agurto",
+          "imageUrl": "/assets/congreso-oficial/2020/alfredo-benites-agurto.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/alfredo-benites-agurto.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Carlos Andrés Pérez Ochoa",
+          "imageUrl": "/assets/congreso-oficial/2020/carlos-andres-perez-ochoa.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/carlos-andres-perez-ochoa.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Liliana Angélica Pinedo Achaca",
+          "imageUrl": "/assets/congreso-oficial/2020/liliana-angelica-pinedo-achaca.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/liliana-angelica-pinedo-achaca.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Eduardo Geovanni Acate Coronel",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LORETO",
+          "posicion": 1,
+          "votosPref": 10101,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Eduardo_Geovanni_Acate_Coronel",
+          "imageUrl": "/assets/congreso-oficial/2020/eduardo-geovanni-acate-coronel.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/eduardo-geovanni-acate-coronel.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Luz Milagros Cayguaray Gambini",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "LORETO",
+          "posicion": 1,
+          "votosPref": 9631,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Luz_Milagros_Cayguaray_Gambini",
+          "imageUrl": "/assets/congreso-oficial/2020/luz-milagros-cayguaray-gambini.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/luz-milagros-cayguaray-gambini.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Leonardo Inga Sales",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LORETO",
+          "posicion": 1,
+          "votosPref": 16686,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Leonardo_Inga_Sales",
+          "imageUrl": "/assets/congreso-oficial/2020/leonardo-inga-sales.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/leonardo-inga-sales.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Fernando Meléndez Celis",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "LORETO",
+          "posicion": 1,
+          "votosPref": 34038,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Fernando_Mel%C3%A9ndez_Celis",
+          "imageUrl": "/assets/congreso-oficial/2020/fernando-melendez-celis.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/fernando-melendez-celis.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Alexander Lozano Inostroza",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "MADRE DE DIOS",
+          "posicion": 1,
+          "votosPref": 1699,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Alexander_Lozano_Inostroza",
+          "imageUrl": "/assets/congreso-oficial/2020/alexander-lozano-inostroza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/alexander-lozano-inostroza.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Walter Yonni Ascona Calderón",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "MOQUEGUA",
+          "posicion": 1,
+          "votosPref": 4977,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Walter_Yonni_Ascona_Calder%C3%B3n",
+          "imageUrl": "/assets/congreso-oficial/2020/walter-yonni-ascona-calderon.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/walter-yonni-ascona-calderon.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Johan Flores Villegas",
+          "party": "PODEMOS PERÚ",
+          "partyShort": "PP",
+          "circunscripcion": "MOQUEGUA",
+          "posicion": 1,
+          "votosPref": 7505,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Johan_Flores_Villegas",
+          "imageUrl": "/assets/congreso-oficial/2020/johan-flores-villegas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PODEMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/johan-flores-villegas.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Luis Carlos Simeón Hurtado",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "PASCO",
+          "posicion": 1,
+          "votosPref": 9748,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Luis_Carlos_Sime%C3%B3n_Hurtado",
+          "imageUrl": "/assets/congreso-oficial/2020/luis-carlos-simeon-hurtado.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/luis-carlos-simeon-hurtado.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Marco Antonio Verde Heidinger",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "PASCO",
+          "posicion": 1,
+          "votosPref": 4483,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Marco_Antonio_Verde_Heidinger",
+          "imageUrl": "/assets/congreso-oficial/2020/marco-antonio-verde-heidinger.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/marco-antonio-verde-heidinger.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Luis Reymundo Dioses Guzmán",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 14235,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Luis_Reymundo_Dioses_Guzm%C3%A1n",
+          "imageUrl": "/assets/congreso-oficial/2020/luis-reymundo-dioses-guzman.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/luis-reymundo-dioses-guzman.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mártires Lizana Santos",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 28228,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/M%C3%A1rtires_Lizana_Santos",
+          "imageUrl": "/assets/congreso-oficial/2020/martires-lizana-santos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/martires-lizana-santos.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "PARTIDO MORADO",
+          "partyShort": "PM",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Angélica María Palomino Saavedra",
+          "imageUrl": "/assets/congreso-oficial/2020/angelica-maria-palomino-saavedra.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "PARTIDO MORADO",
+          "electoralParty": "PARTIDO MORADO",
+          "photoUrl": "/assets/congreso-oficial/2020/angelica-maria-palomino-saavedra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mario Javier Quispe Suárez",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 14479,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mario_Javier_Quispe_Su%C3%A1rez",
+          "imageUrl": "/assets/congreso-oficial/2020/mario-javier-quispe-suarez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/mario-javier-quispe-suarez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Franco Salinas López",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 14385,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Franco_Salinas_L%C3%B3pez",
+          "imageUrl": "/assets/congreso-oficial/2020/franco-salinas-lopez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/franco-salinas-lopez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "María Luisa Silupu Inga",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 14934,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Luisa_Silup%C3%BA_Inga",
+          "imageUrl": "/assets/congreso-oficial/2020/maria-luisa-silupu-inga.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/maria-luisa-silupu-inga.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Edward Alexander Zarate Anton",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "PIURA",
+          "posicion": 1,
+          "votosPref": 19708,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Edward_Alexander_Z%C3%A1rate_Ant%C3%B3n",
+          "imageUrl": "/assets/congreso-oficial/2020/edward-alexander-zarate-anton.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/edward-alexander-zarate-anton.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "PUNO",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Yessica Marisela Apaza Quispe",
+          "imageUrl": "/assets/congreso-oficial/2020/yessica-marisela-apaza-quispe.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/yessica-marisela-apaza-quispe.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jesús Orlando Arapa Roque",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "PUNO",
+          "posicion": 1,
+          "votosPref": 24216,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jes%C3%BAs_Orlando_Arapa_Roque",
+          "imageUrl": "/assets/congreso-oficial/2020/jesus-orlando-arapa-roque.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/jesus-orlando-arapa-roque.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Irene Carcausto Huanca",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "PUNO",
+          "posicion": 1,
+          "votosPref": 11681,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Irene_Carcausto_Huanca",
+          "imageUrl": "/assets/congreso-oficial/2020/irene-carcausto-huanca.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/irene-carcausto-huanca.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Yvan Quispe Apaza",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "PUNO",
+          "posicion": 1,
+          "votosPref": 33174,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Yv%C3%A1n_Quispe_Apaza",
+          "imageUrl": "/assets/congreso-oficial/2020/yvan-quispe-apaza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FRENTE AMPLIO",
+          "photoUrl": "/assets/congreso-oficial/2020/yvan-quispe-apaza.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rubén Ramos Zapana",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "PUNO",
+          "posicion": 1,
+          "votosPref": 26470,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rub%C3%A9n_Ramos_Zapana",
+          "imageUrl": "/assets/congreso-oficial/2020/ruben-ramos-zapana.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "electoralParty": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/ruben-ramos-zapana.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Manuel Aguilar Zamora",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "SAN MARTÍN",
+          "posicion": 1,
+          "votosPref": 32614,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Manuel_Aguilar_Zamora",
+          "imageUrl": "/assets/congreso-oficial/2020/manuel-aguilar-zamora.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/manuel-aguilar-zamora.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rolando Rubén Ruíz Pinedo",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "SAN MARTÍN",
+          "posicion": 1,
+          "votosPref": 13570,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rolando_Rub%C3%A9n_Ru%C3%ADz_Pinedo",
+          "imageUrl": "/assets/congreso-oficial/2020/rolando-ruben-ruiz-pinedo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/rolando-ruben-ruiz-pinedo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Robertina Santillana Paredes",
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "SAN MARTÍN",
+          "posicion": 1,
+          "votosPref": 10735,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Robertina_Santillana_Paredes",
+          "imageUrl": "/assets/congreso-oficial/2020/robertina-santillana-paredes.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "electoralParty": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/robertina-santillana-paredes.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Gilmer Trujillo Zegarra",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "SAN MARTÍN",
+          "posicion": 1,
+          "votosPref": 6348,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Gilmer_Trujillo_Zegarra",
+          "imageUrl": "/assets/congreso-oficial/2020/gilmer-trujillo-zegarra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FUERZA POPULAR",
+          "electoralParty": "FUERZA POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/gilmer-trujillo-zegarra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Raúl Machaca Mamani",
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "TACNA",
+          "posicion": 1,
+          "votosPref": 9140,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Ra%C3%BAl_Machaca_Mamani",
+          "imageUrl": "/assets/congreso-oficial/2020/raul-machaca-mamani.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "electoralParty": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/raul-machaca-mamani.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Héctor Simon Maquera Chavez",
+          "party": "UNIÓN POR EL PERÚ",
+          "partyShort": "UPP",
+          "circunscripcion": "TACNA",
+          "posicion": 1,
+          "votosPref": 16487,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/H%C3%A9ctor_Sim%C3%B3n_Maquera_Ch%C3%A1vez",
+          "imageUrl": "/assets/congreso-oficial/2020/hector-simon-maquera-chavez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "UNIÓN POR EL PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/hector-simon-maquera-chavez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Manuel Arturo Merino de Lama",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "TUMBES",
+          "posicion": 1,
+          "votosPref": 5271,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/Manuel_Arturo_Merino_de_Lama",
+          "imageUrl": "/assets/congreso-oficial/2020/manuel-arturo-merino-de-lama.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ACCIÓN POPULAR",
+          "electoralParty": "ACCIÓN POPULAR",
+          "photoUrl": "/assets/congreso-oficial/2020/manuel-arturo-merino-de-lama.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "ALIANZA PARA EL PROGRESO",
+          "partyShort": "APP",
+          "circunscripcion": "TUMBES",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Napoleón Puño Lecarnaque",
+          "imageUrl": "/assets/congreso-oficial/2020/napoleon-puno-lecarnaque.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "ALIANZA PARA EL PROGRESO",
+          "photoUrl": "/assets/congreso-oficial/2020/napoleon-puno-lecarnaque.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "César Gonzales Tuanama",
+          "party": "SOMOS PERÚ",
+          "partyShort": "SP",
+          "circunscripcion": "UCAYALI",
+          "posicion": 1,
+          "votosPref": 25862,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "profileUrl": "https://es.wikipedia.org/wiki/C%C3%A9sar_Gonzales_Tuanama",
+          "imageUrl": "/assets/congreso-oficial/2020/cesar-gonzales-tuanama.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "SOMOS PERÚ",
+          "electoralParty": "SOMOS PERÚ",
+          "photoUrl": "/assets/congreso-oficial/2020/cesar-gonzales-tuanama.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "FREPAP",
+          "partyShort": "FREPAP",
+          "circunscripcion": "UCAYALI",
+          "posicion": 1,
+          "votosPref": 0,
+          "historicalWinner": true,
+          "name": "Nelly Huamani Machaca",
+          "imageUrl": "/assets/congreso-oficial/2020/nelly-huamani-machaca.webp?v=71",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Congreso/ONPE enriquecido V58",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2020,
+          "partyName": "FREPAP",
+          "photoUrl": "/assets/congreso-oficial/2020/nelly-huamani-machaca.webp?v=71",
+          "photoMatch": 1.0
+        }
+      ],
+      "blankNull": 1889950,
+      "status": {
+        "percent": 100,
+        "processed": 44644,
+        "total": 44644,
+        "jee": 0,
+        "pending": 0,
+        "blankNull": 1889950,
+        "updated": "2021-08-24T00:00:00-05:00"
+      },
+      "officialWinners": true,
+      "officialWinnersCount": 130
+    }
+  },
+  "notes": [
+    "Resultados agregados desde datos oficiales por mesa de ONPE.",
+    "El CSV oficial contiene votos preferenciales por numero, no nombres de candidatos; por eso se rotulan como Nro. preferencial."
+  ],
+  "historicalEnrichment": {
+    "source": "Wikipedia tables matched against ONPE preferential vote JSON",
+    "enrichedAt": "2026-05-22T21:55:31.006Z"
+  },
+  "year": 2020
+}

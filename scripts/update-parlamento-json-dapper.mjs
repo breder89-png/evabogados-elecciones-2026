@@ -1043,7 +1043,7 @@ function statusFromDecideParticipation(participation, fallbackElection) {
     "actas_enviadas_jee", "actasEnviadasJee", "para_envio_jEE", "para_envio_jee", "actas_para_envio_jee", "jee"
   ]);
   const explicitPending = numberFromKeys(source, [
-    "actas_pendientes_jee", "actasPendientesJee", "pendientes", "pending"
+    "actas_pendientes_jee", "actasPendientesJee", "pendientes", "pendientes_jee", "actas_pendientes", "pending"
   ]);
   const percent = numberFromKeys(source, [
     "pct_actas_contabilizadas", "actas_contabilizadas_pct", "porcentaje_actas_contabilizadas",
@@ -1072,24 +1072,6 @@ function statusFromDecideParticipation(participation, fallbackElection) {
 }
 
 function decideParticipationForDistrict(row, metadata, districtKey, districtName) {
-  const direct = row?.participacion_territorio
-    || row?.participacion
-    || row?.participation
-    || row?.actas
-    || row?.acta_onpe?.territorio
-    || row?._metadata?.acta_onpe?.territorio;
-  if (direct && typeof direct === "object" && Object.keys(direct).length) return direct;
-
-  const acta = metadata?.acta_onpe || metadata?.actas_onpe || {};
-  const candidates = [
-    acta?.territorio,
-    acta?.territorios,
-    acta?.circunscripciones,
-    acta?.distritos,
-    acta?.departamentos,
-    acta?.detalle_territorial
-  ].filter(Boolean);
-
   const keys = [
     districtKey,
     decideKeyForName(districtName),
@@ -1099,12 +1081,70 @@ function decideParticipationForDistrict(row, metadata, districtKey, districtName
     String(districtKey || "").toUpperCase()
   ].filter(Boolean);
 
+  const direct = row?.participacion_territorio
+    || row?.participacion
+    || row?.participation
+    || row?.actas
+    || row?.acta_onpe?.territorio
+    || row?._metadata?.acta_onpe?.territorio;
+  const directFound = lookupTerritorialStatus(direct, keys, districtName) || (looksLikeStatus(direct) ? direct : null);
+  if (directFound) return directFound;
+
+  const acta = metadata?.acta_onpe || metadata?.actas_onpe || {};
+  const candidates = [
+    acta?.territorio,
+    acta?.territorios,
+    acta?.circunscripciones,
+    acta?.distritos,
+    acta?.departamentos,
+    acta?.detalle_territorial,
+    acta
+  ].filter(Boolean);
+
   for (const table of candidates) {
     const found = lookupTerritorialStatus(table, keys, districtName);
     if (found) return found;
   }
 
-  return {};
+  // Último recurso: búsqueda recursiva en row y metadata. Evita que cambios de
+  // estructura en el JSON live de Decide/Dapper dejen las actas territoriales en cero.
+  return recursiveTerritorialStatus({ row, metadata }, keys, districtName) || {};
+}
+
+function looksLikeStatus(obj) {
+  if (!obj || typeof obj !== "object") return false;
+  const joined = Object.keys(obj).join(" ").toLowerCase();
+  return /(actas|contabiliz|pendient|processed|total)/.test(joined);
+}
+
+function recursiveTerritorialStatus(root, keys, districtName) {
+  const seen = new Set();
+  const wanted = new Set(keys.map((k) => normalize(k)));
+  wanted.add(normalize(districtName));
+  const stack = [root];
+  while (stack.length) {
+    const item = stack.pop();
+    if (!item || typeof item !== "object" || seen.has(item)) continue;
+    seen.add(item);
+
+    const label = item.name || item.nombre || item.region || item.departamento || item.circunscripcion || item.territorio || item.distrito || item.ubigeo;
+    if (label && wanted.has(normalize(label)) && looksLikeStatus(item)) return item;
+
+    if (!Array.isArray(item)) {
+      for (const [key, value] of Object.entries(item)) {
+        if (wanted.has(normalize(key)) && value && typeof value === "object") {
+          if (looksLikeStatus(value)) return value;
+          const nested = recursiveTerritorialStatus(value, keys, districtName);
+          if (nested) return nested;
+        }
+      }
+    }
+
+    for (const value of Object.values(item)) {
+      if (value && typeof value === "object") stack.push(value);
+    }
+  }
+  return null;
 }
 
 function lookupTerritorialStatus(table, keys, districtName) {
@@ -1141,13 +1181,13 @@ function firstTruthyFromKeys(obj, keys) {
   return null;
 }
 
-function decideNationalStatusfunction decideNationalStatus(election) {
+function decideNationalStatus(election) {
   if (!election) return null;
-  const total = numberFromKeys(election, ["total_actas", "totalActas", "actas_total", "actasTotal", "total"]);
-  const processed = numberFromKeys(election, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "processed"]);
-  const jee = numberFromKeys(election, ["actas_enviadas_jee", "actasEnviadasJee", "jee"]);
-  const pending = numberFromKeys(election, ["actas_pendientes_jee", "actasPendientesJee", "pendientes", "pending"]);
-  const percent = numberFromKeys(election, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje", "percent"]);
+  const total = numberFromKeys(election, ["total_actas", "totalActas", "actas_total", "actasTotal", "total", "totalActasEleccion"]);
+  const processed = numberFromKeys(election, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "actas_contabilizadas_num", "processed"]);
+  const jee = numberFromKeys(election, ["actas_enviadas_jee", "actasEnviadasJee", "para_envio_jEE", "para_envio_jee", "actas_para_envio_jee", "jee"]);
+  const pending = numberFromKeys(election, ["actas_pendientes_jee", "actasPendientesJee", "pendientes", "pendientes_jee", "actas_pendientes", "pending"]);
+  const percent = numberFromKeys(election, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje", "porcentaje_actas_contabilizadas", "percent"]);
   const emitted = numberFromKeys(election, ["total_votos_emitidos", "totalVotosEmitidos", "emitidos"]);
   const valid = numberFromKeys(election, ["total_votos_validos", "totalVotosValidos", "validos"]);
   return {

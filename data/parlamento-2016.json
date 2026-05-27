@@ -1,0 +1,5194 @@
+{
+  "electionYear": 2016,
+  "sourceMode": "onpe-datos-abiertos",
+  "sourceLabel": "ONPE - Datos Abiertos EG2016",
+  "sourceUrls": [
+    "https://www.datosabiertos.gob.pe/sites/default/files/2016_EG2016_Congresal.zip",
+    "https://www.datosabiertos.gob.pe/sites/default/files/2016_EG2016_Parlamento.zip"
+  ],
+  "updatedAt": "2016-06-10T00:00:00-05:00",
+  "status": {
+    "percent": 100,
+    "processed": 77307,
+    "total": 77307,
+    "jee": 0,
+    "pending": 0,
+    "blankNull": 6375345,
+    "updated": "2016-06-10T00:00:00-05:00"
+  },
+  "camaras": {
+    "diputados": {
+      "name": "Congreso de la República",
+      "seats": 130,
+      "barrier": 0.05,
+      "parties": [
+        {
+          "name": "ACCIÓN POPULAR",
+          "short": "AP",
+          "color": "#16a34a",
+          "logo": "/logos/partidos-2021/accion-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Acci%C3%B3n_Popular.png/40px-Acci%C3%B3n_Popular.png"
+        },
+        {
+          "name": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+          "short": "AES",
+          "color": "hsl(180 62% 43%)",
+          "logo": "/logos/partidos-2021/alianza-electoral-solidaridad-nacional-upp.svg"
+        },
+        {
+          "name": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "short": "APP",
+          "color": "hsl(93 62% 43%)",
+          "logo": "/logos/partidos-2021/alianza-para-el-progreso-del-peru.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/40px-Alianza_para_el_Progreso_Peru.svg.png"
+        },
+        {
+          "name": "ALIANZA POPULAR",
+          "short": "APRA-PPC",
+          "color": "hsl(283 62% 43%)",
+          "logo": "/logos/partidos-2021/alianza-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Logo_Alianza_Popular_2016.jpg/40px-Logo_Alianza_Popular_2016.jpg"
+        },
+        {
+          "name": "DEMOCRACIA DIRECTA",
+          "short": "DD",
+          "color": "hsl(156 62% 43%)",
+          "logo": "/logos/partidos-2021/democracia-directa.svg"
+        },
+        {
+          "name": "FRENTE AMPLIO",
+          "short": "FA",
+          "color": "#059669",
+          "logo": "/logos/partidos-2021/frente-amplio.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo-frente-amplio.svg/40px-Logo-frente-amplio.svg.png"
+        },
+        {
+          "name": "FRENTE ESPERANZA",
+          "short": "FE",
+          "color": "hsl(49 62% 43%)",
+          "logo": "/logos/partidos-2021/frente-esperanza.svg"
+        },
+        {
+          "name": "FUERZA POPULAR",
+          "short": "FP",
+          "color": "#f97316",
+          "logo": "/logos/partidos-2021/fuerza-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Fuerza_popular.jpg/40px-Fuerza_popular.jpg"
+        },
+        {
+          "name": "PARTIDO HUMANISTA PERUANO",
+          "short": "PHP",
+          "color": "hsl(263 62% 43%)",
+          "logo": "/logos/partidos-2021/partido-humanista-peruano.svg"
+        },
+        {
+          "name": "PARTIDO POLITICO ORDEN",
+          "short": "PPO",
+          "color": "hsl(342 62% 43%)",
+          "logo": "/logos/partidos-2021/partido-politico-orden.svg"
+        },
+        {
+          "name": "PERU LIBERTARIO",
+          "short": "PL",
+          "color": "hsl(193 62% 43%)",
+          "logo": "/logos/partidos-2021/peru-libertario.svg"
+        },
+        {
+          "name": "PERU NACION",
+          "short": "PN",
+          "color": "hsl(96 62% 43%)",
+          "logo": "/logos/partidos-2021/peru-nacion.svg"
+        },
+        {
+          "name": "PERÚ POSIBLE",
+          "short": "PP",
+          "color": "hsl(166 62% 43%)",
+          "logo": "/logos/partidos-2021/peru-posible.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Congreso_Peru_elecciones_2016.svg/330px-Congreso_Peru_elecciones_2016.svg.png"
+        },
+        {
+          "name": "PERUANOS POR EL KAMBIO",
+          "short": "PPK",
+          "color": "hsl(294 62% 43%)",
+          "logo": "/logos/partidos-2021/peruanos-por-el-kambio.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Peruanos_Por_el_Kambio.png/40px-Peruanos_Por_el_Kambio.png"
+        },
+        {
+          "name": "PROGRESANDO PERU",
+          "short": "PP",
+          "color": "hsl(130 62% 43%)",
+          "logo": "/logos/partidos-2021/progresando-peru.svg"
+        },
+        {
+          "name": "TODOS POR EL PERU",
+          "short": "TP",
+          "color": "hsl(73 62% 43%)",
+          "logo": "/logos/partidos-2021/todos-por-el-peru.svg"
+        },
+        {
+          "name": "VOTOS IMPUGNADOS",
+          "short": "VI",
+          "color": "hsl(192 62% 43%)",
+          "logo": "/logos/partidos-2021/votos-impugnados.svg"
+        }
+      ],
+      "circunscripciones": [
+        {
+          "name": "AMAZONAS",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 51067
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 14845
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 14489
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 11992
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 10220
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 8565
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 6233
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 1531
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 882
+            },
+            {
+              "party": "TODOS POR EL PERU",
+              "votes": 265
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 73417,
+          "status": {
+            "percent": 100,
+            "processed": 983,
+            "total": 983,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 73417,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "ÁNCASH",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 155328
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 58852
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 57657
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 48426
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 26898
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 26833
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 15913
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 4534
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 2640
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 1139
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1055
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 258368,
+          "status": {
+            "percent": 100,
+            "processed": 2938,
+            "total": 2938,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 258368,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "APURÍMAC",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 55031
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 44046
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 12716
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 10251
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 8581
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 5072
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 3849
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 970
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 920
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 401
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 77198,
+          "status": {
+            "percent": 100,
+            "processed": 1020,
+            "total": 1020,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 77198,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "AREQUIPA",
+          "seats": 6,
+          "votes": [
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 135696
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 124083
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 122312
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 80005
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 61625
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 35737
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 29610
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 9467
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 8962
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 4658
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 3403
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1320
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 1063
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 278034,
+          "status": {
+            "percent": 100,
+            "processed": 3551,
+            "total": 3551,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 278034,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "AYACUCHO",
+          "seats": 3,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 86292
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 69435
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 15805
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 11711
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 10434
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 6429
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 4438
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 3202
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1655
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 762
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 592
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 399
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 283
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 114883,
+          "status": {
+            "percent": 100,
+            "processed": 1530,
+            "total": 1530,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 114883,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "CAJAMARCA",
+          "seats": 6,
+          "votes": [
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 208935
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 153384
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 47304
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 43201
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 27771
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 24104
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 16611
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 6106
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 2239
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1650
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 854
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 468
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 387
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 246845,
+          "status": {
+            "percent": 100,
+            "processed": 3548,
+            "total": 3548,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 246845,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "CALLAO",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 160208
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 97208
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 41931
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 36538
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 34325
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 28929
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 9414
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 6198
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 5032
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 4024
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 3647
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1167
+            },
+            {
+              "party": "TODOS POR EL PERU",
+              "votes": 904
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 214490,
+          "status": {
+            "percent": 100,
+            "processed": 2525,
+            "total": 2525,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 214490,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "CUSCO",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 152450
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 82529
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 58292
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 54811
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 40180
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 34473
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 28887
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 9490
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 6937
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 4274
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 2877
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 2123
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 2049
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1139
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 264716,
+          "status": {
+            "percent": 100,
+            "processed": 3171,
+            "total": 3171,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 264716,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "HUANCAVELICA",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 46386
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 42361
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 14725
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 10015
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 3603
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 3212
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 3118
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 1372
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 527
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 440
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 389
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 334
+            },
+            {
+              "party": "TODOS POR EL PERU",
+              "votes": 234
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 74671,
+          "status": {
+            "percent": 100,
+            "processed": 1018,
+            "total": 1018,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 74671,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "HUÁNUCO",
+          "seats": 3,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 81549
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 54641
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 39529
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 22827
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 11401
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 11076
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 9905
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 2032
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1259
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 1166
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 978
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 664
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 649
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 445
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 154451,
+          "status": {
+            "percent": 100,
+            "processed": 1858,
+            "total": 1858,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 154451,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "ICA",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 139927
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 46162
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 41869
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 33791
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 30706
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 26235
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 10056
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 5758
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 4014
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 2880
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 1478
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1091
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 166526,
+          "status": {
+            "percent": 100,
+            "processed": 1724,
+            "total": 1724,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 166526,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "JUNÍN",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 167666
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 70653
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 62636
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 49502
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 36756
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 35481
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 12950
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 10386
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 7856
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 1135
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 997
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 0
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 251468,
+          "status": {
+            "percent": 100,
+            "processed": 3041,
+            "total": 3041,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 251468,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LA LIBERTAD",
+          "seats": 7,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 278611
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 163243
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 117650
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 58106
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 44894
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 36884
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 21049
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 6323
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 6264
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 3504
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 2225
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1163
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 325797,
+          "status": {
+            "percent": 100,
+            "processed": 4413,
+            "total": 4413,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 325797,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LAMBAYEQUE",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 219878
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 62943
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 57850
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 50968
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 44327
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 35371
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 14233
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 6602
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 5605
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 5190
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 4730
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 2185
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 705
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 230449,
+          "status": {
+            "percent": 100,
+            "processed": 3039,
+            "total": 3039,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 230449,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LIMA METROPOLITANA",
+          "seats": 33,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 1534803
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 1036371
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 396689
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 369446
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 314224
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 237220
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 129184
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 60487
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 58922
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 41378
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 37159
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 9438
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 9192
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 7644
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 1739370,
+          "status": {
+            "percent": 100,
+            "processed": 22008,
+            "total": 22008,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 1739370,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LIMA PROVINCIAS",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 198838
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 47585
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 46513
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 24918
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 22502
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 21621
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 8778
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 7133
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 4720
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 2453
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 1668
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 486
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 205700,
+          "status": {
+            "percent": 100,
+            "processed": 2429,
+            "total": 2429,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 205700,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "LORETO",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 101564
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 40652
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 28984
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 27504
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 26124
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 15080
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 9507
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 3580
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 2286
+            },
+            {
+              "party": "TODOS POR EL PERU",
+              "votes": 613
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 186514,
+          "status": {
+            "percent": 100,
+            "processed": 2197,
+            "total": 2197,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 186514,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "MADRE DE DIOS",
+          "seats": 1,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 14452
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 5983
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 5894
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 5409
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 4463
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 2421
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 1925
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 1806
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 1633
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 644
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 342
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 261
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 32011,
+          "status": {
+            "percent": 100,
+            "processed": 329,
+            "total": 329,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 32011,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "MOQUEGUA",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 20356
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 15799
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 13649
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 12368
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 6571
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 3745
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 1698
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 1688
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 1205
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1013
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 553
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 37217,
+          "status": {
+            "percent": 100,
+            "processed": 470,
+            "total": 470,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 37217,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "PASCO",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 31901
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 13361
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 12533
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 8466
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 7510
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 6991
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 2024
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1575
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 1121
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 55131,
+          "status": {
+            "percent": 100,
+            "processed": 637,
+            "total": 637,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 55131,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "PIURA",
+          "seats": 7,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 341712
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 83940
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 70116
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 60899
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 45341
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 34526
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 24019
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 9795
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 5675
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 4081
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 1808
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 1501
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 1346
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 801
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 362452,
+          "status": {
+            "percent": 100,
+            "processed": 4318,
+            "total": 4318,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 362452,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "PUNO",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 154679
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 100312
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 80748
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 32746
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 30368
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 21113
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 19296
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 13864
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 7682
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 3680
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 2525
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 1562
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 804
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 264528,
+          "status": {
+            "percent": 100,
+            "processed": 2955,
+            "total": 2955,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 264528,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "SAN MARTÍN",
+          "seats": 4,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 116319
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 47462
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 21466
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 17977
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 15608
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 8405
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 3095
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 2099
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1765
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 212500,
+          "status": {
+            "percent": 100,
+            "processed": 1960,
+            "total": 1960,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 212500,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "TACNA",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 52910
+            },
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 30953
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 20571
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 18084
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 10283
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 8077
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 4710
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 3102
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 1095
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 851
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 723
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 387
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 233
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 67219,
+          "status": {
+            "percent": 100,
+            "processed": 878,
+            "total": 878,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 67219,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "TUMBES",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 49052
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 12432
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 6480
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 6395
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 5872
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 1366
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 519
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 0
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 0
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 48124,
+          "status": {
+            "percent": 100,
+            "processed": 535,
+            "total": 535,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 48124,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "UCAYALI",
+          "seats": 3,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 66375
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 32447
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 17305
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 16513
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 7371
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 6532
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 3077
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 942
+            },
+            {
+              "party": "TODOS POR EL PERU",
+              "votes": 570
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 507
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 0
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 0
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 106589,
+          "status": {
+            "percent": 100,
+            "processed": 1149,
+            "total": 1149,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 106589,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        },
+        {
+          "name": "RESIDENTES EN EL EXTRANJERO",
+          "seats": 2,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 60696
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 35629
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 19049
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 16924
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 10093
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 4899
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 2674
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 2101
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 1537
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 1465
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 811
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 784
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 457
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 351
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 326677,
+          "status": {
+            "percent": 100,
+            "processed": 3083,
+            "total": 3083,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 326677,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        }
+      ],
+      "nationalVotes": [
+        {
+          "party": "FUERZA POPULAR",
+          "votes": 4431077
+        },
+        {
+          "party": "PERUANOS POR EL KAMBIO",
+          "votes": 2007710
+        },
+        {
+          "party": "FRENTE AMPLIO",
+          "votes": 1700052
+        },
+        {
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "votes": 1125682
+        },
+        {
+          "party": "ALIANZA POPULAR",
+          "votes": 1013735
+        },
+        {
+          "party": "ACCIÓN POPULAR",
+          "votes": 877734
+        },
+        {
+          "party": "DEMOCRACIA DIRECTA",
+          "votes": 528301
+        },
+        {
+          "party": "PERÚ POSIBLE",
+          "votes": 286980
+        },
+        {
+          "party": "FRENTE ESPERANZA",
+          "votes": 139634
+        },
+        {
+          "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+          "votes": 113494
+        },
+        {
+          "party": "PARTIDO POLITICO ORDEN",
+          "votes": 68474
+        },
+        {
+          "party": "PARTIDO HUMANISTA PERUANO",
+          "votes": 28167
+        },
+        {
+          "party": "PERU LIBERTARIO",
+          "votes": 23498
+        },
+        {
+          "party": "PROGRESANDO PERU",
+          "votes": 14663
+        },
+        {
+          "party": "PERU NACION",
+          "votes": 14132
+        },
+        {
+          "party": "TODOS POR EL PERU",
+          "votes": 2586
+        },
+        {
+          "party": "VOTOS IMPUGNADOS",
+          "votes": 0
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Marita Herrera Arévalo",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "AMAZONAS",
+          "posicion": 2,
+          "votosPref": 15312,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Marita_Herrera_Ar%C3%A9valo",
+          "imageUrl": "/assets/congreso-oficial/2016/marita-herrera-arevalo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/marita-herrera-arevalo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Miguel Antonio Castro Grández",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "AMAZONAS",
+          "posicion": 1,
+          "votosPref": 12939,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Miguel_Antonio_Castro_Gr%C3%A1ndez",
+          "imageUrl": "/assets/congreso-oficial/2016/miguel-antonio-castro-grandez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/miguel-antonio-castro-grandez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Eloy Ricardo Narváez Soto",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 2,
+          "votosPref": 20941,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Eloy_Ricardo_Narv%C3%A1ez_Soto",
+          "imageUrl": "/assets/congreso-oficial/2016/eloy-ricardo-narvaez-soto.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/eloy-ricardo-narvaez-soto.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "María Elena Foronda Farro",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 9094,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Elena_Foronda_Farro",
+          "imageUrl": "/assets/congreso-oficial/2016/maria-elena-foronda-farro.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/maria-elena-foronda-farro.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Carlos Alberto Domínguez Herrera",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 3,
+          "votosPref": 24088,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Carlos_Alberto_Dom%C3%ADnguez_Herrera",
+          "imageUrl": "/assets/congreso-oficial/2016/carlos-alberto-dominguez-herrera.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/carlos-alberto-dominguez-herrera.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "María Cristina Melgarejo Páucar",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 1,
+          "votosPref": 21588,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Cristina_Melgarejo_P%C3%A1ucar",
+          "imageUrl": "/assets/congreso-oficial/2016/maria-cristina-melgarejo-paucar.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/maria-cristina-melgarejo-paucar.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Yesenia Ponce Villarreal de Vargas",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ÁNCASH",
+          "posicion": 2,
+          "votosPref": 13941,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Yesenia_Ponce_Villarreal_de_Vargas",
+          "imageUrl": "",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Yesenia%20Ponce%20Villarreal%20de%20Vargas?year=2016&v=71"
+        },
+        {
+          "name": "Richard Arce Cáceres",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "APURÍMAC",
+          "posicion": 1,
+          "votosPref": 10076,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Richard_Arce_C%C3%A1ceres",
+          "imageUrl": "/assets/congreso-oficial/2016/richard-arce-caceres.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/richard-arce-caceres.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Dalmiro Feliciano Palomino Ortiz",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "APURÍMAC",
+          "posicion": 2,
+          "votosPref": 15465,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Dalmiro_Feliciano_Palomino_Ortiz",
+          "imageUrl": "/assets/congreso-oficial/2016/dalmiro-feliciano-palomino-ortiz.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/dalmiro-feliciano-palomino-ortiz.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Miguel Román Valdivia",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 26814,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Miguel_Rom%C3%A1n_Valdivia",
+          "imageUrl": "/assets/congreso-oficial/2016/miguel-roman-valdivia.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "historicalWinner": true,
+          "year": 2016,
+          "partyName": "ACCIÓN POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/miguel-roman-valdivia.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Horacio Zeballos Patrón",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 24368,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Horacio_Zeballos_Patr%C3%B3n",
+          "imageUrl": "/assets/congreso-oficial/2016/horacio-zeballos-patron.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/horacio-zeballos-patron.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Justiniano Rómulo Apaza Ordóñez",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 2,
+          "votosPref": 19562,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Justiniano_R%C3%B3mulo_Apaza_Ord%C3%B3%C3%B1ez",
+          "imageUrl": "/assets/congreso-oficial/2016/justiniano-romulo-apaza-ordonez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/justiniano-romulo-apaza-ordonez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "María Alejandra Aramayo Gaona",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 20228,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mar%C3%ADa_Alejandra_Aramayo_Gaona",
+          "imageUrl": "/assets/congreso-oficial/2016/maria-alejandra-aramayo-gaona.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/maria-alejandra-aramayo-gaona.webp?v=71",
+          "photoMatch": 0.9
+        },
+        {
+          "name": "Ana María Choquehuanca de Villanueva",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 1,
+          "votosPref": 27285,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Ana_Mar%C3%ADa_Choquehuanca_de_Villanueva",
+          "imageUrl": "/assets/congreso-oficial/2016/ana-maria-choquehuanca-de-villanueva.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/ana-maria-choquehuanca-de-villanueva.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Sergio Francisco Félix Dávila Vizcarra",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "AREQUIPA",
+          "posicion": 4,
+          "votosPref": 24096,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Sergio_Francisco_F%C3%A9lix_D%C3%A1vila_Vizcarra",
+          "imageUrl": "/assets/congreso-oficial/2016/sergio-francisco-felix-davila-vizcarra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/sergio-francisco-felix-davila-vizcarra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Edyson Humberto Morales Ramírez",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "AYACUCHO",
+          "posicion": 1,
+          "votosPref": 16756,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Edyson_Humberto_Morales_Ram%C3%ADrez",
+          "imageUrl": "/assets/congreso-oficial/2016/edyson-humberto-morales-ramirez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/edyson-humberto-morales-ramirez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Tania Edith Pariona Tarqui",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "AYACUCHO",
+          "posicion": 3,
+          "votosPref": 11842,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Tania_Edith_Pariona_Tarqui",
+          "imageUrl": "/assets/congreso-oficial/2016/tania-edith-pariona-tarqui.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/tania-edith-pariona-tarqui.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Miky Joaquín Dipas Huamán",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "AYACUCHO",
+          "posicion": 1,
+          "votosPref": 20089,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Miky_Joaqu%C3%ADn_Dipas_Huam%C3%A1n",
+          "imageUrl": "/assets/congreso-oficial/2016/miky-joaquin-dipas-huaman.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/miky-joaquin-dipas-huaman.webp?v=71",
+          "photoMatch": 0.9
+        },
+        {
+          "name": "César Henry Vásquez Sánchez",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 3,
+          "votosPref": 11969,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/C%C3%A9sar_Henry_V%C3%A1squez_S%C3%A1nchez",
+          "imageUrl": "/assets/congreso-oficial/2016/cesar-henry-vasquez-sanchez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "historicalWinner": true,
+          "year": 2016,
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/cesar-henry-vasquez-sanchez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Marco Antonio Arana Zegarra",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 8576,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Marco_Antonio_Arana_Zegarra",
+          "imageUrl": "/assets/congreso-oficial/2016/marco-antonio-arana-zegarra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "Wikipedia: Marco Arana",
+          "photoUrl": "/assets/congreso-oficial/2016/marco-antonio-arana-zegarra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Osías Ramírez Gamarra",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 1,
+          "votosPref": 30702,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Os%C3%ADas_Ram%C3%ADrez_Gamarra",
+          "imageUrl": "/assets/congreso-oficial/2016/osias-ramirez-gamarra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/osias-ramirez-gamarra.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Carlos Humberto Ticlla Rafael",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 2,
+          "votosPref": 14681,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Carlos_Humberto_Ticlla_Rafael",
+          "imageUrl": "/assets/congreso-oficial/2016/carlos-humberto-ticlla-rafael.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/carlos-humberto-ticlla-rafael.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Wilmer Aguilar Montenegro",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 4,
+          "votosPref": 7207,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Wilmer_Aguilar_Montenegro",
+          "imageUrl": "/assets/congreso-oficial/2016/wilmer-aguilar-montenegro.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/wilmer-aguilar-montenegro.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Segundo Leocadio Tapia Bernal",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CAJAMARCA",
+          "posicion": 3,
+          "votosPref": 6307,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Segundo_Leocadio_Tapia_Bernal",
+          "imageUrl": "/assets/congreso-oficial/2016/segundo-leocadio-tapia-bernal.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Segundo Tapia",
+          "photoUrl": "/assets/congreso-oficial/2016/segundo-leocadio-tapia-bernal.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Víctor Augusto Albrecht Rodríguez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CALLAO",
+          "posicion": 1,
+          "votosPref": 30470,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/V%C3%ADctor_Augusto_Albrecht_Rodr%C3%ADguez",
+          "imageUrl": "/assets/congreso-oficial/2016/victor-augusto-albrecht-rodriguez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/victor-augusto-albrecht-rodriguez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Francisco Javier Villavicencio Cárdenas",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CALLAO",
+          "posicion": 2,
+          "votosPref": 25169,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Francisco_Javier_Villavicencio_C%C3%A1rdenas",
+          "imageUrl": "/assets/congreso-oficial/2016/francisco-javier-villavicencio-cardenas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/francisco-javier-villavicencio-cardenas.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Estelita Sonia Bustos Espinoza",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CALLAO",
+          "posicion": 3,
+          "votosPref": 18174,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Estelita_Sonia_Bustos_Espinoza",
+          "imageUrl": "/assets/congreso-oficial/2016/estelita-sonia-bustos-espinoza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Estelita Bustos",
+          "photoUrl": "/assets/congreso-oficial/2016/estelita-sonia-bustos-espinoza.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Janet Emilia Sánchez Alva",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "CALLAO",
+          "posicion": 1,
+          "votosPref": 17409,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Janet_Emilia_S%C3%A1nchez_Alva",
+          "imageUrl": "/assets/congreso-oficial/2016/janet-emilia-sanchez-alva.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/janet-emilia-sanchez-alva.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Armando Villanueva Mercado",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 22504,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Armando_Villanueva_Mercado",
+          "imageUrl": "/assets/congreso-oficial/2016/armando-villanueva-mercado.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ACCIÓN POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/armando-villanueva-mercado.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Benicio Ríos Ocsa",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 31559,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Benicio_R%C3%ADos_Ocsa",
+          "imageUrl": "",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública",
+          "year": 2016,
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Benicio%20R%C3%ADos%20Ocsa?year=2016&v=71"
+        },
+        {
+          "name": "Wilbert Gabriel Rozas Beltrán",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "CUSCO",
+          "posicion": 1,
+          "votosPref": 23771,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Wilbert_Gabriel_Rozas_Beltr%C3%A1n",
+          "imageUrl": "/assets/congreso-oficial/2016/wilbert-gabriel-rozas-beltran.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/wilbert-gabriel-rozas-beltran.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Edgar Américo Ochoa Pezo",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "CUSCO",
+          "posicion": 2,
+          "votosPref": 19661,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Edgar_Am%C3%A9rico_Ochoa_Pezo",
+          "imageUrl": "/assets/congreso-oficial/2016/edgar-americo-ochoa-pezo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/edgar-americo-ochoa-pezo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Nelly Lady Cuadros Candia",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "CUSCO",
+          "posicion": 4,
+          "votosPref": 14097,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Nelly_Lady_Cuadros_Candia",
+          "imageUrl": "/assets/congreso-oficial/2016/nelly-lady-cuadros-candia.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/nelly-lady-cuadros-candia.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Zacarías Reymundo Lapa Inga",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "HUANCAVELICA",
+          "posicion": 1,
+          "votosPref": 8278,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Zacar%C3%ADas_Reymundo_Lapa_Inga",
+          "imageUrl": "/assets/congreso-oficial/2016/zacarias-reymundo-lapa-inga.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/zacarias-reymundo-lapa-inga.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Wuilian Alfonso Monterola Abregú",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "HUANCAVELICA",
+          "posicion": 1,
+          "votosPref": 16737,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Wuilian_Alfonso_Monterola_Abreg%C3%BA",
+          "imageUrl": "/assets/congreso-oficial/2016/wuilian-alfonso-monterola-abregu.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/wuilian-alfonso-monterola-abregu.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rogelio Robert Tucto Castillo",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "HUÁNUCO",
+          "posicion": 1,
+          "votosPref": 9331,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rogelio_Robert_Tucto_Castillo",
+          "imageUrl": "/assets/congreso-oficial/2016/rogelio-robert-tucto-castillo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/rogelio-robert-tucto-castillo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Guillermo Augusto Bocángel Weydert",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "HUÁNUCO",
+          "posicion": 2,
+          "votosPref": 19996,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Guillermo_Augusto_Boc%C3%A1ngel_Weydert",
+          "imageUrl": "",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Guillermo%20Augusto%20Boc%C3%A1ngel%20Weydert?year=2016&v=71"
+        },
+        {
+          "name": "Karina Juliza Beteta Rubín",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "HUÁNUCO",
+          "posicion": 1,
+          "votosPref": 16909,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Karina_Juliza_Beteta_Rub%C3%ADn",
+          "imageUrl": "/assets/congreso-oficial/2016/karina-juliza-beteta-rubin.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/karina-juliza-beteta-rubin.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Miguel Ángel Elías Ávalos",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ICA",
+          "posicion": 2,
+          "votosPref": 27609,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_El%C3%ADas_%C3%81valos",
+          "imageUrl": "/assets/congreso-oficial/2016/miguel-angel-elias-avalos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/miguel-angel-elias-avalos.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Cesar Antonio Segura Izquierdo",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ICA",
+          "posicion": 1,
+          "votosPref": 20511,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Cesar_Antonio_Segura_Izquierdo",
+          "imageUrl": "/assets/congreso-oficial/2016/cesar-antonio-segura-izquierdo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/cesar-antonio-segura-izquierdo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Betty Gladys Ananculi Gómez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "ICA",
+          "posicion": 3,
+          "votosPref": 18159,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Betty_Gladys_Ananculi_G%C3%B3mez",
+          "imageUrl": "/assets/congreso-oficial/2016/betty-gladys-ananculi-gomez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/betty-gladys-ananculi-gomez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Alberto Eugenio Oliva Corrales",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "ICA",
+          "posicion": 1,
+          "votosPref": 15379,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Alberto_Eugenio_Oliva_Corrales",
+          "imageUrl": "/assets/congreso-oficial/2016/alberto-eugenio-oliva-corrales.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/alberto-eugenio-oliva-corrales.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mario José Canzio Álvarez",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "JUNÍN",
+          "posicion": 1,
+          "votosPref": 14653,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mario_Jos%C3%A9_Canzio_%C3%81lvarez",
+          "imageUrl": "",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública",
+          "year": 2016,
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Mario%20Jos%C3%A9%20Canzio%20%C3%81lvarez?year=2016&v=71"
+        },
+        {
+          "name": "Sonia Rosario Echevarría Huamán",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 5,
+          "votosPref": 19291,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Sonia_Rosario_Echevarr%C3%ADa_Huam%C3%A1n",
+          "imageUrl": "/assets/congreso-oficial/2016/sonia-rosario-echevarria-huaman.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/sonia-rosario-echevarria-huaman.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Federico Pariona Galindo",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 2,
+          "votosPref": 18768,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Federico_Pariona_Galindo",
+          "imageUrl": "/assets/congreso-oficial/2016/federico-pariona-galindo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/federico-pariona-galindo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Israel Tito Lazo Julca",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "JUNÍN",
+          "posicion": 3,
+          "votosPref": 16566,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Israel_Tito_Lazo_Julca",
+          "imageUrl": "/assets/congreso-oficial/2016/israel-tito-lazo-julca.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/israel-tito-lazo-julca.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Moisés Bartolomé Guía Pianto",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "JUNÍN",
+          "posicion": 2,
+          "votosPref": 20578,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Mois%C3%A9s_Bartolom%C3%A9_Gu%C3%ADa_Pianto",
+          "imageUrl": "/assets/congreso-oficial/2016/moises-bartolome-guia-pianto.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/moises-bartolome-guia-pianto.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Richard Frank Acuña Núñez",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 103864,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Richard_Frank_Acu%C3%B1a_N%C3%BA%C3%B1ez",
+          "imageUrl": "/assets/congreso-oficial/2016/richard-frank-acuna-nunez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/richard-frank-acuna-nunez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Gloria Edelmira Montenegro Figueroa",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 2,
+          "votosPref": 25599,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Gloria_Edelmira_Montenegro_Figueroa",
+          "imageUrl": "/assets/congreso-oficial/2016/gloria-edelmira-montenegro-figueroa.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/gloria-edelmira-montenegro-figueroa.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Elías Nicolás Rodríguez Zavaleta",
+          "party": "ALIANZA POPULAR",
+          "partyShort": "APRA-PPC",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 52103,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/El%C3%ADas_Nicol%C3%A1s_Rodr%C3%ADguez_Zavaleta",
+          "imageUrl": "/assets/congreso-oficial/2016/elias-nicolas-rodriguez-zavaleta.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ALIANZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/elias-nicolas-rodriguez-zavaleta.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Daniel Enrique Salaverry Villa",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 2,
+          "votosPref": 57827,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Daniel_Enrique_Salaverry_Villa",
+          "imageUrl": "",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Daniel%20Enrique%20Salaverry%20Villa?year=2016&v=71"
+        },
+        {
+          "name": "Octavio Edilberto Salazar Miranda",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 1,
+          "votosPref": 43763,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Octavio_Edilberto_Salazar_Miranda",
+          "imageUrl": "/assets/congreso-oficial/2016/octavio-edilberto-salazar-miranda.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/octavio-edilberto-salazar-miranda.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rosa María Bartra Barriga",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 5,
+          "votosPref": 19864,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Rosa_Mar%C3%ADa_Bartra_Barriga",
+          "imageUrl": "/assets/congreso-oficial/2016/rosa-maria-bartra-barriga.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/rosa-maria-bartra-barriga.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Luis Alberto Yika García",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LA LIBERTAD",
+          "posicion": 3,
+          "votosPref": 15490,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Luis_Alberto_Yika_Garc%C3%ADa",
+          "imageUrl": "/assets/congreso-oficial/2016/luis-alberto-yika-garcia.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/luis-alberto-yika-garcia.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Ángel Javier Velásquez Quesquén",
+          "party": "ALIANZA POPULAR",
+          "partyShort": "APRA-PPC",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 28381,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/%C3%81ngel_Javier_Vel%C3%A1squez_Quesqu%C3%A9n",
+          "imageUrl": "/assets/congreso-oficial/2016/angel-javier-velasquez-quesquen.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ALIANZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/angel-javier-velasquez-quesquen.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "José Marvin Palma Mendoza",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 2,
+          "votosPref": 48297,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Jos%C3%A9_Marvin_Palma_Mendoza",
+          "imageUrl": "/assets/congreso-oficial/2016/jose-marvin-palma-mendoza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/jose-marvin-palma-mendoza.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Héctor Virgilio Becerril Rodríguez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 44448,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/H%C3%A9ctor_Virgilio_Becerril_Rodr%C3%ADguez",
+          "imageUrl": "/assets/congreso-oficial/2016/hector-virgilio-becerril-rodriguez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/hector-virgilio-becerril-rodriguez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Liliana Milagros Takayama Jiménez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 3,
+          "votosPref": 19142,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Liliana_Milagros_Takayama_Jim%C3%A9nez",
+          "imageUrl": "/assets/congreso-oficial/2016/liliana-milagros-takayama-jimenez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/liliana-milagros-takayama-jimenez.webp?v=71",
+          "photoMatch": 0.9
+        },
+        {
+          "name": "Clemente Flores Vílchez",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "LAMBAYEQUE",
+          "posicion": 1,
+          "votosPref": 15491,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Clemente_Flores_V%C3%ADlchez",
+          "imageUrl": "/assets/congreso-oficial/2016/clemente-flores-vilchez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/clemente-flores-vilchez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 4,
+          "votosPref": 58607,
+          "name": "Víctor Andrés García Belaúnde",
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/V%C3%ADctor_Andr%C3%A9s_Garc%C3%ADa_Bela%C3%BAnde",
+          "imageUrl": "/assets/congreso-oficial/2016/victor-andres-garcia-belaunde.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "ACCIÓN POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/victor-andres-garcia-belaunde.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Yonhy Lescano Ancieta",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "posicion": 5,
+          "votosPref": 52764,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/yonhy-lescano-ancieta.webp?v=71",
+          "partyName": "ACCIÓN POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/yonhy-lescano-ancieta.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Edmundo del Águila Herrera",
+          "party": "ACCIÓN POPULAR",
+          "partyShort": "AP",
+          "posicion": 1,
+          "votosPref": 48709,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/edmundo-del-aguila-herrera.webp?v=71",
+          "partyName": "ACCIÓN POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/edmundo-del-aguila-herrera.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Edwin Alberto Donayre Gotzch",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "posicion": 5,
+          "votosPref": 48602,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "",
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Edwin%20Alberto%20Donayre%20Gotzch?year=2016&v=71",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Julio Pablo Rosas Huaranga",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "posicion": 8,
+          "votosPref": 27237,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/julio-pablo-rosas-huaranga.webp?v=71",
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/julio-pablo-rosas-huaranga.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Claude Maurice Mulder Bedoya",
+          "party": "ALIANZA POPULAR",
+          "partyShort": "APRA-PPC",
+          "posicion": 1,
+          "votosPref": 122778,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "",
+          "partyName": "ALIANZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Claude%20Maurice%20Mulder%20Bedoya?year=2016&v=71",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Jorge Alfonso Alejandro del Castillo Gálvez",
+          "party": "ALIANZA POPULAR",
+          "partyShort": "APRA-PPC",
+          "posicion": 5,
+          "votosPref": 57933,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/jorge-alfonso-alejandro-del-castillo-galvez.webp?v=71",
+          "partyName": "ALIANZA POPULAR",
+          "imageSource": "Wikipedia: Jorge del Castillo",
+          "photoUrl": "/assets/congreso-oficial/2016/jorge-alfonso-alejandro-del-castillo-galvez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Luciana Milagros León Romero",
+          "party": "ALIANZA POPULAR",
+          "partyShort": "APRA-PPC",
+          "posicion": 35,
+          "votosPref": 40882,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/luciana-milagros-leon-romero.webp?v=71",
+          "partyName": "ALIANZA POPULAR",
+          "imageSource": "Wikipedia: Luciana León",
+          "photoUrl": "/assets/congreso-oficial/2016/luciana-milagros-leon-romero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Marisa Glave Remy",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "posicion": 1,
+          "votosPref": 97529,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/marisa-glave-remy.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "Wikipedia: Marisa Glave",
+          "photoUrl": "/assets/congreso-oficial/2016/marisa-glave-remy.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Manuel Enrique Ernesto Dammert Ego-Aguirre",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "posicion": 2,
+          "votosPref": 53913,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/manuel-enrique-ernesto-dammert-ego-aguirre.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "Wikipedia: Manuel Dammert Ego-Aguirre",
+          "photoUrl": "/assets/congreso-oficial/2016/manuel-enrique-ernesto-dammert-ego-aguirre.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Indira Isabel Huilca Flores",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "posicion": 3,
+          "votosPref": 27906,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/indira-isabel-huilca-flores.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "Wikipedia: Indira Huilca",
+          "photoUrl": "/assets/congreso-oficial/2016/indira-isabel-huilca-flores.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Kenji Gerardo Fujimori Higuchi",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 3,
+          "votosPref": 326037,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/kenji-gerardo-fujimori-higuchi.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Kenji Fujimori",
+          "photoUrl": "/assets/congreso-oficial/2016/kenji-gerardo-fujimori-higuchi.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)"
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Cecilia Isabel Chacón de Vettori",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 1,
+          "votosPref": 186242,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/cecilia-isabel-chacon-de-vettori.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Cecilia Chacón",
+          "photoUrl": "/assets/congreso-oficial/2016/cecilia-isabel-chacon-de-vettori.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Yeni Vilcatoma de la Cruz",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 2,
+          "votosPref": 139912,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/yeni-vilcatoma-de-la-cruz.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Yeni Vilcatoma",
+          "photoUrl": "/assets/congreso-oficial/2016/yeni-vilcatoma-de-la-cruz.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Luz Filomena Salgado Rubianes",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 5,
+          "votosPref": 82183,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/luz-filomena-salgado-rubianes.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Luz Salgado",
+          "photoUrl": "/assets/congreso-oficial/2016/luz-filomena-salgado-rubianes.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "María Lourdes Pía Luisa Alcorta Suero",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 6,
+          "votosPref": 58460,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/maria-lourdes-pia-luisa-alcorta-suero.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Lourdes Alcorta",
+          "photoUrl": "/assets/congreso-oficial/2016/maria-lourdes-pia-luisa-alcorta-suero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Marco Enrique Miyashiro Arashiro",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 9,
+          "votosPref": 56181,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/marco-enrique-miyashiro-arashiro.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/marco-enrique-miyashiro-arashiro.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Luis Fernando Galarreta Velarde",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 4,
+          "votosPref": 50211,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/luis-fernando-galarreta-velarde.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/luis-fernando-galarreta-velarde.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Edwin Vergara Pinto",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 11,
+          "votosPref": 49922,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/edwin-vergara-pinto.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/edwin-vergara-pinto.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Leyla Felícita Chihuán Ramos",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 10,
+          "votosPref": 29603,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/leyla-felicita-chihuan-ramos.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/leyla-felicita-chihuan-ramos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Miguel Ángel Torres Morales",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 12,
+          "votosPref": 27771,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/miguel-angel-torres-morales.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/miguel-angel-torres-morales.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Juan Carlos Eugenio Gonzales Ardiles",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 8,
+          "votosPref": 23969,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/juan-carlos-eugenio-gonzales-ardiles.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/juan-carlos-eugenio-gonzales-ardiles.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "María Úrsula Ingrid Letona Pereyra",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 7,
+          "votosPref": 23865,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/maria-ursula-ingrid-letona-pereyra.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/maria-ursula-ingrid-letona-pereyra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Paloma Rosa Noceda Chiang",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 20,
+          "votosPref": 23714,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/paloma-rosa-noceda-chiang.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/paloma-rosa-noceda-chiang.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Francisco Enrique Hugo Petrozzi Franco",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 15,
+          "votosPref": 13512,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/francisco-enrique-hugo-petrozzi-franco.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/francisco-enrique-hugo-petrozzi-franco.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Milagros Emperatriz Salazar de la Torre",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "posicion": 21,
+          "votosPref": 12326,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/milagros-emperatriz-salazar-de-la-torre.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/milagros-emperatriz-salazar-de-la-torre.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Mercedes Rosalba Aráoz Fernández",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "posicion": 1,
+          "votosPref": 215233,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/mercedes-rosalba-araoz-fernandez.webp?v=71",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/mercedes-rosalba-araoz-fernandez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Carlos Ricardo Bruce Montes de Oca",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "votosPref": 112377,
+          "posicion": 5,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/carlos-ricardo-bruce-montes-de-oca.webp?v=71",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/carlos-ricardo-bruce-montes-de-oca.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Gilbert Félix Violeta López",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "posicion": 2,
+          "votosPref": 80944,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/gilbert-felix-violeta-lopez.webp?v=71",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/gilbert-felix-violeta-lopez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Saleh Carlos Salvador Heresi Chicoma",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 4,
+          "votosPref": 78615,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Saleh_Carlos_Salvador_Heresi_Chicoma",
+          "imageUrl": "/assets/congreso-oficial/2016/saleh-carlos-salvador-heresi-chicoma.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/saleh-carlos-salvador-heresi-chicoma.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Juan Manuel Sheput Moore",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 10,
+          "votosPref": 73412,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Juan_Manuel_Sheput_Moore",
+          "imageUrl": "/assets/congreso-oficial/2016/juan-manuel-sheput-moore.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/juan-manuel-sheput-moore.webp?v=71",
+          "photoMatch": 0.75
+        },
+        {
+          "name": "Pedro Carlos Olaechea Álvarez-Calderón",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 11,
+          "votosPref": 41669,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Pedro_Carlos_Olaechea_%C3%81lvarez-Calder%C3%B3n",
+          "imageUrl": "/assets/congreso-oficial/2016/pedro-carlos-olaechea-alvarez-calderon.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/pedro-carlos-olaechea-alvarez-calderon.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Guido Ricardo Lombardi Elías",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "votosPref": 36661,
+          "posicion": 15,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/guido-ricardo-lombardi-elias.webp?v=71",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/guido-ricardo-lombardi-elias.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "year": 2016,
+          "circunscripcion": "LIMA METROPOLITANA",
+          "name": "Roberto Gamaniel Vieira Portugal",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "posicion": 3,
+          "votosPref": 30389,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Roberto%20Gamaniel%20Vieira%20Portugal?year=2016&v=71",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Alberto de Belaúnde de Cárdenas",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 17,
+          "votosPref": 29271,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Alberto_de_Bela%C3%BAnde_de_C%C3%A1rdenas",
+          "imageUrl": "/assets/congreso-oficial/2016/alberto-de-belaunde-de-cardenas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/alberto-de-belaunde-de-cardenas.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Gino Francisco Costa Santolalla",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "posicion": 13,
+          "votosPref": 26128,
+          "historicalWinner": true,
+          "elected": true,
+          "sourceBackup": false,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Gino_Francisco_Costa_Santolalla",
+          "imageUrl": "/assets/congreso-oficial/2016/gino-francisco-costa-santolalla.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/gino-francisco-costa-santolalla.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Elard Galo Melgar Valdez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 1,
+          "votosPref": 34022,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Elard_Galo_Melgar_Valdez",
+          "imageUrl": "/assets/congreso-oficial/2016/elard-galo-melgar-valdez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/elard-galo-melgar-valdez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Percy Eloy Alcalá Mateo",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 2,
+          "votosPref": 29999,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Percy_Eloy_Alcal%C3%A1_Mateo",
+          "imageUrl": "/assets/congreso-oficial/2016/percy-eloy-alcala-mateo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/percy-eloy-alcala-mateo.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Gladys Griselda Andrade Salguero de Álvarez",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 3,
+          "votosPref": 28045,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Gladys_Griselda_Andrade_Salguero_de_%C3%81lvarez",
+          "imageUrl": "/assets/congreso-oficial/2016/gladys-griselda-andrade-salguero-de-alvarez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/gladys-griselda-andrade-salguero-de-alvarez.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Lizbeth Hilda Robles Uribe",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "LIMA PROVINCIAS",
+          "posicion": 4,
+          "votosPref": 13791,
+          "sourceBackup": false,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "profileUrl": "https://es.wikipedia.org/wiki/Lizbeth_Hilda_Robles_Uribe",
+          "imageUrl": "/assets/congreso-oficial/2016/lizbeth-hilda-robles-uribe.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "year": 2016,
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/lizbeth-hilda-robles-uribe.webp?v=71",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Patricia Elizabeth Donayre Pasquel",
+          "circunscripcion": "LORETO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 26543,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/patricia-elizabeth-donayre-pasquel.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/patricia-elizabeth-donayre-pasquel.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Juan Carlos del Águila Cárdenas",
+          "circunscripcion": "LORETO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 15784,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/juan-carlos-del-aguila-cardenas.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/juan-carlos-del-aguila-cardenas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Tamar Arimborgo Guerra",
+          "circunscripcion": "LORETO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 10499,
+          "posicion": 3,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/tamar-arimborgo-guerra.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/tamar-arimborgo-guerra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jorge Enrique Meléndez Celis",
+          "circunscripcion": "LORETO",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "votosPref": 18972,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/jorge-enrique-melendez-celis.webp?v=71",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/jorge-enrique-melendez-celis.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Modesto Figueroa Minaya",
+          "circunscripcion": "MADRE DE DIOS",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 2919,
+          "posicion": 3,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/modesto-figueroa-minaya.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/modesto-figueroa-minaya.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Vicente Antonio Zeballos Salinas",
+          "circunscripcion": "MOQUEGUA",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "votosPref": 11652,
+          "posicion": 3,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/vicente-antonio-zeballos-salinas.webp?v=71",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/vicente-antonio-zeballos-salinas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mario Fidel Mantilla Medina",
+          "circunscripcion": "MOQUEGUA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 3778,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/mario-fidel-mantilla-medina.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/mario-fidel-mantilla-medina.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Clayton Flavio Galván Vento",
+          "circunscripcion": "PASCO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 7629,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/clayton-flavio-galvan-vento.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/clayton-flavio-galvan-vento.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Roy Ernesto Ventura Ángel",
+          "circunscripcion": "PASCO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 5579,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/roy-ernesto-ventura-angel.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/roy-ernesto-ventura-angel.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Marisol Espinoza Cruz",
+          "circunscripcion": "PIURA",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "votosPref": 18235,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/marisol-espinoza-cruz.webp?v=71",
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/marisol-espinoza-cruz.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Hernando Ismael Cevallos Flores",
+          "circunscripcion": "PIURA",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "votosPref": 15244,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/hernando-ismael-cevallos-flores.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "Wikipedia: Hernando Cevallos",
+          "photoUrl": "/assets/congreso-oficial/2016/hernando-ismael-cevallos-flores.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Karla Melissa Schaefer Cuculiza",
+          "circunscripcion": "PIURA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 39750,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/karla-melissa-schaefer-cuculiza.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Karla Schaefer",
+          "photoUrl": "/assets/congreso-oficial/2016/karla-melissa-schaefer-cuculiza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Luis Humberto López Vilela",
+          "circunscripcion": "PIURA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 35286,
+          "posicion": 3,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/luis-humberto-lopez-vilela.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/luis-humberto-lopez-vilela.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Mártires Lizana Santos",
+          "circunscripcion": "PIURA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 26691,
+          "posicion": 4,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/martires-lizana-santos.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/martires-lizana-santos.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Freddy Fernando Sarmiento Betancourt",
+          "circunscripcion": "PIURA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 20084,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/freddy-fernando-sarmiento-betancourt.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Freddy Sarmiento Betancourt",
+          "photoUrl": "/assets/congreso-oficial/2016/freddy-fernando-sarmiento-betancourt.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Maritza Matilde García Jiménez",
+          "circunscripcion": "PIURA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 19956,
+          "posicion": 5,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/maritza-matilde-garcia-jimenez.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/maritza-matilde-garcia-jimenez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Alberto Eugenio Quintanilla Chacón",
+          "circunscripcion": "PUNO",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "votosPref": 55218,
+          "posicion": 3,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/alberto-eugenio-quintanilla-chacon.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/alberto-eugenio-quintanilla-chacon.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Oracio Ángel Pacori Mamani",
+          "circunscripcion": "PUNO",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "votosPref": 22011,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/oracio-angel-pacori-mamani.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/oracio-angel-pacori-mamani.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Edilberto Curro López",
+          "circunscripcion": "PUNO",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "votosPref": 12628,
+          "posicion": 4,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/edilberto-curro-lopez.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/edilberto-curro-lopez.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Lucio Ávila Rojas",
+          "circunscripcion": "PUNO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 28685,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/lucio-avila-rojas.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/lucio-avila-rojas.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Moisés Mamani Colquehuanca",
+          "circunscripcion": "PUNO",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 16088,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Mois%C3%A9s%20Mamani%20Colquehuanca?year=2016&v=71",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "César Villanueva Arévalo",
+          "circunscripcion": "SAN MARTÍN",
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "partyShort": "APP",
+          "votosPref": 25607,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/cesar-villanueva-arevalo.webp?v=71",
+          "partyName": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/cesar-villanueva-arevalo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Rolando Reátegui Flores",
+          "circunscripcion": "SAN MARTÍN",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 18631,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/rolando-reategui-flores.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Rolando Reátegui",
+          "photoUrl": "/assets/congreso-oficial/2016/rolando-reategui-flores.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Gilmer Trujillo Zegarra",
+          "circunscripcion": "SAN MARTÍN",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 10835,
+          "posicion": 3,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/gilmer-trujillo-zegarra.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/gilmer-trujillo-zegarra.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Esther Saavedra Vela",
+          "circunscripcion": "SAN MARTÍN",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 7794,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/esther-saavedra-vela.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "Wikipedia: Esther Saavedra",
+          "photoUrl": "/assets/congreso-oficial/2016/esther-saavedra-vela.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Jorge Andrés Castro Bravo",
+          "circunscripcion": "TACNA",
+          "party": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "votosPref": 23341,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/jorge-andres-castro-bravo.webp?v=71",
+          "partyName": "FRENTE AMPLIO",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/jorge-andres-castro-bravo.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Guillermo Hernán Martorell Sobero",
+          "circunscripcion": "TACNA",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 11857,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/guillermo-hernan-martorell-sobero.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/guillermo-hernan-martorell-sobero.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Bienvenido Ramírez Tandazo",
+          "circunscripcion": "TUMBES",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 17299,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Bienvenido%20Ram%C3%ADrez%20Tandazo?year=2016&v=71",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Juan Carlo Yuyes Meza",
+          "circunscripcion": "TUMBES",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 13831,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/juan-carlo-yuyes-meza.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/juan-carlo-yuyes-meza.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        },
+        {
+          "name": "Glider Agustín Ushiñahua Huasanga",
+          "circunscripcion": "UCAYALI",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 12184,
+          "posicion": 2,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Glider%20Agust%C3%ADn%20Ushi%C3%B1ahua%20Huasanga?year=2016&v=71",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Carlos Mario del Carmen Tubino Arias-Schreiber",
+          "circunscripcion": "UCAYALI",
+          "party": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "votosPref": 10941,
+          "posicion": 1,
+          "elected": true,
+          "source": "Wikipedia 2016 - Representantes electos",
+          "imageUrl": "/assets/congreso-oficial/2016/carlos-mario-del-carmen-tubino-arias-schreiber.webp?v=71",
+          "partyName": "FUERZA POPULAR",
+          "imageSource": "",
+          "photoUrl": "/assets/congreso-oficial/2016/carlos-mario-del-carmen-tubino-arias-schreiber.webp?v=71",
+          "photoSource": "Congreso de la República - Congresistas por Distrito Electoral (copia local optimizada)",
+          "photoMatch": 1.0
+        }
+      ],
+      "blankNull": 6375345,
+      "status": {
+        "percent": 100,
+        "processed": 77307,
+        "total": 77307,
+        "jee": 0,
+        "pending": 0,
+        "blankNull": 6375345,
+        "updated": "2016-06-10T00:00:00-05:00"
+      },
+      "officialWinners": true,
+      "officialWinnersCount": 127
+    },
+    "andino": {
+      "name": "Parlamento Andino",
+      "seats": 5,
+      "barrier": 0.05,
+      "parties": [
+        {
+          "votes": 807585,
+          "name": "ACCIÓN POPULAR",
+          "short": "AP",
+          "logo": "/logos/partidos-2021/accion-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Acci%C3%B3n_Popular.png/40px-Acci%C3%B3n_Popular.png"
+        },
+        {
+          "votes": 105688,
+          "name": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+          "short": "AES",
+          "logo": ""
+        },
+        {
+          "votes": 763792,
+          "name": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "short": "APP",
+          "logo": "/logos/partidos-2021/alianza-para-el-progreso-del-peru.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Alianza_para_el_Progreso_Peru.svg/40px-Alianza_para_el_Progreso_Peru.svg.png"
+        },
+        {
+          "votes": 821492,
+          "name": "ALIANZA POPULAR",
+          "short": "APRA-PPC",
+          "logo": "/logos/partidos-2021/alianza-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Logo_Alianza_Popular_2016.jpg/40px-Logo_Alianza_Popular_2016.jpg"
+        },
+        {
+          "votes": 506108,
+          "name": "DEMOCRACIA DIRECTA",
+          "short": "DD",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "DURACIÓN DE CAMPAÑA",
+          "short": "DC",
+          "logo": ""
+        },
+        {
+          "votes": 1559027,
+          "name": "FRENTE AMPLIO",
+          "short": "FA",
+          "logo": "/logos/partidos-2021/frente-amplio.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Logo-frente-amplio.svg/40px-Logo-frente-amplio.svg.png"
+        },
+        {
+          "votes": 0,
+          "name": "FRENTE ESPERANZA",
+          "short": "FE",
+          "logo": ""
+        },
+        {
+          "votes": 3842651,
+          "name": "FUERZA POPULAR",
+          "short": "FP",
+          "logo": "/logos/partidos-2021/fuerza-popular.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Fuerza_popular.jpg/40px-Fuerza_popular.jpg"
+        },
+        {
+          "votes": 0,
+          "name": "HAB. REGISTRADOS",
+          "short": "HR",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "PARTIDO HUMANISTA PERUANO",
+          "short": "PHP",
+          "logo": ""
+        },
+        {
+          "votes": 59318,
+          "name": "PARTIDO POLITICO ORDEN",
+          "short": "PPO",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "PERÍODO",
+          "short": "P",
+          "logo": ""
+        },
+        {
+          "votes": 41055,
+          "name": "PERU LIBERTARIO",
+          "short": "PL",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "PERU NACION",
+          "short": "PN",
+          "logo": ""
+        },
+        {
+          "votes": 220790,
+          "name": "PERÚ POSIBLE",
+          "short": "PP",
+          "logo": "/logos/partidos-2021/peru-posible.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Congreso_Peru_elecciones_2016.svg/330px-Congreso_Peru_elecciones_2016.svg.png"
+        },
+        {
+          "votes": 1505118,
+          "name": "PERUANOS POR EL KAMBIO",
+          "short": "PPK",
+          "logo": "/logos/partidos-2021/peruanos-por-el-kambio.svg",
+          "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Peruanos_Por_el_Kambio.png/40px-Peruanos_Por_el_Kambio.png"
+        },
+        {
+          "votes": 0,
+          "name": "POBLACIÓN",
+          "short": "P",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "PROGRESANDO PERU",
+          "short": "PP",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "TODOS POR EL PERU",
+          "short": "TP",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "VOTANTES",
+          "short": "V",
+          "logo": ""
+        },
+        {
+          "votes": 0,
+          "name": "VOTOS IMPUGNADOS",
+          "short": "VI",
+          "logo": ""
+        }
+      ],
+      "circunscripciones": [
+        {
+          "name": "NACIONAL",
+          "seats": 5,
+          "votes": [
+            {
+              "party": "FUERZA POPULAR",
+              "votes": 3842651
+            },
+            {
+              "party": "FRENTE AMPLIO",
+              "votes": 1559027
+            },
+            {
+              "party": "PERUANOS POR EL KAMBIO",
+              "votes": 1505118
+            },
+            {
+              "party": "ALIANZA POPULAR",
+              "votes": 821492
+            },
+            {
+              "party": "ACCIÓN POPULAR",
+              "votes": 807585
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+              "votes": 763792
+            },
+            {
+              "party": "DEMOCRACIA DIRECTA",
+              "votes": 506108
+            },
+            {
+              "party": "PERÚ POSIBLE",
+              "votes": 220790
+            },
+            {
+              "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+              "votes": 105688
+            },
+            {
+              "party": "PARTIDO POLITICO ORDEN",
+              "votes": 59318
+            },
+            {
+              "party": "PERU LIBERTARIO",
+              "votes": 41055
+            },
+            {
+              "party": "FRENTE ESPERANZA",
+              "votes": 0
+            },
+            {
+              "party": "PARTIDO HUMANISTA PERUANO",
+              "votes": 0
+            },
+            {
+              "party": "PERU NACION",
+              "votes": 0
+            },
+            {
+              "party": "PROGRESANDO PERU",
+              "votes": 0
+            },
+            {
+              "party": "TODOS POR EL PERU",
+              "votes": 0
+            },
+            {
+              "party": "VOTOS IMPUGNADOS",
+              "votes": 0
+            }
+          ],
+          "blankNull": 8519724,
+          "status": {
+            "percent": 100,
+            "processed": 77307,
+            "total": 77307,
+            "jee": 0,
+            "pending": 0,
+            "blankNull": 8519724,
+            "updated": "2016-06-10T00:00:00-05:00"
+          }
+        }
+      ],
+      "nationalVotes": [
+        {
+          "party": "FUERZA POPULAR",
+          "votes": 3842651
+        },
+        {
+          "party": "FRENTE AMPLIO",
+          "votes": 1559027
+        },
+        {
+          "party": "PERUANOS POR EL KAMBIO",
+          "votes": 1505118
+        },
+        {
+          "party": "ALIANZA POPULAR",
+          "votes": 821492
+        },
+        {
+          "party": "ACCIÓN POPULAR",
+          "votes": 807585
+        },
+        {
+          "party": "ALIANZA PARA EL PROGRESO DEL PERÚ",
+          "votes": 763792
+        },
+        {
+          "party": "DEMOCRACIA DIRECTA",
+          "votes": 506108
+        },
+        {
+          "party": "PERÚ POSIBLE",
+          "votes": 220790
+        },
+        {
+          "party": "ALIANZA ELECTORAL SOLIDARIDAD NACIONAL - UPP",
+          "votes": 105688
+        },
+        {
+          "party": "PARTIDO POLITICO ORDEN",
+          "votes": 59318
+        },
+        {
+          "party": "PERU LIBERTARIO",
+          "votes": 41055
+        },
+        {
+          "party": "FRENTE ESPERANZA",
+          "votes": 0
+        },
+        {
+          "party": "PARTIDO HUMANISTA PERUANO",
+          "votes": 0
+        },
+        {
+          "party": "PERU NACION",
+          "votes": 0
+        },
+        {
+          "party": "PROGRESANDO PERU",
+          "votes": 0
+        },
+        {
+          "party": "TODOS POR EL PERU",
+          "votes": 0
+        },
+        {
+          "party": "VOTOS IMPUGNADOS",
+          "votes": 0
+        }
+      ],
+      "candidates": [
+        {
+          "name": "Rolando Sousa",
+          "party": "FUERZA POPULAR",
+          "partyName": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "NACIONAL",
+          "votosPref": 407811,
+          "posicion": 1,
+          "elected": true,
+          "imageUrl": "",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Rolando%20Sousa?year=2016",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Mario Zúñiga Martínez",
+          "party": "FUERZA POPULAR",
+          "partyName": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "NACIONAL",
+          "votosPref": 290559,
+          "posicion": 2,
+          "elected": true,
+          "imageUrl": "",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Mario%20Z%C3%BA%C3%B1iga%20Mart%C3%ADnez?year=2016",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Jorge Luis Romero Castro",
+          "party": "FUERZA POPULAR",
+          "partyName": "FUERZA POPULAR",
+          "partyShort": "FP",
+          "circunscripcion": "NACIONAL",
+          "votosPref": 203671,
+          "posicion": 3,
+          "elected": true,
+          "imageUrl": "",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Jorge%20Luis%20Romero%20Castro?year=2016",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Alan Fairlie Reinoso",
+          "party": "FRENTE AMPLIO",
+          "partyName": "FRENTE AMPLIO",
+          "partyShort": "FA",
+          "circunscripcion": "NACIONAL",
+          "votosPref": 206978,
+          "posicion": 1,
+          "elected": true,
+          "imageUrl": "",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Alan%20Fairlie%20Reinoso?year=2016",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        },
+        {
+          "name": "Mariano González Fernández",
+          "party": "PERUANOS POR EL KAMBIO",
+          "partyName": "PERUANOS POR EL KAMBIO",
+          "partyShort": "PPK",
+          "circunscripcion": "NACIONAL",
+          "votosPref": 190338,
+          "posicion": 1,
+          "elected": true,
+          "imageUrl": "",
+          "imageSource": "",
+          "photoUrl": "/api/wiki-thumb/Mariano%20Gonz%C3%A1lez%20Fern%C3%A1ndez?year=2016",
+          "photoSource": "Búsqueda diferida Congreso/Wikipedia; usa logo si no existe foto pública"
+        }
+      ],
+      "blankNull": 8519724,
+      "status": {
+        "percent": 100,
+        "processed": 77307,
+        "total": 77307,
+        "jee": 0,
+        "pending": 0,
+        "blankNull": 8519724,
+        "updated": "2016-06-10T00:00:00-05:00"
+      },
+      "officialWinners": true,
+      "officialWinnersCount": 5,
+      "allocations": {
+        "barrier": [
+          {
+            "circunscripcion": "NACIONAL",
+            "party": "FUERZA POPULAR",
+            "seats": 3
+          },
+          {
+            "circunscripcion": "NACIONAL",
+            "party": "FRENTE AMPLIO",
+            "seats": 1
+          },
+          {
+            "circunscripcion": "NACIONAL",
+            "party": "PERUANOS POR EL KAMBIO",
+            "seats": 1
+          }
+        ],
+        "noBarrier": [
+          {
+            "circunscripcion": "NACIONAL",
+            "party": "FUERZA POPULAR",
+            "seats": 3
+          },
+          {
+            "circunscripcion": "NACIONAL",
+            "party": "FRENTE AMPLIO",
+            "seats": 1
+          },
+          {
+            "circunscripcion": "NACIONAL",
+            "party": "PERUANOS POR EL KAMBIO",
+            "seats": 1
+          }
+        ]
+      }
+    }
+  },
+  "notes": [
+    "Resultados agregados desde datos oficiales por mesa de ONPE.",
+    "El CSV oficial contiene votos preferenciales por numero, no nombres de candidatos; por eso se rotulan como Nro. preferencial."
+  ],
+  "historicalEnrichment": {
+    "source": "Wikipedia tables matched against ONPE preferential vote JSON",
+    "enrichedAt": "2026-05-22T21:55:29.181Z"
+  },
+  "year": 2016
+}
