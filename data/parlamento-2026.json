@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updatedAt": "2026-05-26T23:23:30.711Z",
+  "updatedAt": "2026-05-27T00:21:41.344Z",
   "status": {
     "percent": 97.702,
     "processed": 90634,
@@ -57,7 +57,7 @@
         {
           "name": "AMAZONAS",
           "seats": 2,
-          "blankNull": 109858,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -65,13 +65,13 @@
             }
           ],
           "status": {
-            "percent": 88.498,
-            "processed": 1131,
-            "total": 1278,
-            "jee": 0,
-            "pending": 147,
-            "blankNull": 108451,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -84,7 +84,7 @@
         {
           "name": "ÁNCASH",
           "seats": 5,
-          "blankNull": 223075,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -104,13 +104,13 @@
             }
           ],
           "status": {
-            "percent": 99.971,
-            "processed": 3471,
-            "total": 3472,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 223075,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -138,7 +138,7 @@
         {
           "name": "APURÍMAC",
           "seats": 2,
-          "blankNull": 81498,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -146,13 +146,13 @@
             }
           ],
           "status": {
-            "percent": 99.62,
-            "processed": 1312,
-            "total": 1317,
-            "jee": 0,
-            "pending": 5,
-            "blankNull": 81198,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -165,7 +165,7 @@
         {
           "name": "AREQUIPA",
           "seats": 6,
-          "blankNull": 197692,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
@@ -189,13 +189,13 @@
             }
           ],
           "status": {
-            "percent": 99.953,
-            "processed": 4213,
-            "total": 4215,
-            "jee": 0,
-            "pending": 2,
-            "blankNull": 197558,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -228,7 +228,7 @@
         {
           "name": "AYACUCHO",
           "seats": 3,
-          "blankNull": 103190,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -240,13 +240,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1900,
-            "total": 1900,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 103190,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -264,7 +264,7 @@
         {
           "name": "CAJAMARCA",
           "seats": 6,
-          "blankNull": 264021,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -276,13 +276,13 @@
             }
           ],
           "status": {
-            "percent": 97.948,
-            "processed": 4153,
-            "total": 4240,
-            "jee": 0,
-            "pending": 87,
-            "blankNull": 259506,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -300,7 +300,7 @@
         {
           "name": "CALLAO",
           "seats": 4,
-          "blankNull": 183750,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -316,13 +316,13 @@
             }
           ],
           "status": {
-            "percent": 95.342,
-            "processed": 2763,
-            "total": 2898,
-            "jee": 0,
-            "pending": 135,
-            "blankNull": 180889,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -345,7 +345,7 @@
         {
           "name": "CUSCO",
           "seats": 5,
-          "blankNull": 223609,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -365,13 +365,13 @@
             }
           ],
           "status": {
-            "percent": 92.041,
-            "processed": 3666,
-            "total": 3983,
-            "jee": 0,
-            "pending": 317,
-            "blankNull": 209679,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -399,7 +399,7 @@
         {
           "name": "HUANCAVELICA",
           "seats": 2,
-          "blankNull": 73285,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -407,13 +407,13 @@
             }
           ],
           "status": {
-            "percent": 99.921,
-            "processed": 1272,
-            "total": 1273,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 73285,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -426,7 +426,7 @@
         {
           "name": "HUÁNUCO",
           "seats": 3,
-          "blankNull": 138595,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -438,13 +438,13 @@
             }
           ],
           "status": {
-            "percent": 99.744,
-            "processed": 2335,
-            "total": 2341,
-            "jee": 0,
-            "pending": 6,
-            "blankNull": 138595,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -462,7 +462,7 @@
         {
           "name": "ICA",
           "seats": 4,
-          "blankNull": 156571,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -482,13 +482,13 @@
             }
           ],
           "status": {
-            "percent": 90.463,
-            "processed": 2210,
-            "total": 2443,
-            "jee": 0,
-            "pending": 233,
-            "blankNull": 147334,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -516,7 +516,7 @@
         {
           "name": "JUNÍN",
           "seats": 5,
-          "blankNull": 230648,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -540,13 +540,13 @@
             }
           ],
           "status": {
-            "percent": 99.729,
-            "processed": 3681,
-            "total": 3691,
-            "jee": 0,
-            "pending": 10,
-            "blankNull": 229928,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -579,7 +579,7 @@
         {
           "name": "LAMBAYEQUE",
           "seats": 5,
-          "blankNull": 244317,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -595,13 +595,13 @@
             }
           ],
           "status": {
-            "percent": 99.109,
-            "processed": 3558,
-            "total": 3590,
-            "jee": 0,
-            "pending": 32,
-            "blankNull": 242066,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -624,7 +624,7 @@
         {
           "name": "LA LIBERTAD",
           "seats": 7,
-          "blankNull": 324158,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -648,13 +648,13 @@
             }
           ],
           "status": {
-            "percent": 98.321,
-            "processed": 5213,
-            "total": 5302,
-            "jee": 0,
-            "pending": 89,
-            "blankNull": 319815,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -687,7 +687,7 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 32,
-          "blankNull": 1312255,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -715,13 +715,13 @@
             }
           ],
           "status": {
-            "percent": 96.647,
-            "processed": 25484,
-            "total": 26368,
-            "jee": 0,
-            "pending": 884,
-            "blankNull": 1302013,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -759,7 +759,7 @@
         {
           "name": "LIMA PROVINCIAS",
           "seats": 4,
-          "blankNull": 193732,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -775,13 +775,13 @@
             }
           ],
           "status": {
-            "percent": 99.826,
-            "processed": 2874,
-            "total": 2879,
-            "jee": 0,
-            "pending": 5,
-            "blankNull": 193488,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -804,7 +804,7 @@
         {
           "name": "LORETO",
           "seats": 4,
-          "blankNull": 165440,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -816,13 +816,13 @@
             }
           ],
           "status": {
-            "percent": 97.887,
-            "processed": 2640,
-            "total": 2697,
-            "jee": 0,
-            "pending": 57,
-            "blankNull": 164258,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -840,7 +840,7 @@
         {
           "name": "MADRE DE DIOS",
           "seats": 2,
-          "blankNull": 35450,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -848,13 +848,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 507,
-            "total": 507,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 35450,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -867,25 +867,25 @@
         {
           "name": "MOQUEGUA",
           "seats": 2,
-          "blankNull": 223609,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 131394
+              "votes": 14195
             },
             {
-              "party": "AHORA NACIÓN - AN",
-              "votes": 93816
+              "party": "PARTIDO DEL BUEN GOBIERNO",
+              "votes": 10477
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 578,
-            "total": 578,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 38539,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -895,7 +895,7 @@
             },
             {
               "circunscripcion": "MOQUEGUA",
-              "party": "AHORA NACIÓN - AN",
+              "party": "PARTIDO DEL BUEN GOBIERNO",
               "seats": 1
             }
           ]
@@ -903,7 +903,7 @@
         {
           "name": "PASCO",
           "seats": 2,
-          "blankNull": 60741,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -911,13 +911,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 802,
-            "total": 802,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 60741,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -930,7 +930,7 @@
         {
           "name": "RESIDENTES EN EL EXTRANJERO",
           "seats": 2,
-          "blankNull": 154961,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -942,13 +942,13 @@
             }
           ],
           "status": {
-            "percent": 90.72,
-            "processed": 2307,
-            "total": 2543,
-            "jee": 0,
-            "pending": 236,
-            "blankNull": 148306,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -966,7 +966,7 @@
         {
           "name": "PIURA",
           "seats": 7,
-          "blankNull": 433390,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -986,13 +986,13 @@
             }
           ],
           "status": {
-            "percent": 87.881,
-            "processed": 4641,
-            "total": 5281,
-            "jee": 0,
-            "pending": 640,
-            "blankNull": 410997,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -1020,7 +1020,7 @@
         {
           "name": "PUNO",
           "seats": 5,
-          "blankNull": 197053,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -1036,13 +1036,13 @@
             }
           ],
           "status": {
-            "percent": 99.941,
-            "processed": 3395,
-            "total": 3397,
-            "jee": 0,
-            "pending": 2,
-            "blankNull": 196904,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -1065,7 +1065,7 @@
         {
           "name": "SAN MARTÍN",
           "seats": 4,
-          "blankNull": 212925,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -1077,13 +1077,13 @@
             }
           ],
           "status": {
-            "percent": 97.751,
-            "processed": 2477,
-            "total": 2534,
-            "jee": 0,
-            "pending": 57,
-            "blankNull": 211968,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -1101,7 +1101,7 @@
         {
           "name": "TACNA",
           "seats": 2,
-          "blankNull": 53636,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -1113,13 +1113,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1041,
-            "total": 1041,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 53636,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -1137,7 +1137,7 @@
         {
           "name": "TUMBES",
           "seats": 2,
-          "blankNull": 57316,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -1145,13 +1145,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 632,
-            "total": 632,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 57316,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -1164,7 +1164,7 @@
         {
           "name": "UCAYALI",
           "seats": 3,
-          "blankNull": 94101,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -1176,13 +1176,13 @@
             }
           ],
           "status": {
-            "percent": 82.097,
-            "processed": 1284,
-            "total": 1564,
-            "jee": 0,
-            "pending": 280,
-            "blankNull": 92800,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": "2026-05-26T22:00:09.431000"
           },
           "allocations": [
             {
@@ -1205,23 +1205,23 @@
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1561491
+          "votes": 1444292
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1272747
+          "votes": 1283224
         },
         {
           "party": "RENOVACIÓN POPULAR",
           "votes": 1230415
         },
         {
-          "party": "AHORA NACIÓN - AN",
-          "votes": 918538
-        },
-        {
           "party": "PARTIDO CÍVICO OBRAS",
           "votes": 890581
+        },
+        {
+          "party": "AHORA NACIÓN - AN",
+          "votes": 824722
         }
       ],
       "candidates": [
@@ -4561,59 +4561,6 @@
           "tipoCandidatura": "Diputados"
         },
         {
-          "name": "ISAIAS JOSE ANCALLE PACHAO",
-          "party": "AHORA NACIÓN - AN",
-          "partyShort": "AN-",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 1774,
-          "posicion": 1,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados",
-          "sourceBackup": false
-        },
-        {
-          "name": "DENISSE LIZBETH MENDOZA VILCA",
-          "party": "AHORA NACIÓN - AN",
-          "partyShort": "AN-",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 1466,
-          "posicion": 2,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
-        },
-        {
-          "name": "LORENA ELIZABETH CUAYLA VIZCARRA",
-          "party": "AHORA NACIÓN - AN",
-          "partyShort": "AN-",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 374,
-          "posicion": 4,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
-        },
-        {
-          "name": "JOSE YGNACIO PRIETO BUSTOS",
-          "party": "AHORA NACIÓN - AN",
-          "partyShort": "AN-",
-          "circunscripcion": "MOQUEGUA",
-          "dni": "",
-          "votosPref": 225,
-          "posicion": 3,
-          "edad": null,
-          "imageUrl": "",
-          "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
-        },
-        {
           "name": "GRACIELA CHIPANA CONDORI",
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
@@ -4634,6 +4581,59 @@
           "circunscripcion": "MOQUEGUA",
           "dni": "",
           "votosPref": 751,
+          "posicion": 4,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
+        },
+        {
+          "name": "NERY RODOLFO FERNANDEZ NINA",
+          "party": "PARTIDO DEL BUEN GOBIERNO",
+          "partyShort": "BG",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 1634,
+          "posicion": 1,
+          "edad": 53,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/acb6d8ba-0d30-48da-8ca6-e5f3f68f8a62.jpg",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados",
+          "sourceBackup": false
+        },
+        {
+          "name": "FIORELLA DINA VIZCARRA TIPO",
+          "party": "PARTIDO DEL BUEN GOBIERNO",
+          "partyShort": "BG",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 522,
+          "posicion": 2,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
+        },
+        {
+          "name": "JUAN VALENCIA URIBE",
+          "party": "PARTIDO DEL BUEN GOBIERNO",
+          "partyShort": "BG",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 165,
+          "posicion": 3,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
+        },
+        {
+          "name": "YESICA YUREMA QUISPE MAMANI",
+          "party": "PARTIDO DEL BUEN GOBIERNO",
+          "partyShort": "BG",
+          "circunscripcion": "MOQUEGUA",
+          "dni": "",
+          "votosPref": 130,
           "posicion": 4,
           "edad": null,
           "imageUrl": "",
@@ -5604,15 +5604,15 @@
           "tipoCandidatura": "Diputados"
         }
       ],
-      "blankNull": 5748876,
+      "blankNull": 0,
       "status": {
-        "percent": 96.522,
-        "processed": 89540,
-        "total": 92766,
+        "percent": null,
+        "processed": 0,
+        "total": 0,
         "jee": 0,
-        "pending": 3226,
-        "blankNull": 5480985,
-        "updated": "2026-05-23T02:30:16.390Z"
+        "pending": 0,
+        "blankNull": 0,
+        "updated": "2026-05-26T22:00:09.431Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -5894,7 +5894,7 @@
           },
           {
             "circunscripcion": "MOQUEGUA",
-            "party": "AHORA NACIÓN - AN",
+            "party": "PARTIDO DEL BUEN GOBIERNO",
             "seats": 1
           },
           {
@@ -6059,13 +6059,13 @@
             }
           ],
           "status": {
-            "percent": 95.161,
-            "processed": 88277,
-            "total": 92766,
-            "jee": 0,
-            "pending": 4489,
-            "blankNull": 5027852,
-            "updated": "2026-05-23T02:45:18.349Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6581,13 +6581,13 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": 95.161,
-        "processed": 88277,
-        "total": 92766,
-        "jee": 0,
-        "pending": 4489,
-        "blankNull": 5027852,
-        "updated": "2026-05-23T02:45:18.349Z"
+        "percent": null,
+        "processed": null,
+        "total": null,
+        "jee": null,
+        "pending": null,
+        "blankNull": 0,
+        "updated": null
       },
       "allocations": {
         "noBarrier": [],
@@ -6665,7 +6665,7 @@
         {
           "name": "AMAZONAS",
           "seats": 1,
-          "blankNull": 114543,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6673,13 +6673,13 @@
             }
           ],
           "status": {
-            "percent": 90.532,
-            "processed": 1157,
-            "total": 1278,
-            "jee": 0,
-            "pending": 121,
-            "blankNull": 112297,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6692,7 +6692,7 @@
         {
           "name": "ÁNCASH",
           "seats": 1,
-          "blankNull": 238244,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6700,13 +6700,13 @@
             }
           ],
           "status": {
-            "percent": 96.659,
-            "processed": 3356,
-            "total": 3472,
-            "jee": 0,
-            "pending": 116,
-            "blankNull": 235792,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6719,7 +6719,7 @@
         {
           "name": "APURÍMAC",
           "seats": 1,
-          "blankNull": 74609,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -6727,13 +6727,13 @@
             }
           ],
           "status": {
-            "percent": 99.772,
-            "processed": 1314,
-            "total": 1317,
-            "jee": 0,
-            "pending": 3,
-            "blankNull": 74406,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6746,7 +6746,7 @@
         {
           "name": "AREQUIPA",
           "seats": 1,
-          "blankNull": 237995,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
@@ -6754,13 +6754,13 @@
             }
           ],
           "status": {
-            "percent": 99.976,
-            "processed": 4214,
-            "total": 4215,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 237931,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6773,7 +6773,7 @@
         {
           "name": "AYACUCHO",
           "seats": 1,
-          "blankNull": 106843,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -6781,13 +6781,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1900,
-            "total": 1900,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 106843,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6800,7 +6800,7 @@
         {
           "name": "CAJAMARCA",
           "seats": 1,
-          "blankNull": 489334,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6808,13 +6808,13 @@
             }
           ],
           "status": {
-            "percent": 98.019,
-            "processed": 4156,
-            "total": 4240,
-            "jee": 0,
-            "pending": 84,
-            "blankNull": 481994,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6827,7 +6827,7 @@
         {
           "name": "CALLAO",
           "seats": 1,
-          "blankNull": 189063,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6835,13 +6835,13 @@
             }
           ],
           "status": {
-            "percent": 97.136,
-            "processed": 2815,
-            "total": 2898,
-            "jee": 0,
-            "pending": 83,
-            "blankNull": 186049,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6854,7 +6854,7 @@
         {
           "name": "CUSCO",
           "seats": 1,
-          "blankNull": 244740,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -6862,13 +6862,13 @@
             }
           ],
           "status": {
-            "percent": 93.673,
-            "processed": 3731,
-            "total": 3983,
-            "jee": 0,
-            "pending": 252,
-            "blankNull": 230668,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6881,7 +6881,7 @@
         {
           "name": "HUANCAVELICA",
           "seats": 1,
-          "blankNull": 89951,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -6889,13 +6889,13 @@
             }
           ],
           "status": {
-            "percent": 99.921,
-            "processed": 1272,
-            "total": 1273,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 89849,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6908,7 +6908,7 @@
         {
           "name": "HUÁNUCO",
           "seats": 1,
-          "blankNull": 140595,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -6916,13 +6916,13 @@
             }
           ],
           "status": {
-            "percent": 99.744,
-            "processed": 2335,
-            "total": 2341,
-            "jee": 0,
-            "pending": 6,
-            "blankNull": 140524,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6935,7 +6935,7 @@
         {
           "name": "ICA",
           "seats": 1,
-          "blankNull": 166956,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6943,13 +6943,13 @@
             }
           ],
           "status": {
-            "percent": 90.217,
-            "processed": 2204,
-            "total": 2443,
-            "jee": 0,
-            "pending": 239,
-            "blankNull": 156082,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6962,7 +6962,7 @@
         {
           "name": "JUNÍN",
           "seats": 1,
-          "blankNull": 248646,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6970,13 +6970,13 @@
             }
           ],
           "status": {
-            "percent": 99.892,
-            "processed": 3687,
-            "total": 3691,
-            "jee": 0,
-            "pending": 4,
-            "blankNull": 248646,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -6989,7 +6989,7 @@
         {
           "name": "LA LIBERTAD",
           "seats": 1,
-          "blankNull": 335259,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -6997,13 +6997,13 @@
             }
           ],
           "status": {
-            "percent": 98.321,
-            "processed": 5213,
-            "total": 5302,
-            "jee": 0,
-            "pending": 89,
-            "blankNull": 330419,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7016,7 +7016,7 @@
         {
           "name": "LAMBAYEQUE",
           "seats": 1,
-          "blankNull": 258061,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7024,13 +7024,13 @@
             }
           ],
           "status": {
-            "percent": 99.331,
-            "processed": 3566,
-            "total": 3590,
-            "jee": 0,
-            "pending": 24,
-            "blankNull": 256454,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7043,7 +7043,7 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "blankNull": 1544057,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -7059,13 +7059,13 @@
             }
           ],
           "status": {
-            "percent": 96.663,
-            "processed": 25488,
-            "total": 26368,
-            "jee": 0,
-            "pending": 880,
-            "blankNull": 1530910,
-            "updated": "2026-05-23T02:15:09.957Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7088,7 +7088,7 @@
         {
           "name": "LIMA PROVINCIAS",
           "seats": 1,
-          "blankNull": 194435,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7096,13 +7096,13 @@
             }
           ],
           "status": {
-            "percent": 99.826,
-            "processed": 2874,
-            "total": 2879,
-            "jee": 0,
-            "pending": 5,
-            "blankNull": 194144,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7115,7 +7115,7 @@
         {
           "name": "LORETO",
           "seats": 1,
-          "blankNull": 175040,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7123,13 +7123,13 @@
             }
           ],
           "status": {
-            "percent": 97.553,
-            "processed": 2631,
-            "total": 2697,
-            "jee": 0,
-            "pending": 66,
-            "blankNull": 173743,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7142,7 +7142,7 @@
         {
           "name": "MADRE DE DIOS",
           "seats": 1,
-          "blankNull": 43409,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -7150,13 +7150,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 507,
-            "total": 507,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 43409,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7169,7 +7169,7 @@
         {
           "name": "MOQUEGUA",
           "seats": 1,
-          "blankNull": 39150,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -7177,13 +7177,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 578,
-            "total": 578,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 39150,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7196,7 +7196,7 @@
         {
           "name": "PASCO",
           "seats": 1,
-          "blankNull": 54291,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -7204,13 +7204,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 802,
-            "total": 802,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 54291,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7223,7 +7223,7 @@
         {
           "name": "RESIDENTES EN EL EXTRANJERO",
           "seats": 1,
-          "blankNull": 150081,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -7231,13 +7231,13 @@
             }
           ],
           "status": {
-            "percent": 89.422,
-            "processed": 2274,
-            "total": 2543,
-            "jee": 0,
-            "pending": 269,
-            "blankNull": 139918,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7250,7 +7250,7 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "blankNull": 412666,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7258,13 +7258,13 @@
             }
           ],
           "status": {
-            "percent": 92.407,
-            "processed": 4880,
-            "total": 5281,
-            "jee": 0,
-            "pending": 401,
-            "blankNull": 404453,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7277,7 +7277,7 @@
         {
           "name": "PUNO",
           "seats": 1,
-          "blankNull": 244888,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -7285,13 +7285,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 3397,
-            "total": 3397,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 244888,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7304,7 +7304,7 @@
         {
           "name": "SAN MARTÍN",
           "seats": 1,
-          "blankNull": 293812,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7312,13 +7312,13 @@
             }
           ],
           "status": {
-            "percent": 98.185,
-            "processed": 2488,
-            "total": 2534,
-            "jee": 0,
-            "pending": 46,
-            "blankNull": 293416,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7331,7 +7331,7 @@
         {
           "name": "TACNA",
           "seats": 1,
-          "blankNull": 56435,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO CÍVICO OBRAS",
@@ -7339,13 +7339,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1041,
-            "total": 1041,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 56435,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7358,7 +7358,7 @@
         {
           "name": "TUMBES",
           "seats": 1,
-          "blankNull": 56888,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7366,13 +7366,13 @@
             }
           ],
           "status": {
-            "percent": 99.842,
-            "processed": 631,
-            "total": 632,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 56785,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7385,7 +7385,7 @@
         {
           "name": "UCAYALI",
           "seats": 1,
-          "blankNull": 112631,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -7393,13 +7393,13 @@
             }
           ],
           "status": {
-            "percent": 80.499,
-            "processed": 1259,
-            "total": 1564,
-            "jee": 0,
-            "pending": 305,
-            "blankNull": 104755,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -7875,15 +7875,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6312622,
+      "blankNull": 0,
       "status": {
-        "percent": 96.77,
-        "processed": 89770,
-        "total": 92766,
+        "percent": null,
+        "processed": 0,
+        "total": 0,
         "jee": 0,
-        "pending": 2996,
-        "blankNull": 6224251,
-        "updated": "2026-05-23T02:30:16.390Z"
+        "pending": 0,
+        "blankNull": 0,
+        "updated": "1970-01-01T00:00:00.000Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -8080,23 +8080,23 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 4814532
+              "votes": 2002422
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 3631794
-            },
-            {
-              "party": "RENOVACIÓN POPULAR",
-              "votes": 3427586
+              "votes": 1701089
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 3397853
+              "votes": 1598182
+            },
+            {
+              "party": "RENOVACIÓN POPULAR",
+              "votes": 1515627
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 2917517
+              "votes": 1276387
             }
           ],
           "status": {
@@ -8121,12 +8121,12 @@
             },
             {
               "circunscripcion": "NACIONAL",
-              "party": "RENOVACIÓN POPULAR",
+              "party": "PARTIDO DEL BUEN GOBIERNO",
               "seats": 1
             },
             {
               "circunscripcion": "NACIONAL",
-              "party": "PARTIDO DEL BUEN GOBIERNO",
+              "party": "RENOVACIÓN POPULAR",
               "seats": 1
             },
             {
@@ -8140,28 +8140,28 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 4814532
+          "votes": 2002422
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 3631794
-        },
-        {
-          "party": "RENOVACIÓN POPULAR",
-          "votes": 3427586
+          "votes": 1701089
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 3397853
+          "votes": 1598182
+        },
+        {
+          "party": "RENOVACIÓN POPULAR",
+          "votes": 1515627
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2917517
+          "votes": 1276387
         }
       ],
       "candidates": [
         {
-          "name": "GALARRETA VELARDE, LUIS FERNANDO",
+          "name": "LUIS FERNANDO GALARRETA VELARDE",
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
@@ -8171,7 +8171,8 @@
           "edad": 55,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/28a58063-8e4b-4dc5-b418-b84defcc0946.jpeg",
           "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
+          "tipoCandidatura": "Parlamento Andino",
+          "sourceBackup": false
         },
         {
           "name": "GUEVARA BADILLO, ROSARIO DE LAS NIEVES",
@@ -8226,20 +8227,7 @@
           "tipoCandidatura": "Parlamento Andino"
         },
         {
-          "name": "LUIS FERNANDO GALARRETA VELARDE",
-          "party": "FUERZA POPULAR",
-          "partyShort": "FP",
-          "circunscripcion": "NACIONAL",
-          "dni": "",
-          "votosPref": 0,
-          "posicion": null,
-          "edad": 55,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/28a58063-8e4b-4dc5-b418-b84defcc0946.jpeg",
-          "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
-        },
-        {
-          "name": "FERNANDEZ BRAVO, PAUL PERCY",
+          "name": "PAUL PERCY FERNANDEZ BRAVO",
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
@@ -8249,7 +8237,8 @@
           "edad": 66,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/39c2ff7c-e231-4a2a-84bf-72aba866d30a.jpg",
           "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
+          "tipoCandidatura": "Parlamento Andino",
+          "sourceBackup": false
         },
         {
           "name": "MORI ISUISA, ROSARIO DEL CARMEN",
@@ -8304,20 +8293,7 @@
           "tipoCandidatura": "Parlamento Andino"
         },
         {
-          "name": "PAUL PERCY FERNANDEZ BRAVO",
-          "party": "JUNTOS POR EL PERÚ",
-          "partyShort": "JP",
-          "circunscripcion": "NACIONAL",
-          "dni": "",
-          "votosPref": 0,
-          "posicion": null,
-          "edad": 66,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/39c2ff7c-e231-4a2a-84bf-72aba866d30a.jpg",
-          "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
-        },
-        {
-          "name": "TOLEDO PALOMINO, JAHN CLERK NICANOR",
+          "name": "JAHN CLERK NICANOR TOLEDO PALOMINO",
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
@@ -8327,7 +8303,8 @@
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5e345e68-62a9-4343-9d6c-fc9afc57cc8d.jpg",
           "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
+          "tipoCandidatura": "Parlamento Andino",
+          "sourceBackup": false
         },
         {
           "name": "LOA ORTIZ, CONSTANTINO",
@@ -8356,20 +8333,7 @@
           "tipoCandidatura": "Parlamento Andino"
         },
         {
-          "name": "JAHN CLERK NICANOR TOLEDO PALOMINO",
-          "party": "PARTIDO CÍVICO OBRAS",
-          "partyShort": "CO",
-          "circunscripcion": "NACIONAL",
-          "dni": "",
-          "votosPref": 0,
-          "posicion": null,
-          "edad": 51,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5e345e68-62a9-4343-9d6c-fc9afc57cc8d.jpg",
-          "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
-        },
-        {
-          "name": "BENDEZU ECHEVARRIA, MARCIO MARINO",
+          "name": "MARCIO MARINO BENDEZU ECHEVARRIA",
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
@@ -8379,7 +8343,8 @@
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ee13f735-8574-41a7-8ab9-9f2c4baa4bb0.jpg",
           "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
+          "tipoCandidatura": "Parlamento Andino",
+          "sourceBackup": false
         },
         {
           "name": "OSORIO ESPINOZA, PAMELA ERIKA",
@@ -8434,20 +8399,7 @@
           "tipoCandidatura": "Parlamento Andino"
         },
         {
-          "name": "MARCIO MARINO BENDEZU ECHEVARRIA",
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "partyShort": "BG",
-          "circunscripcion": "NACIONAL",
-          "dni": "",
-          "votosPref": 0,
-          "posicion": null,
-          "edad": 64,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ee13f735-8574-41a7-8ab9-9f2c4baa4bb0.jpg",
-          "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
-        },
-        {
-          "name": "DEL POMAR SAETTONE, MAALI OLGA BETTY",
+          "name": "MAALI OLGA BETTY DEL POMAR SAETTONE",
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
@@ -8457,7 +8409,8 @@
           "edad": 49,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bfb30ac2-9fa2-437a-a4a3-355ff90bf291.jpg",
           "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
+          "tipoCandidatura": "Parlamento Andino",
+          "sourceBackup": false
         },
         {
           "name": "VALDIVIESO MENDEZ, GUILLERMO HUMBERTO",
@@ -8510,19 +8463,6 @@
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6eb3cd09-2cfc-4385-a5c7-b426f078ceca.jpg",
           "idHojaVida": 252362,
           "tipoCandidatura": "Parlamento Andino"
-        },
-        {
-          "name": "MAALI OLGA BETTY DEL POMAR SAETTONE",
-          "party": "RENOVACIÓN POPULAR",
-          "partyShort": "RP",
-          "circunscripcion": "NACIONAL",
-          "dni": "",
-          "votosPref": 0,
-          "posicion": null,
-          "edad": 49,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bfb30ac2-9fa2-437a-a4a3-355ff90bf291.jpg",
-          "idHojaVida": null,
-          "tipoCandidatura": "Parlamento Andino"
         }
       ],
       "blankNull": 0,
@@ -8550,12 +8490,12 @@
           },
           {
             "circunscripcion": "NACIONAL",
-            "party": "RENOVACIÓN POPULAR",
+            "party": "PARTIDO DEL BUEN GOBIERNO",
             "seats": 1
           },
           {
             "circunscripcion": "NACIONAL",
-            "party": "PARTIDO DEL BUEN GOBIERNO",
+            "party": "RENOVACIÓN POPULAR",
             "seats": 1
           },
           {
@@ -8640,13 +8580,13 @@
             }
           ],
           "status": {
-            "percent": 95.161,
-            "processed": 88277,
-            "total": 92766,
-            "jee": 0,
-            "pending": 4489,
-            "blankNull": 5027852,
-            "updated": "2026-05-23T02:45:18.349Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8685,7 +8625,7 @@
         {
           "name": "AMAZONAS",
           "seats": 1,
-          "blankNull": 114543,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -8693,13 +8633,13 @@
             }
           ],
           "status": {
-            "percent": 90.532,
-            "processed": 1157,
-            "total": 1278,
-            "jee": 0,
-            "pending": 121,
-            "blankNull": 112297,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8713,7 +8653,7 @@
         {
           "name": "ÁNCASH",
           "seats": 1,
-          "blankNull": 238244,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -8721,13 +8661,13 @@
             }
           ],
           "status": {
-            "percent": 96.659,
-            "processed": 3356,
-            "total": 3472,
-            "jee": 0,
-            "pending": 116,
-            "blankNull": 235792,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8741,7 +8681,7 @@
         {
           "name": "APURÍMAC",
           "seats": 1,
-          "blankNull": 74609,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -8749,13 +8689,13 @@
             }
           ],
           "status": {
-            "percent": 99.772,
-            "processed": 1314,
-            "total": 1317,
-            "jee": 0,
-            "pending": 3,
-            "blankNull": 74406,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8769,7 +8709,7 @@
         {
           "name": "AREQUIPA",
           "seats": 1,
-          "blankNull": 237995,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
@@ -8777,13 +8717,13 @@
             }
           ],
           "status": {
-            "percent": 99.976,
-            "processed": 4214,
-            "total": 4215,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 237931,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8797,7 +8737,7 @@
         {
           "name": "AYACUCHO",
           "seats": 1,
-          "blankNull": 106843,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -8805,13 +8745,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1900,
-            "total": 1900,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 106843,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8825,7 +8765,7 @@
         {
           "name": "CAJAMARCA",
           "seats": 1,
-          "blankNull": 489334,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -8833,13 +8773,13 @@
             }
           ],
           "status": {
-            "percent": 98.019,
-            "processed": 4156,
-            "total": 4240,
-            "jee": 0,
-            "pending": 84,
-            "blankNull": 481994,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8853,7 +8793,7 @@
         {
           "name": "CALLAO",
           "seats": 1,
-          "blankNull": 189063,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -8861,13 +8801,13 @@
             }
           ],
           "status": {
-            "percent": 97.136,
-            "processed": 2815,
-            "total": 2898,
-            "jee": 0,
-            "pending": 83,
-            "blankNull": 186049,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8881,7 +8821,7 @@
         {
           "name": "CUSCO",
           "seats": 1,
-          "blankNull": 244740,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -8889,13 +8829,13 @@
             }
           ],
           "status": {
-            "percent": 93.673,
-            "processed": 3731,
-            "total": 3983,
-            "jee": 0,
-            "pending": 252,
-            "blankNull": 230668,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8909,7 +8849,7 @@
         {
           "name": "HUANCAVELICA",
           "seats": 1,
-          "blankNull": 89951,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -8917,13 +8857,13 @@
             }
           ],
           "status": {
-            "percent": 99.921,
-            "processed": 1272,
-            "total": 1273,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 89849,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8937,7 +8877,7 @@
         {
           "name": "HUÁNUCO",
           "seats": 1,
-          "blankNull": 140595,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -8945,13 +8885,13 @@
             }
           ],
           "status": {
-            "percent": 99.744,
-            "processed": 2335,
-            "total": 2341,
-            "jee": 0,
-            "pending": 6,
-            "blankNull": 140524,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8965,7 +8905,7 @@
         {
           "name": "ICA",
           "seats": 1,
-          "blankNull": 166956,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -8973,13 +8913,13 @@
             }
           ],
           "status": {
-            "percent": 90.217,
-            "processed": 2204,
-            "total": 2443,
-            "jee": 0,
-            "pending": 239,
-            "blankNull": 156082,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -8993,7 +8933,7 @@
         {
           "name": "JUNÍN",
           "seats": 1,
-          "blankNull": 248646,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9001,13 +8941,13 @@
             }
           ],
           "status": {
-            "percent": 99.892,
-            "processed": 3687,
-            "total": 3691,
-            "jee": 0,
-            "pending": 4,
-            "blankNull": 248646,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9021,7 +8961,7 @@
         {
           "name": "LA LIBERTAD",
           "seats": 1,
-          "blankNull": 335259,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9029,13 +8969,13 @@
             }
           ],
           "status": {
-            "percent": 98.321,
-            "processed": 5213,
-            "total": 5302,
-            "jee": 0,
-            "pending": 89,
-            "blankNull": 330419,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9049,7 +8989,7 @@
         {
           "name": "LAMBAYEQUE",
           "seats": 1,
-          "blankNull": 258061,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9057,13 +8997,13 @@
             }
           ],
           "status": {
-            "percent": 99.331,
-            "processed": 3566,
-            "total": 3590,
-            "jee": 0,
-            "pending": 24,
-            "blankNull": 256454,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9077,7 +9017,7 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "blankNull": 1544057,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -9093,13 +9033,13 @@
             }
           ],
           "status": {
-            "percent": 96.663,
-            "processed": 25488,
-            "total": 26368,
-            "jee": 0,
-            "pending": 880,
-            "blankNull": 1530910,
-            "updated": "2026-05-23T02:15:09.957Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9123,7 +9063,7 @@
         {
           "name": "LIMA PROVINCIAS",
           "seats": 1,
-          "blankNull": 194435,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9131,13 +9071,13 @@
             }
           ],
           "status": {
-            "percent": 99.826,
-            "processed": 2874,
-            "total": 2879,
-            "jee": 0,
-            "pending": 5,
-            "blankNull": 194144,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9151,7 +9091,7 @@
         {
           "name": "LORETO",
           "seats": 1,
-          "blankNull": 175040,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9159,13 +9099,13 @@
             }
           ],
           "status": {
-            "percent": 97.553,
-            "processed": 2631,
-            "total": 2697,
-            "jee": 0,
-            "pending": 66,
-            "blankNull": 173743,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9179,7 +9119,7 @@
         {
           "name": "MADRE DE DIOS",
           "seats": 1,
-          "blankNull": 43409,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -9187,13 +9127,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 507,
-            "total": 507,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 43409,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9207,7 +9147,7 @@
         {
           "name": "MOQUEGUA",
           "seats": 1,
-          "blankNull": 39150,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -9215,13 +9155,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 578,
-            "total": 578,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 39150,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9235,7 +9175,7 @@
         {
           "name": "PASCO",
           "seats": 1,
-          "blankNull": 54291,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -9243,13 +9183,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 802,
-            "total": 802,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 54291,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9263,7 +9203,7 @@
         {
           "name": "RESIDENTES EN EL EXTRANJERO",
           "seats": 1,
-          "blankNull": 150081,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -9271,13 +9211,13 @@
             }
           ],
           "status": {
-            "percent": 89.422,
-            "processed": 2274,
-            "total": 2543,
-            "jee": 0,
-            "pending": 269,
-            "blankNull": 139918,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9291,7 +9231,7 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "blankNull": 412666,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9299,13 +9239,13 @@
             }
           ],
           "status": {
-            "percent": 92.407,
-            "processed": 4880,
-            "total": 5281,
-            "jee": 0,
-            "pending": 401,
-            "blankNull": 404453,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9319,7 +9259,7 @@
         {
           "name": "PUNO",
           "seats": 1,
-          "blankNull": 244888,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -9327,13 +9267,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 3397,
-            "total": 3397,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 244888,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9347,7 +9287,7 @@
         {
           "name": "SAN MARTÍN",
           "seats": 1,
-          "blankNull": 293812,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9355,13 +9295,13 @@
             }
           ],
           "status": {
-            "percent": 98.185,
-            "processed": 2488,
-            "total": 2534,
-            "jee": 0,
-            "pending": 46,
-            "blankNull": 293416,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9375,7 +9315,7 @@
         {
           "name": "TACNA",
           "seats": 1,
-          "blankNull": 56435,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO CÍVICO OBRAS",
@@ -9383,13 +9323,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1041,
-            "total": 1041,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 56435,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9403,7 +9343,7 @@
         {
           "name": "TUMBES",
           "seats": 1,
-          "blankNull": 56888,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9411,13 +9351,13 @@
             }
           ],
           "status": {
-            "percent": 99.842,
-            "processed": 631,
-            "total": 632,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 56785,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -9431,7 +9371,7 @@
         {
           "name": "UCAYALI",
           "seats": 1,
-          "blankNull": 112631,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -9439,13 +9379,13 @@
             }
           ],
           "status": {
-            "percent": 80.499,
-            "processed": 1259,
-            "total": 1564,
-            "jee": 0,
-            "pending": 305,
-            "blankNull": 104755,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10376,15 +10316,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6312622,
+      "blankNull": 0,
       "status": {
-        "percent": 95.966,
-        "processed": 178047,
-        "total": 185532,
+        "percent": null,
+        "processed": 0,
+        "total": 0,
         "jee": 0,
-        "pending": 7485,
-        "blankNull": 11252103,
-        "updated": "2026-05-23T02:45:18.349Z"
+        "pending": 0,
+        "blankNull": 0,
+        "updated": "1970-01-01T00:00:00.000Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -10641,13 +10581,13 @@
             }
           ],
           "status": {
-            "percent": 95.161,
-            "processed": 88277,
-            "total": 92766,
-            "jee": 0,
-            "pending": 4489,
-            "blankNull": 5027852,
-            "updated": "2026-05-23T02:45:18.349Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10686,7 +10626,7 @@
         {
           "name": "AMAZONAS",
           "seats": 1,
-          "blankNull": 114543,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -10694,13 +10634,13 @@
             }
           ],
           "status": {
-            "percent": 90.532,
-            "processed": 1157,
-            "total": 1278,
-            "jee": 0,
-            "pending": 121,
-            "blankNull": 112297,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10714,7 +10654,7 @@
         {
           "name": "ÁNCASH",
           "seats": 1,
-          "blankNull": 238244,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -10722,13 +10662,13 @@
             }
           ],
           "status": {
-            "percent": 96.659,
-            "processed": 3356,
-            "total": 3472,
-            "jee": 0,
-            "pending": 116,
-            "blankNull": 235792,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10742,7 +10682,7 @@
         {
           "name": "APURÍMAC",
           "seats": 1,
-          "blankNull": 74609,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -10750,13 +10690,13 @@
             }
           ],
           "status": {
-            "percent": 99.772,
-            "processed": 1314,
-            "total": 1317,
-            "jee": 0,
-            "pending": 3,
-            "blankNull": 74406,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10770,7 +10710,7 @@
         {
           "name": "AREQUIPA",
           "seats": 1,
-          "blankNull": 237995,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
@@ -10778,13 +10718,13 @@
             }
           ],
           "status": {
-            "percent": 99.976,
-            "processed": 4214,
-            "total": 4215,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 237931,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10798,7 +10738,7 @@
         {
           "name": "AYACUCHO",
           "seats": 1,
-          "blankNull": 106843,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -10806,13 +10746,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1900,
-            "total": 1900,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 106843,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10826,7 +10766,7 @@
         {
           "name": "CAJAMARCA",
           "seats": 1,
-          "blankNull": 489334,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -10834,13 +10774,13 @@
             }
           ],
           "status": {
-            "percent": 98.019,
-            "processed": 4156,
-            "total": 4240,
-            "jee": 0,
-            "pending": 84,
-            "blankNull": 481994,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10854,7 +10794,7 @@
         {
           "name": "CALLAO",
           "seats": 1,
-          "blankNull": 189063,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -10862,13 +10802,13 @@
             }
           ],
           "status": {
-            "percent": 97.136,
-            "processed": 2815,
-            "total": 2898,
-            "jee": 0,
-            "pending": 83,
-            "blankNull": 186049,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10882,7 +10822,7 @@
         {
           "name": "CUSCO",
           "seats": 1,
-          "blankNull": 244740,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -10890,13 +10830,13 @@
             }
           ],
           "status": {
-            "percent": 93.673,
-            "processed": 3731,
-            "total": 3983,
-            "jee": 0,
-            "pending": 252,
-            "blankNull": 230668,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10910,7 +10850,7 @@
         {
           "name": "HUANCAVELICA",
           "seats": 1,
-          "blankNull": 89951,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -10918,13 +10858,13 @@
             }
           ],
           "status": {
-            "percent": 99.921,
-            "processed": 1272,
-            "total": 1273,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 89849,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10938,7 +10878,7 @@
         {
           "name": "HUÁNUCO",
           "seats": 1,
-          "blankNull": 140595,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -10946,13 +10886,13 @@
             }
           ],
           "status": {
-            "percent": 99.744,
-            "processed": 2335,
-            "total": 2341,
-            "jee": 0,
-            "pending": 6,
-            "blankNull": 140524,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10966,7 +10906,7 @@
         {
           "name": "ICA",
           "seats": 1,
-          "blankNull": 166956,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -10974,13 +10914,13 @@
             }
           ],
           "status": {
-            "percent": 90.217,
-            "processed": 2204,
-            "total": 2443,
-            "jee": 0,
-            "pending": 239,
-            "blankNull": 156082,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -10994,7 +10934,7 @@
         {
           "name": "JUNÍN",
           "seats": 1,
-          "blankNull": 248646,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11002,13 +10942,13 @@
             }
           ],
           "status": {
-            "percent": 99.892,
-            "processed": 3687,
-            "total": 3691,
-            "jee": 0,
-            "pending": 4,
-            "blankNull": 248646,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11022,7 +10962,7 @@
         {
           "name": "LA LIBERTAD",
           "seats": 1,
-          "blankNull": 335259,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11030,13 +10970,13 @@
             }
           ],
           "status": {
-            "percent": 98.321,
-            "processed": 5213,
-            "total": 5302,
-            "jee": 0,
-            "pending": 89,
-            "blankNull": 330419,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11050,7 +10990,7 @@
         {
           "name": "LAMBAYEQUE",
           "seats": 1,
-          "blankNull": 258061,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11058,13 +10998,13 @@
             }
           ],
           "status": {
-            "percent": 99.331,
-            "processed": 3566,
-            "total": 3590,
-            "jee": 0,
-            "pending": 24,
-            "blankNull": 256454,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11078,7 +11018,7 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "blankNull": 1544057,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -11094,13 +11034,13 @@
             }
           ],
           "status": {
-            "percent": 96.663,
-            "processed": 25488,
-            "total": 26368,
-            "jee": 0,
-            "pending": 880,
-            "blankNull": 1530910,
-            "updated": "2026-05-23T02:15:09.957Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11124,7 +11064,7 @@
         {
           "name": "LIMA PROVINCIAS",
           "seats": 1,
-          "blankNull": 194435,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11132,13 +11072,13 @@
             }
           ],
           "status": {
-            "percent": 99.826,
-            "processed": 2874,
-            "total": 2879,
-            "jee": 0,
-            "pending": 5,
-            "blankNull": 194144,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11152,7 +11092,7 @@
         {
           "name": "LORETO",
           "seats": 1,
-          "blankNull": 175040,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11160,13 +11100,13 @@
             }
           ],
           "status": {
-            "percent": 97.553,
-            "processed": 2631,
-            "total": 2697,
-            "jee": 0,
-            "pending": 66,
-            "blankNull": 173743,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11180,7 +11120,7 @@
         {
           "name": "MADRE DE DIOS",
           "seats": 1,
-          "blankNull": 43409,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -11188,13 +11128,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 507,
-            "total": 507,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 43409,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11208,7 +11148,7 @@
         {
           "name": "MOQUEGUA",
           "seats": 1,
-          "blankNull": 39150,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -11216,13 +11156,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 578,
-            "total": 578,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 39150,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11236,7 +11176,7 @@
         {
           "name": "PASCO",
           "seats": 1,
-          "blankNull": 54291,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -11244,13 +11184,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 802,
-            "total": 802,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 54291,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11264,7 +11204,7 @@
         {
           "name": "RESIDENTES EN EL EXTRANJERO",
           "seats": 1,
-          "blankNull": 150081,
+          "blankNull": 0,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -11272,13 +11212,13 @@
             }
           ],
           "status": {
-            "percent": 89.422,
-            "processed": 2274,
-            "total": 2543,
-            "jee": 0,
-            "pending": 269,
-            "blankNull": 139918,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11292,7 +11232,7 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "blankNull": 412666,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11300,13 +11240,13 @@
             }
           ],
           "status": {
-            "percent": 92.407,
-            "processed": 4880,
-            "total": 5281,
-            "jee": 0,
-            "pending": 401,
-            "blankNull": 404453,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11320,7 +11260,7 @@
         {
           "name": "PUNO",
           "seats": 1,
-          "blankNull": 244888,
+          "blankNull": 0,
           "votes": [
             {
               "party": "JUNTOS POR EL PERÚ",
@@ -11328,13 +11268,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 3397,
-            "total": 3397,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 244888,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11348,7 +11288,7 @@
         {
           "name": "SAN MARTÍN",
           "seats": 1,
-          "blankNull": 293812,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11356,13 +11296,13 @@
             }
           ],
           "status": {
-            "percent": 98.185,
-            "processed": 2488,
-            "total": 2534,
-            "jee": 0,
-            "pending": 46,
-            "blankNull": 293416,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11376,7 +11316,7 @@
         {
           "name": "TACNA",
           "seats": 1,
-          "blankNull": 56435,
+          "blankNull": 0,
           "votes": [
             {
               "party": "PARTIDO CÍVICO OBRAS",
@@ -11384,13 +11324,13 @@
             }
           ],
           "status": {
-            "percent": 100,
-            "processed": 1041,
-            "total": 1041,
-            "jee": 0,
-            "pending": 0,
-            "blankNull": 56435,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11404,7 +11344,7 @@
         {
           "name": "TUMBES",
           "seats": 1,
-          "blankNull": 56888,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11412,13 +11352,13 @@
             }
           ],
           "status": {
-            "percent": 99.842,
-            "processed": 631,
-            "total": 632,
-            "jee": 0,
-            "pending": 1,
-            "blankNull": 56785,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -11432,7 +11372,7 @@
         {
           "name": "UCAYALI",
           "seats": 1,
-          "blankNull": 112631,
+          "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -11440,13 +11380,13 @@
             }
           ],
           "status": {
-            "percent": 80.499,
-            "processed": 1259,
-            "total": 1564,
-            "jee": 0,
-            "pending": 305,
-            "blankNull": 104755,
-            "updated": "2026-05-23T02:30:16.390Z"
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 0,
+            "updated": null
           },
           "allocations": [
             {
@@ -12377,15 +12317,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6312622,
+      "blankNull": 0,
       "status": {
-        "percent": 95.966,
-        "processed": 178047,
-        "total": 185532,
+        "percent": null,
+        "processed": 0,
+        "total": 0,
         "jee": 0,
-        "pending": 7485,
-        "blankNull": 11252103,
-        "updated": "2026-05-23T02:45:18.349Z"
+        "pending": 0,
+        "blankNull": 0,
+        "updated": "1970-01-01T00:00:00.000Z"
       },
       "allocations": {
         "noBarrier": [],
