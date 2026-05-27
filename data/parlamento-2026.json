@@ -1,13 +1,13 @@
 {
   "year": 2026,
-  "updatedAt": "2026-05-27T21:05:38.241Z",
+  "updatedAt": "2026-05-27T23:37:02.602Z",
   "status": {
-    "percent": 98.007,
-    "processed": 90917,
+    "percent": 98.059,
+    "processed": 90965,
     "total": 92766,
-    "jee": 1845,
-    "pending": 4,
-    "blankNull": 5588993,
+    "jee": 1793,
+    "pending": 8,
+    "blankNull": 6624411,
     "updated": "2026-05-27T14:10:10.051000"
   },
   "camaras": {
@@ -7524,15 +7524,15 @@
           "sourceBackup": false
         },
         {
-          "name": "JACQUES SALOMON RODRICH ACKERMAN",
+          "name": "DORINA CACERES YBIAS",
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "CALLAO",
           "dni": "",
-          "votosPref": 11958,
+          "votosPref": 1652,
           "posicion": 1,
-          "edad": 64,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/04696b3b-471f-462a-b3c2-84726b866a6f.jpg",
+          "edad": null,
+          "imageUrl": "",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional",
@@ -8080,23 +8080,23 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2138446
+              "votes": 2044176
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1801069
+              "votes": 1749781
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1762338
+              "votes": 1679905
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1699444
+              "votes": 1602153
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1403866
+              "votes": 1326334
             }
           ],
           "status": {
@@ -8140,23 +8140,23 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2138446
+          "votes": 2044176
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1801069
+          "votes": 1749781
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1762338
+          "votes": 1679905
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1699444
+          "votes": 1602153
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1403866
+          "votes": 1326334
         }
       ],
       "candidates": [
@@ -9965,15 +9965,15 @@
           "sourceBackup": false
         },
         {
-          "name": "JACQUES SALOMON RODRICH ACKERMAN",
+          "name": "DORINA CACERES YBIAS",
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "CALLAO",
           "dni": "",
-          "votosPref": 11958,
+          "votosPref": 1652,
           "posicion": 1,
-          "edad": 64,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/04696b3b-471f-462a-b3c2-84726b866a6f.jpg",
+          "edad": null,
+          "imageUrl": "",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional",
@@ -11966,15 +11966,15 @@
           "sourceBackup": false
         },
         {
-          "name": "JACQUES SALOMON RODRICH ACKERMAN",
+          "name": "DORINA CACERES YBIAS",
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "CALLAO",
           "dni": "",
-          "votosPref": 11958,
+          "votosPref": 1652,
           "posicion": 1,
-          "edad": 64,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/04696b3b-471f-462a-b3c2-84726b866a6f.jpg",
+          "edad": null,
+          "imageUrl": "",
           "idHojaVida": null,
           "tipoCandidatura": "Senado regional",
           "senateBlock": "Regional",
