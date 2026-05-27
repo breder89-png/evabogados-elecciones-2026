@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-27T14:31:34.080Z",
+  "generatedAt": "2026-05-27T19:50:00.935Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-05-27T14:27:10.007403+00:00",
-  "updatedAt": "2026-05-27T14:27:10.007Z",
+  "manifestUpdatedAt": "2026-05-27T19:28:10.641423+00:00",
+  "updatedAt": "2026-05-27T19:28:10.641Z",
   "cameras": {
     "diputados": {
       "parties": 6,
@@ -15,7 +15,7 @@
         "jee": 0,
         "pending": 0,
         "blankNull": 0,
-        "updated": "2026-05-26T22:00:09.431Z"
+        "updated": "2026-05-27T14:10:10.051Z"
       }
     },
     "senadoNacional": {
@@ -51,13 +51,13 @@
       "circunscripciones": 1,
       "candidates": 23,
       "status": {
-        "percent": 98.02,
-        "processed": 90929,
+        "percent": 98.059,
+        "processed": 90965,
         "total": 92766,
-        "jee": 1830,
-        "pending": 7,
-        "blankNull": 6621128,
-        "updated": "2026-05-26T22:00:09.431000"
+        "jee": 1793,
+        "pending": 8,
+        "blankNull": 6624411,
+        "updated": "2026-05-27T14:10:10.051000"
       }
     }
   }
