@@ -824,6 +824,23 @@ function blankNullFromScrutiny(scrutiny) {
   return Math.max(0, number(scrutiny?.totalVotesEmitted) - number(scrutiny?.totalVotesValid));
 }
 
+function mergeNationalVotes(fromCircs, vallaMeta) {
+  if (!vallaMeta?.length) return fromCircs;
+  const map = new Map(fromCircs.map((v) => [v.party, v.votes]));
+  for (const p of vallaMeta) {
+    const party = canonicalParty(p.partido).name;
+    if (party && !map.has(party) && number(p.votos) > 0) map.set(party, number(p.votos));
+  }
+  return [...map.entries()].map(([party, votes]) => ({ party, votes })).sort((a, b) => b.votes - a.votes);
+}
+
+function computeNoBarrierFromMeta(meta) {
+  if (!meta?.valla_evaluacion_partidos?.length) return [];
+  return meta.valla_evaluacion_partidos
+    .map((p) => ({ party: canonicalParty(p.partido).name, seats: number(p.escanos_provisionales) }))
+    .filter((p) => p.party && p.seats > 0);
+}
+
 async function buildJneEnrichmentForDecide(enrich) {
   const byDni = new Map();
   const byKey = new Map();
@@ -971,12 +988,12 @@ function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, 
     barrier: 0.05,
     parties: buildParties([...circunscripciones.flatMap((c) => c.votes), ...candidatePartyVotes(candidates)], enrich),
     circunscripciones,
-    nationalVotes: aggregateVotes(circunscripciones),
+    nationalVotes: mergeNationalVotes(aggregateVotes(circunscripciones), meta?.valla_evaluacion_partidos),
     candidates,
     blankNull: sum(circunscripciones.map((c) => c.blankNull)),
     status: combineStatusObjects(...circunscripciones.map((c) => c.status)),
     allocations: {
-      noBarrier: [],
+      noBarrier: key === "diputados" ? computeNoBarrierFromMeta(meta) : [],
       barrier: circunscripciones.flatMap((circ) => circ.allocations || [])
     }
   };
