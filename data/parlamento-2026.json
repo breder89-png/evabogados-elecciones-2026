@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updatedAt": "2026-05-28T05:02:13.657Z",
+  "updatedAt": "2026-05-28T15:58:04.629Z",
   "status": {
     "percent": 98.007,
     "processed": 90917,
@@ -8963,32 +8963,32 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 1996970
+              "votes": 1996942
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1629392
+              "votes": 1629349
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1595407
+              "votes": 1595363
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1515264
+              "votes": 1515245
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1254890
+              "votes": 1254864
             }
           ],
           "status": {
-            "percent": 98.057,
-            "processed": 90964,
+            "percent": 98.055,
+            "processed": 90962,
             "total": 92766,
             "jee": 1793,
-            "pending": 9,
-            "blankNull": 6624371,
+            "pending": 11,
+            "blankNull": 6624215,
             "updated": "2026-05-27T14:10:10.051000"
           },
           "allocations": [
@@ -9023,23 +9023,23 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 1996970
+          "votes": 1996942
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1629392
+          "votes": 1629349
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1595407
+          "votes": 1595363
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1515264
+          "votes": 1515245
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1254890
+          "votes": 1254864
         }
       ],
       "candidates": [
@@ -9350,12 +9350,12 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": 98.057,
-        "processed": 90964,
+        "percent": 98.055,
+        "processed": 90962,
         "total": 92766,
         "jee": 1793,
-        "pending": 9,
-        "blankNull": 6624371,
+        "pending": 11,
+        "blankNull": 6624215,
         "updated": "2026-05-27T14:10:10.051000"
       },
       "allocations": {
