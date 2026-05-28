@@ -923,10 +923,11 @@ function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, 
   const meta = metadata || source?._metadata || null;
   const effectiveFallback = fallbackElection || meta?.acta_onpe?.eleccion || null;
   const circunscripciones = entries.map(([districtKey, row]) => decideCircFromRow(districtKey, row, meta, effectiveFallback)).filter((c) => c.name && c.votes.length);
-  const candidates = mergeCandidateLists(
+  const cdnCandidates = mergeCandidateLists(
     decideCandidatesFromElected(elected, key, enrich),
     circunscripciones.flatMap((circ) => decideCandidatesFromParties((nested ? source[decideKeyForName(circ.name)] : source[decideKeyForName(circ.name)])?.partidos, key, circ.name, enrich))
   );
+  const candidates = mergeCandidateLists(cdnCandidates, backupCandidatesForCamera(enrich, key, circunscripciones.map((c) => c.name)));
   return {
     name,
     seats,
@@ -954,7 +955,7 @@ function buildDecideSingleCamera({ key, name, seats, source, metadata, elected, 
     parties: buildParties([...circ.votes, ...candidatePartyVotes(decideCandidatesFromElected(elected, key, enrich))], enrich),
     circunscripciones: [circ],
     nationalVotes: circ.votes,
-    candidates: mergeCandidateLists(decideCandidatesFromElected(elected, key, enrich), decideCandidatesFromParties(source?.partidos, key, "NACIONAL", enrich)),
+    candidates: mergeCandidateLists(mergeCandidateLists(decideCandidatesFromElected(elected, key, enrich), decideCandidatesFromParties(source?.partidos, key, "NACIONAL", enrich)), backupCandidatesForCamera(enrich, key, ["NACIONAL"])),
     blankNull: circ.blankNull,
     status: circ.status,
     allocations: { noBarrier: [], barrier: circ.allocations || [] }
@@ -1093,24 +1094,10 @@ function statusFromDecideParticipation(participation, fallbackElection) {
   ]) || firstTruthyFromKeys(fallbackElection || {}, ["fecha_actualizacion_onpe", "fechaActualizacionOnpe", "updated_at"]) || null;
 
   if (!total || !processed) {
-    // Decide Perú no desglosa actas por circunscripción; usar datos nacionales de la cámara como referencia
-    if (fallbackElection) {
-      const fbTotal = numberFromKeys(fallbackElection, ["total_actas", "totalActas", "total"]);
-      const fbProcessed = numberFromKeys(fallbackElection, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas"]);
-      if (fbTotal && fbProcessed) {
-        return {
-          percent: numberFromKeys(fallbackElection, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje"])
-            || Number(((fbProcessed / fbTotal) * 100).toFixed(3)),
-          processed: fbProcessed,
-          total: fbTotal,
-          jee: numberFromKeys(fallbackElection, ["actas_enviadas_jee", "actasEnviadasJee", "jee"]) || null,
-          pending: numberFromKeys(fallbackElection, ["actas_pendientes_jee", "actasPendientesJee", "pendientes"]) || null,
-          blankNull,
-          updated,
-          nationalFallback: true
-        };
-      }
-    }
+    // Decide Perú no entrega actas por circunscripción — los campos son siempre null.
+    // No propagamos el total nacional a cada circ porque el frontend los sumaría
+    // (28 circs × 92766 = 2.5 millones). El status de la cámara completa sí está correcto
+    // y el frontend lo usa como fallback cuando las circs individuales no tienen datos.
     return { percent: percent || null, processed: processed || null, total: total || null, jee: jee || null, pending: explicitPending || null, blankNull, updated };
   }
 
