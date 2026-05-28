@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-05-28T02:30:50.727Z",
+  "generatedAt": "2026-05-28T12:48:50.269Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-05-28T00:33:47.179014+00:00",
-  "updatedAt": "2026-05-28T00:33:47.179Z",
+  "manifestUpdatedAt": "2026-05-28T05:02:13.657233+00:00",
+  "updatedAt": "2026-05-28T05:02:13.657Z",
   "cameras": {
     "diputados": {
-      "parties": 6,
+      "parties": 14,
       "circunscripciones": 27,
-      "candidates": 327,
+      "candidates": 344,
       "status": {
         "percent": 98.007,
         "processed": 90917,
@@ -21,7 +21,7 @@
     "senadoNacional": {
       "parties": 6,
       "circunscripciones": 1,
-      "candidates": 30,
+      "candidates": 38,
       "status": {
         "percent": 97.433,
         "processed": 90385,
@@ -35,7 +35,7 @@
     "senadoRegional": {
       "parties": 5,
       "circunscripciones": 27,
-      "candidates": 30,
+      "candidates": 31,
       "status": {
         "percent": 98.262,
         "processed": 91154,
