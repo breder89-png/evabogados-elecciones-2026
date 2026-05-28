@@ -123,8 +123,44 @@ const PARTY_CANONICAL = new Map([
   ["PARTIDO SICREO", ["S", "PARTIDO SÍCREO"]]
 ]);
 
+// JNE party symbol URLs: https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/{idOrgPol}
+// IDs obtained from JNE Voto Informado API (idTipoEleccion=15/20/21, idProcesoElectoral=124)
 const LOGO_FALLBACKS = new Map([
-  ["PARTIDO SÍCREO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935"]
+  ["FUERZA POPULAR", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366"],
+  ["JUNTOS POR EL PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264"],
+  ["RENOVACIÓN POPULAR", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/22"],
+  ["PARTIDO DEL BUEN GOBIERNO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961"],
+  ["PARTIDO CÍVICO OBRAS", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941"],
+  ["AHORA NACIÓN - AN", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980"],
+  ["PARTIDO PAÍS PARA TODOS", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956"],
+  ["ALIANZA PARA EL PROGRESO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257"],
+  ["PODEMOS PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2731"],
+  ["PARTIDO DEMOCRÁTICO SOMOS PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14"],
+  ["PARTIDO SÍCREO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935"],
+  ["PARTIDO POLÍTICO COOPERACIÓN POPULAR", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995"],
+  ["UN CAMINO DIFERENTE", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998"],
+  ["PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2931"],
+  ["PARTIDO FRENTE DE LA ESPERANZA 2021", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857"],
+  ["PARTIDO MORADO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840"],
+  ["PARTIDO APRISTA PERUANO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930"],
+  ["FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901"],
+  ["PARTIDO POLÍTICO NACIONAL PERÚ LIBRE", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218"],
+  ["AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173"],
+  ["PARTIDO POLÍTICO PERÚ PRIMERO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925"],
+  ["PARTIDO DEMÓCRATA VERDE", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895"],
+  ["VENCEREMOS", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025"],
+  ["SALVEMOS AL PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2927"],
+  ["FUERZA Y LIBERTAD", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024"],
+  ["PERÚ MODERNO", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2924"],
+  ["PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985"],
+  ["PARTIDO POLÍTICO PERÚ ACCIÓN", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2932"],
+  ["PARTIDO POLÍTICO PRIN", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921"],
+  ["PARTIDO PATRIÓTICO DEL PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869"],
+  ["PARTIDO DEMÓCRATA UNIDO PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2867"],
+  ["LIBERTAD POPULAR", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933"],
+  ["FE EN EL PERÚ", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2898"],
+  ["PARTIDO DEMOCRÁTICO FEDERAL", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2986"],
+  ["UNIDAD NACIONAL", "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023"],
 ]);
 
 async function main() {
