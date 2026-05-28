@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-27T23:47:37.832Z",
+  "generatedAt": "2026-05-28T01:25:25.314Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-05-27T23:37:02.602594+00:00",
-  "updatedAt": "2026-05-27T23:37:02.602Z",
+  "manifestUpdatedAt": "2026-05-28T00:33:47.179014+00:00",
+  "updatedAt": "2026-05-28T00:33:47.179Z",
   "cameras": {
     "diputados": {
       "parties": 6,
@@ -51,12 +51,12 @@
       "circunscripciones": 1,
       "candidates": 23,
       "status": {
-        "percent": 98.059,
-        "processed": 90965,
+        "percent": 98.057,
+        "processed": 90964,
         "total": 92766,
         "jee": 1793,
-        "pending": 8,
-        "blankNull": 6624411,
+        "pending": 9,
+        "blankNull": 6624371,
         "updated": "2026-05-27T14:10:10.051000"
       }
     }
