@@ -14,6 +14,9 @@ const DAPPER_BASE_URL = trimSlash(process.env.DAPPER_BASE_URL || "https://elecci
 const DECIDE_CDN_BASE_URL = trimSlash(process.env.DECIDE_CDN_BASE_URL || "https://dwin6afrwpy9h.cloudfront.net");
 const JNE_SERVICE_BASE_URL = trimSlash(process.env.JNE_SERVICE_BASE_URL || "https://web.jne.gob.pe/serviciovotoinformado");
 const JNE_IMAGE_BASE_URL = trimSlash(process.env.JNE_IMAGE_BASE_URL || "https://mpesije.jne.gob.pe/apidocs");
+const ONPE_BACKEND_URL = trimSlash(process.env.ONPE_BACKEND_URL || "https://resultadoelectoral.onpe.gob.pe/presentacion-backend");
+// Election IDs in the ONPE /presentacion-backend API (idEleccion param)
+const ONPE_ELECTION_ID = { diputados: 13, senadoNacional: 15, senadoRegional: 14, andino: 12 };
 const JNE_PROCESS_ID = 124;
 const JNE_ELECTION = {
   andino: 3,
@@ -962,6 +965,35 @@ async function mainDecideLive({ enrich }) {
   cameras.senadoNacional.status = decideActaStatus(senSeats?._metadata?.acta_onpe, "senadores_unico") || cameras.senadoNacional.status;
   cameras.senadoRegional.status = decideActaStatus(senSeats?._metadata?.acta_onpe, "senadores_multiple") || cameras.senadoRegional.status;
   cameras.andino.status = decideActaStatus(andinoSeats?._metadata?.acta_onpe, "parlamento_andino") || cameras.andino.status;
+
+  // Overlay ONPE per-district all-party votes and actas for senadoRegional.
+  // The Decide Perú CDN only provides the winner party per district; ONPE provides all parties.
+  try {
+    const onpeRegional = await fetchOnpeSenRegionalAll();
+    if (onpeRegional.length > 0) {
+      const byName = new Map(onpeRegional.map(d => [normalize(d.nombre), d]));
+      let enriched = 0;
+      for (const circ of cameras.senadoRegional.circunscripciones) {
+        const onpe = byName.get(normalize(circ.name));
+        if (!onpe) continue;
+        // Replace limited CDN votes (winner only) with full ONPE party breakdown
+        if (onpe.votes && onpe.votes.length > 1) {
+          circ.votes = onpe.votes;
+          enriched++;
+        }
+        // Set per-circuit actas from ONPE (CDN always returns null for regional circuits)
+        if (onpe.status && onpe.status.total) {
+          circ.status = onpe.status;
+        }
+      }
+      // Rebuild nationalVotes for senadoRegional now that all circuits have full vote data
+      cameras.senadoRegional.nationalVotes = aggregateVotes(cameras.senadoRegional.circunscripciones);
+      console.log(`[ONPE] Senado regional: ${enriched}/${cameras.senadoRegional.circunscripciones.length} circunscripciones enriquecidas (${onpeRegional.length} distritos disponibles).`);
+    }
+  } catch (err) {
+    console.warn(`[ONPE] Error al enriquecer senadoRegional: ${err.message}`);
+  }
+
   cameras.senado = mergeSenateAlias(cameras.senadoNacional, cameras.senadoRegional);
   cameras.senadoTotal = cameras.senado;
 
@@ -993,6 +1025,65 @@ async function mainDecideLive({ enrich }) {
   }, null, 2)}\n`, "utf8");
   console.log(`OK: ${path.relative(rootDir, outFile)}`);
   console.log(`Fuente: ${DECIDE_CDN_BASE_URL}/publish/_current.json`);
+}
+
+// ---------------------------------------------------------------------------
+// ONPE presentacion-backend helpers
+// Provides per-district ALL-party votes and actas counts for senadoRegional
+// API discovered from live network traffic at resultadoelectoral.onpe.gob.pe
+// ---------------------------------------------------------------------------
+
+async function fetchOnpeJson(path) {
+  const url = `${ONPE_BACKEND_URL}${path}`;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        "Accept": "application/json,text/plain,*/*",
+        "Referer": "https://resultadoelectoral.onpe.gob.pe/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+      },
+      signal: AbortSignal.timeout(12000)
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const ct = res.headers.get("content-type") || "";
+    if (!ct.includes("json")) throw new Error(`Respuesta no-JSON (${ct}); ONPE puede estar cacheando HTML`);
+    const data = await res.json();
+    if (data.success === false) throw new Error(data.message || "API error");
+    return data.data ?? data;
+  } catch (err) {
+    console.warn(`[ONPE] ${path}: ${err.message}`);
+    return null;
+  }
+}
+
+async function fetchOnpeSenRegionalAll() {
+  // Fetches all-party votes + actas for each senado regional circuit from ONPE.
+  // DISTRICT_NAME keys (1-27) match ONPE's idDistritoElectoral param directly.
+  const entries = [...DISTRICT_NAME.entries()];
+  const results = await Promise.all(
+    entries.map(async ([codigo, nombre]) => {
+      const [participantes, totales] = await Promise.all([
+        fetchOnpeJson(`/resumen-general/participantes?idAmbitoGeografico=1&idEleccion=${ONPE_ELECTION_ID.senadoRegional}&tipoFiltro=distrito_electoral&idDistritoElectoral=${codigo}`),
+        fetchOnpeJson(`/resumen-general/totales?idAmbitoGeografico=1&idEleccion=${ONPE_ELECTION_ID.senadoRegional}&tipoFiltro=distrito_electoral&idDistritoElectoral=${codigo}`)
+      ]);
+      if (!Array.isArray(participantes) || participantes.length === 0) return null;
+      const votes = participantes
+        .map(p => ({ party: canonicalParty(p.nombreAgrupacionPolitica).name, votes: number(p.totalVotosValidos) }))
+        .filter(v => v.party && v.votes > 0)
+        .sort((a, b) => b.votes - a.votes);
+      const status = totales ? {
+        processed: totales.contabilizadas || null,
+        total: totales.totalActas || null,
+        percent: totales.actasContabilizadas || null,
+        updated: totales.fechaActualizacion
+          ? new Date(Number(totales.fechaActualizacion)).toISOString()
+          : null,
+        nationalFallback: false
+      } : null;
+      return { nombre, codigo, votes, status };
+    })
+  );
+  return results.filter(Boolean);
 }
 
 async function fetchDecideJson(pathname) {
