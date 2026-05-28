@@ -233,11 +233,7 @@ async function main() {
       circunscripciones: c.circunscripciones.length,
       candidates: c.candidates.length,
       status: c.status
-    }])),
-    statusSamples: ["LA LIBERTAD", "LAMBAYEQUE", "ÁNCASH", "PIURA"].reduce((acc, name) => {
-      acc[name] = Object.fromEntries(Object.entries(cameras).filter(([k]) => !["senado", "senadoTotal"].includes(k)).map(([k, c]) => [k, c.circunscripciones.find((x) => x.name === name)?.status || null]));
-      return acc;
-    }, {})
+    }]))
   }, null, 2)}\n`, "utf8");
 
   console.log(`OK: ${path.relative(rootDir, outFile)}`);
@@ -585,7 +581,7 @@ function mergeSenateAlias(nacional, regional) {
     nationalVotes: aggregateVotes(circunscripciones),
     candidates,
     blankNull: sum(circunscripciones.map((c) => c.blankNull)),
-    status: combineStatusObjects(nacional.status, regional.status),
+    status: combineParallelElectionStatuses(nacional.status, regional.status),
     allocations: {
       noBarrier: [],
       barrier: [
@@ -593,6 +589,25 @@ function mergeSenateAlias(nacional, regional) {
         ...(regional.allocations?.barrier || [])
       ]
     }
+  };
+}
+
+function combineParallelElectionStatuses(...items) {
+  const rows = items.filter((item) => item && number(item.total) > 0);
+  if (!rows.length) return combineStatusObjects(...items);
+  const total = Math.max(...rows.map((row) => number(row.total)));
+  const percent = rows.reduce((sum, row) => sum + number(row.percent), 0) / rows.length;
+  const processed = Math.round((percent / 100) * total);
+  const jee = Math.round(rows.reduce((sum, row) => sum + number(row.jee), 0) / rows.length);
+  const pending = Math.round(rows.reduce((sum, row) => sum + number(row.pending), 0) / rows.length);
+  return {
+    percent: Number(percent.toFixed(3)),
+    processed,
+    total,
+    jee,
+    pending,
+    blankNull: sum(rows.map((row) => row.blankNull)),
+    updated: latestDate(...rows.map((row) => row.updated))
   };
 }
 
@@ -770,7 +785,13 @@ function statusFromScrutiny(scrutiny) {
 }
 
 function combineStatusObjects(...items) {
-  const rows = items.filter(Boolean);
+  const rows = items.filter((item) => item && (
+    number(item.total) > 0
+    || number(item.processed) > 0
+    || number(item.jee) > 0
+    || number(item.pending) > 0
+    || number(item.percent) > 0
+  ));
   if (!rows.length) return { percent: null, processed: null, total: null, jee: null, pending: null, blankNull: 0 };
   const processed = sum(rows.map((r) => r.processed));
   const total = sum(rows.map((r) => r.total));
@@ -822,7 +843,8 @@ async function mainDecideLive({ enrich }) {
     source: dipSeats,
     metadata: dipSeats?._metadata,
     elected: dipElected,
-    enrich
+    enrich,
+    fallbackElection: dipSeats?._metadata?.acta_onpe?.eleccion
   });
   cameras.senadoNacional = buildDecideSingleCamera({
     key: "senadoNacional",
@@ -831,7 +853,8 @@ async function mainDecideLive({ enrich }) {
     source: senSeats?.distrito_unico,
     metadata: senSeats?._metadata,
     elected: senElected?.distrito_unico,
-    enrich
+    enrich,
+    fallbackElection: senSeats?._metadata?.acta_onpe?.elecciones?.senadores_unico
   });
   cameras.senadoRegional = buildDecideDistrictCamera({
     key: "senadoRegional",
@@ -841,16 +864,21 @@ async function mainDecideLive({ enrich }) {
     metadata: senSeats?._metadata,
     elected: senElected?.distrito_multiple || {},
     enrich,
-    nested: true
+    nested: true,
+    fallbackElection: senSeats?._metadata?.acta_onpe?.elecciones?.senadores_multiple
   });
   cameras.andino = buildDecideAndinoCamera(andinoSeats, andinoElected, enrich);
+  cameras.diputados.status = decideActaStatus(dipSeats?._metadata?.acta_onpe, "diputados") || cameras.diputados.status;
+  cameras.senadoNacional.status = decideActaStatus(senSeats?._metadata?.acta_onpe, "senadores_unico") || cameras.senadoNacional.status;
+  cameras.senadoRegional.status = decideActaStatus(senSeats?._metadata?.acta_onpe, "senadores_multiple") || cameras.senadoRegional.status;
+  cameras.andino.status = decideActaStatus(andinoSeats?._metadata?.acta_onpe, "parlamento_andino") || cameras.andino.status;
   cameras.senado = mergeSenateAlias(cameras.senadoNacional, cameras.senadoRegional);
   cameras.senadoTotal = cameras.senado;
 
   const payload = {
     year: 2026,
     updatedAt: decideUpdatedAt(manifest, dipSeats?._metadata, senSeats?._metadata, andinoSeats?._metadata),
-    status: decideNationalStatus(dipSeats?._metadata?.acta_onpe?.eleccion) || combineStatusObjects(cameras.diputados.status, cameras.senado.status, cameras.andino.status),
+    status: decideActaStatus(dipSeats?._metadata?.acta_onpe, "diputados") || combineStatusObjects(cameras.diputados.status, cameras.senado.status, cameras.andino.status),
     camaras: cameras,
     sourceMode: "generated-decideperu-live-v1",
     sourceNotes: [
@@ -890,10 +918,11 @@ async function fetchDecideJson(pathname) {
   return response.json();
 }
 
-function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, nested = false, metadata = null }) {
+function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, nested = false, metadata = null, fallbackElection = null }) {
   const entries = Object.entries(source || {}).filter(([districtKey]) => districtKey !== "_metadata");
   const meta = metadata || source?._metadata || null;
-  const circunscripciones = entries.map(([districtKey, row]) => decideCircFromRow(districtKey, row, meta)).filter((c) => c.name && c.votes.length);
+  const effectiveFallback = fallbackElection || meta?.acta_onpe?.eleccion || null;
+  const circunscripciones = entries.map(([districtKey, row]) => decideCircFromRow(districtKey, row, meta, effectiveFallback)).filter((c) => c.name && c.votes.length);
   const candidates = mergeCandidateLists(
     decideCandidatesFromElected(elected, key, enrich),
     circunscripciones.flatMap((circ) => decideCandidatesFromParties((nested ? source[decideKeyForName(circ.name)] : source[decideKeyForName(circ.name)])?.partidos, key, circ.name, enrich))
@@ -915,8 +944,9 @@ function buildDecideDistrictCamera({ key, name, seats, source, elected, enrich, 
   };
 }
 
-function buildDecideSingleCamera({ key, name, seats, source, metadata, elected, enrich }) {
-  const circ = decideCircFromRow("NACIONAL", { ...source, total_escanos: seats }, metadata);
+function buildDecideSingleCamera({ key, name, seats, source, metadata, elected, enrich, fallbackElection = null }) {
+  const effectiveFallback = fallbackElection || metadata?.acta_onpe?.eleccion || null;
+  const circ = decideCircFromRow("NACIONAL", { ...source, total_escanos: seats }, metadata, effectiveFallback);
   return {
     name,
     seats,
@@ -936,12 +966,13 @@ function buildDecideAndinoCamera(source, elected, enrich) {
     const party = canonicalParty(partyName);
     return { party: party.name, votes: number(row?.votos) };
   }).filter((v) => v.party && v.votes > 0);
+  const andinoEleccion = source?._metadata?.acta_onpe?.eleccion;
   const circ = {
     name: "NACIONAL",
     seats: 5,
     blankNull: 0,
     votes,
-    status: decideNationalStatus(source?._metadata?.acta_onpe?.eleccion),
+    status: decideNationalStatus(andinoEleccion),
     allocations: Object.entries(source || {}).filter(([key]) => key !== "_metadata").map(([partyName, row]) => ({
       circunscripcion: "NACIONAL",
       party: canonicalParty(partyName).name,
@@ -966,7 +997,7 @@ function buildDecideAndinoCamera(source, elected, enrich) {
   };
 }
 
-function decideCircFromRow(districtKey, row, metadata = null) {
+function decideCircFromRow(districtKey, row, metadata = null, fallbackElection = null) {
   const name = decideDistrictName(districtKey);
   const participation = decideParticipationForDistrict(row, metadata, districtKey, name);
   const votes = Object.entries(row?.partidos || {}).map(([partyName, partyRow]) => {
@@ -975,12 +1006,14 @@ function decideCircFromRow(districtKey, row, metadata = null) {
   }).filter((v) => v.party && v.votes > 0).sort((a, b) => b.votes - a.votes);
   const blankNull = numberFromKeys(participation, ["votos_blancos", "votosBlancos", "blancos", "blank_votes"])
     + numberFromKeys(participation, ["votos_nulos", "votosNulos", "nulos", "null_votes"]);
+  const effectiveFallback = fallbackElection || metadata?.acta_onpe?.eleccion || null;
   return {
     name,
     seats: number(row?.total_escanos ?? row?.escanos ?? row?.escanos_cuadro_jne),
+    validVotes: number(row?.total_votos_validos ?? row?.total_votos),
     blankNull,
     votes,
-    status: statusFromDecideParticipation(participation, metadata?.acta_onpe?.eleccion),
+    status: statusFromDecideParticipation(participation, effectiveFallback),
     allocations: Object.entries(row?.partidos || {}).map(([partyName, partyRow]) => ({
       circunscripcion: name,
       party: canonicalParty(partyName).name,
@@ -1025,8 +1058,8 @@ function decideCandidate(row, key, circName, partyName, enrich) {
     partyShort: party.short,
     circunscripcion: key === "senadoNacional" || key === "andino" ? "NACIONAL" : circName,
     dni: cleanDocument(row?.dni || row?.DNI || old.dni),
-    votosPref: number(row?.TOTAL_VOTOS ?? row?.votos_preferenciales ?? row?.votos ?? row?.votosPref),
-    posicion: positiveOrNull(row?.NUMLISTA ?? row?.numlista ?? row?.posicion),
+    votosPref: number(row?.TOTAL_VOTOS ?? row?.votos_preferenciales ?? row?.votos ?? row?.votosPref) || number(old.votosPref),
+    posicion: positiveOrNull(row?.NUMLISTA ?? row?.numlista ?? row?.posicion) || positiveOrNull(old.posicion),
     edad: old.edad || null,
     imageUrl: old.imageUrl || row?.imageUrl || row?.fotoUrl || "",
     idHojaVida: positiveOrNull(old.idHojaVida),
@@ -1037,19 +1070,19 @@ function decideCandidate(row, key, circName, partyName, enrich) {
 
 function statusFromDecideParticipation(participation, fallbackElection) {
   const source = participation || {};
-  const total = numberFromKeys(source, [
+  let total = numberFromKeys(source, [
     "total_actas", "totalActas", "actas_total", "actasTotal", "actas", "total"
   ]);
-  const processed = numberFromKeys(source, [
+  let processed = numberFromKeys(source, [
     "actas_contabilizadas", "actasContabilizadas", "contabilizadas", "procesadas", "processed"
   ]);
-  const jee = numberFromKeys(source, [
+  let jee = numberFromKeys(source, [
     "actas_enviadas_jee", "actasEnviadasJee", "para_envio_jEE", "para_envio_jee", "actas_para_envio_jee", "jee"
   ]);
-  const explicitPending = numberFromKeys(source, [
-    "actas_pendientes_jee", "actasPendientesJee", "pendientes", "pendientes_jee", "actas_pendientes", "pending"
+  let explicitPending = numberFromKeys(source, [
+    "actas_pendientes_jee", "actasPendientesJee", "pendientes", "pending"
   ]);
-  const percent = numberFromKeys(source, [
+  let percent = numberFromKeys(source, [
     "pct_actas_contabilizadas", "actas_contabilizadas_pct", "porcentaje_actas_contabilizadas",
     "porcentaje", "percent", "percentage"
   ]);
@@ -1057,9 +1090,27 @@ function statusFromDecideParticipation(participation, fallbackElection) {
     + numberFromKeys(source, ["votos_nulos", "votosNulos", "nulos", "null_votes"]);
   const updated = firstTruthyFromKeys(source, [
     "fecha_actualizacion_onpe", "fechaActualizacionOnpe", "updated_at", "updatedAt", "fecha_actualizacion"
-  ]) || fallbackElection?.fecha_actualizacion_onpe || null;
+  ]) || firstTruthyFromKeys(fallbackElection || {}, ["fecha_actualizacion_onpe", "fechaActualizacionOnpe", "updated_at"]) || null;
 
   if (!total || !processed) {
+    // Decide Perú no desglosa actas por circunscripción; usar datos nacionales de la cámara como referencia
+    if (fallbackElection) {
+      const fbTotal = numberFromKeys(fallbackElection, ["total_actas", "totalActas", "total"]);
+      const fbProcessed = numberFromKeys(fallbackElection, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas"]);
+      if (fbTotal && fbProcessed) {
+        return {
+          percent: numberFromKeys(fallbackElection, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje"])
+            || Number(((fbProcessed / fbTotal) * 100).toFixed(3)),
+          processed: fbProcessed,
+          total: fbTotal,
+          jee: numberFromKeys(fallbackElection, ["actas_enviadas_jee", "actasEnviadasJee", "jee"]) || null,
+          pending: numberFromKeys(fallbackElection, ["actas_pendientes_jee", "actasPendientesJee", "pendientes"]) || null,
+          blankNull,
+          updated,
+          nationalFallback: true
+        };
+      }
+    }
     return { percent: percent || null, processed: processed || null, total: total || null, jee: jee || null, pending: explicitPending || null, blankNull, updated };
   }
 
@@ -1076,6 +1127,24 @@ function statusFromDecideParticipation(participation, fallbackElection) {
 }
 
 function decideParticipationForDistrict(row, metadata, districtKey, districtName) {
+  const direct = row?.participacion_territorio
+    || row?.participacion
+    || row?.participation
+    || row?.actas
+    || row?.acta_onpe?.territorio
+    || row?._metadata?.acta_onpe?.territorio;
+  if (direct && typeof direct === "object" && Object.keys(direct).length) return direct;
+
+  const acta = metadata?.acta_onpe || metadata?.actas_onpe || {};
+  const candidates = [
+    acta?.territorio,
+    acta?.territorios,
+    acta?.circunscripciones,
+    acta?.distritos,
+    acta?.departamentos,
+    acta?.detalle_territorial
+  ].filter(Boolean);
+
   const keys = [
     districtKey,
     decideKeyForName(districtName),
@@ -1085,157 +1154,26 @@ function decideParticipationForDistrict(row, metadata, districtKey, districtName
     String(districtKey || "").toUpperCase()
   ].filter(Boolean);
 
-  // Importante: primero se revisan las tablas globales de actas que vienen en
-  // _metadata. En algunos cortes Decide/Dapper trae votos actualizados por
-  // distrito, pero deja un bloque `participacion_territorio` antiguo dentro
-  // del row. Si se lee primero ese bloque, La Libertad, Lambayeque, etc.
-  // quedan con actas del 22/23 de mayo aunque los votos estén al día.
-  const metadataActas = [
-    metadata?.acta_onpe,
-    metadata?.actas_onpe,
-    row?._metadata?.acta_onpe,
-    row?._metadata?.actas_onpe
-  ].filter(Boolean);
-
-  const globalTables = [];
-  for (const acta of metadataActas) {
-    globalTables.push(
-      acta?.territorio,
-      acta?.territorios,
-      acta?.circunscripciones,
-      acta?.distritos,
-      acta?.departamentos,
-      acta?.detalle_territorial,
-      acta
-    );
+  for (const table of candidates) {
+    const found = lookupTerritorialStatus(table, keys, districtName);
+    if (found) return found;
   }
 
-  const directTables = [
-    row?.participacion_territorio,
-    row?.participacion,
-    row?.participation,
-    row?.actas,
-    row?.acta_onpe?.territorio,
-    row?.acta_onpe,
-    row
-  ];
-
-  const found = [];
-  for (const table of [...globalTables, ...directTables].filter(Boolean)) {
-    const hit = lookupTerritorialStatus(table, keys, districtName);
-    if (hit && looksLikeStatus(hit)) found.push(hit);
-    else if (looksLikeStatus(table) && sameTerritoryLabel(table, keys, districtName)) found.push(table);
-  }
-
-  const recursive = recursiveTerritorialStatus({ metadata, row }, keys, districtName);
-  if (recursive) found.push(recursive);
-
-  return freshestStatus(found) || {};
-}
-
-function sameTerritoryLabel(item, keys, districtName) {
-  if (!item || typeof item !== "object") return false;
-  const label = item.name || item.nombre || item.region || item.departamento || item.circunscripcion || item.territorio || item.distrito || item.ubigeo || item.cod_ubigeo || item.codigo;
-  if (!label) return false;
-  const n = normalize(label);
-  return keys.some((key) => normalize(key) === n) || n === normalize(districtName);
-}
-
-function freshestStatus(items) {
-  const rows = (items || []).filter(Boolean);
-  if (!rows.length) return null;
-  return rows.sort((a, b) => {
-    const da = dateScoreFromStatus(a);
-    const db = dateScoreFromStatus(b);
-    if (db !== da) return db - da;
-    const pa = numberFromKeys(a, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "procesadas", "processed"]);
-    const pb = numberFromKeys(b, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "procesadas", "processed"]);
-    if (pb !== pa) return pb - pa;
-    const ta = numberFromKeys(a, ["total_actas", "totalActas", "actas_total", "actasTotal", "actas", "total"]);
-    const tb = numberFromKeys(b, ["total_actas", "totalActas", "actas_total", "actasTotal", "actas", "total"]);
-    return tb - ta;
-  })[0];
-}
-
-function dateScoreFromStatus(item) {
-  const raw = firstTruthyFromKeys(item || {}, [
-    "fecha_actualizacion_onpe",
-    "fechaActualizacionOnpe",
-    "updated_at",
-    "updatedAt",
-    "fecha_actualizacion",
-    "fechaActualizacion"
-  ]);
-  const d = parseSourceDate(raw);
-  return d ? d.getTime() : 0;
-}
-
-function parseSourceDate(value) {
-  if (!value) return null;
-  if (value instanceof Date && Number.isFinite(value.getTime())) return value;
-  let text = String(value).trim();
-  if (!text) return null;
-  // Decide/ONPE suele enviar ISO sin zona. Se interpreta como UTC para que
-  // 2026-05-26T22:00:09 se muestre 17:00:09 en Perú, no 22:00:09 local.
-  if (/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(text)) text += "Z";
-  const d = new Date(text);
-  return Number.isFinite(d.getTime()) ? d : null;
-}
-
-function looksLikeStatus(obj) {
-  if (!obj || typeof obj !== "object") return false;
-  const joined = Object.keys(obj).join(" ").toLowerCase();
-  return /(actas|contabiliz|pendient|processed|total)/.test(joined);
-}
-
-function recursiveTerritorialStatus(root, keys, districtName) {
-  const seen = new Set();
-  const wanted = new Set(keys.map((k) => normalize(k)));
-  wanted.add(normalize(districtName));
-  const stack = [root];
-  while (stack.length) {
-    const item = stack.pop();
-    if (!item || typeof item !== "object" || seen.has(item)) continue;
-    seen.add(item);
-
-    const label = item.name || item.nombre || item.region || item.departamento || item.circunscripcion || item.territorio || item.distrito || item.ubigeo || item.cod_ubigeo || item.codigo;
-    if (label && wanted.has(normalize(label)) && looksLikeStatus(item)) return item;
-
-    if (!Array.isArray(item)) {
-      for (const [key, value] of Object.entries(item)) {
-        if (wanted.has(normalize(key)) && value && typeof value === "object") {
-          if (looksLikeStatus(value)) return value;
-          const nested = recursiveTerritorialStatus(value, keys, districtName);
-          if (nested) return nested;
-        }
-      }
-    }
-
-    for (const value of Object.values(item)) {
-      if (value && typeof value === "object") stack.push(value);
-    }
-  }
-  return null;
+  return {};
 }
 
 function lookupTerritorialStatus(table, keys, districtName) {
   if (Array.isArray(table)) {
-    return freshestStatus(table.filter((item) => {
-      const label = item?.name || item?.nombre || item?.region || item?.departamento || item?.circunscripcion || item?.territorio || item?.distrito || item?.ubigeo || item?.cod_ubigeo || item?.codigo;
+    return table.find((item) => {
+      const label = item?.name || item?.nombre || item?.region || item?.departamento || item?.circunscripcion || item?.territorio || item?.ubigeo;
       return keys.some((key) => normalize(label) === normalize(key)) || normalize(label) === normalize(districtName);
-    })) || null;
+    }) || null;
   }
   if (table && typeof table === "object") {
     for (const key of keys) {
       if (table[key]) return table[key];
       const alt = Object.entries(table).find(([k]) => normalize(k) === normalize(key));
       if (alt) return alt[1];
-    }
-    // Algunos objetos vienen como { rows: [...] } o { data: [...] }.
-    for (const nestedKey of ["rows", "data", "items", "results", "detalle"]) {
-      const nested = table[nestedKey];
-      const found = lookupTerritorialStatus(nested, keys, districtName);
-      if (found) return found;
     }
   }
   return null;
@@ -1258,13 +1196,25 @@ function firstTruthyFromKeys(obj, keys) {
   return null;
 }
 
+function decideActaStatus(acta, preferredKey = "") {
+  if (!acta) return null;
+  if (acta.eleccion) return decideNationalStatus(acta.eleccion);
+  const elections = acta.elecciones;
+  if (elections && typeof elections === "object") {
+    const preferred = preferredKey ? elections[preferredKey] : null;
+    if (preferred) return decideNationalStatus(preferred);
+    return combineStatusObjects(...Object.values(elections).map((item) => decideNationalStatus(item)));
+  }
+  return decideNationalStatus(acta);
+}
+
 function decideNationalStatus(election) {
   if (!election) return null;
-  const total = numberFromKeys(election, ["total_actas", "totalActas", "actas_total", "actasTotal", "total", "totalActasEleccion"]);
-  const processed = numberFromKeys(election, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "actas_contabilizadas_num", "processed"]);
-  const jee = numberFromKeys(election, ["actas_enviadas_jee", "actasEnviadasJee", "para_envio_jEE", "para_envio_jee", "actas_para_envio_jee", "jee"]);
-  const pending = numberFromKeys(election, ["actas_pendientes_jee", "actasPendientesJee", "pendientes", "pendientes_jee", "actas_pendientes", "pending"]);
-  const percent = numberFromKeys(election, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje", "porcentaje_actas_contabilizadas", "percent"]);
+  const total = numberFromKeys(election, ["total_actas", "totalActas", "actas_total", "actasTotal", "total"]);
+  const processed = numberFromKeys(election, ["actas_contabilizadas", "actasContabilizadas", "contabilizadas", "processed"]);
+  const jee = numberFromKeys(election, ["actas_enviadas_jee", "actasEnviadasJee", "jee"]);
+  const pending = numberFromKeys(election, ["actas_pendientes_jee", "actasPendientesJee", "pendientes", "pending"]);
+  const percent = numberFromKeys(election, ["actas_contabilizadas_pct", "pct_actas_contabilizadas", "porcentaje", "percent"]);
   const emitted = numberFromKeys(election, ["total_votos_emitidos", "totalVotosEmitidos", "emitidos"]);
   const valid = numberFromKeys(election, ["total_votos_validos", "totalVotosValidos", "validos"]);
   return {

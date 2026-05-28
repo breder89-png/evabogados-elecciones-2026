@@ -1051,14 +1051,14 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       return out;
     }
     function combineStatusObjects(...items){
-      const valid=items.filter(s=>s&&(s.processed!=null||s.total!=null||s.jee!=null||s.pending!=null));
+      const valid=items.filter(s=>s&&(numeric(s.total)>0||numeric(s.processed)>0||numeric(s.percent)>0));
       if(!valid.length)return null;
       const processed=valid.reduce((sum,s)=>sum+numeric(s.processed),0);
       const total=valid.reduce((sum,s)=>sum+numeric(s.total),0);
       const jee=valid.reduce((sum,s)=>sum+numeric(s.jee),0);
       const pending=valid.reduce((sum,s)=>sum+numeric(s.pending),0);
       const blankNull=valid.reduce((sum,s)=>sum+numeric(s.blankNull),0);
-      const updated=Math.max(...valid.map(s=>numeric(s.updated)).filter(Boolean),0);
+      const updated=valid.map(s=>s.updated).filter(Boolean).sort().pop()||null;
       return {percent:total?Number(((processed/total)*100).toFixed(3)):null,processed:processed||null,total:total||null,jee,pending,blankNull,updated};
     }
     function mergeSenateTotal(){
