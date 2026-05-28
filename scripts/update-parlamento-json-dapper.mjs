@@ -824,6 +824,41 @@ function blankNullFromScrutiny(scrutiny) {
   return Math.max(0, number(scrutiny?.totalVotesEmitted) - number(scrutiny?.totalVotesValid));
 }
 
+async function buildJneEnrichmentForDecide(enrich) {
+  const byDni = new Map();
+  const byKey = new Map();
+  let token = "";
+  try {
+    token = await fetchJneToken();
+  } catch (error) {
+    console.warn(`Aviso: no se pudo obtener token JNE para fotos: ${error.message}`);
+    enrich.jneByDni = byDni;
+    enrich.jneByKey = byKey;
+    return;
+  }
+  const targets = [
+    ...Array.from(JNE_UBIGEO_BY_DISTRICT.entries())
+      .filter(([name]) => name !== "NACIONAL")
+      .map(([circ, ubigeo]) => ({ idTipoEleccion: JNE_ELECTION.diputados, strUbiDepartamento: ubigeo, circunscripcion: circ })),
+    { idTipoEleccion: JNE_ELECTION.senadoNacional, strUbiDepartamento: "", circunscripcion: "NACIONAL" },
+    ...Array.from(JNE_UBIGEO_BY_DISTRICT.entries())
+      .filter(([name, ubigeo]) => name !== "NACIONAL" && ubigeo)
+      .map(([circ, ubigeo]) => ({ idTipoEleccion: JNE_ELECTION.senadoRegional, strUbiDepartamento: ubigeo, circunscripcion: circ })),
+    { idTipoEleccion: JNE_ELECTION.andino, strUbiDepartamento: "", circunscripcion: "NACIONAL" }
+  ];
+  for (const target of targets) {
+    try {
+      const rows = await fetchJneCandidates(target, token);
+      for (const row of rows || []) addJneCandidate(row, target.circunscripcion, byDni, byKey);
+    } catch {
+      // non-fatal: missing photos for one district
+    }
+  }
+  enrich.jneByDni = byDni;
+  enrich.jneByKey = byKey;
+  console.log(`JNE enriquecimiento: ${byDni.size} por DNI, ${byKey.size} por clave`);
+}
+
 async function mainDecideLive({ enrich }) {
   const manifest = await fetchDecideJson("publish/_current.json");
   const [dipSeats, dipElected, senSeats, senElected, andinoSeats, andinoElected] = await Promise.all([
@@ -834,6 +869,8 @@ async function mainDecideLive({ enrich }) {
     fetchDecideJson(manifest.parlamento_andino_escanos),
     fetchDecideJson(manifest.parlamento_andino_electos)
   ]);
+
+  await buildJneEnrichmentForDecide(enrich);
 
   const cameras = {};
   cameras.diputados = buildDecideDistrictCamera({
@@ -1053,17 +1090,21 @@ function decideCandidate(row, key, circName, partyName, enrich) {
   const party = canonicalParty(partyName || row?.PARTIDO || row?.partido || row?.organizacion_politica);
   const name = properName(row?.CANDIDATO || row?.candidato || row?.nombre || row?.nombre_completo || row?.nombreCompleto);
   const old = enrich.candidates.get(candidateKey({ name, party: party.name, circunscripcion: circName })) || {};
+  const dni = cleanDocument(row?.dni || row?.DNI || old.dni);
+  const jne = (dni && enrich.jneByDni?.get(dni))
+    || enrich.jneByKey?.get(candidateKey({ name, party: party.name, circunscripcion: circName }))
+    || {};
   return {
     name,
     party: party.name,
     partyShort: party.short,
     circunscripcion: key === "senadoNacional" || key === "andino" ? "NACIONAL" : circName,
-    dni: cleanDocument(row?.dni || row?.DNI || old.dni),
+    dni: dni || jne.dni || "",
     votosPref: number(row?.TOTAL_VOTOS ?? row?.votos_preferenciales ?? row?.votos ?? row?.votosPref) || number(old.votosPref),
     posicion: positiveOrNull(row?.NUMLISTA ?? row?.numlista ?? row?.posicion) || positiveOrNull(old.posicion),
     edad: old.edad || null,
-    imageUrl: old.imageUrl || row?.imageUrl || row?.fotoUrl || "",
-    idHojaVida: positiveOrNull(old.idHojaVida),
+    imageUrl: old.imageUrl || jne.imageUrl || row?.imageUrl || row?.fotoUrl || "",
+    idHojaVida: positiveOrNull(old.idHojaVida) || positiveOrNull(jne.idHojaVida) || null,
     tipoCandidatura: key === "senadoNacional" ? "Senado nacional" : key === "senadoRegional" ? "Senado regional" : key === "andino" ? "Parlamento Andino" : "Diputados",
     senateBlock: key === "senadoNacional" ? "Nacional" : key === "senadoRegional" ? "Regional" : undefined
   };
