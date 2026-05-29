@@ -1002,6 +1002,46 @@ async function mainDecideLive({ enrich }) {
     console.warn(`[ONPE] Error al enriquecer senadoRegional: ${err.message}`);
   }
 
+  // Overlay ONPE per-district all-party votes and actas for diputados.
+  // The Decide Perú CDN omits parties that won no seats (e.g. PPT in ÁNCASH).
+  // Falls back to static snapshot if the live ONPE API is unreachable.
+  try {
+    let onpeDip = await fetchOnpeDiputadosAll();
+    let onpeDipSource = "live";
+    if (onpeDip.length === 0) {
+      console.log("[ONPE] API diputados live no disponible, cargando snapshot estático...");
+      onpeDip = await loadOnpeDiputadosSnapshot();
+      onpeDipSource = "snapshot";
+    }
+    if (onpeDip.length > 0) {
+      const byName = new Map(onpeDip.map(d => [normalize(d.nombre), d]));
+      let enriched = 0;
+      for (const circ of cameras.diputados.circunscripciones) {
+        const onpe = byName.get(normalize(circ.name));
+        if (!onpe) continue;
+        // Replace CDN votes (may be incomplete) with full ONPE party breakdown
+        if (onpe.votes && onpe.votes.length > 1) {
+          circ.votes = onpe.votes;
+          enriched++;
+        }
+        // Set per-circuit actas from ONPE (CDN does not provide per-district actas for diputados)
+        if (onpe.status && onpe.status.total) {
+          circ.status = onpe.status;
+        }
+      }
+      // Rebuild nationalVotes for diputados now that all circuits have full vote data
+      cameras.diputados.nationalVotes = aggregateVotes(cameras.diputados.circunscripciones);
+      // Rebuild parties aggregate from updated circuit votes
+      cameras.diputados.parties = buildParties(
+        [...cameras.diputados.circunscripciones.flatMap(c => c.votes), ...candidatePartyVotes(cameras.diputados.candidates)],
+        enrich
+      );
+      console.log(`[ONPE] Diputados: ${enriched}/${cameras.diputados.circunscripciones.length} circunscripciones enriquecidas (${onpeDip.length} distritos, fuente: ${onpeDipSource}).`);
+    }
+  } catch (err) {
+    console.warn(`[ONPE] Error al enriquecer diputados: ${err.message}`);
+  }
+
   cameras.senado = mergeSenateAlias(cameras.senadoNacional, cameras.senadoRegional);
   cameras.senadoTotal = cameras.senado;
 
@@ -1047,8 +1087,13 @@ async function fetchOnpeJson(path) {
     const res = await fetch(url, {
       headers: {
         "Accept": "application/json,text/plain,*/*",
-        "Referer": "https://resultadoelectoral.onpe.gob.pe/",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+        "Referer": "https://resultadoelectoral.onpe.gob.pe/main/diputados",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
+        // sec-fetch-* headers are required: CloudFront uses them to distinguish
+        // browser same-origin requests (→ JSON) from external Node.js/bot requests (→ cached HTML).
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin"
       },
       signal: AbortSignal.timeout(12000)
     });
@@ -1083,6 +1128,8 @@ async function fetchOnpeSenRegionalAll() {
         processed: totales.contabilizadas || null,
         total: totales.totalActas || null,
         percent: totales.actasContabilizadas || null,
+        jee: totales.enviadasJee ?? null,
+        pending: totales.pendientesJee ?? null,
         updated: totales.fechaActualizacion
           ? new Date(Number(totales.fechaActualizacion)).toISOString()
           : null,
@@ -1092,6 +1139,54 @@ async function fetchOnpeSenRegionalAll() {
     })
   );
   return results.filter(Boolean);
+}
+
+async function fetchOnpeDiputadosAll() {
+  // Fetches all-party votes + actas for each diputados district from ONPE.
+  // Uses the diputados-specific endpoint (eleccion-diputado/participantes-ubicacion-geografica-nombre)
+  // which returns all parties including those without seats (e.g. PPT in ÁNCASH).
+  const entries = [...DISTRICT_NAME.entries()];
+  const results = await Promise.all(
+    entries.map(async ([codigo, nombre]) => {
+      const [participantes, totales] = await Promise.all([
+        fetchOnpeJson(`/eleccion-diputado/participantes-ubicacion-geografica-nombre?idEleccion=${ONPE_ELECTION_ID.diputados}&tipoFiltro=distrito_electoral&idDistritoElectoral=${codigo}`),
+        fetchOnpeJson(`/resumen-general/totales?idEleccion=${ONPE_ELECTION_ID.diputados}&tipoFiltro=distrito_electoral&idDistritoElectoral=${codigo}`)
+      ]);
+      if (!Array.isArray(participantes) || participantes.length === 0) return null;
+      const votes = participantes
+        .filter(p => (p.idAgrupacionPolitica || 0) < 80) // exclude votos nulos (81) / en blanco (80)
+        .map(p => ({ party: canonicalParty(p.nombreAgrupacionPolitica).name, votes: number(p.totalVotosValidos) }))
+        .filter(v => v.party && v.votes > 0)
+        .sort((a, b) => b.votes - a.votes);
+      const status = totales ? {
+        processed: totales.contabilizadas || null,
+        total: totales.totalActas || null,
+        percent: totales.actasContabilizadas || null,
+        jee: totales.enviadasJee ?? null,
+        pending: totales.pendientesJee ?? null,
+        updated: totales.fechaActualizacion
+          ? new Date(Number(totales.fechaActualizacion)).toISOString()
+          : null,
+        nationalFallback: false
+      } : null;
+      return { nombre, codigo, votes, status };
+    })
+  );
+  return results.filter(Boolean);
+}
+
+function buildOnpeStatusFromSnapshot(t) {
+  // Converts raw snapshot totales object to the status shape used by circ.status
+  if (!t) return null;
+  return {
+    processed: t.contabilizadas || null,
+    total: t.totalActas || null,
+    percent: t.actasContabilizadas || null,
+    jee: t.enviadasJee ?? null,
+    pending: t.pendientesJee ?? null,
+    updated: t.fechaActualizacion ? new Date(Number(t.fechaActualizacion)).toISOString() : null,
+    nationalFallback: false
+  };
 }
 
 async function loadOnpeSnapshot() {
@@ -1107,18 +1202,33 @@ async function loadOnpeSnapshot() {
         .map(([, nombre, votos]) => ({ party: canonicalParty(nombre).name, votes: number(votos) }))
         .filter(v => v.party && v.votes > 0)
         .sort((a, b) => b.votes - a.votes);
-      const t = d.totales;
-      const status = t ? {
-        processed: t.contabilizadas || null,
-        total: t.totalActas || null,
-        percent: t.actasContabilizadas || null,
-        updated: t.fechaActualizacion ? new Date(Number(t.fechaActualizacion)).toISOString() : null,
-        nationalFallback: false
-      } : null;
+      const status = buildOnpeStatusFromSnapshot(d.totales);
       return { nombre: d.nombre, codigo: d.codigo, votes, status };
     }).filter(d => d.votes.length > 0);
   } catch (err) {
     console.warn(`[ONPE] Snapshot load failed: ${err.message}`);
+    return [];
+  }
+}
+
+async function loadOnpeDiputadosSnapshot() {
+  // Reads the static browser-captured diputados snapshot as fallback.
+  // Format: same as senado regional snapshot but idEleccion:13
+  try {
+    const snapshotFile = path.join(dataDir, "onpe-diputados-snapshot.json");
+    const raw = await readFile(snapshotFile, "utf-8");
+    const snap = JSON.parse(raw);
+    if (!Array.isArray(snap.districts)) return [];
+    return snap.districts.map(d => {
+      const votes = (d.parties || [])
+        .map(([, nombre, votos]) => ({ party: canonicalParty(nombre).name, votes: number(votos) }))
+        .filter(v => v.party && v.votes > 0)
+        .sort((a, b) => b.votes - a.votes);
+      const status = buildOnpeStatusFromSnapshot(d.totales);
+      return { nombre: d.nombre, codigo: d.codigo, votes, status };
+    }).filter(d => d.votes.length > 0);
+  } catch (err) {
+    console.warn(`[ONPE] Diputados snapshot load failed: ${err.message}`);
     return [];
   }
 }

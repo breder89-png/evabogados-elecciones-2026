@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-05-29T04:59:33.783Z",
-  "source": "ONPE presentacion-backend API (browser fetch)",
+  "generatedAt": "2026-05-29T05:43:51.848Z",
+  "source": "ONPE presentacion-backend (browser fetch)",
   "districts": [
     {
       "codigo": 1,
@@ -141,7 +141,9 @@
         "contabilizadas": 1236,
         "totalActas": 1278,
         "actasContabilizadas": 96.714,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 42,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -323,7 +325,9 @@
         "contabilizadas": 3425,
         "totalActas": 3472,
         "actasContabilizadas": 98.646,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 47,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -495,7 +499,9 @@
         "contabilizadas": 1317,
         "totalActas": 1317,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -667,7 +673,9 @@
         "contabilizadas": 4215,
         "totalActas": 4215,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -814,7 +822,9 @@
         "contabilizadas": 1900,
         "totalActas": 1900,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -971,7 +981,9 @@
         "contabilizadas": 4216,
         "totalActas": 4240,
         "actasContabilizadas": 99.434,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 24,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -1143,7 +1155,9 @@
         "contabilizadas": 2836,
         "totalActas": 2898,
         "actasContabilizadas": 97.861,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 62,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -1315,7 +1329,9 @@
         "contabilizadas": 3961,
         "totalActas": 3983,
         "actasContabilizadas": 99.448,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 22,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -1442,7 +1458,9 @@
         "contabilizadas": 1273,
         "totalActas": 1273,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -1604,7 +1622,9 @@
         "contabilizadas": 2341,
         "totalActas": 2341,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -1781,7 +1801,9 @@
         "contabilizadas": 2419,
         "totalActas": 2443,
         "actasContabilizadas": 99.018,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 24,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -1943,7 +1965,9 @@
         "contabilizadas": 3687,
         "totalActas": 3691,
         "actasContabilizadas": 99.892,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 4,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -2120,7 +2144,9 @@
         "contabilizadas": 5289,
         "totalActas": 5302,
         "actasContabilizadas": 99.755,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 13,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -2302,7 +2328,9 @@
         "contabilizadas": 3589,
         "totalActas": 3590,
         "actasContabilizadas": 99.972,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": 1,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -2494,7 +2522,9 @@
         "contabilizadas": 25733,
         "totalActas": 26368,
         "actasContabilizadas": 97.592,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 634,
+        "pendientesJee": 1,
+        "fechaActualizacion": 1780031706082
       }
     },
     {
@@ -2676,7 +2706,9 @@
         "contabilizadas": 2879,
         "totalActas": 2879,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -2838,7 +2870,9 @@
         "contabilizadas": 2682,
         "totalActas": 2697,
         "actasContabilizadas": 99.444,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 15,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -2975,7 +3009,9 @@
         "contabilizadas": 507,
         "totalActas": 507,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -3132,7 +3168,9 @@
         "contabilizadas": 578,
         "totalActas": 578,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -3264,7 +3302,9 @@
         "contabilizadas": 802,
         "totalActas": 802,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -3436,7 +3476,9 @@
         "contabilizadas": 4993,
         "totalActas": 5281,
         "actasContabilizadas": 94.546,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 287,
+        "pendientesJee": 1,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -3588,7 +3630,9 @@
         "contabilizadas": 3397,
         "totalActas": 3397,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -3735,7 +3779,9 @@
         "contabilizadas": 2500,
         "totalActas": 2534,
         "actasContabilizadas": 98.658,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 33,
+        "pendientesJee": 1,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -3887,7 +3933,9 @@
         "contabilizadas": 1041,
         "totalActas": 1041,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -4054,7 +4102,9 @@
         "contabilizadas": 632,
         "totalActas": 632,
         "actasContabilizadas": 100,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": null,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     },
     {
@@ -4211,7 +4261,9 @@
         "contabilizadas": 1476,
         "totalActas": 1564,
         "actasContabilizadas": 94.373,
-        "fechaActualizacion": 1780029900484
+        "enviadasJee": 88,
+        "pendientesJee": null,
+        "fechaActualizacion": 1780032600466
       }
     }
   ]
