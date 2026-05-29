@@ -3478,136 +3478,16 @@
             {
               "party": "FUERZA POPULAR",
               "votes": 38633
-            },
-            {
-              "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 26177
-            },
-            {
-              "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 24178
-            },
-            {
-              "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 21844
-            },
-            {
-              "party": "AHORA NACIÓN - AN",
-              "votes": 19610
-            },
-            {
-              "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 8852
-            },
-            {
-              "party": "PARTIDO APRISTA PERUANO",
-              "votes": 4738
-            },
-            {
-              "party": "UN CAMINO DIFERENTE",
-              "votes": 3175
-            },
-            {
-              "party": "PARTIDO SÍCREO",
-              "votes": 3103
-            },
-            {
-              "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 3068
-            },
-            {
-              "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 2110
-            },
-            {
-              "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 2018
-            },
-            {
-              "party": "VENCEREMOS",
-              "votes": 1916
-            },
-            {
-              "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 1819
-            },
-            {
-              "party": "PARTIDO MORADO",
-              "votes": 1664
-            },
-            {
-              "party": "PODEMOS PERÚ",
-              "votes": 1623
-            },
-            {
-              "party": "UNIDAD NACIONAL",
-              "votes": 1598
-            },
-            {
-              "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 1458
-            },
-            {
-              "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 1440
-            },
-            {
-              "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 1391
-            },
-            {
-              "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 1343
-            },
-            {
-              "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 1220
-            },
-            {
-              "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 1178
-            },
-            {
-              "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 993
-            },
-            {
-              "party": "PROGRESEMOS",
-              "votes": 877
-            },
-            {
-              "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 818
-            },
-            {
-              "party": "FUERZA Y LIBERTAD",
-              "votes": 544
-            },
-            {
-              "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 444
-            },
-            {
-              "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 437
-            },
-            {
-              "party": "FE EN EL PERÚ",
-              "votes": 362
-            },
-            {
-              "party": "SALVEMOS AL PERÚ",
-              "votes": 273
             }
           ],
           "status": {
-            "processed": 2493,
-            "total": 2543,
-            "percent": 98.034,
-            "jee": 50,
-            "pending": 0,
-            "updated": "2026-05-29T05:30:00.466Z",
-            "nationalFallback": false
+            "percent": null,
+            "processed": null,
+            "total": null,
+            "jee": null,
+            "pending": null,
+            "blankNull": 160759,
+            "updated": "2026-05-29T04:45:00.484000"
           },
           "allocations": [
             {
@@ -4562,79 +4442,79 @@
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1488363
+          "votes": 1462186
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1209646
+          "votes": 1190036
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1183716
+          "votes": 1159538
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 825057
+          "votes": 803213
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 428459
+          "votes": 419607
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 395952
+          "votes": 394494
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 374061
+          "votes": 372438
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 303442
+          "votes": 301424
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 268513
+          "votes": 266403
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 265342
+          "votes": 260604
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 241052
+          "votes": 237949
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 238340
+          "votes": 235272
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 194363
+          "votes": 193545
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 161994
+          "votes": 160651
         },
         {
           "party": "VENCEREMOS",
-          "votes": 160486
+          "votes": 158570
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 136478
+          "votes": 135038
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 132165
+          "votes": 131288
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 128512
+          "votes": 125337
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 118439
+          "votes": 117048
         },
         {
           "party": "LIBERTAD POPULAR",
@@ -4642,39 +4522,39 @@
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 97544
+          "votes": 96324
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 92143
+          "votes": 90324
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 86688
+          "votes": 85024
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 76008
+          "votes": 74830
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 70640
+          "votes": 69042
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 58893
+          "votes": 57900
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 47255
+          "votes": 46711
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 27526
+          "votes": 27089
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 26420
+          "votes": 26058
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
@@ -4682,11 +4562,11 @@
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 20828
+          "votes": 20555
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 20187
+          "votes": 19743
         },
         {
           "party": "PERÚ MODERNO",
@@ -11290,7 +11170,7 @@
             "total": 1278,
             "percent": 96.714,
             "jee": 42,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11450,7 +11330,7 @@
             "total": 3472,
             "percent": 98.646,
             "jee": 47,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11601,8 +11481,8 @@
             "processed": 1317,
             "total": 1317,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11753,8 +11633,8 @@
             "processed": 4215,
             "total": 4215,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11885,8 +11765,8 @@
             "processed": 1900,
             "total": 1900,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12026,7 +11906,7 @@
             "total": 4240,
             "percent": 99.434,
             "jee": 24,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12178,7 +12058,7 @@
             "total": 2898,
             "percent": 97.861,
             "jee": 62,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12330,7 +12210,7 @@
             "total": 3983,
             "percent": 99.448,
             "jee": 22,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12445,8 +12325,8 @@
             "processed": 1273,
             "total": 1273,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12589,8 +12469,8 @@
             "processed": 2341,
             "total": 2341,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12746,7 +12626,7 @@
             "total": 2443,
             "percent": 99.018,
             "jee": 24,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12890,7 +12770,7 @@
             "total": 3691,
             "percent": 99.892,
             "jee": 4,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13046,7 +12926,7 @@
             "total": 5302,
             "percent": 99.755,
             "jee": 13,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13205,7 +13085,7 @@
             "processed": 3589,
             "total": 3590,
             "percent": 99.972,
-            "jee": 0,
+            "jee": null,
             "pending": 1,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
@@ -13375,7 +13255,7 @@
             "percent": 97.592,
             "jee": 634,
             "pending": 1,
-            "updated": "2026-05-29T05:30:00.466Z",
+            "updated": "2026-05-29T05:15:06.082Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13543,8 +13423,8 @@
             "processed": 2879,
             "total": 2879,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13688,7 +13568,7 @@
             "total": 2697,
             "percent": 99.444,
             "jee": 15,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13811,8 +13691,8 @@
             "processed": 507,
             "total": 507,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13951,8 +13831,8 @@
             "processed": 578,
             "total": 578,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14071,8 +13951,8 @@
             "processed": 802,
             "total": 802,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14387,8 +14267,8 @@
             "processed": 3397,
             "total": 3397,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14655,8 +14535,8 @@
             "processed": 1041,
             "total": 1041,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14803,8 +14683,8 @@
             "processed": 632,
             "total": 632,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14944,7 +14824,7 @@
             "total": 1564,
             "percent": 94.373,
             "jee": 88,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16728,7 +16608,7 @@
             "total": 1278,
             "percent": 96.714,
             "jee": 42,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16889,7 +16769,7 @@
             "total": 3472,
             "percent": 98.646,
             "jee": 47,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17041,8 +16921,8 @@
             "processed": 1317,
             "total": 1317,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17194,8 +17074,8 @@
             "processed": 4215,
             "total": 4215,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17327,8 +17207,8 @@
             "processed": 1900,
             "total": 1900,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17469,7 +17349,7 @@
             "total": 4240,
             "percent": 99.434,
             "jee": 24,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17622,7 +17502,7 @@
             "total": 2898,
             "percent": 97.861,
             "jee": 62,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17775,7 +17655,7 @@
             "total": 3983,
             "percent": 99.448,
             "jee": 22,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17891,8 +17771,8 @@
             "processed": 1273,
             "total": 1273,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18036,8 +17916,8 @@
             "processed": 2341,
             "total": 2341,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18194,7 +18074,7 @@
             "total": 2443,
             "percent": 99.018,
             "jee": 24,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18339,7 +18219,7 @@
             "total": 3691,
             "percent": 99.892,
             "jee": 4,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18496,7 +18376,7 @@
             "total": 5302,
             "percent": 99.755,
             "jee": 13,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18656,7 +18536,7 @@
             "processed": 3589,
             "total": 3590,
             "percent": 99.972,
-            "jee": 0,
+            "jee": null,
             "pending": 1,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
@@ -18827,7 +18707,7 @@
             "percent": 97.592,
             "jee": 634,
             "pending": 1,
-            "updated": "2026-05-29T05:30:00.466Z",
+            "updated": "2026-05-29T05:15:06.082Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18996,8 +18876,8 @@
             "processed": 2879,
             "total": 2879,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19142,7 +19022,7 @@
             "total": 2697,
             "percent": 99.444,
             "jee": 15,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19266,8 +19146,8 @@
             "processed": 507,
             "total": 507,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19407,8 +19287,8 @@
             "processed": 578,
             "total": 578,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19528,8 +19408,8 @@
             "processed": 802,
             "total": 802,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19847,8 +19727,8 @@
             "processed": 3397,
             "total": 3397,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -20117,8 +19997,8 @@
             "processed": 1041,
             "total": 1041,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -20266,8 +20146,8 @@
             "processed": 632,
             "total": 632,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -20408,7 +20288,7 @@
             "total": 1564,
             "percent": 94.373,
             "jee": 88,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22323,7 +22203,7 @@
             "total": 1278,
             "percent": 96.714,
             "jee": 42,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22484,7 +22364,7 @@
             "total": 3472,
             "percent": 98.646,
             "jee": 47,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22636,8 +22516,8 @@
             "processed": 1317,
             "total": 1317,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22789,8 +22669,8 @@
             "processed": 4215,
             "total": 4215,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22922,8 +22802,8 @@
             "processed": 1900,
             "total": 1900,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23064,7 +22944,7 @@
             "total": 4240,
             "percent": 99.434,
             "jee": 24,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23217,7 +23097,7 @@
             "total": 2898,
             "percent": 97.861,
             "jee": 62,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23370,7 +23250,7 @@
             "total": 3983,
             "percent": 99.448,
             "jee": 22,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23486,8 +23366,8 @@
             "processed": 1273,
             "total": 1273,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23631,8 +23511,8 @@
             "processed": 2341,
             "total": 2341,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23789,7 +23669,7 @@
             "total": 2443,
             "percent": 99.018,
             "jee": 24,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23934,7 +23814,7 @@
             "total": 3691,
             "percent": 99.892,
             "jee": 4,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24091,7 +23971,7 @@
             "total": 5302,
             "percent": 99.755,
             "jee": 13,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24251,7 +24131,7 @@
             "processed": 3589,
             "total": 3590,
             "percent": 99.972,
-            "jee": 0,
+            "jee": null,
             "pending": 1,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
@@ -24422,7 +24302,7 @@
             "percent": 97.592,
             "jee": 634,
             "pending": 1,
-            "updated": "2026-05-29T05:30:00.466Z",
+            "updated": "2026-05-29T05:15:06.082Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24591,8 +24471,8 @@
             "processed": 2879,
             "total": 2879,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24737,7 +24617,7 @@
             "total": 2697,
             "percent": 99.444,
             "jee": 15,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24861,8 +24741,8 @@
             "processed": 507,
             "total": 507,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -25002,8 +24882,8 @@
             "processed": 578,
             "total": 578,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -25123,8 +25003,8 @@
             "processed": 802,
             "total": 802,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -25442,8 +25322,8 @@
             "processed": 3397,
             "total": 3397,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -25712,8 +25592,8 @@
             "processed": 1041,
             "total": 1041,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -25861,8 +25741,8 @@
             "processed": 632,
             "total": 632,
             "percent": 100,
-            "jee": 0,
-            "pending": 0,
+            "jee": null,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -26003,7 +25883,7 @@
             "total": 1564,
             "percent": 94.373,
             "jee": 88,
-            "pending": 0,
+            "pending": null,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
