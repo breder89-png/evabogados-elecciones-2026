@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "updatedAt": "2026-05-29T04:55:49.277Z",
+  "updatedAt": "2026-05-29T09:45:00.484Z",
   "status": {
     "percent": 98.298,
     "processed": 91187,
@@ -3478,16 +3478,136 @@
             {
               "party": "FUERZA POPULAR",
               "votes": 38633
+            },
+            {
+              "party": "PARTIDO DEL BUEN GOBIERNO",
+              "votes": 26177
+            },
+            {
+              "party": "PARTIDO CÍVICO OBRAS",
+              "votes": 24178
+            },
+            {
+              "party": "PARTIDO PAÍS PARA TODOS",
+              "votes": 21844
+            },
+            {
+              "party": "AHORA NACIÓN - AN",
+              "votes": 19610
+            },
+            {
+              "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+              "votes": 8852
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 4738
+            },
+            {
+              "party": "UN CAMINO DIFERENTE",
+              "votes": 3175
+            },
+            {
+              "party": "PARTIDO SÍCREO",
+              "votes": 3103
+            },
+            {
+              "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+              "votes": 3068
+            },
+            {
+              "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+              "votes": 2110
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+              "votes": 2018
+            },
+            {
+              "party": "VENCEREMOS",
+              "votes": 1916
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+              "votes": 1819
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 1664
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 1623
+            },
+            {
+              "party": "UNIDAD NACIONAL",
+              "votes": 1598
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 1458
+            },
+            {
+              "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+              "votes": 1440
+            },
+            {
+              "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+              "votes": 1391
+            },
+            {
+              "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+              "votes": 1343
+            },
+            {
+              "party": "PARTIDO PATRIÓTICO DEL PERÚ",
+              "votes": 1220
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA VERDE",
+              "votes": 1178
+            },
+            {
+              "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+              "votes": 993
+            },
+            {
+              "party": "PROGRESEMOS",
+              "votes": 877
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+              "votes": 818
+            },
+            {
+              "party": "FUERZA Y LIBERTAD",
+              "votes": 544
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+              "votes": 444
+            },
+            {
+              "party": "PARTIDO POLÍTICO PRIN",
+              "votes": 437
+            },
+            {
+              "party": "FE EN EL PERÚ",
+              "votes": 362
+            },
+            {
+              "party": "SALVEMOS AL PERÚ",
+              "votes": 273
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 160759,
-            "updated": "2026-05-29T04:45:00.484000"
+            "processed": 2493,
+            "total": 2543,
+            "percent": 98.034,
+            "jee": 50,
+            "pending": 0,
+            "updated": "2026-05-29T05:30:00.466Z",
+            "nationalFallback": false
           },
           "allocations": [
             {
@@ -4442,79 +4562,79 @@
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1462186
+          "votes": 1488363
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1190036
+          "votes": 1209646
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1159538
+          "votes": 1183716
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 803213
+          "votes": 825057
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 419607
+          "votes": 428459
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 394494
+          "votes": 395952
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 372438
+          "votes": 374061
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 301424
+          "votes": 303442
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 266403
+          "votes": 268513
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 260604
+          "votes": 265342
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 237949
+          "votes": 241052
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 235272
+          "votes": 238340
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 193545
+          "votes": 194363
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 160651
+          "votes": 161994
         },
         {
           "party": "VENCEREMOS",
-          "votes": 158570
+          "votes": 160486
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 135038
+          "votes": 136478
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 131288
+          "votes": 132165
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 125337
+          "votes": 128512
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 117048
+          "votes": 118439
         },
         {
           "party": "LIBERTAD POPULAR",
@@ -4522,39 +4642,39 @@
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 96324
+          "votes": 97544
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 90324
+          "votes": 92143
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 85024
+          "votes": 86688
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 74830
+          "votes": 76008
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 69042
+          "votes": 70640
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 57900
+          "votes": 58893
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 46711
+          "votes": 47255
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 27089
+          "votes": 27526
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 26058
+          "votes": 26420
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
@@ -4562,11 +4682,11 @@
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 20555
+          "votes": 20828
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 19743
+          "votes": 20187
         },
         {
           "party": "PERÚ MODERNO",
@@ -9862,10 +9982,40 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980"
         },
         {
+          "name": "ALIANZA PARA EL PROGRESO",
+          "short": "AP",
+          "color": "#f97316",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257"
+        },
+        {
+          "name": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "short": "AVP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173"
+        },
+        {
+          "name": "FE EN EL PERÚ",
+          "short": "FE",
+          "color": "#f97316",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2898"
+        },
+        {
+          "name": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+          "short": "FREPAP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901"
+        },
+        {
           "name": "FUERZA POPULAR",
           "short": "FP",
           "color": "#16a34a",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366"
+        },
+        {
+          "name": "FUERZA Y LIBERTAD",
+          "short": "FY",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024"
         },
         {
           "name": "JUNTOS POR EL PERÚ",
@@ -9874,10 +10024,28 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264"
         },
         {
+          "name": "LIBERTAD POPULAR",
+          "short": "LP",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933"
+        },
+        {
+          "name": "PARTIDO APRISTA PERUANO",
+          "short": "PAP",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930"
+        },
+        {
           "name": "PARTIDO CÍVICO OBRAS",
           "short": "CO",
           "color": "#ca8a04",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941"
+        },
+        {
+          "name": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          "short": "PDL",
+          "color": "#1d4ed8",
+          "logo": "/logos/pdl.png"
         },
         {
           "name": "PARTIDO DEL BUEN GOBIERNO",
@@ -9886,10 +10054,136 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961"
         },
         {
+          "name": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          "short": "PDUP",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2867"
+        },
+        {
+          "name": "PARTIDO DEMÓCRATA VERDE",
+          "short": "PDV",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895"
+        },
+        {
+          "name": "PARTIDO DEMOCRÁTICO FEDERAL",
+          "short": "PDF",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2986"
+        },
+        {
+          "name": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "short": "DSP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14"
+        },
+        {
+          "name": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "short": "FE",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857"
+        },
+        {
+          "name": "PARTIDO MORADO",
+          "short": "PM",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840"
+        },
+        {
+          "name": "PARTIDO PAÍS PARA TODOS",
+          "short": "PT",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956"
+        },
+        {
+          "name": "PARTIDO PATRIÓTICO DEL PERÚ",
+          "short": "PPP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869"
+        },
+        {
+          "name": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          "short": "PCP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995"
+        },
+        {
+          "name": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          "short": "PID",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985"
+        },
+        {
+          "name": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          "short": "PL",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          "short": "PEA",
+          "color": "#7c3aed",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2932"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PERÚ PRIMERO",
+          "short": "PP1",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PRIN",
+          "short": "PRIN",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921"
+        },
+        {
+          "name": "PARTIDO SÍCREO",
+          "short": "S",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935"
+        },
+        {
+          "name": "PODEMOS PERÚ",
+          "short": "PP",
+          "color": "#0ea5e9",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2731"
+        },
+        {
+          "name": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          "short": "PG–",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2931"
+        },
+        {
+          "name": "PROGRESEMOS",
+          "short": "PR",
+          "color": "#059669",
+          "logo": "/logos/pr.png"
+        },
+        {
           "name": "RENOVACIÓN POPULAR",
           "short": "RP",
           "color": "#4f46e5",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/22"
+        },
+        {
+          "name": "UN CAMINO DIFERENTE",
+          "short": "UCD",
+          "color": "#7c3aed",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998"
+        },
+        {
+          "name": "UNIDAD NACIONAL",
+          "short": "UN",
+          "color": "#0ea5e9",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023"
+        },
+        {
+          "name": "VENCEREMOS",
+          "short": "V",
+          "color": "#16a34a",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025"
         }
       ],
       "circunscripciones": [
@@ -9922,16 +10216,132 @@
             {
               "party": "AHORA NACIÓN - AN",
               "votes": 1193343
+            },
+            {
+              "party": "PARTIDO PAÍS PARA TODOS",
+              "votes": 841565
+            },
+            {
+              "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+              "votes": 515410
+            },
+            {
+              "party": "PARTIDO SÍCREO",
+              "votes": 398627
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 385595
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 324511
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 249360
+            },
+            {
+              "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+              "votes": 240553
+            },
+            {
+              "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+              "votes": 226868
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+              "votes": 197733
+            },
+            {
+              "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+              "votes": 164078
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+              "votes": 151602
+            },
+            {
+              "party": "PROGRESEMOS",
+              "votes": 143826
+            },
+            {
+              "party": "VENCEREMOS",
+              "votes": 133561
+            },
+            {
+              "party": "UN CAMINO DIFERENTE",
+              "votes": 125606
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+              "votes": 118431
+            },
+            {
+              "party": "PARTIDO PATRIÓTICO DEL PERÚ",
+              "votes": 112720
+            },
+            {
+              "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+              "votes": 110448
+            },
+            {
+              "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+              "votes": 72833
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 71729
+            },
+            {
+              "party": "LIBERTAD POPULAR",
+              "votes": 67591
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA VERDE",
+              "votes": 66659
+            },
+            {
+              "party": "UNIDAD NACIONAL",
+              "votes": 56558
+            },
+            {
+              "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+              "votes": 53692
+            },
+            {
+              "party": "FUERZA Y LIBERTAD",
+              "votes": 32110
+            },
+            {
+              "party": "FE EN EL PERÚ",
+              "votes": 26623
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO FEDERAL",
+              "votes": 21628
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+              "votes": 21261
+            },
+            {
+              "party": "PARTIDO POLÍTICO PRIN",
+              "votes": 20719
+            },
+            {
+              "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+              "votes": 15659
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 0,
-            "updated": "2026-05-29T04:45:00.484000"
+            "processed": 90765,
+            "total": 92766,
+            "percent": 97.843,
+            "jee": 1993,
+            "pending": 8,
+            "updated": "2026-05-29T05:30:00.466Z",
+            "nationalFallback": false
           },
           "allocations": [
             {
@@ -9991,6 +10401,122 @@
         {
           "party": "AHORA NACIÓN - AN",
           "votes": 1193343
+        },
+        {
+          "party": "PARTIDO PAÍS PARA TODOS",
+          "votes": 841565
+        },
+        {
+          "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          "votes": 515410
+        },
+        {
+          "party": "PARTIDO SÍCREO",
+          "votes": 398627
+        },
+        {
+          "party": "ALIANZA PARA EL PROGRESO",
+          "votes": 385595
+        },
+        {
+          "party": "PODEMOS PERÚ",
+          "votes": 324511
+        },
+        {
+          "party": "PARTIDO APRISTA PERUANO",
+          "votes": 249360
+        },
+        {
+          "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "votes": 240553
+        },
+        {
+          "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+          "votes": 226868
+        },
+        {
+          "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "votes": 197733
+        },
+        {
+          "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          "votes": 164078
+        },
+        {
+          "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+          "votes": 151602
+        },
+        {
+          "party": "PROGRESEMOS",
+          "votes": 143826
+        },
+        {
+          "party": "VENCEREMOS",
+          "votes": 133561
+        },
+        {
+          "party": "UN CAMINO DIFERENTE",
+          "votes": 125606
+        },
+        {
+          "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          "votes": 118431
+        },
+        {
+          "party": "PARTIDO PATRIÓTICO DEL PERÚ",
+          "votes": 112720
+        },
+        {
+          "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          "votes": 110448
+        },
+        {
+          "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "votes": 72833
+        },
+        {
+          "party": "PARTIDO MORADO",
+          "votes": 71729
+        },
+        {
+          "party": "LIBERTAD POPULAR",
+          "votes": 67591
+        },
+        {
+          "party": "PARTIDO DEMÓCRATA VERDE",
+          "votes": 66659
+        },
+        {
+          "party": "UNIDAD NACIONAL",
+          "votes": 56558
+        },
+        {
+          "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          "votes": 53692
+        },
+        {
+          "party": "FUERZA Y LIBERTAD",
+          "votes": 32110
+        },
+        {
+          "party": "FE EN EL PERÚ",
+          "votes": 26623
+        },
+        {
+          "party": "PARTIDO DEMOCRÁTICO FEDERAL",
+          "votes": 21628
+        },
+        {
+          "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          "votes": 21261
+        },
+        {
+          "party": "PARTIDO POLÍTICO PRIN",
+          "votes": 20719
+        },
+        {
+          "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          "votes": 15659
         }
       ],
       "candidates": [
@@ -10764,7 +11290,7 @@
             "total": 1278,
             "percent": 96.714,
             "jee": 42,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -10924,7 +11450,7 @@
             "total": 3472,
             "percent": 98.646,
             "jee": 47,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11075,8 +11601,8 @@
             "processed": 1317,
             "total": 1317,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11227,8 +11753,8 @@
             "processed": 4215,
             "total": 4215,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11359,8 +11885,8 @@
             "processed": 1900,
             "total": 1900,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11500,7 +12026,7 @@
             "total": 4240,
             "percent": 99.434,
             "jee": 24,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11652,7 +12178,7 @@
             "total": 2898,
             "percent": 97.861,
             "jee": 62,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11804,7 +12330,7 @@
             "total": 3983,
             "percent": 99.448,
             "jee": 22,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -11919,8 +12445,8 @@
             "processed": 1273,
             "total": 1273,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12063,8 +12589,8 @@
             "processed": 2341,
             "total": 2341,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12220,7 +12746,7 @@
             "total": 2443,
             "percent": 99.018,
             "jee": 24,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12364,7 +12890,7 @@
             "total": 3691,
             "percent": 99.892,
             "jee": 4,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12520,7 +13046,7 @@
             "total": 5302,
             "percent": 99.755,
             "jee": 13,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -12679,7 +13205,7 @@
             "processed": 3589,
             "total": 3590,
             "percent": 99.972,
-            "jee": null,
+            "jee": 0,
             "pending": 1,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
@@ -12849,7 +13375,7 @@
             "percent": 97.592,
             "jee": 634,
             "pending": 1,
-            "updated": "2026-05-29T05:15:06.082Z",
+            "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13017,8 +13543,8 @@
             "processed": 2879,
             "total": 2879,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13162,7 +13688,7 @@
             "total": 2697,
             "percent": 99.444,
             "jee": 15,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13285,8 +13811,8 @@
             "processed": 507,
             "total": 507,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13425,8 +13951,8 @@
             "processed": 578,
             "total": 578,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13545,8 +14071,8 @@
             "processed": 802,
             "total": 802,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -13861,8 +14387,8 @@
             "processed": 3397,
             "total": 3397,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14129,8 +14655,8 @@
             "processed": 1041,
             "total": 1041,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14277,8 +14803,8 @@
             "processed": 632,
             "total": 632,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -14418,7 +14944,7 @@
             "total": 1564,
             "percent": 94.373,
             "jee": 88,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -15691,10 +16217,40 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980"
         },
         {
+          "name": "ALIANZA PARA EL PROGRESO",
+          "short": "AP",
+          "color": "#f97316",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257"
+        },
+        {
+          "name": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "short": "AVP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173"
+        },
+        {
+          "name": "FE EN EL PERÚ",
+          "short": "FE",
+          "color": "#f97316",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2898"
+        },
+        {
+          "name": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+          "short": "FREPAP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901"
+        },
+        {
           "name": "FUERZA POPULAR",
           "short": "FP",
           "color": "#16a34a",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366"
+        },
+        {
+          "name": "FUERZA Y LIBERTAD",
+          "short": "FY",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024"
         },
         {
           "name": "JUNTOS POR EL PERÚ",
@@ -15703,10 +16259,28 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264"
         },
         {
+          "name": "LIBERTAD POPULAR",
+          "short": "LP",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933"
+        },
+        {
+          "name": "PARTIDO APRISTA PERUANO",
+          "short": "PAP",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930"
+        },
+        {
           "name": "PARTIDO CÍVICO OBRAS",
           "short": "CO",
           "color": "#ca8a04",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941"
+        },
+        {
+          "name": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          "short": "PDL",
+          "color": "#1d4ed8",
+          "logo": "/logos/pdl.png"
         },
         {
           "name": "PARTIDO DEL BUEN GOBIERNO",
@@ -15715,10 +16289,136 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961"
         },
         {
+          "name": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          "short": "PDUP",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2867"
+        },
+        {
+          "name": "PARTIDO DEMÓCRATA VERDE",
+          "short": "PDV",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895"
+        },
+        {
+          "name": "PARTIDO DEMOCRÁTICO FEDERAL",
+          "short": "PDF",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2986"
+        },
+        {
+          "name": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "short": "DSP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14"
+        },
+        {
+          "name": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "short": "FE",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857"
+        },
+        {
+          "name": "PARTIDO MORADO",
+          "short": "PM",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840"
+        },
+        {
+          "name": "PARTIDO PAÍS PARA TODOS",
+          "short": "PT",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956"
+        },
+        {
+          "name": "PARTIDO PATRIÓTICO DEL PERÚ",
+          "short": "PPP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869"
+        },
+        {
+          "name": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          "short": "PCP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995"
+        },
+        {
+          "name": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          "short": "PID",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985"
+        },
+        {
+          "name": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          "short": "PL",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          "short": "PEA",
+          "color": "#7c3aed",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2932"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PERÚ PRIMERO",
+          "short": "PP1",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PRIN",
+          "short": "PRIN",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921"
+        },
+        {
+          "name": "PARTIDO SÍCREO",
+          "short": "S",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935"
+        },
+        {
+          "name": "PODEMOS PERÚ",
+          "short": "PP",
+          "color": "#0ea5e9",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2731"
+        },
+        {
+          "name": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          "short": "PG–",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2931"
+        },
+        {
+          "name": "PROGRESEMOS",
+          "short": "PR",
+          "color": "#059669",
+          "logo": "/logos/pr.png"
+        },
+        {
           "name": "RENOVACIÓN POPULAR",
           "short": "RP",
           "color": "#4f46e5",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/22"
+        },
+        {
+          "name": "UN CAMINO DIFERENTE",
+          "short": "UCD",
+          "color": "#7c3aed",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998"
+        },
+        {
+          "name": "UNIDAD NACIONAL",
+          "short": "UN",
+          "color": "#0ea5e9",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023"
+        },
+        {
+          "name": "VENCEREMOS",
+          "short": "V",
+          "color": "#16a34a",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025"
         }
       ],
       "circunscripciones": [
@@ -15751,16 +16451,132 @@
             {
               "party": "AHORA NACIÓN - AN",
               "votes": 1193343
+            },
+            {
+              "party": "PARTIDO PAÍS PARA TODOS",
+              "votes": 841565
+            },
+            {
+              "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+              "votes": 515410
+            },
+            {
+              "party": "PARTIDO SÍCREO",
+              "votes": 398627
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 385595
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 324511
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 249360
+            },
+            {
+              "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+              "votes": 240553
+            },
+            {
+              "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+              "votes": 226868
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+              "votes": 197733
+            },
+            {
+              "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+              "votes": 164078
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+              "votes": 151602
+            },
+            {
+              "party": "PROGRESEMOS",
+              "votes": 143826
+            },
+            {
+              "party": "VENCEREMOS",
+              "votes": 133561
+            },
+            {
+              "party": "UN CAMINO DIFERENTE",
+              "votes": 125606
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+              "votes": 118431
+            },
+            {
+              "party": "PARTIDO PATRIÓTICO DEL PERÚ",
+              "votes": 112720
+            },
+            {
+              "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+              "votes": 110448
+            },
+            {
+              "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+              "votes": 72833
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 71729
+            },
+            {
+              "party": "LIBERTAD POPULAR",
+              "votes": 67591
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA VERDE",
+              "votes": 66659
+            },
+            {
+              "party": "UNIDAD NACIONAL",
+              "votes": 56558
+            },
+            {
+              "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+              "votes": 53692
+            },
+            {
+              "party": "FUERZA Y LIBERTAD",
+              "votes": 32110
+            },
+            {
+              "party": "FE EN EL PERÚ",
+              "votes": 26623
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO FEDERAL",
+              "votes": 21628
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+              "votes": 21261
+            },
+            {
+              "party": "PARTIDO POLÍTICO PRIN",
+              "votes": 20719
+            },
+            {
+              "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+              "votes": 15659
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 0,
-            "updated": "2026-05-29T04:45:00.484000"
+            "processed": 90765,
+            "total": 92766,
+            "percent": 97.843,
+            "jee": 1993,
+            "pending": 8,
+            "updated": "2026-05-29T05:30:00.466Z",
+            "nationalFallback": false
           },
           "allocations": [
             {
@@ -15912,7 +16728,7 @@
             "total": 1278,
             "percent": 96.714,
             "jee": 42,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16073,7 +16889,7 @@
             "total": 3472,
             "percent": 98.646,
             "jee": 47,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16225,8 +17041,8 @@
             "processed": 1317,
             "total": 1317,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16378,8 +17194,8 @@
             "processed": 4215,
             "total": 4215,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16511,8 +17327,8 @@
             "processed": 1900,
             "total": 1900,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16653,7 +17469,7 @@
             "total": 4240,
             "percent": 99.434,
             "jee": 24,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16806,7 +17622,7 @@
             "total": 2898,
             "percent": 97.861,
             "jee": 62,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -16959,7 +17775,7 @@
             "total": 3983,
             "percent": 99.448,
             "jee": 22,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17075,8 +17891,8 @@
             "processed": 1273,
             "total": 1273,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17220,8 +18036,8 @@
             "processed": 2341,
             "total": 2341,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17378,7 +18194,7 @@
             "total": 2443,
             "percent": 99.018,
             "jee": 24,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17523,7 +18339,7 @@
             "total": 3691,
             "percent": 99.892,
             "jee": 4,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17680,7 +18496,7 @@
             "total": 5302,
             "percent": 99.755,
             "jee": 13,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -17840,7 +18656,7 @@
             "processed": 3589,
             "total": 3590,
             "percent": 99.972,
-            "jee": null,
+            "jee": 0,
             "pending": 1,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
@@ -18011,7 +18827,7 @@
             "percent": 97.592,
             "jee": 634,
             "pending": 1,
-            "updated": "2026-05-29T05:15:06.082Z",
+            "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18180,8 +18996,8 @@
             "processed": 2879,
             "total": 2879,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18326,7 +19142,7 @@
             "total": 2697,
             "percent": 99.444,
             "jee": 15,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18450,8 +19266,8 @@
             "processed": 507,
             "total": 507,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18591,8 +19407,8 @@
             "processed": 578,
             "total": 578,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -18712,8 +19528,8 @@
             "processed": 802,
             "total": 802,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19031,8 +19847,8 @@
             "processed": 3397,
             "total": 3397,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19301,8 +20117,8 @@
             "processed": 1041,
             "total": 1041,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19450,8 +20266,8 @@
             "processed": 632,
             "total": 632,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19592,7 +20408,7 @@
             "total": 1564,
             "percent": 94.373,
             "jee": 88,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -19633,115 +20449,119 @@
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 811982
+          "votes": 1653547
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 434353
+          "votes": 949763
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 342886
+          "votes": 728481
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 323849
+          "votes": 648360
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 262860
+          "votes": 489728
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 248675
+          "votes": 489228
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 239779
-        },
-        {
-          "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 229835
-        },
-        {
-          "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 166745
-        },
-        {
-          "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 157824
-        },
-        {
-          "party": "PROGRESEMOS",
-          "votes": 125851
-        },
-        {
-          "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 125810
-        },
-        {
-          "party": "UN CAMINO DIFERENTE",
-          "votes": 124465
-        },
-        {
-          "party": "VENCEREMOS",
-          "votes": 105567
-        },
-        {
-          "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 94434
-        },
-        {
-          "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 77349
-        },
-        {
-          "party": "PARTIDO MORADO",
-          "votes": 70902
-        },
-        {
-          "party": "LIBERTAD POPULAR",
-          "votes": 66678
-        },
-        {
-          "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 65101
-        },
-        {
-          "party": "UNIDAD NACIONAL",
-          "votes": 60409
+          "votes": 489139
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 56415
+          "votes": 455042
+        },
+        {
+          "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "votes": 427568
+        },
+        {
+          "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          "votes": 321902
+        },
+        {
+          "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+          "votes": 318347
+        },
+        {
+          "party": "PROGRESEMOS",
+          "votes": 269677
+        },
+        {
+          "party": "UN CAMINO DIFERENTE",
+          "votes": 250071
+        },
+        {
+          "party": "VENCEREMOS",
+          "votes": 239128
+        },
+        {
+          "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          "votes": 236258
+        },
+        {
+          "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          "votes": 212865
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 54762
+          "votes": 167482
+        },
+        {
+          "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "votes": 150182
+        },
+        {
+          "party": "PARTIDO MORADO",
+          "votes": 142631
+        },
+        {
+          "party": "LIBERTAD POPULAR",
+          "votes": 134269
+        },
+        {
+          "party": "PARTIDO DEMÓCRATA VERDE",
+          "votes": 131760
+        },
+        {
+          "party": "UNIDAD NACIONAL",
+          "votes": 116967
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 53672
+          "votes": 107364
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 37923
-        },
-        {
-          "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 18581
+          "votes": 70033
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 18358
+          "votes": 44981
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 18328
+          "votes": 39589
+        },
+        {
+          "party": "PARTIDO POLÍTICO PRIN",
+          "votes": 39300
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 17656
+          "votes": 39284
+        },
+        {
+          "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          "votes": 22210
         },
         {
           "party": "SALVEMOS AL PERÚ",
@@ -19750,10 +20570,6 @@
         {
           "party": "PERÚ MODERNO",
           "votes": 11600
-        },
-        {
-          "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 6551
         }
       ],
       "candidates": [
@@ -20801,7 +21617,7 @@
         "jee": 1667,
         "pending": 7,
         "blankNull": 11584618,
-        "updated": "2026-05-29T04:45:00.484Z"
+        "updated": "2026-05-29T09:45:00.484Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -20996,10 +21812,40 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2980"
         },
         {
+          "name": "ALIANZA PARA EL PROGRESO",
+          "short": "AP",
+          "color": "#f97316",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1257"
+        },
+        {
+          "name": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "short": "AVP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2173"
+        },
+        {
+          "name": "FE EN EL PERÚ",
+          "short": "FE",
+          "color": "#f97316",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2898"
+        },
+        {
+          "name": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+          "short": "FREPAP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2901"
+        },
+        {
           "name": "FUERZA POPULAR",
           "short": "FP",
           "color": "#16a34a",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1366"
+        },
+        {
+          "name": "FUERZA Y LIBERTAD",
+          "short": "FY",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3024"
         },
         {
           "name": "JUNTOS POR EL PERÚ",
@@ -21008,10 +21854,28 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/1264"
         },
         {
+          "name": "LIBERTAD POPULAR",
+          "short": "LP",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2933"
+        },
+        {
+          "name": "PARTIDO APRISTA PERUANO",
+          "short": "PAP",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2930"
+        },
+        {
           "name": "PARTIDO CÍVICO OBRAS",
           "short": "CO",
           "color": "#ca8a04",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2941"
+        },
+        {
+          "name": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          "short": "PDL",
+          "color": "#1d4ed8",
+          "logo": "/logos/pdl.png"
         },
         {
           "name": "PARTIDO DEL BUEN GOBIERNO",
@@ -21020,10 +21884,136 @@
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2961"
         },
         {
+          "name": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          "short": "PDUP",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2867"
+        },
+        {
+          "name": "PARTIDO DEMÓCRATA VERDE",
+          "short": "PDV",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2895"
+        },
+        {
+          "name": "PARTIDO DEMOCRÁTICO FEDERAL",
+          "short": "PDF",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2986"
+        },
+        {
+          "name": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "short": "DSP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/14"
+        },
+        {
+          "name": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          "short": "FE",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2857"
+        },
+        {
+          "name": "PARTIDO MORADO",
+          "short": "PM",
+          "color": "#dc2626",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2840"
+        },
+        {
+          "name": "PARTIDO PAÍS PARA TODOS",
+          "short": "PT",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2956"
+        },
+        {
+          "name": "PARTIDO PATRIÓTICO DEL PERÚ",
+          "short": "PPP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2869"
+        },
+        {
+          "name": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          "short": "PCP",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2995"
+        },
+        {
+          "name": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          "short": "PID",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2985"
+        },
+        {
+          "name": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          "short": "PL",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2218"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          "short": "PEA",
+          "color": "#7c3aed",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2932"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PERÚ PRIMERO",
+          "short": "PP1",
+          "color": "#b91c1c",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2925"
+        },
+        {
+          "name": "PARTIDO POLÍTICO PRIN",
+          "short": "PRIN",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2921"
+        },
+        {
+          "name": "PARTIDO SÍCREO",
+          "short": "S",
+          "color": "#059669",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2935"
+        },
+        {
+          "name": "PODEMOS PERÚ",
+          "short": "PP",
+          "color": "#0ea5e9",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2731"
+        },
+        {
+          "name": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          "short": "PG–",
+          "color": "#1d4ed8",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2931"
+        },
+        {
+          "name": "PROGRESEMOS",
+          "short": "PR",
+          "color": "#059669",
+          "logo": "/logos/pr.png"
+        },
+        {
           "name": "RENOVACIÓN POPULAR",
           "short": "RP",
           "color": "#4f46e5",
           "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/22"
+        },
+        {
+          "name": "UN CAMINO DIFERENTE",
+          "short": "UCD",
+          "color": "#7c3aed",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/2998"
+        },
+        {
+          "name": "UNIDAD NACIONAL",
+          "short": "UN",
+          "color": "#0ea5e9",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3023"
+        },
+        {
+          "name": "VENCEREMOS",
+          "short": "V",
+          "color": "#16a34a",
+          "logo": "https://sroppublico.jne.gob.pe/Consulta/Simbolo/GetSimbolo/3025"
         }
       ],
       "circunscripciones": [
@@ -21056,16 +22046,132 @@
             {
               "party": "AHORA NACIÓN - AN",
               "votes": 1193343
+            },
+            {
+              "party": "PARTIDO PAÍS PARA TODOS",
+              "votes": 841565
+            },
+            {
+              "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+              "votes": 515410
+            },
+            {
+              "party": "PARTIDO SÍCREO",
+              "votes": 398627
+            },
+            {
+              "party": "ALIANZA PARA EL PROGRESO",
+              "votes": 385595
+            },
+            {
+              "party": "PODEMOS PERÚ",
+              "votes": 324511
+            },
+            {
+              "party": "PARTIDO APRISTA PERUANO",
+              "votes": 249360
+            },
+            {
+              "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
+              "votes": 240553
+            },
+            {
+              "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
+              "votes": 226868
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+              "votes": 197733
+            },
+            {
+              "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+              "votes": 164078
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+              "votes": 151602
+            },
+            {
+              "party": "PROGRESEMOS",
+              "votes": 143826
+            },
+            {
+              "party": "VENCEREMOS",
+              "votes": 133561
+            },
+            {
+              "party": "UN CAMINO DIFERENTE",
+              "votes": 125606
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+              "votes": 118431
+            },
+            {
+              "party": "PARTIDO PATRIÓTICO DEL PERÚ",
+              "votes": 112720
+            },
+            {
+              "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+              "votes": 110448
+            },
+            {
+              "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+              "votes": 72833
+            },
+            {
+              "party": "PARTIDO MORADO",
+              "votes": 71729
+            },
+            {
+              "party": "LIBERTAD POPULAR",
+              "votes": 67591
+            },
+            {
+              "party": "PARTIDO DEMÓCRATA VERDE",
+              "votes": 66659
+            },
+            {
+              "party": "UNIDAD NACIONAL",
+              "votes": 56558
+            },
+            {
+              "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+              "votes": 53692
+            },
+            {
+              "party": "FUERZA Y LIBERTAD",
+              "votes": 32110
+            },
+            {
+              "party": "FE EN EL PERÚ",
+              "votes": 26623
+            },
+            {
+              "party": "PARTIDO DEMOCRÁTICO FEDERAL",
+              "votes": 21628
+            },
+            {
+              "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
+              "votes": 21261
+            },
+            {
+              "party": "PARTIDO POLÍTICO PRIN",
+              "votes": 20719
+            },
+            {
+              "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+              "votes": 15659
             }
           ],
           "status": {
-            "percent": null,
-            "processed": null,
-            "total": null,
-            "jee": null,
-            "pending": null,
-            "blankNull": 0,
-            "updated": "2026-05-29T04:45:00.484000"
+            "processed": 90765,
+            "total": 92766,
+            "percent": 97.843,
+            "jee": 1993,
+            "pending": 8,
+            "updated": "2026-05-29T05:30:00.466Z",
+            "nationalFallback": false
           },
           "allocations": [
             {
@@ -21217,7 +22323,7 @@
             "total": 1278,
             "percent": 96.714,
             "jee": 42,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -21378,7 +22484,7 @@
             "total": 3472,
             "percent": 98.646,
             "jee": 47,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -21530,8 +22636,8 @@
             "processed": 1317,
             "total": 1317,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -21683,8 +22789,8 @@
             "processed": 4215,
             "total": 4215,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -21816,8 +22922,8 @@
             "processed": 1900,
             "total": 1900,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -21958,7 +23064,7 @@
             "total": 4240,
             "percent": 99.434,
             "jee": 24,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22111,7 +23217,7 @@
             "total": 2898,
             "percent": 97.861,
             "jee": 62,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22264,7 +23370,7 @@
             "total": 3983,
             "percent": 99.448,
             "jee": 22,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22380,8 +23486,8 @@
             "processed": 1273,
             "total": 1273,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22525,8 +23631,8 @@
             "processed": 2341,
             "total": 2341,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22683,7 +23789,7 @@
             "total": 2443,
             "percent": 99.018,
             "jee": 24,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22828,7 +23934,7 @@
             "total": 3691,
             "percent": 99.892,
             "jee": 4,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -22985,7 +24091,7 @@
             "total": 5302,
             "percent": 99.755,
             "jee": 13,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23145,7 +24251,7 @@
             "processed": 3589,
             "total": 3590,
             "percent": 99.972,
-            "jee": null,
+            "jee": 0,
             "pending": 1,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
@@ -23316,7 +24422,7 @@
             "percent": 97.592,
             "jee": 634,
             "pending": 1,
-            "updated": "2026-05-29T05:15:06.082Z",
+            "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23485,8 +24591,8 @@
             "processed": 2879,
             "total": 2879,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23631,7 +24737,7 @@
             "total": 2697,
             "percent": 99.444,
             "jee": 15,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23755,8 +24861,8 @@
             "processed": 507,
             "total": 507,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -23896,8 +25002,8 @@
             "processed": 578,
             "total": 578,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24017,8 +25123,8 @@
             "processed": 802,
             "total": 802,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24336,8 +25442,8 @@
             "processed": 3397,
             "total": 3397,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24606,8 +25712,8 @@
             "processed": 1041,
             "total": 1041,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24755,8 +25861,8 @@
             "processed": 632,
             "total": 632,
             "percent": 100,
-            "jee": null,
-            "pending": null,
+            "jee": 0,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24897,7 +26003,7 @@
             "total": 1564,
             "percent": 94.373,
             "jee": 88,
-            "pending": null,
+            "pending": 0,
             "updated": "2026-05-29T05:30:00.466Z",
             "nationalFallback": false
           },
@@ -24938,115 +26044,119 @@
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 811982
+          "votes": 1653547
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 434353
+          "votes": 949763
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 342886
+          "votes": 728481
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 323849
+          "votes": 648360
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 262860
+          "votes": 489728
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 248675
+          "votes": 489228
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 239779
-        },
-        {
-          "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 229835
-        },
-        {
-          "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 166745
-        },
-        {
-          "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 157824
-        },
-        {
-          "party": "PROGRESEMOS",
-          "votes": 125851
-        },
-        {
-          "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 125810
-        },
-        {
-          "party": "UN CAMINO DIFERENTE",
-          "votes": 124465
-        },
-        {
-          "party": "VENCEREMOS",
-          "votes": 105567
-        },
-        {
-          "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 94434
-        },
-        {
-          "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 77349
-        },
-        {
-          "party": "PARTIDO MORADO",
-          "votes": 70902
-        },
-        {
-          "party": "LIBERTAD POPULAR",
-          "votes": 66678
-        },
-        {
-          "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 65101
-        },
-        {
-          "party": "UNIDAD NACIONAL",
-          "votes": 60409
+          "votes": 489139
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 56415
+          "votes": 455042
+        },
+        {
+          "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          "votes": 427568
+        },
+        {
+          "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          "votes": 321902
+        },
+        {
+          "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
+          "votes": 318347
+        },
+        {
+          "party": "PROGRESEMOS",
+          "votes": 269677
+        },
+        {
+          "party": "UN CAMINO DIFERENTE",
+          "votes": 250071
+        },
+        {
+          "party": "VENCEREMOS",
+          "votes": 239128
+        },
+        {
+          "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          "votes": 236258
+        },
+        {
+          "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          "votes": 212865
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 54762
+          "votes": 167482
+        },
+        {
+          "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          "votes": 150182
+        },
+        {
+          "party": "PARTIDO MORADO",
+          "votes": 142631
+        },
+        {
+          "party": "LIBERTAD POPULAR",
+          "votes": 134269
+        },
+        {
+          "party": "PARTIDO DEMÓCRATA VERDE",
+          "votes": 131760
+        },
+        {
+          "party": "UNIDAD NACIONAL",
+          "votes": 116967
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 53672
+          "votes": 107364
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 37923
-        },
-        {
-          "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 18581
+          "votes": 70033
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 18358
+          "votes": 44981
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 18328
+          "votes": 39589
+        },
+        {
+          "party": "PARTIDO POLÍTICO PRIN",
+          "votes": 39300
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 17656
+          "votes": 39284
+        },
+        {
+          "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          "votes": 22210
         },
         {
           "party": "SALVEMOS AL PERÚ",
@@ -25055,10 +26165,6 @@
         {
           "party": "PERÚ MODERNO",
           "votes": 11600
-        },
-        {
-          "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 6551
         }
       ],
       "candidates": [
@@ -26106,7 +27212,7 @@
         "jee": 1667,
         "pending": 7,
         "blankNull": 11584618,
-        "updated": "2026-05-29T04:45:00.484Z"
+        "updated": "2026-05-29T09:45:00.484Z"
       },
       "allocations": {
         "noBarrier": [],

@@ -1042,6 +1042,37 @@ async function mainDecideLive({ enrich }) {
     console.warn(`[ONPE] Error al enriquecer diputados: ${err.message}`);
   }
 
+  // Overlay ONPE national-total all-party votes for senadoNacional.
+  // The CDN only provides the 6 qualifying parties; ONPE provides all 35 parties nationally.
+  // This enables a meaningful D'Hondt sin-valla calculation (smaller parties like PPT get seats).
+  // Uses tipoFiltro=eleccion endpoint — no idAmbitoGeografico, no district filter.
+  try {
+    let onpeNacional = await fetchOnpeSenNacionalAll();
+    let onpeNacSource = "live";
+    if (!onpeNacional) {
+      console.log("[ONPE] Senado nacional live no disponible, cargando snapshot estático...");
+      onpeNacional = await loadOnpeSenNacionalSnapshot();
+      onpeNacSource = "snapshot";
+    }
+    if (onpeNacional && onpeNacional.votes.length > 6) {
+      // Replace the single NACIONAL circuit's vote array with full ONPE data
+      const nacCirc = cameras.senadoNacional.circunscripciones.find(c => normalize(c.name) === "NACIONAL");
+      if (nacCirc) {
+        nacCirc.votes = onpeNacional.votes;
+        if (onpeNacional.status && onpeNacional.status.total) nacCirc.status = onpeNacional.status;
+      }
+      cameras.senadoNacional.nationalVotes = onpeNacional.votes;
+      // Rebuild parties aggregate to include all ONPE parties
+      cameras.senadoNacional.parties = buildParties(
+        [...onpeNacional.votes, ...candidatePartyVotes(cameras.senadoNacional.candidates)],
+        enrich
+      );
+      console.log(`[ONPE] Senado nacional: NACIONAL enriquecido con ${onpeNacional.votes.length} partidos (fuente: ${onpeNacSource}).`);
+    }
+  } catch (err) {
+    console.warn(`[ONPE] Error al enriquecer senadoNacional: ${err.message}`);
+  }
+
   cameras.senado = mergeSenateAlias(cameras.senadoNacional, cameras.senadoRegional);
   cameras.senadoTotal = cameras.senado;
 
@@ -1230,6 +1261,54 @@ async function loadOnpeDiputadosSnapshot() {
   } catch (err) {
     console.warn(`[ONPE] Diputados snapshot load failed: ${err.message}`);
     return [];
+  }
+}
+
+async function fetchOnpeSenNacionalAll() {
+  // Fetches all-party national-senate votes + actas from ONPE using tipoFiltro=eleccion.
+  // This endpoint returns a single national total (not per-district) with ALL parties including
+  // those that failed the barrier — enabling a meaningful D'Hondt sin-valla calculation.
+  const [participantes, totales] = await Promise.all([
+    fetchOnpeJson(`/resumen-general/participantes?idEleccion=${ONPE_ELECTION_ID.senadoNacional}&tipoFiltro=eleccion`),
+    fetchOnpeJson(`/resumen-general/totales?idEleccion=${ONPE_ELECTION_ID.senadoNacional}&tipoFiltro=eleccion`)
+  ]);
+  if (!Array.isArray(participantes) || participantes.length === 0) return null;
+  const votes = participantes
+    .filter(p => (p.codigoAgrupacionPolitica || 0) < 80)
+    .map(p => ({ party: canonicalParty(p.nombreAgrupacionPolitica).name, votes: number(p.totalVotosValidos) }))
+    .filter(v => v.party && v.votes > 0)
+    .sort((a, b) => b.votes - a.votes);
+  const status = totales ? {
+    processed: totales.contabilizadas || null,
+    total: totales.totalActas || null,
+    percent: totales.actasContabilizadas || null,
+    jee: totales.enviadasJee ?? null,
+    pending: totales.pendientesJee ?? null,
+    updated: totales.fechaActualizacion
+      ? new Date(Number(totales.fechaActualizacion)).toISOString()
+      : null,
+    nationalFallback: false
+  } : null;
+  return { nombre: "NACIONAL", votes, status };
+}
+
+async function loadOnpeSenNacionalSnapshot() {
+  // Reads the static snapshot as fallback when live ONPE API is unreachable.
+  // Format: { generatedAt, source, idEleccion:15, nombre, parties:[[id,name,votes],...], totales:{...} }
+  try {
+    const snapshotFile = path.join(dataDir, "onpe-senado-nacional-snapshot.json");
+    const raw = await readFile(snapshotFile, "utf-8");
+    const snap = JSON.parse(raw);
+    if (!Array.isArray(snap.parties)) return null;
+    const votes = snap.parties
+      .map(([, nombre, votos]) => ({ party: canonicalParty(nombre).name, votes: number(votos) }))
+      .filter(v => v.party && v.votes > 0)
+      .sort((a, b) => b.votes - a.votes);
+    const status = buildOnpeStatusFromSnapshot(snap.totales);
+    return { nombre: "NACIONAL", votes, status };
+  } catch (err) {
+    console.warn(`[ONPE] Senado nacional snapshot load failed: ${err.message}`);
+    return null;
   }
 }
 
