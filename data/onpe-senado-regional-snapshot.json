@@ -1,0 +1,4218 @@
+{
+  "generatedAt": "2026-05-29T04:59:33.783Z",
+  "source": "ONPE presentacion-backend API (browser fetch)",
+  "districts": [
+    {
+      "codigo": 1,
+      "nombre": "AMAZONAS",
+      "parties": [
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          204
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          283
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          294
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          317
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          434
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          455
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          620
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          716
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          753
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          899
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          1064
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          1160
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1304
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          1671
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          1805
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          2093
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          2217
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          2503
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          2640
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          4659
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          5770
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          7583
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          7887
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          8127
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          8828
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          22007
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 1236,
+        "totalActas": 1278,
+        "actasContabilizadas": 96.714,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 2,
+      "nombre": "ÁNCASH",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          294
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          584
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          849
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          874
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          876
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          888
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          901
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1074
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          1341
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          1385
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          1953
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2774
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2942
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          3139
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          3796
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          3875
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          4270
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          4300
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          4333
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          5965
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          7121
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          8168
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          8754
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          11138
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          11558
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          17125
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          19676
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          26386
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          32752
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          39290
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          39588
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          39853
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          66692
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          71050
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 3425,
+        "totalActas": 3472,
+        "actasContabilizadas": 98.646,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 3,
+      "nombre": "APURÍMAC",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          59
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          181
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          210
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          253
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          353
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          364
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          469
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          505
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          647
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          829
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          852
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          859
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          1029
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1084
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          1505
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          1781
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          1879
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          2079
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          2267
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          2677
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          2699
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          3343
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          3746
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          4482
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          5138
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          6518
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          6563
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          7849
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          9768
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          20082
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          20709
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          70021
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 1317,
+        "totalActas": 1317,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 4,
+      "nombre": "AREQUIPA",
+      "parties": [
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          912
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          974
+        ],
+        [
+          4,
+          "PERÚ MODERNO",
+          1052
+        ],
+        [
+          15,
+          "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          1130
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          1441
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          1493
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1646
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          1766
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          2198
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          2290
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          2652
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          3501
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          4235
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          4608
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          6831
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          7518
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          8149
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          8170
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          10165
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          11901
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          12496
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          14566
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          15501
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          23520
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          35319
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          45912
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          57494
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          77420
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          78501
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          79488
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          82613
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          150770
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 4215,
+        "totalActas": 4215,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 5,
+      "nombre": "AYACUCHO",
+      "parties": [
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          355
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          376
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          597
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          644
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          662
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          955
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          1186
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          1685
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          2010
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          2886
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          3368
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          4109
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          4144
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          4278
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          4402
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          4445
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          4705
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          5199
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          6153
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          6521
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          8541
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          8700
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          13862
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          16926
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          29539
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          38270
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          74929
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 1900,
+        "totalActas": 1900,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 6,
+      "nombre": "CAJAMARCA",
+      "parties": [
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          608
+        ],
+        [
+          4,
+          "PERÚ MODERNO",
+          849
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          1288
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          1449
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1740
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          1765
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2329
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2738
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2903
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          3048
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          3950
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          4041
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          4310
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          4656
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          4913
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          5865
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          6363
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          8771
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          9107
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          11182
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          12659
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          12916
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          15269
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          20045
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          22040
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          23685
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          26098
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          51260
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          64195
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 4216,
+        "totalActas": 4240,
+        "actasContabilizadas": 99.434,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 7,
+      "nombre": "CALLAO",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          322
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          491
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          664
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          717
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          871
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1169
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          1864
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          1967
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2181
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2277
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2446
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          2703
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          2828
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          3433
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          3703
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          4022
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          4208
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          5005
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          5359
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          5590
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          5807
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          5946
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          6567
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          9155
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          15559
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          22148
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          34005
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          37151
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          44563
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          71435
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          75936
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          88631
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 2836,
+        "totalActas": 2898,
+        "actasContabilizadas": 97.861,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 8,
+      "nombre": "CUSCO",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          656
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          979
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1186
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1319
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          1380
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1424
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          1555
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          1626
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          1676
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          3326
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          3583
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          4599
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          6502
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          7018
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          7413
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          7804
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          8211
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          8450
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          10553
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          11651
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          11719
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          11870
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          14198
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          16330
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          17022
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          17092
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          23873
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          27030
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          53185
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          78534
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          92886
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          135360
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 3961,
+        "totalActas": 3983,
+        "actasContabilizadas": 99.448,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 9,
+      "nombre": "HUANCAVELICA",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          89
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          305
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          337
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          382
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          469
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          543
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          739
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          858
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          1867
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          2153
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          2294
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          2313
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          2367
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          2548
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2773
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          3373
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          3947
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          4587
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          4819
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          6419
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          7242
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          9720
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          67895
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 1273,
+        "totalActas": 1273,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 10,
+      "nombre": "HUÁNUCO",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          652
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          672
+        ],
+        [
+          15,
+          "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          678
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          792
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          853
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          986
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1046
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          1107
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          1165
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1688
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          1906
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2213
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          2227
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2466
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          3165
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          3417
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          4498
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          4756
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          4949
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          5103
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          5182
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          7993
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          8295
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          12654
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          16081
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          17215
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          23690
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          36633
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          39860
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          88123
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 2341,
+        "totalActas": 2341,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 11,
+      "nombre": "ICA",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          383
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          640
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          662
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          707
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          1086
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          1463
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1467
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1539
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1730
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2048
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          2064
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          2433
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          2593
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2675
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          3038
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          3137
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          3697
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          3905
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          5755
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          6348
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          7224
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          8086
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          11871
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          12818
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          14383
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          16068
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          29661
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          33549
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          33603
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          37124
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          40248
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          41006
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          71907
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 2419,
+        "totalActas": 2443,
+        "actasContabilizadas": 99.018,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 12,
+      "nombre": "JUNÍN",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          424
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          614
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          1304
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          1326
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          1435
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1552
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          1703
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1977
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          2288
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          3160
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          3813
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          4109
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          4784
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          6099
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          6245
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          7034
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          8036
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          9367
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          12852
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          14073
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          15964
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          17997
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          24904
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          29238
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          39521
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          46893
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          53989
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          67519
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          68300
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          79597
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 3687,
+        "totalActas": 3691,
+        "actasContabilizadas": 99.892,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 13,
+      "nombre": "LA LIBERTAD",
+      "parties": [
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1005
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          1341
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1381
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          2015
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          2269
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2636
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          2734
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          2893
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          3143
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          3894
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          4232
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          4746
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          5002
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          5373
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          5474
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          6737
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          7157
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          9322
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          10944
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          13542
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          22265
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          23412
+        ],
+        [
+          31,
+          "PARTIDO SICREO",
+          26221
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          35692
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          38688
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          41922
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          46846
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          51447
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          59496
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          76457
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          77199
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          86611
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          145522
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 5289,
+        "totalActas": 5302,
+        "actasContabilizadas": 99.755,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 14,
+      "nombre": "LAMBAYEQUE",
+      "parties": [
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          617
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          621
+        ],
+        [
+          4,
+          "PERÚ MODERNO",
+          683
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          751
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          882
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1015
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1483
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          1733
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          2441
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2524
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          2763
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2951
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          3166
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          3289
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          3302
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          3559
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          3840
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          3866
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          4904
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          5670
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          8163
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          10515
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          11211
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          12693
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          16402
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          22656
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          25732
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          25863
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          37785
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          37993
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          43541
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          59969
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          60658
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          136252
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 3589,
+        "totalActas": 3590,
+        "actasContabilizadas": 99.972,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 15,
+      "nombre": "LIMA METROPOLITANA",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          3269
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          3284
+        ],
+        [
+          15,
+          "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          4323
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          5177
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          5298
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          5358
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          6659
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          8196
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          8809
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          15807
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          16742
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          20336
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          22842
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          22999
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          23036
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          24763
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          25566
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          26731
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          27780
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          28550
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          29947
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          40039
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          43149
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          49747
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          57899
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          62670
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          68401
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          85117
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          135802
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          211142
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          312799
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          386769
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          393959
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          719739
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          752104
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          912558
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 25733,
+        "totalActas": 26368,
+        "actasContabilizadas": 97.592,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 16,
+      "nombre": "LIMA PROVINCIAS",
+      "parties": [
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          610
+        ],
+        [
+          4,
+          "PERÚ MODERNO",
+          618
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          694
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1063
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          1178
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          1229
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1322
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          1548
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          1766
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1811
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          1968
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          1969
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2666
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          2727
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          2971
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          3876
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          4200
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          4762
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          5439
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          5550
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          5678
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          8289
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          9026
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          10809
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          11546
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          11883
+        ],
+        [
+          31,
+          "PARTIDO SICREO",
+          14534
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          31633
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          32379
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          38539
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          42977
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          44057
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          47050
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          97899
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 2879,
+        "totalActas": 2879,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 17,
+      "nombre": "LORETO",
+      "parties": [
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          383
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          484
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          546
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          993
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          1047
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          1177
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1310
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1333
+        ],
+        [
+          4,
+          "PERÚ MODERNO",
+          1351
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1371
+        ],
+        [
+          24,
+          "PARTIDO PATRIÓTICO DEL PERÚ",
+          1443
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1915
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          2002
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          2010
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          2060
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          2121
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2210
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          2819
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          3501
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          7384
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          7592
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          9345
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          11540
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          12208
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          20959
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          21333
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          24737
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          27971
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          29707
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          71526
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 2682,
+        "totalActas": 2697,
+        "actasContabilizadas": 99.444,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 18,
+      "nombre": "MADRE DE DIOS",
+      "parties": [
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          151
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          155
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          159
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          180
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          216
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          225
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          489
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          524
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          807
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          888
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1081
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          1128
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          1189
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          1394
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          1737
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          1898
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          1955
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          2393
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          2483
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          3353
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          4208
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          4369
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          5520
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          7275
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          17198
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 507,
+        "totalActas": 507,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 19,
+      "nombre": "MOQUEGUA",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          245
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          265
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          293
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          310
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          312
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          335
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          410
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          417
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          484
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          850
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          1077
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          1315
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          1383
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          1400
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          1635
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          1781
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          2029
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          2536
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          2605
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          3305
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          3692
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          4968
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          5282
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          5478
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          6360
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          8505
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          10311
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          10634
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          13958
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 578,
+        "totalActas": 578,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 20,
+      "nombre": "PASCO",
+      "parties": [
+        [
+          38,
+          "UNIDAD NACIONAL",
+          106
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          157
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          205
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          241
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          261
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          436
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          459
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          671
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          685
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          1093
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          1125
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1193
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          1447
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          1981
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          3504
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          3621
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          4491
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          5347
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          5751
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          6980
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          7533
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          11471
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          15816
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          17171
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 802,
+        "totalActas": 802,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 21,
+      "nombre": "PIURA",
+      "parties": [
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          1087
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          1211
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          1344
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1453
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          2012
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          2159
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          2284
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          2567
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2796
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          3372
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          3546
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          4153
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          4383
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          4503
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          5273
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          5422
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          6791
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          8636
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          8990
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          12278
+        ],
+        [
+          31,
+          "PARTIDO SICREO",
+          15660
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          17783
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          20720
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          21298
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          23047
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          32243
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          44411
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          50969
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          52132
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          58500
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          75087
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          177600
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 4993,
+        "totalActas": 5281,
+        "actasContabilizadas": 94.546,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 22,
+      "nombre": "PUNO",
+      "parties": [
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          760
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          841
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          1139
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          1171
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1298
+        ],
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          1436
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          1483
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          1605
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          1723
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          4125
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          4732
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          7121
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          7737
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          8064
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          8141
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          8235
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          8880
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          9298
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          10071
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          11189
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          13706
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          16015
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          21357
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          22218
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          50511
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          69575
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          84376
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          147904
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 3397,
+        "totalActas": 3397,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 23,
+      "nombre": "SAN MARTÍN",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          334
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          695
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          795
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          1074
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          1203
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          1351
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          1493
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1794
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          2243
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          2318
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          2671
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          2991
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          3442
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          3491
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          3683
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          3988
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          4610
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          4927
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          6617
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          8321
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          9470
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          9646
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          15216
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          18017
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          21147
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          33988
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          65906
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 2500,
+        "totalActas": 2534,
+        "actasContabilizadas": 98.658,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 24,
+      "nombre": "TACNA",
+      "parties": [
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          371
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          497
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          642
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          653
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          664
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          671
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          888
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          1224
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          1871
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          1876
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2109
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          2260
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          2447
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          2883
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          3767
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          3921
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          5317
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          6895
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          7268
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          8929
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          10151
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          10251
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          11406
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          12358
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          22255
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          22449
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          23668
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          24842
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 1041,
+        "totalActas": 1041,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 25,
+      "nombre": "TUMBES",
+      "parties": [
+        [
+          19,
+          "PARTIDO DEMOCRATICO FEDERAL",
+          126
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          137
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          197
+        ],
+        [
+          36,
+          "SALVEMOS AL PERÚ",
+          221
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          302
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          307
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          339
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          398
+        ],
+        [
+          15,
+          "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
+          420
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          489
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          508
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          624
+        ],
+        [
+          26,
+          "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
+          939
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          978
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          1019
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          1128
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          1154
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          1410
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          1434
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          1666
+        ],
+        [
+          33,
+          "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
+          1941
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          2217
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          3389
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          4506
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          4567
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          5116
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          5502
+        ],
+        [
+          10,
+          "JUNTOS POR EL PERÚ",
+          6162
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          6793
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          7821
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          23095
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 632,
+        "totalActas": 632,
+        "actasContabilizadas": 100,
+        "fechaActualizacion": 1780029900484
+      }
+    },
+    {
+      "codigo": 26,
+      "nombre": "UCAYALI",
+      "parties": [
+        [
+          4,
+          "PERÚ MODERNO",
+          320
+        ],
+        [
+          30,
+          "PARTIDO POLÍTICO PRIN",
+          364
+        ],
+        [
+          37,
+          "UN CAMINO DIFERENTE",
+          456
+        ],
+        [
+          11,
+          "LIBERTAD POPULAR",
+          525
+        ],
+        [
+          9,
+          "FUERZA Y LIBERTAD",
+          573
+        ],
+        [
+          38,
+          "UNIDAD NACIONAL",
+          594
+        ],
+        [
+          28,
+          "PARTIDO POLÍTICO PERÚ ACCIÓN",
+          622
+        ],
+        [
+          5,
+          "FE EN EL PERÚ",
+          743
+        ],
+        [
+          22,
+          "PARTIDO MORADO",
+          776
+        ],
+        [
+          18,
+          "PARTIDO DEMÓCRATA VERDE",
+          987
+        ],
+        [
+          7,
+          "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
+          1369
+        ],
+        [
+          3,
+          "ALIANZA ELECTORAL VENCEREMOS",
+          1435
+        ],
+        [
+          25,
+          "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
+          1467
+        ],
+        [
+          12,
+          "PARTIDO APRISTA PERUANO",
+          2403
+        ],
+        [
+          17,
+          "PARTIDO DEMÓCRATA UNIDO PERÚ",
+          2459
+        ],
+        [
+          27,
+          "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
+          2527
+        ],
+        [
+          21,
+          "PARTIDO FRENTE DE LA ESPERANZA 2021",
+          2706
+        ],
+        [
+          34,
+          "PROGRESEMOS",
+          2729
+        ],
+        [
+          1,
+          "ALIANZA PARA EL PROGRESO",
+          3380
+        ],
+        [
+          29,
+          "PARTIDO POLÍTICO PERÚ PRIMERO",
+          4408
+        ],
+        [
+          2,
+          "AHORA NACIÓN - AN",
+          6942
+        ],
+        [
+          32,
+          "PODEMOS PERÚ",
+          7693
+        ],
+        [
+          16,
+          "PARTIDO DEL BUEN GOBIERNO",
+          7806
+        ],
+        [
+          6,
+          "FRENTE POPULAR AGRÍCOLA FÍA DEL PERÚ",
+          8591
+        ],
+        [
+          20,
+          "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
+          8614
+        ],
+        [
+          35,
+          "RENOVACIÓN POPULAR",
+          9532
+        ],
+        [
+          23,
+          "PARTIDO PAÍS PARA TODOS",
+          11381
+        ],
+        [
+          14,
+          "PARTIDO CÍVICO OBRAS",
+          13306
+        ],
+        [
+          8,
+          "FUERZA POPULAR",
+          55120
+        ]
+      ],
+      "totales": {
+        "contabilizadas": 1476,
+        "totalActas": 1564,
+        "actasContabilizadas": 94.373,
+        "fechaActualizacion": 1780029900484
+      }
+    }
+  ]
+}

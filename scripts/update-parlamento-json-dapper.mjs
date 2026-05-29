@@ -968,8 +968,16 @@ async function mainDecideLive({ enrich }) {
 
   // Overlay ONPE per-district all-party votes and actas for senadoRegional.
   // The Decide Perú CDN only provides the winner party per district; ONPE provides all parties.
+  // If the live ONPE API is unreachable (CloudFront caches HTML for external requests),
+  // fall back to the static snapshot at data/onpe-senado-regional-snapshot.json.
   try {
-    const onpeRegional = await fetchOnpeSenRegionalAll();
+    let onpeRegional = await fetchOnpeSenRegionalAll();
+    let onpeSource = "live";
+    if (onpeRegional.length === 0) {
+      console.log("[ONPE] API live no disponible, cargando snapshot estático...");
+      onpeRegional = await loadOnpeSnapshot();
+      onpeSource = "snapshot";
+    }
     if (onpeRegional.length > 0) {
       const byName = new Map(onpeRegional.map(d => [normalize(d.nombre), d]));
       let enriched = 0;
@@ -988,7 +996,7 @@ async function mainDecideLive({ enrich }) {
       }
       // Rebuild nationalVotes for senadoRegional now that all circuits have full vote data
       cameras.senadoRegional.nationalVotes = aggregateVotes(cameras.senadoRegional.circunscripciones);
-      console.log(`[ONPE] Senado regional: ${enriched}/${cameras.senadoRegional.circunscripciones.length} circunscripciones enriquecidas (${onpeRegional.length} distritos disponibles).`);
+      console.log(`[ONPE] Senado regional: ${enriched}/${cameras.senadoRegional.circunscripciones.length} circunscripciones enriquecidas (${onpeRegional.length} distritos, fuente: ${onpeSource}).`);
     }
   } catch (err) {
     console.warn(`[ONPE] Error al enriquecer senadoRegional: ${err.message}`);
@@ -1084,6 +1092,35 @@ async function fetchOnpeSenRegionalAll() {
     })
   );
   return results.filter(Boolean);
+}
+
+async function loadOnpeSnapshot() {
+  // Reads the static browser-captured snapshot as fallback when live ONPE API is unreachable.
+  // Format: { generatedAt, districts: [{codigo, nombre, parties:[[id, nombre, votes],...], totales:{...}}] }
+  try {
+    const snapshotFile = path.join(dataDir, "onpe-senado-regional-snapshot.json");
+    const raw = await readFile(snapshotFile, "utf-8");
+    const snap = JSON.parse(raw);
+    if (!Array.isArray(snap.districts)) return [];
+    return snap.districts.map(d => {
+      const votes = (d.parties || [])
+        .map(([, nombre, votos]) => ({ party: canonicalParty(nombre).name, votes: number(votos) }))
+        .filter(v => v.party && v.votes > 0)
+        .sort((a, b) => b.votes - a.votes);
+      const t = d.totales;
+      const status = t ? {
+        processed: t.contabilizadas || null,
+        total: t.totalActas || null,
+        percent: t.actasContabilizadas || null,
+        updated: t.fechaActualizacion ? new Date(Number(t.fechaActualizacion)).toISOString() : null,
+        nationalFallback: false
+      } : null;
+      return { nombre: d.nombre, codigo: d.codigo, votes, status };
+    }).filter(d => d.votes.length > 0);
+  } catch (err) {
+    console.warn(`[ONPE] Snapshot load failed: ${err.message}`);
+    return [];
+  }
 }
 
 async function fetchDecideJson(pathname) {
