@@ -724,8 +724,8 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
 <!-- EV_PATCH_V70_FIX_REAL_STACK -->
 <!-- EV_PATCH_V71_FOTOS_CACHE_MOVIL -->
 <!-- EV_PATCH_V72_FIX_ESPACIADO_CANDIDATOS -->
-<!-- EV_PATCH_V79_DATOS_FOTOS_VELOCIDAD -->
-<!-- EV_PATCH_V80_ACTAS_ACTIONS_HORA -->
+<!-- EV_PATCH_V77_INTERFAZ_CORRECTA_LIVE_DAPPER -->
+<!-- EV_PATCH_V78_FIX_CONFIGYEAR -->
 </head>
 <body>
   <div class="topline"><span><b>Observatorio EV:</b> proyección técnica parlamentaria EG2026.</span><span>Lectura referencial basada en fuente normalizada; no sustituye proclamación oficial.</span></div>
@@ -884,8 +884,8 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
         diputadosSeatMap: diputadosSeatMap2026,
         qualifiedParties: QUALIFIED_PARTIES_2026,
         qualificationMode: 'computed',
-        urls: ['/data/parlamento-2026.json','https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json','/api/parlamento'],
-        liveUrls: ['https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json','/api/parlamento','/data/parlamento-2026.json']
+        urls: ['/data/parlamento-2026.json','/api/parlamento','https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json'],
+        liveUrls: ['/api/parlamento','/data/parlamento-2026.json','https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json']
       },
       '2021': {
         year: '2021',
@@ -1032,8 +1032,9 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       rawCircs.forEach(c=>{
         const name=canonicalCircName(c?.name,key);
         if(!name || name==='PENDIENTE') return;
-        const existing=byName.get(name)||{name,seats:official[name]??numeric(c?.seats),votes:[],blankNull:0,status:null};
+        const existing=byName.get(name)||{name,seats:official[name]??numeric(c?.seats),votes:[],validVotes:0,blankNull:0,status:null};
         existing.seats=(official[name] ?? numeric(c?.seats)) || existing.seats;
+        existing.validVotes=Math.max(numeric(existing.validVotes), numeric(c?.validVotes), numeric(c?.totalVotesValid), numeric(c?.total_votos_validos));
         existing.blankNull=Math.max(numeric(existing.blankNull), numeric(c?.blankNull));
         if(c?.status) existing.status=combineStatusObjects(existing.status,c.status);
         const votes=new Map((existing.votes||[]).map(v=>[v.party,numeric(v.votes)]));
@@ -1043,11 +1044,11 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       });
       const officialNames=Object.keys(official);
       if(officialNames.length){
-        out.circunscripciones=officialNames.map(name=>byName.get(name)||{name,seats:official[name],votes:[],blankNull:0});
+        out.circunscripciones=officialNames.map(name=>byName.get(name)||{name,seats:official[name],votes:[],validVotes:0,blankNull:0});
       } else {
         out.circunscripciones=[...byName.values()];
       }
-      if(!out.circunscripciones.length && out.nationalVotes.length){out.circunscripciones=[{name:'NACIONAL',seats:cameraMeta[key]?.seats||1,votes:out.nationalVotes,blankNull:numeric(out.blankNull),status:out.status||null}];}
+      if(!out.circunscripciones.length && out.nationalVotes.length){out.circunscripciones=[{name:'NACIONAL',seats:cameraMeta[key]?.seats||1,votes:out.nationalVotes,validVotes:out.nationalVotes.reduce((s,v)=>s+numeric(v.votes),0),blankNull:numeric(out.blankNull),status:out.status||null}];}
       return out;
     }
     function combineStatusObjects(...items){
@@ -1058,7 +1059,7 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       const jee=valid.reduce((sum,s)=>sum+numeric(s.jee),0);
       const pending=valid.reduce((sum,s)=>sum+numeric(s.pending),0);
       const blankNull=valid.reduce((sum,s)=>sum+numeric(s.blankNull),0);
-      const updated=valid.map(s=>s.updated).filter(Boolean).sort().pop()||null;
+      const updated=Math.max(...valid.map(s=>numeric(s.updated)).filter(Boolean),0);
       return {percent:total?Number(((processed/total)*100).toFixed(3)):null,processed:processed||null,total:total||null,jee,pending,blankNull,updated};
     }
     function mergeSenateTotal(){
@@ -1069,7 +1070,13 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       const circs = [];
       (nacional.circunscripciones||[]).forEach(c=>circs.push({...c,name:`NACIONAL · ${c.name || 'NACIONAL'}`,group:'Nacional'}));
       (regional.circunscripciones||[]).forEach(c=>circs.push({...c,name:`REGIONAL · ${c.name}`,group:'Regional'}));
-      return {name:'Senadores',barrier:.05,parties:[...parties.values()],circunscripciones:circs,nationalVotes:aggregateNationalFromCircs(circs),candidates:[...(nacional.candidates||[]).map(c=>({...c,senateBlock:'Nacional'})),...(regional.candidates||[]).map(c=>({...c,senateBlock:'Regional'}))],allocations:{noBarrier:[...((nacional.allocations?.noBarrier)||[]).map(a=>({...a,circunscripcion:`NACIONAL · ${a.circunscripcion||'NACIONAL'}`,group:'Nacional'})),...((regional.allocations?.noBarrier)||[]).map(a=>({...a,circunscripcion:`REGIONAL · ${a.circunscripcion}`,group:'Regional'}))],barrier:[...((nacional.allocations?.barrier)||[]).map(a=>({...a,circunscripcion:`NACIONAL · ${a.circunscripcion||'NACIONAL'}`,group:'Nacional'})),...((regional.allocations?.barrier)||[]).map(a=>({...a,circunscripcion:`REGIONAL · ${a.circunscripcion}`,group:'Regional'}))]},blankNull:numeric(nacional.blankNull)+numeric(regional.blankNull),status:combineStatusObjects(nacional.status,regional.status),_parts:{nacional,regional}};
+      // Use senadoNacional nationalVotes as base (has all qualifying parties); regional circuit votes are mostly incomplete (CDN only provides the winner per region)
+      const nacNV=(nacional.nationalVotes&&nacional.nationalVotes.length)?nacional.nationalVotes:aggregateNationalFromCircs(circs);
+      const regNV=aggregateNationalFromCircs(circs);
+      const nvMerged=new Map(nacNV.map(v=>[v.party,v.votes]));
+      regNV.forEach(v=>{if(!nvMerged.has(v.party)&&v.votes>0)nvMerged.set(v.party,v.votes);});
+      const senadoTotalNV=[...nvMerged.entries()].map(([party,votes])=>({party,votes})).sort((a,b)=>b.votes-a.votes);
+      return {name:'Senadores',barrier:.05,parties:[...parties.values()],circunscripciones:circs,nationalVotes:senadoTotalNV,candidates:[...(nacional.candidates||[]).map(c=>({...c,senateBlock:'Nacional'})),...(regional.candidates||[]).map(c=>({...c,senateBlock:'Regional'}))],allocations:{noBarrier:[...((nacional.allocations?.noBarrier)||[]).map(a=>({...a,circunscripcion:`NACIONAL · ${a.circunscripcion||'NACIONAL'}`,group:'Nacional'})),...((regional.allocations?.noBarrier)||[]).map(a=>({...a,circunscripcion:`REGIONAL · ${a.circunscripcion}`,group:'Regional'}))],barrier:[...((nacional.allocations?.barrier)||[]).map(a=>({...a,circunscripcion:`NACIONAL · ${a.circunscripcion||'NACIONAL'}`,group:'Nacional'})),...((regional.allocations?.barrier)||[]).map(a=>({...a,circunscripcion:`REGIONAL · ${a.circunscripcion}`,group:'Regional'}))]},blankNull:numeric(nacional.blankNull)+numeric(regional.blankNull),status:combineStatusObjects(nacional.status,regional.status),_parts:{nacional,regional}};
     }
 
     function seatsByDhondt(votes, seats){const totalSeats=Math.max(0,Number(seats||0));if(!totalSeats||!votes.length)return new Map();const rows=[];votes.forEach(v=>{const value=Number(v.votes||0);if(value<=0)return;for(let d=1;d<=totalSeats;d++)rows.push({party:v.party,votes:value,q:value/d});});rows.sort((a,b)=>b.q-a.q||b.votes-a.votes||a.party.localeCompare(b.party,'es'));const out=new Map();rows.slice(0,totalSeats).forEach(r=>out.set(r.party,(out.get(r.party)||0)+1));return out;}
@@ -1102,7 +1109,8 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
         const party=row.party||row.organizacion||row.organizacionPolitica;
         const seats=numeric(row.seats??row.curules??row.escanos??row['escaños']);
         if(!party||!seats)continue;
-        if(!circs.some(c=>allocationMatchesCirc(row,c)))continue;
+        const rowCirc=row.circunscripcion||row.scope||row.name;
+        if(rowCirc&&!circs.some(c=>allocationMatchesCirc(row,c)))continue;
         out.set(party,(out.get(party)||0)+seats);
       }
       const total=[...out.values()].reduce((s,n)=>s+numeric(n),0);
@@ -1209,7 +1217,8 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       else circs=selectedCirc?allCircs.filter(c=>c.name===selectedCirc):allCircs;
       const totalSeats=circs.reduce((s,c)=>s+numeric(c.seats),0);
       const votes=aggregateVotes(circs);
-      const valid=votes.reduce((s,v)=>s+v.votes,0);
+      const voteSum=votes.reduce((s,v)=>s+v.votes,0);
+      const valid=Math.max(voteSum,circs.reduce((s,c)=>s+numeric(c.validVotes),0));
       const nationalVotes=(data.nationalVotes&&data.nationalVotes.length)?data.nationalVotes:aggregateVotes(allCircs);
       const nationalTotal=nationalVotes.reduce((s,v)=>s+numeric(v.votes),0)||valid||1;
       let seatsNoBarrier=precomputedAllocation(data,'noBarrier',circs,totalSeats)||allocateAcrossCircunscripciones(circs,null);
@@ -1245,7 +1254,7 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
     function esc(value){return String(value??'').replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[ch]));}
     function candidateKey(c){return [c?.name,c?.party,c?.circunscripcion,c?.posicion].map(v=>String(v??'')).join('|');}
     function candidateIdentityKeys(c){const party=normalize(c?.party||''),circ=normalize(c?.circunscripcion||''),pos=numeric(c?.posicion),img=normalize(candidateImage(c));const keys=[];if(c?.dni)keys.push(`dni|${String(c.dni).replace(/\D+/g,'')}`);if(c?.idHojaVida)keys.push(`hv|${numeric(c.idHojaVida)}`);if(c?.elected){keys.push(`elected|${normalize(c?.name||'')}|${party}|${circ}|${numeric(c?.votosPref)}`);return keys.filter(Boolean);}if(party&&circ&&pos)keys.push(`slot|${party}|${circ}|${pos}`);if(img&&party&&circ)keys.push(`img|${img}|${party}|${circ}`);keys.push(`name|${candidateKey(c)}`);return keys.filter(Boolean);}
-    function isPlaceholderCandidate(c){return !c||c.sourceBackup===true||/^Nro\.\s*preferencial/i.test(clean(c?.name||''));}
+    function isPlaceholderCandidate(c){return !c||/^Nro\.\s*preferencial/i.test(clean(c?.name||''));}
     function hasNamedCandidates(data){return (data?.candidates||[]).some(c=>!isPlaceholderCandidate(c)&&clean(c?.name));}
     function hasOfficialElectedCandidates(data){
   return (data?.candidates||[]).some(c=>c.elected && !isPlaceholderCandidate(c));
@@ -1430,27 +1439,30 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
     function fillCameraOptions(){const select=$('camara'),current=select.value,options=electionConfig().cameraOptions;select.innerHTML=options.map(opt=>`<option value="${opt.value}">${opt.label}</option>`).join('');select.value=options.some(opt=>opt.value===current)?current:options[0].value;}
     function applyElectionCopy(){const config=electionConfig();$('electionYear').value=config.year;document.title=`Observatorio Parlamentario EG${config.year} | EV Abogados`;document.querySelector('.topline span:first-child').innerHTML=`<b>Observatorio EV:</b> ${config.topline.replace(/^Observatorio EV:\s*/,'')}`;document.querySelector('.eyebrow').textContent=config.eyebrow;document.querySelector('.hero h1').textContent=config.headline;document.querySelector('.hero-copy').textContent=config.copy;if($('footerScope'))$('footerScope').textContent=config.footer;const activeNav=document.querySelector('.nav-links a.active');if(activeNav){activeNav.textContent=config.nav;activeNav.href=config.year==='2026'?'/elecciones-2026/':`/elecciones-2026/?anio=${config.year}`;}}
     function fillCircunscripciones(){const data=dataFor(getCamera());const select=$('circ');const current=select.value;if(getCamera()==='senadoTotal'){const regional=(dataFor('senadoRegional').circunscripciones||[]).map(c=>c.name).filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));select.innerHTML='<option value="">Totales</option><option value="NACIONAL">Nacional</option><option value="REGIONAL">Regional</option>'+regional.map(name=>`<option value="${REGIONAL_SCOPE_PREFIX}${name}">Regional · ${name}</option>`).join('');const valid=['','NACIONAL','REGIONAL',...regional.map(name=>REGIONAL_SCOPE_PREFIX+name)];select.value=valid.includes(current)?current:'';return;}const options=(data.circunscripciones||[]).map(c=>c.name).filter(Boolean).sort((a,b)=>a.localeCompare(b,'es'));select.innerHTML='<option value="">Totales</option>'+options.map(name=>`<option value="${name}">${name}</option>`).join('');select.value=options.includes(current)?current:'';}
-    function statusForSelection(agg=null){const scoped=agg||aggregateForCurrentSelection();const combined=combineStatusObjects(...(scoped.circs||[]).map(c=>c.status).filter(Boolean));return combined||scoped.data.status||RAW?.status||{};}
+    function statusForSelection(agg=null){const scoped=agg||aggregateForCurrentSelection();const combined=combineStatusObjects(...(scoped.circs||[]).map(c=>c.status).filter(Boolean));if(numeric(combined?.total))return combined;if(numeric(scoped.data?.status?.total))return scoped.data.status;return RAW?.status||{};}
     function statusBreakdownHTML(status){const total=numeric(status.total),processed=numeric(status.processed),jee=numeric(status.jee),pending=numeric(status.pending);if(!total)return '';const pct=n=>Math.max(0,Math.min(100,(numeric(n)/total)*100));return `<div class="status-bar" aria-label="Estado de actas"><span class="status-seg counted" style="width:${pct(processed)}%"></span><span class="status-seg jee" style="width:${pct(jee)}%"></span><span class="status-seg pending" style="width:${pct(pending)}%"></span></div><div class="status-legend"><span><i class="status-dot counted"></i>Contabilizadas (${fmt.format(processed)})</span><span><i class="status-dot jee"></i>Para envío al JEE (${fmt.format(jee)})</span><span><i class="status-dot pending"></i>Pendientes (${fmt.format(pending)})</span></div>`;}
     function statusForCurrentCamera(){return statusForSelection();}
     function barrierLabel(){const pct=`${Math.round(numeric(dataFor(getCamera()).barrier??.05)*100)} %`;const cam=getCamera();if(cam==='diputados')return `${pct} + 7 diputados`;if(cam==='senadoTotal'||cam==='senadoNacional'||cam==='senadoRegional')return `${pct} + 3 senadores`;return `${pct} valla`;}
-    
-    function parseSourceDateForPE(value){
-      if(!value)return null;
-      let text=String(value).trim();
-      if(!text)return null;
-      if(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?$/.test(text))text+='Z';
-      const d=new Date(text);
-      return Number.isFinite(d.getTime())?d:null;
-    }
-    function formatDateTimePE(value){
-      const d=parseSourceDateForPE(value);
-      return d?d.toLocaleString('es-PE',{timeZone:'America/Lima',year:'numeric',month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit',second:'2-digit'}):'—';
-    }
-
-    function renderStatus(){const status=statusForCurrentCamera(),percent=status.percent,percentDisplay=percent==null?'—':(Number(percent)>1?`${Number(percent).toFixed(2)} %`:percentText(percent));$('statusPercent').textContent=percentDisplay;$('statusRatio').innerHTML=status.processed!=null?`<b>${fmt.format(status.processed)}</b> / ${fmt.format(status.total||0)} actas`:'Fuente cargada sin detalle de actas.';$('statusBreakdown').innerHTML=statusBreakdownHTML(status);const updated=status.updated||RAW?.status?.updated||RAW?.updatedAt;$('statusTime').textContent=updated?formatDateTimePE(updated):'—';$('statusSource').textContent=RAW?.sourceLabel?`Fuente: ${RAW.sourceLabel}`:(RAW?.sourceMode==='sample'?'Fuente: demostrativa':electionConfig().sourceReady);const alert=$('sourceAlert');if(RAW?.sourceMode==='sample'){alert.className='source-alert show';alert.textContent='Modo demostrativo: configure ONPE_PARLAMENTO_JSON_URL en Cloudflare Pages para consumir la fuente normalizada real.';}else{alert.className='source-alert';alert.textContent='';}}
+    function renderStatus(){const status=statusForCurrentCamera(),percent=status.percent,hasActas=numeric(status.total)>0&&numeric(status.processed)>0,percentDisplay=percent==null?'—':(Number(percent)>1?`${Number(percent).toFixed(2)} %`:percentText(percent));$('statusPercent').textContent=percentDisplay;$('statusRatio').innerHTML=hasActas?`<b>${fmt.format(status.processed)}</b> / ${fmt.format(status.total)} actas`:'Fuente cargada sin detalle de actas.';$('statusBreakdown').innerHTML=hasActas?statusBreakdownHTML(status):'';const updated=RAW?.updatedAt||status.updated||RAW?.status?.updated;$('statusTime').textContent=updated?new Date(updated).toLocaleString('es-PE'):'—';$('statusSource').textContent=RAW?.sourceLabel?`Fuente: ${RAW.sourceLabel}`:(RAW?.sourceMode==='sample'?'Fuente: demostrativa':electionConfig().sourceReady);const alert=$('sourceAlert');if(RAW?.sourceMode==='sample'){alert.className='source-alert show';alert.textContent='Modo demostrativo: configure ONPE_PARLAMENTO_JSON_URL en Cloudflare Pages para consumir la fuente normalizada real.';}else{alert.className='source-alert';alert.textContent='';}}
     function renderCameraStrip(){const current=getCamera(),scope=getCirc();const tiles=electionConfig().tiles;$('cameraStrip').innerHTML=tiles.map(t=>{const active=current===t.camera&&(t.camera!=='senadoTotal'||scope===t.circ);return `<article class="camera-tile ${active?'active':''}" data-camera="${t.camera}" data-circ="${t.circ}"><b>${t.label}</b><small>${t.sub}</small><div class="count">${t.seats}</div></article>`;}).join('');document.querySelectorAll('.camera-tile').forEach(el=>el.addEventListener('click',()=>{selectedSpotlightParty='';$('camara').value=el.dataset.camera;fillCircunscripciones();$('circ').value=el.dataset.circ||'';renderAll();}));}
     function renderDistrictInsight(agg,partyMap){const status=statusForSelection(agg),scope=getCirc(),title=regionalScopeName(scope)||scope||'Perú';$('insightTitle').textContent=`${displayCameraName()} · ${title}`;$('insightSub').textContent=scope?'Lectura territorial de votos, actas y curules proyectadas.':'Vista nacional con acceso rápido por circunscripción.';$('insightKicker').textContent=RAW?.sourceMode?.includes('dapper')?'Fuente Dapper / ONPE normalizada':'Fuente normalizada';$('insightStats').innerHTML=[['Actas',status.percent==null?'—':(Number(status.percent)>1?`${Number(status.percent).toFixed(2)} %`:percentText(status.percent))],['Votos válidos',fmt.format(agg.valid)],['Curules',fmt.format(agg.totalSeats||cameraMeta[getCamera()]?.seats||0)]].map(([label,value])=>`<div class="insight-stat"><b>${value}</b><span>${label}</span></div>`).join('');const options=[...$('circ').options].slice(0,34);$('districtChips').innerHTML=options.map(opt=>`<button class="district-chip ${opt.value===scope?'active':''}" type="button" data-circ="${esc(opt.value)}">${esc(opt.textContent||'Totales')}</button>`).join('');document.querySelectorAll('.district-chip').forEach(btn=>btn.addEventListener('click',()=>{$('circ').value=btn.dataset.circ||'';renderAll();}));let leaders=[...agg.seatsBarrier.entries()].filter(([,seats])=>seats>0).sort((a,b)=>b[1]-a[1]).slice(0,5);if(!leaders.length)leaders=agg.votes.slice(0,5).map(v=>[v.party,0]);$('leaderRows').innerHTML=leaders.map(([party,seats])=>{const meta=partyMeta(partyMap,party)||{short:initials(party),color:hashColor(party)};const vote={votes:officialVoteForParty(agg,party)};const logos=logoSources(meta,party);const mark=logos[0]?`<img src="${esc(logos[0])}" alt="${esc(party)}">`:esc((meta.short||initials(party)).slice(0,3));return `<div class="leader-row"><span class="leader-mark" style="background:${meta.color||'#eef4fb'}">${mark}</span><span><span class="leader-name">${esc(party)}</span><span class="leader-votes">${fmt.format(numeric(vote?.votes))} votos</span></span><span class="leader-seats">${seats?fmt.format(seats):'—'}</span></div>`;}).join('')||'<div class="empty">Sin votos cargados.</div>';}
+    function circNavigateForCandidate(c){
+      // Returns the value to set in the #circ selector when clicking a candidate card.
+      // Maps candidate's projectedCirc to a valid selector option for the current camera.
+      const cam=getCamera();
+      const pc=(c.projectedCirc||c.circunscripcion||'').trim();
+      const n=normalize(pc);
+      if(!pc)return '';
+      if(n==='RESIDENTES EN EL EXTRANJERO'||n.includes('EXTRANJERO'))return '';
+      if(n==='SENADO NACIONAL'||n==='NACIONAL'){
+        return cam==='senadoTotal'?'NACIONAL':'';
+      }
+      if(cam==='senadoTotal'){
+        // Regional senate circuits need the "REGIONAL · " prefix used in the selector
+        return `REGIONAL · ${pc}`;
+      }
+      return pc; // diputados / andino: circuit name matches selector directly
+    }
     function spotlightCandidateHTML(c,badge){
       const short=clean(c.partyShort)||initials(c.party);
       const img=candidateImage(c);
@@ -1462,7 +1474,9 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       const media=img
         ? `<img src="${esc(img)}" alt="${esc(c.name||'Candidato')}" loading="lazy" decoding="async" fetchpriority="low" referrerpolicy="no-referrer" onerror="${logo?`this.onerror=function(){this.style.visibility='hidden'};this.src='${esc(logo)}';`:`this.style.visibility='hidden'`}">`
         : (logo?`<img src="${esc(logo)}" alt="${esc(c.party||'Organización política')}" loading="lazy" decoding="async" fetchpriority="low" onerror="this.style.visibility='hidden'">`:'');
-      return `<article class="winner-card"><div class="winner-photo">${media}</div><div class="winner-body"><b>${esc(c.name||'Candidato sin nombre')}</b><small>${esc(c.party||'Organización no informada')}</small><small>${esc(c.circunscripcion||c.projectedCirc||'NACIONAL')} · ${fmt.format(numeric(c.votosPref))} votos pref.</small><small>Edad: ${age?esc(age)+' años':'—'} · Nro. pref.: ${c.posicion||'—'}</small><span class="winner-badge">${badge}</span></div></article>`;
+      const navCirc=circNavigateForCandidate(c);
+      const navClick=navCirc?` data-nav-circ="${esc(navCirc)}" style="cursor:pointer" title="Ver ${esc(navCirc.replace(/^REGIONAL · /,''))}" onclick="const nc=this.dataset.navCirc;if(nc!==undefined&&nc!==getCirc()){$('circ').value=nc;selectedSpotlightParty='';renderAll();}"`:' style="cursor:default"';
+      return `<article class="winner-card"${navClick}><div class="winner-photo">${media}</div><div class="winner-body"><b>${esc(c.name||'Candidato sin nombre')}</b><small>${esc(c.party||'Organización no informada')}</small><small>${esc(c.circunscripcion||c.projectedCirc||'NACIONAL')} · ${fmt.format(numeric(c.votosPref))} votos pref.</small><small>Edad: ${age?esc(age)+' años':'—'} · Nro. pref.: ${c.posicion||'—'}</small><span class="winner-badge">${badge}</span></div></article>`;
     }
     function projectedScopeLabel(scope){
       const regional=regionalScopeName(scope);
@@ -1509,7 +1523,13 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       const scope=getCirc(),scopeName=regionalScopeName(scope)||scope||'Perú',cam=getCamera(),cameraName=displayCameraName();
       const withWinners=uniqueCandidates(projectedCandidatesFor(agg,qualifyingParties(agg.data,cam)));
       const fallback=candidatePoolFor(agg.data,agg.selectedCirc,hasOfficialElectedCandidates(agg.data));
-      const represented=hasOfficialElectedCandidates(agg.data)?[...projectedCandidatesFor(agg,qualifyingParties(agg.data,cam)).reduce((m,c)=>m.set(c.party,(m.get(c.party)||0)+1),new Map()).entries()].sort((a,b)=>b[1]-a[1]):[...agg.seatsBarrier.entries()].filter(([,seats])=>seats>0).sort((a,b)=>b[1]-a[1]);
+      const _barrierRep=[...agg.seatsBarrier.entries()].filter(([,seats])=>seats>0).sort((a,b)=>b[1]-a[1]);
+      // For senate regional circuits, CDN only provides winner vote data; supplement panel with all qualifying parties at 0 seats so vote comparisons remain visible
+      const _eligible=agg.eligible||qualifyingParties(agg.data,cam);
+      const _barrierRepSet=new Set(_barrierRep.map(([p])=>normalize(p)));
+      const _isSenate=cam==='senadoTotal'||cam==='senadoNacional'||cam==='senadoRegional';
+      const _repAll=(_isSenate&&_eligible&&_barrierRep.length<_eligible.size)?[..._barrierRep,...([..._eligible].filter(p=>!_barrierRepSet.has(normalize(p))).map(p=>[p,0]))]:_barrierRep;
+      const represented=hasOfficialElectedCandidates(agg.data)?[...projectedCandidatesFor(agg,qualifyingParties(agg.data,cam)).reduce((m,c)=>m.set(c.party,(m.get(c.party)||0)+1),new Map()).entries()].sort((a,b)=>b[1]-a[1]):_repAll;
       const activeParty=selectedSpotlightParty&&represented.some(([party])=>normalize(party)===normalize(selectedSpotlightParty))?selectedSpotlightParty:'';
       if(selectedSpotlightParty&&!activeParty)selectedSpotlightParty='';
       if(!hasNamedCandidates(agg.data)){
@@ -1544,13 +1564,21 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       $('spotlightSub').textContent=activeParty?'Curules de la fuerza seleccionada. Haga click nuevamente en la fuerza para volver al total.':(scope?'Escenario con valla para la circunscripción seleccionada.':'Escenario con valla agrupado por fuerza política.');
       $('spotlightStats').innerHTML=[['Curules',fmt.format(activeParty?activeSeats:(agg.totalSeats||cameraMeta[cam]?.seats||0))],['Listas',fmt.format(activeParty?1:represented.length)],['Candidatos',fmt.format(list.length)]].map(([label,value])=>`<div class="spotlight-stat"><b>${value}</b><span>${label}</span></div>`).join('');
       const partyIndex=new Map();
-      box.innerHTML=list.map(c=>{
+      const renderCandidateChunk=(items)=>items.map(c=>{
         const total=scope?numeric(c.projectedPartySeats):(agg.seatsBarrier.get(c.party)||numeric(c.projectedPartySeats)||1);
         const next=(partyIndex.get(c.party)||0)+1;
         partyIndex.set(c.party,next);
         const seat=scope?numeric(c.projectedSeat)||next:next;
         return spotlightCandidateHTML(c,withWinners.length?`Curul ${seat}/${total}`:'Mayor votación');
-      }).join('')||'<div class="empty">Seleccione una circunscripción o espere a que la fuente publique candidatos para esta cámara.</div>';
+      }).join('');
+      if(list.length>28&&electionConfig().year==='2026'){
+        const first=list.slice(0,18),rest=list.slice(18);
+        box.innerHTML=renderCandidateChunk(first)||'<div class="empty">Seleccione una circunscripción o espere a que la fuente publique candidatos para esta cámara.</div>';
+        const appendRest=()=>box.insertAdjacentHTML('beforeend',renderCandidateChunk(rest));
+        if('requestIdleCallback' in window)requestIdleCallback(appendRest,{timeout:900});else setTimeout(appendRest,80);
+      }else{
+        box.innerHTML=renderCandidateChunk(list)||'<div class="empty">Seleccione una circunscripción o espere a que la fuente publique candidatos para esta cámara.</div>';
+      }
       const leaderBox=$('spotlightLeaders');
       leaderBox.className='compact-leader-list';
       leaderBox.innerHTML=represented.map(([party,seats])=>{
@@ -1808,20 +1836,30 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       window.addEventListener('resize',()=>{if(!isDesktop())hide();else if(activeSeat)positionFor(activeSeat);});
     }
 
-    async function fetchWithTimeout(url,options={},ms=3000){
-      const ctrl=new AbortController();
-      const timer=setTimeout(()=>ctrl.abort(),ms);
-      try{return await fetch(url,{...options,signal:ctrl.signal});}
+    async function fetchWithTimeout(url,options,ms){
+      const controller=new AbortController();
+      const timer=setTimeout(()=>controller.abort(),ms);
+      try{return await fetch(url,{...options,signal:controller.signal});}
       finally{clearTimeout(timer);}
     }
+
     async function fetchParlamentoJSON(config=electionConfig(),options={}){
-      const urls=options.live?(config.liveUrls||config.urls):config.urls;
-      const allowBrowserCache=!options.live;
+      const configured=options.live?(config.liveUrls||config.urls):config.urls;
+      const allowBrowserCache=!options.live&&config.year!=='2026';
+      const urls=config.year==='2026'
+        ? Array.from(new Set([
+            ...(configured||[]),
+            '/data/parlamento-2026.json',
+            '/api/parlamento',
+            'https://raw.githubusercontent.com/breder89-png/evabogados-elecciones-2026/main/data/parlamento-2026.json'
+          ]))
+        : configured;
       let lastError=null;
       for(const url of urls){
         try{
           const bust=allowBrowserCache?'':(url.includes('?')?'&ts='+Date.now():'?ts='+Date.now());
-          const timeout=(config.year==='2026'&&String(url).includes('raw.githubusercontent.com'))?1600:2600;const response=await fetchWithTimeout(url+bust,{cache:allowBrowserCache?'force-cache':'no-store'},timeout);
+          const timeout=(config.year==='2026'&&url.includes('raw.githubusercontent.com'))?1600:3200;
+          const response=await fetchWithTimeout(url+bust,{cache:allowBrowserCache?'force-cache':'no-store'},timeout);
           if(!response.ok)throw new Error(`${url}: HTTP ${response.status}`);
           const text=await response.text();
           const trimmed=text.trim();
@@ -1931,10 +1969,6 @@ body[data-camera="senadoTotal"] #legendSB .party .name{
       renderAll();
       document.body.classList.add('source-ready');
       if(RAW?.sourceMode!=='sample')$('sourceAlert').className='source-alert';
-      if(config.year==='2026'&&!options.live&&!options.force&&!window.LIVE_BACKGROUND_REFRESH_DONE){
-        window.LIVE_BACKGROUND_REFRESH_DONE=true;
-        setTimeout(()=>loadData({live:true}).catch(()=>{}),350);
-      }
     }
     function setElectionYear(year){if(!ELECTION_CONFIGS[year]||year===ELECTION_YEAR)return;ELECTION_YEAR=year;++LOAD_SEQUENCE;RAW=null;document.body.classList.remove('source-ready');lastTerritoryViewBox='';const url=new URL(location.href);url.searchParams.set('anio',year);history.replaceState(null,'',url);loadData().catch(showError);}
     function preloadElectionData(){
