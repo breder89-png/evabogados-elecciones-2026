@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-29T05:12:59.320Z",
+  "generatedAt": "2026-05-29T06:06:51.052Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
   "manifestUpdatedAt": "2026-05-29T04:55:49.277906+00:00",
   "updatedAt": "2026-05-29T04:55:49.277Z",
   "cameras": {
     "diputados": {
-      "parties": 14,
+      "parties": 37,
       "circunscripciones": 27,
       "candidates": 344,
       "status": {
