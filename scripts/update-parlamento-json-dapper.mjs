@@ -1037,6 +1037,34 @@ async function mainDecideLive({ enrich }) {
         enrich
       );
       console.log(`[ONPE] Diputados: ${enriched}/${cameras.diputados.circunscripciones.length} circunscripciones enriquecidas (${onpeDip.length} distritos, fuente: ${onpeDipSource}).`);
+      // Auto-update snapshot when live ONPE data is available so future fallbacks stay current
+      if (onpeDipSource === "live" && onpeDip.length >= 20) {
+        try {
+          const snapshotFile = path.join(dataDir, "onpe-diputados-snapshot.json");
+          const snapshotData = {
+            generatedAt: new Date().toISOString(),
+            source: "auto-saved-from-live",
+            idEleccion: ONPE_ELECTION_ID.diputados,
+            districts: onpeDip.map(d => ({
+              codigo: d.codigo,
+              nombre: d.nombre,
+              parties: d.votes.map(v => [0, v.party, v.votes]),
+              totales: d.status ? {
+                contabilizadas: d.status.processed,
+                totalActas: d.status.total,
+                actasContabilizadas: d.status.percent,
+                enviadasJee: d.status.jee,
+                pendientesJee: d.status.pending,
+                fechaActualizacion: d.status.updated ? new Date(d.status.updated).getTime() : null
+              } : null
+            }))
+          };
+          await writeFile(snapshotFile, `${JSON.stringify(snapshotData, null, 2)}\n`, "utf-8");
+          console.log(`[ONPE] Snapshot de diputados auto-actualizado (${onpeDip.length} distritos).`);
+        } catch (snapErr) {
+          console.warn(`[ONPE] No se pudo auto-guardar snapshot diputados: ${snapErr.message}`);
+        }
+      }
     }
   } catch (err) {
     console.warn(`[ONPE] Error al enriquecer diputados: ${err.message}`);
@@ -1078,6 +1106,7 @@ async function mainDecideLive({ enrich }) {
 
   const payload = {
     year: 2026,
+    generatedAt: new Date().toISOString(),
     updatedAt: decideUpdatedAt(manifest, dipSeats?._metadata, senSeats?._metadata, andinoSeats?._metadata),
     status: decideActaStatus(dipSeats?._metadata?.acta_onpe, "diputados") || combineStatusObjects(cameras.diputados.status, cameras.senado.status, cameras.andino.status),
     camaras: cameras,
