@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-05-30T23:45:02.103Z",
+  "generatedAt": "2026-05-31T02:53:19.508Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-05-30T23:17:55.214056+00:00",
-  "updatedAt": "2026-05-30T23:17:55.214Z",
+  "manifestUpdatedAt": "2026-05-31T01:18:56.886794+00:00",
+  "updatedAt": "2026-05-31T06:00:05.365Z",
   "cameras": {
     "diputados": {
       "parties": 37,
       "circunscripciones": 27,
       "candidates": 344,
       "status": {
-        "percent": 99.022,
-        "processed": 91859,
+        "percent": 99.042,
+        "processed": 91877,
         "total": 92766,
-        "jee": 904,
-        "pending": 3,
-        "blankNull": 5669918,
-        "updated": "2026-05-30T23:00:06.182000"
+        "jee": 885,
+        "pending": 4,
+        "blankNull": 5670940,
+        "updated": "2026-05-31T01:00:05.365000"
       }
     },
     "senadoNacional": {
@@ -23,13 +23,13 @@
       "circunscripciones": 1,
       "candidates": 38,
       "status": {
-        "percent": 98.712,
-        "processed": 91571,
+        "percent": 98.756,
+        "processed": 91612,
         "total": 92766,
-        "jee": 1185,
-        "pending": 10,
-        "blankNull": 5282270,
-        "updated": "2026-05-30T23:00:06.182000"
+        "jee": 1139,
+        "pending": 15,
+        "blankNull": 5285030,
+        "updated": "2026-05-31T01:00:05.365000"
       }
     },
     "senadoRegional": {
@@ -37,13 +37,13 @@
       "circunscripciones": 27,
       "candidates": 31,
       "status": {
-        "percent": 99.11,
-        "processed": 91940,
+        "percent": 99.127,
+        "processed": 91956,
         "total": 92766,
-        "jee": 822,
+        "jee": 806,
         "pending": 4,
-        "blankNull": 6419266,
-        "updated": "2026-05-30T23:00:06.182000"
+        "blankNull": 6420975,
+        "updated": "2026-05-31T01:00:05.365000"
       }
     },
     "andino": {
@@ -51,13 +51,13 @@
       "circunscripciones": 1,
       "candidates": 23,
       "status": {
-        "percent": 99.048,
-        "processed": 91883,
+        "percent": 99.079,
+        "processed": 91912,
         "total": 92766,
-        "jee": 879,
-        "pending": 4,
-        "blankNull": 6710183,
-        "updated": "2026-05-30T23:00:06.182000"
+        "jee": 848,
+        "pending": 6,
+        "blankNull": 6712973,
+        "updated": "2026-05-31T01:00:05.365000"
       }
     }
   }
