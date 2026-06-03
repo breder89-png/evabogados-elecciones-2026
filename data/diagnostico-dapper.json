@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-03T15:57:14.493Z",
+  "generatedAt": "2026-06-03T23:14:46.184Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-06-03T05:37:21.285405+00:00",
-  "updatedAt": "2026-06-03T05:37:21.285Z",
+  "manifestUpdatedAt": "2026-06-03T22:49:19.802918+00:00",
+  "updatedAt": "2026-06-03T22:49:19.802Z",
   "cameras": {
     "diputados": {
       "parties": 37,
       "circunscripciones": 27,
       "candidates": 344,
       "status": {
-        "percent": 99.472,
-        "processed": 92276,
+        "percent": 99.499,
+        "processed": 92301,
         "total": 92766,
-        "jee": 489,
+        "jee": 464,
         "pending": 1,
-        "blankNull": 5709931,
-        "updated": "2026-06-03T04:30:00.711000"
+        "blankNull": 5711779,
+        "updated": "2026-06-03T22:30:03.415000"
       }
     },
     "senadoNacional": {
@@ -23,13 +23,13 @@
       "circunscripciones": 1,
       "candidates": 38,
       "status": {
-        "percent": 99.276,
-        "processed": 92094,
+        "percent": 99.296,
+        "processed": 92113,
         "total": 92766,
-        "jee": 666,
-        "pending": 6,
-        "blankNull": 5332021,
-        "updated": "2026-06-03T04:30:00.711000"
+        "jee": 650,
+        "pending": 3,
+        "blankNull": 5333541,
+        "updated": "2026-06-03T22:30:03.415000"
       }
     },
     "senadoRegional": {
@@ -37,13 +37,13 @@
       "circunscripciones": 27,
       "candidates": 31,
       "status": {
-        "percent": 99.469,
-        "processed": 92273,
+        "percent": 99.498,
+        "processed": 92300,
         "total": 92766,
-        "jee": 490,
-        "pending": 3,
-        "blankNull": 6455175,
-        "updated": "2026-06-03T04:30:00.711000"
+        "jee": 465,
+        "pending": 1,
+        "blankNull": 6457214,
+        "updated": "2026-06-03T22:30:03.415000"
       }
     },
     "andino": {
@@ -51,13 +51,13 @@
       "circunscripciones": 1,
       "candidates": 23,
       "status": {
-        "percent": 99.498,
-        "processed": 92300,
+        "percent": 99.519,
+        "processed": 92320,
         "total": 92766,
-        "jee": 464,
+        "jee": 444,
         "pending": 2,
-        "blankNull": 6756061,
-        "updated": "2026-06-03T04:30:00.711000"
+        "blankNull": 6757954,
+        "updated": "2026-06-03T22:30:03.415000"
       }
     }
   }
