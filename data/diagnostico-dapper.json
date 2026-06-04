@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-04T13:51:07.378Z",
+  "generatedAt": "2026-06-04T14:38:14.177Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-06-04T05:05:46.121069+00:00",
-  "updatedAt": "2026-06-04T05:05:46.121Z",
+  "manifestUpdatedAt": "2026-06-04T14:19:51.959123+00:00",
+  "updatedAt": "2026-06-04T14:19:51.959Z",
   "cameras": {
     "diputados": {
       "parties": 37,
@@ -15,7 +15,7 @@
         "jee": 411,
         "pending": 1,
         "blankNull": 5715471,
-        "updated": "2026-06-04T04:45:00.461000"
+        "updated": "2026-06-04T06:15:00.442000"
       }
     },
     "senadoNacional": {
@@ -29,7 +29,7 @@
         "jee": 583,
         "pending": null,
         "blankNull": 5338421,
-        "updated": "2026-06-04T04:45:00.461000"
+        "updated": "2026-06-04T06:15:00.442000"
       }
     },
     "senadoRegional": {
@@ -43,7 +43,7 @@
         "jee": 426,
         "pending": 1,
         "blankNull": 6460039,
-        "updated": "2026-06-04T04:45:00.461000"
+        "updated": "2026-06-04T06:15:00.442000"
       }
     },
     "andino": {
@@ -57,7 +57,7 @@
         "jee": 391,
         "pending": 2,
         "blankNull": 6762288,
-        "updated": "2026-06-04T04:45:00.461000"
+        "updated": "2026-06-04T06:15:00.442000"
       }
     }
   }
