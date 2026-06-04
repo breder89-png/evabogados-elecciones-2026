@@ -1,15 +1,15 @@
 {
   "year": 2026,
-  "generatedAt": "2026-06-04T21:02:10.723Z",
-  "updatedAt": "2026-06-04T17:47:58.004Z",
+  "generatedAt": "2026-06-04T22:16:18.647Z",
+  "updatedAt": "2026-06-05T02:00:04.930Z",
   "status": {
-    "percent": 99.57,
-    "processed": 92367,
+    "percent": 99.594,
+    "processed": 92389,
     "total": 92766,
-    "jee": 396,
-    "pending": 3,
-    "blankNull": 5716441,
-    "updated": "2026-06-04T17:30:02.490000"
+    "jee": 373,
+    "pending": 4,
+    "blankNull": 5717987,
+    "updated": "2026-06-04T21:00:04.930000"
   },
   "camaras": {
     "diputados": {
@@ -374,7 +374,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -534,7 +534,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -693,7 +693,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -861,7 +861,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1017,7 +1017,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1182,7 +1182,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1347,7 +1347,7 @@
             "percent": 99.758,
             "jee": 6,
             "pending": 1,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1513,7 +1513,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1660,7 +1660,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1804,7 +1804,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1973,7 +1973,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2148,7 +2148,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2324,7 +2324,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2494,7 +2494,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2528,165 +2528,165 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 32,
-          "validVotes": 4862541,
-          "blankNull": 1362555,
+          "validVotes": 4865647,
+          "blankNull": 1363810,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 897230
+              "votes": 897578
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 710951
+              "votes": 711376
             },
             {
               "party": "FUERZA POPULAR",
-              "votes": 701845
+              "votes": 702360
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 443033
+              "votes": 443303
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 376078
+              "votes": 376347
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 305319
+              "votes": 305586
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 203920
+              "votes": 204022
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 144013
+              "votes": 144112
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 137746
+              "votes": 137823
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 98551
+              "votes": 98585
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 86043
+              "votes": 86117
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 72739
+              "votes": 72805
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 69377
+              "votes": 69435
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 61676
+              "votes": 61729
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 60452
+              "votes": 60505
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 55673
+              "votes": 55697
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 52344
+              "votes": 52363
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 46329
+              "votes": 46361
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 39618
+              "votes": 39650
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 31309
+              "votes": 31331
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 29870
+              "votes": 29894
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 29459
+              "votes": 29477
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 27047
+              "votes": 27078
             },
             {
               "party": "VENCEREMOS",
-              "votes": 26875
+              "votes": 26903
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 24433
+              "votes": 24451
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 23645
+              "votes": 23663
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 20228
+              "votes": 20244
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 18116
+              "votes": 18131
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 10411
+              "votes": 10415
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 9775
+              "votes": 9814
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 9268
+              "votes": 9275
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 7794
+              "votes": 7808
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 6723
+              "votes": 6736
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 6609
+              "votes": 6614
             },
             {
               "party": "PERÚ MODERNO",
-              "votes": 6506
+              "votes": 6515
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 6243
+              "votes": 6244
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 5293
+              "votes": 5300
             }
           ],
           "status": {
-            "processed": 26149,
+            "processed": 26167,
             "total": 26368,
-            "percent": 99.169,
-            "jee": 219,
+            "percent": 99.238,
+            "jee": 201,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2875,7 +2875,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3033,7 +3033,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3186,7 +3186,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3322,7 +3322,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3455,7 +3455,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3607,7 +3607,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3626,76 +3626,76 @@
         {
           "name": "PIURA",
           "seats": 7,
-          "validVotes": 665252,
-          "blankNull": 452462,
+          "validVotes": 665511,
+          "blankNull": 452753,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 189015
+              "votes": 189072
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 56831
+              "votes": 56853
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 53471
+              "votes": 53477
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 49305
+              "votes": 49316
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 43731
+              "votes": 43755
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 35481
+              "votes": 35508
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 34313
+              "votes": 34342
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 29862
+              "votes": 29876
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 23368
+              "votes": 23376
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 20065
+              "votes": 20071
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 15586
+              "votes": 15587
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 14843
+              "votes": 14849
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 14101
+              "votes": 14106
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 8996
+              "votes": 8998
             },
             {
               "party": "VENCEREMOS",
-              "votes": 8956
+              "votes": 8964
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 7038
+              "votes": 7041
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 6680
+              "votes": 6681
             },
             {
               "party": "PROGRESEMOS",
@@ -3703,47 +3703,47 @@
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 5766
+              "votes": 5767
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 5509
+              "votes": 5510
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 4599
+              "votes": 4602
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 3840
+              "votes": 3845
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 3760
+              "votes": 3762
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 3564
+              "votes": 3565
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 3079
+              "votes": 3080
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2825
+              "votes": 2827
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 2379
+              "votes": 2380
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 2351
+              "votes": 2353
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 2149
+              "votes": 2154
             },
             {
               "party": "FUERZA Y LIBERTAD",
@@ -3751,11 +3751,11 @@
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 1801
+              "votes": 1804
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 1481
+              "votes": 1483
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
@@ -3767,12 +3767,12 @@
             }
           ],
           "status": {
-            "processed": 5122,
+            "processed": 5126,
             "total": 5281,
-            "percent": 96.989,
-            "jee": 157,
-            "pending": 2,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "percent": 97.065,
+            "jee": 152,
+            "pending": 3,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3943,7 +3943,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4101,7 +4101,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4246,7 +4246,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4383,7 +4383,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4531,7 +4531,7 @@
             "percent": 99.105,
             "jee": 14,
             "pending": 0,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4551,151 +4551,151 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2104991
+          "votes": 2105563
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1588660
+          "votes": 1589019
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1552023
+          "votes": 1552122
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1505059
+          "votes": 1505506
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1221583
+          "votes": 1221880
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1196319
+          "votes": 1196612
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 836197
+          "votes": 836470
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 433591
+          "votes": 433701
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 400054
+          "votes": 400121
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 378434
+          "votes": 378521
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 307076
+          "votes": 307151
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 271820
+          "votes": 271887
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 268082
+          "votes": 268121
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 243785
+          "votes": 243868
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 240731
+          "votes": 240786
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 196659
+          "votes": 196687
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 163485
+          "votes": 163504
         },
         {
           "party": "VENCEREMOS",
-          "votes": 161973
+          "votes": 162009
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 137818
+          "votes": 137835
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 133677
+          "votes": 133709
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 129336
+          "votes": 129346
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 119904
+          "votes": 119928
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 105990
+          "votes": 106015
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 98908
+          "votes": 98929
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 93216
+          "votes": 93248
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 87812
+          "votes": 87845
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 76903
+          "votes": 76920
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 71533
+          "votes": 71559
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 60030
+          "votes": 60050
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 47846
+          "votes": 47850
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 27921
+          "votes": 27940
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 26750
+          "votes": 26791
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 22984
+          "votes": 22989
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 21123
+          "votes": 21133
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 20502
+          "votes": 20515
         },
         {
           "party": "PERÚ MODERNO",
-          "votes": 18439
+          "votes": 18448
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 12539
+          "votes": 12540
         }
       ],
       "candidates": [
@@ -7341,7 +7341,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 142620,
+          "votosPref": 142711,
           "posicion": 1,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/aaf42d15-51c4-42da-970a-27fc9722d258.jpg",
@@ -7355,7 +7355,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 92644,
+          "votosPref": 92689,
           "posicion": 2,
           "edad": 37,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/00a34212-f067-4014-be90-c9a48610b7d1.jpg",
@@ -7369,7 +7369,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 38878,
+          "votosPref": 38885,
           "posicion": 27,
           "edad": 29,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7fadb198-1995-459d-b2bb-8111575467a4.jpg",
@@ -7383,7 +7383,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 14218,
+          "votosPref": 14234,
           "posicion": 5,
           "edad": 47,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/86696a31-4c4c-444c-9557-8c9aec5168f3.jpg",
@@ -7398,7 +7398,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "72889290",
-          "votosPref": 13847,
+          "votosPref": 13851,
           "posicion": 7,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/639e1498-c694-4491-8232-a9e9e3870157.jpg",
@@ -7412,7 +7412,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "09679665",
-          "votosPref": 13150,
+          "votosPref": 13156,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/2ffa0310-4107-44c2-b26c-67341d9e92e5.jpg",
@@ -7426,7 +7426,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "77440344",
-          "votosPref": 13106,
+          "votosPref": 13110,
           "posicion": 8,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/231938d2-77d5-4beb-ac2e-c51cd8ea34f4.jpg",
@@ -7440,7 +7440,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "74994681",
-          "votosPref": 11668,
+          "votosPref": 11674,
           "posicion": 4,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0f8c7949-fe3f-435e-8d61-34b3f629b160.jpg",
@@ -7453,7 +7453,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 80779,
+          "votosPref": 80866,
           "posicion": 1,
           "edad": 55,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/075f4d47-7bb6-4eea-a441-5e19b60f7b47.jpg",
@@ -7467,7 +7467,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 34055,
+          "votosPref": 34063,
           "posicion": 2,
           "edad": 45,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e393717b-8477-43d8-a7a9-f3ce8f09395a.jpg",
@@ -7481,7 +7481,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 28136,
+          "votosPref": 28150,
           "posicion": 3,
           "edad": 31,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/fe41e940-1222-4497-b86f-66bedd7a031d.jpg",
@@ -7495,7 +7495,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 17658,
+          "votosPref": 17672,
           "posicion": 4,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ac01f508-6d64-4ea5-b2ff-42a47fe0d259.jpg",
@@ -7509,7 +7509,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 14178,
+          "votosPref": 14193,
           "posicion": 6,
           "edad": 34,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/eeab968c-83e6-41a2-92ec-4dfdcdb0cd7f.jpg",
@@ -7523,7 +7523,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 12415,
+          "votosPref": 12422,
           "posicion": 5,
           "edad": 42,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/38b21551-9f9d-4509-8df3-3ff196a3db73.jpg",
@@ -7552,7 +7552,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 22503,
+          "votosPref": 22521,
           "posicion": 2,
           "edad": 45,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5dd5ffdf-a410-49e0-bc70-47b88e90f596.jpg",
@@ -7567,7 +7567,7 @@
           "partyShort": "JP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "16002918",
-          "votosPref": 15456,
+          "votosPref": 15465,
           "posicion": 1,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bb7c7465-9c6e-44eb-ac7d-e6cc7f872a1a.jpg",
@@ -7580,7 +7580,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 19600,
+          "votosPref": 19610,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f86a4159-4ef5-4159-99a3-e7ad0f662dea.jpg",
@@ -7594,7 +7594,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 14653,
+          "votosPref": 14659,
           "posicion": 3,
           "edad": 33,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/af203abd-b7ad-4309-93b0-d86172a4f4e6.jpg",
@@ -7638,7 +7638,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 54007,
+          "votosPref": 54055,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bf8f66d1-eceb-4872-b784-b17b419d8f33.jpg",
@@ -7652,7 +7652,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 29935,
+          "votosPref": 29949,
           "posicion": 22,
           "edad": 29,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/85df76a1-f01a-4e24-8b72-a80dadb1ee0a.jpg",
@@ -7666,7 +7666,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 29555,
+          "votosPref": 29567,
           "posicion": 5,
           "edad": 77,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/93bd1fb5-a0ee-4900-b08b-36a0071a8d02.jpg",
@@ -7680,13 +7680,27 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 26901,
+          "votosPref": 26905,
           "posicion": 2,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e96cee3-276f-4dd5-87fb-be716ede1954.jpg",
           "tipoCandidatura": "Diputados",
           "dni": "31038213",
           "idHojaVida": 254069,
+          "sourceBackup": false
+        },
+        {
+          "name": "ROSSANA HERMINIA ALAYZA MACCERA",
+          "party": "PARTIDO DEL BUEN GOBIERNO",
+          "partyShort": "BG",
+          "circunscripcion": "LIMA METROPOLITANA",
+          "votosPref": 13835,
+          "posicion": 8,
+          "edad": 40,
+          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/c0aa7fd0-a9f9-4350-925f-0182ae996c3f.jpg",
+          "tipoCandidatura": "Diputados",
+          "dni": "43478989",
+          "idHojaVida": 254358,
           "sourceBackup": false
         },
         {
@@ -7704,25 +7718,11 @@
           "sourceBackup": false
         },
         {
-          "name": "ROSSANA HERMINIA ALAYZA MACCERA",
-          "party": "PARTIDO DEL BUEN GOBIERNO",
-          "partyShort": "BG",
-          "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 13832,
-          "posicion": 8,
-          "edad": 40,
-          "imageUrl": "https://mpesije.jne.gob.pe/apidocs/c0aa7fd0-a9f9-4350-925f-0182ae996c3f.jpg",
-          "tipoCandidatura": "Diputados",
-          "dni": "43478989",
-          "idHojaVida": 254358,
-          "sourceBackup": false
-        },
-        {
           "name": "ROMINA ALEJANDRA URIBE SAENZ",
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 12225,
+          "votosPref": 12227,
           "posicion": 18,
           "edad": 28,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/46a83e81-cd82-4890-acbc-e4362e7fb870.jpg",
@@ -7737,7 +7737,7 @@
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "45874235",
-          "votosPref": 12191,
+          "votosPref": 12198,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f6d41c59-88f4-44cb-b11e-eb60004a88e1.jpg",
@@ -7751,7 +7751,7 @@
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "75284074",
-          "votosPref": 10374,
+          "votosPref": 10375,
           "posicion": 12,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/20e85668-9541-4f0c-89d9-bd29739032d2.jpg",
@@ -7824,7 +7824,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 126008,
+          "votosPref": 126052,
           "posicion": 1,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/90b8a957-0b76-41a0-b2a0-62ad6e328327.jpg",
@@ -7838,7 +7838,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 76373,
+          "votosPref": 76389,
           "posicion": 2,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/40d1c4f0-80ca-4308-9956-39825342cc72.jpg",
@@ -7852,7 +7852,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 53863,
+          "votosPref": 53878,
           "posicion": 3,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/86b38aa1-2f58-4a5f-b0f9-4a7d8368659b.jpg",
@@ -7866,7 +7866,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 40026,
+          "votosPref": 40035,
           "posicion": 10,
           "edad": 70,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5c003520-8824-4be8-958c-b1df3c8f9a6b.jpg",
@@ -7880,7 +7880,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 39429,
+          "votosPref": 39442,
           "posicion": 4,
           "edad": 56,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1aea3a3-5ab0-43e8-b91b-052215702d28.jpg",
@@ -7894,7 +7894,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 35088,
+          "votosPref": 35095,
           "posicion": 14,
           "edad": 35,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/45d1c562-f232-4b64-bc2c-6c8c0f0ba33a.jpg",
@@ -7908,7 +7908,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 24586,
+          "votosPref": 24601,
           "posicion": 19,
           "edad": 38,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/cb2c329e-da2f-4c05-8cbe-86dc48f97529.jpg",
@@ -7922,7 +7922,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 22754,
+          "votosPref": 22765,
           "posicion": 24,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3c15f97e-30d2-4d67-9170-3e68af9281ce.jpg",
@@ -7936,7 +7936,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 20597,
+          "votosPref": 20601,
           "posicion": 20,
           "edad": 47,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6e32cc34-8b80-44b7-83a6-6e1697eb0e9b.jpg",
@@ -7951,7 +7951,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "10313904",
-          "votosPref": 20023,
+          "votosPref": 20028,
           "posicion": 5,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/764b5071-79d9-4b7d-811f-1af067f09516.jpg",
@@ -7965,7 +7965,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "41375446",
-          "votosPref": 15826,
+          "votosPref": 15834,
           "posicion": 11,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9152c2d1-b4b6-4d3d-981d-21041e81cc30.jpg",
@@ -7979,7 +7979,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "06407901",
-          "votosPref": 15297,
+          "votosPref": 15299,
           "posicion": 6,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/349250e5-bc2d-48d5-ba0c-c156f7a5b718.jpg",
@@ -7993,7 +7993,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "07248916",
-          "votosPref": 14444,
+          "votosPref": 14446,
           "posicion": 12,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/94ecd6df-30d1-4b2c-97f3-d094dd9f18a8.jpg",
@@ -8007,7 +8007,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "07797630",
-          "votosPref": 13745,
+          "votosPref": 13749,
           "posicion": 9,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7fb428f8-0135-486a-b733-3313e05ad530.jpg",
@@ -8021,7 +8021,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "41339983",
-          "votosPref": 10876,
+          "votosPref": 10883,
           "posicion": 7,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/25ed42a1-aab8-4486-af33-24624c64af9b.jpg",
@@ -8035,7 +8035,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "44129325",
-          "votosPref": 10576,
+          "votosPref": 10582,
           "posicion": 28,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/676d8c38-4105-4638-ba5c-a84f5a740cfb.jpg",
@@ -8555,7 +8555,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 22979,
+          "votosPref": 22986,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/c239bb01-32d8-47ae-ac26-e62459fe1f18.jpg",
@@ -8569,7 +8569,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 20633,
+          "votosPref": 20637,
           "posicion": 1,
           "edad": 38,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/d96b162f-db71-4892-ac4e-829de3492e9d.jpg",
@@ -8583,7 +8583,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 7733,
+          "votosPref": 7738,
           "posicion": 2,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/acf9364c-20ca-403e-bf77-0252c913b060.jpg",
@@ -8640,7 +8640,7 @@
           "partyShort": "FP",
           "circunscripcion": "PIURA",
           "dni": "02726999",
-          "votosPref": 3509,
+          "votosPref": 3510,
           "posicion": 4,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dde4c8b7-530e-4702-8dcc-81b0a3448f58.jpg",
@@ -8653,7 +8653,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "PIURA",
-          "votosPref": 4938,
+          "votosPref": 4941,
           "posicion": 1,
           "edad": 35,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0db1fcfb-c302-445c-afe1-510fe4bf1f1a.jpg",
@@ -8682,7 +8682,7 @@
           "partyShort": "CO",
           "circunscripcion": "PIURA",
           "dni": "41041146",
-          "votosPref": 1917,
+          "votosPref": 1919,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5c835b37-25f7-4482-bd9e-c58427c99e64.jpg",
@@ -8695,7 +8695,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "PIURA",
-          "votosPref": 5122,
+          "votosPref": 5124,
           "posicion": 1,
           "edad": 56,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/d2f6880b-86eb-4e5e-a1a3-3474f35e6b0d.jpg",
@@ -8724,7 +8724,7 @@
           "partyShort": "BG",
           "circunscripcion": "PIURA",
           "dni": "47041226",
-          "votosPref": 2042,
+          "votosPref": 2043,
           "posicion": 2,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/333699d7-67fa-4760-a0b6-5538dc76c178.jpg",
@@ -8766,7 +8766,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "PIURA",
-          "votosPref": 13748,
+          "votosPref": 13749,
           "posicion": 1,
           "edad": 55,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/eb0f38dd-1396-4901-94e7-b32e9c61a978.jpg",
@@ -8795,7 +8795,7 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "18073160",
-          "votosPref": 3713,
+          "votosPref": 3715,
           "posicion": 2,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/906d9e09-559f-4c9f-aa3b-680ae7298910.jpg",
@@ -8823,7 +8823,7 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "16794616",
-          "votosPref": 1908,
+          "votosPref": 1909,
           "posicion": 6,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4b25e8ac-b45d-4a94-b9e1-4a9b89403e4a.jpg",
@@ -9533,15 +9533,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 5716441,
+      "blankNull": 5717987,
       "status": {
-        "percent": 99.57,
-        "processed": 92367,
+        "percent": 99.594,
+        "processed": 92389,
         "total": 92766,
-        "jee": 396,
-        "pending": 3,
-        "blankNull": 5716441,
-        "updated": "2026-06-04T17:30:02.490000"
+        "jee": 373,
+        "pending": 4,
+        "blankNull": 5717987,
+        "updated": "2026-06-04T21:00:04.930000"
       },
       "allocations": {
         "noBarrier": [
@@ -10191,157 +10191,157 @@
         {
           "name": "NACIONAL",
           "seats": 30,
-          "validVotes": 14724677,
+          "validVotes": 14732107,
           "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2213719
+              "votes": 2215192
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1801698
+              "votes": 1802356
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1625382
+              "votes": 1626257
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1541464
+              "votes": 1542564
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1301413
+              "votes": 1302069
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1205748
+              "votes": 1206180
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 854713
+              "votes": 855174
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 521921
+              "votes": 522147
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 403775
+              "votes": 403971
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 391279
+              "votes": 391453
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 329316
+              "votes": 329457
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 252529
+              "votes": 252596
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 243177
+              "votes": 243259
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 229791
+              "votes": 229939
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 200602
+              "votes": 200688
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 165477
+              "votes": 165523
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 154064
+              "votes": 154137
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 145646
+              "votes": 145724
             },
             {
               "party": "VENCEREMOS",
-              "votes": 135176
+              "votes": 135222
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 126734
+              "votes": 126755
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 119800
+              "votes": 119860
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 114553
+              "votes": 114611
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 111788
+              "votes": 111818
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 73997
+              "votes": 74024
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 72616
+              "votes": 72646
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 68578
+              "votes": 68614
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 67592
+              "votes": 67626
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 57363
+              "votes": 57381
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 54782
+              "votes": 54804
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 32490
+              "votes": 32498
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 26951
+              "votes": 26973
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 21994
+              "votes": 22017
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 21632
+              "votes": 21643
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 21013
+              "votes": 21018
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 15904
+              "votes": 15911
             }
           ],
           "status": {
-            "processed": 92202,
+            "processed": 92251,
             "total": 92766,
-            "percent": 99.392,
-            "jee": 562,
-            "pending": 2,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "percent": 99.445,
+            "jee": 511,
+            "pending": 4,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -10381,143 +10381,143 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2213719
+          "votes": 2215192
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1801698
+          "votes": 1802356
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1625382
+          "votes": 1626257
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1541464
+          "votes": 1542564
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1301413
+          "votes": 1302069
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1205748
+          "votes": 1206180
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 854713
+          "votes": 855174
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 521921
+          "votes": 522147
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 403775
+          "votes": 403971
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 391279
+          "votes": 391453
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 329316
+          "votes": 329457
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 252529
+          "votes": 252596
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 243177
+          "votes": 243259
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 229791
+          "votes": 229939
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 200602
+          "votes": 200688
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 165477
+          "votes": 165523
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 154064
+          "votes": 154137
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 145646
+          "votes": 145724
         },
         {
           "party": "VENCEREMOS",
-          "votes": 135176
+          "votes": 135222
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 126734
+          "votes": 126755
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 119800
+          "votes": 119860
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 114553
+          "votes": 114611
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 111788
+          "votes": 111818
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 73997
+          "votes": 74024
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 72616
+          "votes": 72646
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 68578
+          "votes": 68614
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 67592
+          "votes": 67626
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 57363
+          "votes": 57381
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 54782
+          "votes": 54804
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 32490
+          "votes": 32498
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 26951
+          "votes": 26973
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 21994
+          "votes": 22017
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 21632
+          "votes": 21643
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 21013
+          "votes": 21018
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 15904
+          "votes": 15911
         }
       ],
       "candidates": [
@@ -10526,7 +10526,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 233907,
+          "votosPref": 233984,
           "posicion": 1,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
@@ -10541,7 +10541,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 169981,
+          "votosPref": 170065,
           "posicion": 5,
           "edad": 69,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9aee4b33-103e-4327-9038-3618515d950d.jpg",
@@ -10556,7 +10556,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 117092,
+          "votosPref": 117126,
           "posicion": 8,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/428c14a1-1be6-477e-b02a-f0dec2dc8e65.jpg",
@@ -10571,7 +10571,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 105798,
+          "votosPref": 105819,
           "posicion": 4,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/83aa4be4-54a0-4f96-874a-96ec34678843.jpg",
@@ -10601,7 +10601,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 341162,
+          "votosPref": 341349,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -10616,7 +10616,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 127996,
+          "votosPref": 128053,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -10631,7 +10631,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 67704,
+          "votosPref": 67746,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -10646,7 +10646,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 33102,
+          "votosPref": 33118,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -10661,7 +10661,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 27283,
+          "votosPref": 27308,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -10721,7 +10721,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 332472,
+          "votosPref": 332564,
           "posicion": 1,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0e2b05c2-c95a-4599-bc78-56584d571b51.jpg",
@@ -10736,7 +10736,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 187550,
+          "votosPref": 187624,
           "posicion": 2,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3339fe0c-6911-4144-85df-b4617bfb7ebe.jpg",
@@ -10751,7 +10751,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 101172,
+          "votosPref": 101185,
           "posicion": 7,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dc4ba573-e19b-4a60-8485-52ebcd3d6d3a.jpg",
@@ -10766,7 +10766,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 37805,
+          "votosPref": 37817,
           "posicion": 3,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1baf3ce6-bf7f-4f48-90af-7df69ba21d70.jpg",
@@ -10781,7 +10781,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 32195,
+          "votosPref": 32202,
           "posicion": 13,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9ff4f8d0-cff1-429b-b3b9-a2c9baf178cf.jpg",
@@ -10796,7 +10796,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 224058,
+          "votosPref": 224150,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -10811,7 +10811,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 88139,
+          "votosPref": 88180,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -10826,7 +10826,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 36059,
+          "votosPref": 36074,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -10871,7 +10871,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 200770,
+          "votosPref": 200882,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -10886,7 +10886,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 184877,
+          "votosPref": 184963,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -10901,7 +10901,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 145006,
+          "votosPref": 145059,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -10916,7 +10916,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 48681,
+          "votosPref": 48723,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -11021,7 +11021,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 289647,
+          "votosPref": 289758,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
@@ -11036,7 +11036,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 216382,
+          "votosPref": 216463,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
@@ -11051,7 +11051,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 189700,
+          "votosPref": 189740,
           "posicion": 4,
           "edad": 50,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6574b5ec-9453-4117-8f95-80cf0bcb4371.jpg",
@@ -11066,7 +11066,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 135290,
+          "votosPref": 135322,
           "posicion": 2,
           "edad": 74,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0a50619c-a4b3-4580-bdee-146c75827d2c.jpg",
@@ -11081,7 +11081,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 80313,
+          "votosPref": 80344,
           "posicion": 9,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/278ecb43-645b-460c-82f0-b310cbb72289.jpg",
@@ -11094,13 +11094,13 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": 99.392,
-        "processed": 92202,
+        "percent": 99.445,
+        "processed": 92251,
         "total": 92766,
-        "jee": 562,
-        "pending": 2,
-        "blankNull": 5339672,
-        "updated": "2026-06-04T17:30:02.490000"
+        "jee": 511,
+        "pending": 4,
+        "blankNull": 5343013,
+        "updated": "2026-06-04T21:00:04.930000"
       },
       "allocations": {
         "noBarrier": [],
@@ -11292,7 +11292,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11452,7 +11452,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11604,7 +11604,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11756,7 +11756,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11888,7 +11888,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12028,7 +12028,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12180,7 +12180,7 @@
             "percent": 99.896,
             "jee": 3,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12332,7 +12332,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12448,7 +12448,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12592,7 +12592,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12748,7 +12748,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12892,7 +12892,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13048,7 +13048,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13208,7 +13208,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13222,132 +13222,132 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "validVotes": 4617295,
-          "blankNull": 1595347,
+          "validVotes": 4618871,
+          "blankNull": 1595846,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 920203
+              "votes": 920376
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 759918
+              "votes": 760172
             },
             {
               "party": "FUERZA POPULAR",
-              "votes": 728200
+              "votes": 728446
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 398196
+              "votes": 398334
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 391841
+              "votes": 391993
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 316616
+              "votes": 316737
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 213159
+              "votes": 213226
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 137750
+              "votes": 137807
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 85786
+              "votes": 85809
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 69486
+              "votes": 69528
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 63492
+              "votes": 63519
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 58618
+              "votes": 58652
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 50218
+              "votes": 50241
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 43786
+              "votes": 43812
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 40543
+              "votes": 40569
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 30255
+              "votes": 30264
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 28765
+              "votes": 28771
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 28146
+              "votes": 28176
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 27011
+              "votes": 27018
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 25904
+              "votes": 25913
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 25014
+              "votes": 25021
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 23365
+              "votes": 23368
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 23265
+              "votes": 23284
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 23114
+              "votes": 23123
             },
             {
               "party": "VENCEREMOS",
-              "votes": 20586
+              "votes": 20605
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 16962
+              "votes": 16971
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 15984
+              "votes": 15999
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 8934
+              "votes": 8940
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 8311
+              "votes": 8317
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 6752
+              "votes": 6754
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 5441
+              "votes": 5446
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
@@ -13355,28 +13355,28 @@
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 5265
+              "votes": 5268
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 4373
+              "votes": 4374
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 3363
+              "votes": 3364
             },
             {
               "party": "PERÚ MODERNO",
-              "votes": 3326
+              "votes": 3327
             }
           ],
           "status": {
-            "processed": 26096,
+            "processed": 26105,
             "total": 26368,
-            "percent": 98.968,
-            "jee": 271,
+            "percent": 99.003,
+            "jee": 262,
             "pending": 1,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13546,7 +13546,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13690,7 +13690,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13814,7 +13814,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13954,7 +13954,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14074,7 +14074,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14103,7 +14103,7 @@
             "jee": null,
             "pending": null,
             "blankNull": 165860,
-            "updated": "2026-06-04T17:30:02.490000"
+            "updated": "2026-06-04T21:00:04.930000"
           },
           "allocations": [
             {
@@ -14116,145 +14116,145 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "validVotes": 697960,
-          "blankNull": 428279,
+          "validVotes": 698762,
+          "blankNull": 428777,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 183621
+              "votes": 183849
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 77746
+              "votes": 77781
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 60728
+              "votes": 60806
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 53932
+              "votes": 53991
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 53427
+              "votes": 53477
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 45857
+              "votes": 45919
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 33436
+              "votes": 33489
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 23752
+              "votes": 23772
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 21888
+              "votes": 21918
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 21560
+              "votes": 21591
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 18421
+              "votes": 18440
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 16222
+              "votes": 16245
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 12738
+              "votes": 12746
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 9382
+              "votes": 9387
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 8908
+              "votes": 8927
             },
             {
               "party": "VENCEREMOS",
-              "votes": 7068
+              "votes": 7069
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 5586
+              "votes": 5594
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 5408
+              "votes": 5411
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 4671
+              "votes": 4673
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 4515
+              "votes": 4518
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 4309
+              "votes": 4312
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 3739
+              "votes": 3746
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 3500
+              "votes": 3512
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2893
+              "votes": 2897
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 2672
+              "votes": 2675
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 2363
+              "votes": 2368
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 2240
+              "votes": 2249
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 2100
+              "votes": 2101
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 1514
+              "votes": 1516
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 1389
+              "votes": 1393
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 1247
+              "votes": 1253
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1128
+              "votes": 1137
             }
           ],
           "status": {
-            "processed": 5175,
+            "processed": 5181,
             "total": 5281,
-            "percent": 97.993,
-            "jee": 105,
-            "pending": 1,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "percent": 98.106,
+            "jee": 100,
+            "pending": 0,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14390,7 +14390,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14522,7 +14522,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14658,7 +14658,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14806,7 +14806,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14946,7 +14946,7 @@
             "percent": 97.379,
             "jee": 41,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14961,151 +14961,151 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2116895
+          "votes": 2117369
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1614463
+          "votes": 1614686
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1541454
+          "votes": 1541786
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1346532
+          "votes": 1346624
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1208593
+          "votes": 1208807
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 1135468
+          "votes": 1135659
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 820474
+          "votes": 820654
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 438290
+          "votes": 438388
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 345874
+          "votes": 345920
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 326608
+          "votes": 326672
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 265139
+          "votes": 265184
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 250471
+          "votes": 250517
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 241783
+          "votes": 241814
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 231944
+          "votes": 231972
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 168257
+          "votes": 168285
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 158609
+          "votes": 158630
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 126967
+          "votes": 127001
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 126681
+          "votes": 126692
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 125057
+          "votes": 125066
         },
         {
           "party": "VENCEREMOS",
-          "votes": 106470
+          "votes": 106490
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 95203
+          "votes": 95209
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 77931
+          "votes": 77946
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 71650
+          "votes": 71664
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 67260
+          "votes": 67270
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 65594
+          "votes": 65613
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 61001
+          "votes": 61009
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 57020
+          "votes": 57043
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 55298
+          "votes": 55328
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 54350
+          "votes": 54376
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 38214
+          "votes": 38222
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 18807
-        },
-        {
-          "party": "FE EN EL PERÚ",
-          "votes": 18508
+          "votes": 18816
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 18505
+          "votes": 18514
+        },
+        {
+          "party": "FE EN EL PERÚ",
+          "votes": 18510
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 17802
+          "votes": 17805
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 14570
+          "votes": 14577
         },
         {
           "party": "PERÚ MODERNO",
-          "votes": 11742
+          "votes": 11743
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 6601
+          "votes": 6602
         }
       ],
       "candidates": [
@@ -15324,7 +15324,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 98361,
+          "votosPref": 98387,
           "posicion": 1,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8388c289-7fce-48e9-91f9-732565b127c7.jpg",
@@ -15339,7 +15339,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 81699,
+          "votosPref": 81720,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -15354,7 +15354,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 134170,
+          "votosPref": 134181,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/552d520b-f83d-4e86-86c4-f55840c252be.jpg",
@@ -15369,7 +15369,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 68251,
+          "votosPref": 68265,
           "posicion": 2,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b0d9cd02-a849-4579-8091-2c6903eec61a.jpg",
@@ -15474,7 +15474,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 24842,
+          "votosPref": 24875,
           "posicion": 1,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8484cd8e-5f0a-48d3-ba54-be7120b1107f.jpg",
@@ -15575,15 +15575,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6460494,
+      "blankNull": 6461491,
       "status": {
-        "percent": 99.545,
-        "processed": 92344,
+        "percent": 99.561,
+        "processed": 92359,
         "total": 92766,
-        "jee": 420,
-        "pending": 2,
-        "blankNull": 6460494,
-        "updated": "2026-06-04T17:30:02.490000"
+        "jee": 406,
+        "pending": 1,
+        "blankNull": 6461491,
+        "updated": "2026-06-04T21:00:04.930000"
       },
       "allocations": {
         "noBarrier": [],
@@ -15780,33 +15780,33 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2032705
+              "votes": 2033308
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1649915
+              "votes": 1650071
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1614433
+              "votes": 1614849
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1532454
+              "votes": 1532766
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1271340
+              "votes": 1271601
             }
           ],
           "status": {
-            "percent": 99.636,
-            "processed": 92428,
+            "percent": 99.662,
+            "processed": 92452,
             "total": 92766,
-            "jee": 332,
-            "pending": 6,
-            "blankNull": 6766816,
-            "updated": "2026-06-04T17:30:02.490000"
+            "jee": 311,
+            "pending": 3,
+            "blankNull": 6769406,
+            "updated": "2026-06-04T21:00:04.930000"
           },
           "allocations": [
             {
@@ -15840,23 +15840,23 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2032705
+          "votes": 2033308
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1649915
+          "votes": 1650071
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1614433
+          "votes": 1614849
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1532454
+          "votes": 1532766
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1271340
+          "votes": 1271601
         }
       ],
       "candidates": [
@@ -16167,13 +16167,13 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": 99.636,
-        "processed": 92428,
+        "percent": 99.662,
+        "processed": 92452,
         "total": 92766,
-        "jee": 332,
-        "pending": 6,
-        "blankNull": 6766816,
-        "updated": "2026-06-04T17:30:02.490000"
+        "jee": 311,
+        "pending": 3,
+        "blankNull": 6769406,
+        "updated": "2026-06-04T21:00:04.930000"
       },
       "allocations": {
         "noBarrier": [],
@@ -16426,157 +16426,157 @@
         {
           "name": "SENADO NACIONAL",
           "seats": 30,
-          "validVotes": 14724677,
+          "validVotes": 14732107,
           "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2213719
+              "votes": 2215192
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1801698
+              "votes": 1802356
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1625382
+              "votes": 1626257
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1541464
+              "votes": 1542564
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1301413
+              "votes": 1302069
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1205748
+              "votes": 1206180
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 854713
+              "votes": 855174
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 521921
+              "votes": 522147
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 403775
+              "votes": 403971
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 391279
+              "votes": 391453
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 329316
+              "votes": 329457
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 252529
+              "votes": 252596
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 243177
+              "votes": 243259
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 229791
+              "votes": 229939
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 200602
+              "votes": 200688
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 165477
+              "votes": 165523
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 154064
+              "votes": 154137
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 145646
+              "votes": 145724
             },
             {
               "party": "VENCEREMOS",
-              "votes": 135176
+              "votes": 135222
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 126734
+              "votes": 126755
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 119800
+              "votes": 119860
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 114553
+              "votes": 114611
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 111788
+              "votes": 111818
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 73997
+              "votes": 74024
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 72616
+              "votes": 72646
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 68578
+              "votes": 68614
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 67592
+              "votes": 67626
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 57363
+              "votes": 57381
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 54782
+              "votes": 54804
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 32490
+              "votes": 32498
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 26951
+              "votes": 26973
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 21994
+              "votes": 22017
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 21632
+              "votes": 21643
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 21013
+              "votes": 21018
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 15904
+              "votes": 15911
             }
           ],
           "status": {
-            "processed": 92202,
+            "processed": 92251,
             "total": 92766,
-            "percent": 99.392,
-            "jee": 562,
-            "pending": 2,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "percent": 99.445,
+            "jee": 511,
+            "pending": 4,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -16730,7 +16730,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -16891,7 +16891,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17044,7 +17044,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17197,7 +17197,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17330,7 +17330,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17471,7 +17471,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17624,7 +17624,7 @@
             "percent": 99.896,
             "jee": 3,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17777,7 +17777,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17894,7 +17894,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18039,7 +18039,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18196,7 +18196,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18341,7 +18341,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18498,7 +18498,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18659,7 +18659,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18674,132 +18674,132 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "validVotes": 4617295,
-          "blankNull": 1595347,
+          "validVotes": 4618871,
+          "blankNull": 1595846,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 920203
+              "votes": 920376
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 759918
+              "votes": 760172
             },
             {
               "party": "FUERZA POPULAR",
-              "votes": 728200
+              "votes": 728446
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 398196
+              "votes": 398334
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 391841
+              "votes": 391993
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 316616
+              "votes": 316737
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 213159
+              "votes": 213226
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 137750
+              "votes": 137807
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 85786
+              "votes": 85809
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 69486
+              "votes": 69528
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 63492
+              "votes": 63519
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 58618
+              "votes": 58652
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 50218
+              "votes": 50241
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 43786
+              "votes": 43812
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 40543
+              "votes": 40569
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 30255
+              "votes": 30264
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 28765
+              "votes": 28771
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 28146
+              "votes": 28176
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 27011
+              "votes": 27018
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 25904
+              "votes": 25913
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 25014
+              "votes": 25021
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 23365
+              "votes": 23368
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 23265
+              "votes": 23284
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 23114
+              "votes": 23123
             },
             {
               "party": "VENCEREMOS",
-              "votes": 20586
+              "votes": 20605
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 16962
+              "votes": 16971
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 15984
+              "votes": 15999
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 8934
+              "votes": 8940
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 8311
+              "votes": 8317
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 6752
+              "votes": 6754
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 5441
+              "votes": 5446
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
@@ -18807,28 +18807,28 @@
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 5265
+              "votes": 5268
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 4373
+              "votes": 4374
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 3363
+              "votes": 3364
             },
             {
               "party": "PERÚ MODERNO",
-              "votes": 3326
+              "votes": 3327
             }
           ],
           "status": {
-            "processed": 26096,
+            "processed": 26105,
             "total": 26368,
-            "percent": 98.968,
-            "jee": 271,
+            "percent": 99.003,
+            "jee": 262,
             "pending": 1,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18999,7 +18999,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19144,7 +19144,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19269,7 +19269,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19410,7 +19410,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19531,7 +19531,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19561,7 +19561,7 @@
             "jee": null,
             "pending": null,
             "blankNull": 165860,
-            "updated": "2026-06-04T17:30:02.490000"
+            "updated": "2026-06-04T21:00:04.930000"
           },
           "allocations": [
             {
@@ -19575,145 +19575,145 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "validVotes": 697960,
-          "blankNull": 428279,
+          "validVotes": 698762,
+          "blankNull": 428777,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 183621
+              "votes": 183849
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 77746
+              "votes": 77781
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 60728
+              "votes": 60806
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 53932
+              "votes": 53991
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 53427
+              "votes": 53477
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 45857
+              "votes": 45919
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 33436
+              "votes": 33489
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 23752
+              "votes": 23772
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 21888
+              "votes": 21918
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 21560
+              "votes": 21591
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 18421
+              "votes": 18440
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 16222
+              "votes": 16245
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 12738
+              "votes": 12746
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 9382
+              "votes": 9387
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 8908
+              "votes": 8927
             },
             {
               "party": "VENCEREMOS",
-              "votes": 7068
+              "votes": 7069
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 5586
+              "votes": 5594
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 5408
+              "votes": 5411
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 4671
+              "votes": 4673
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 4515
+              "votes": 4518
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 4309
+              "votes": 4312
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 3739
+              "votes": 3746
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 3500
+              "votes": 3512
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2893
+              "votes": 2897
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 2672
+              "votes": 2675
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 2363
+              "votes": 2368
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 2240
+              "votes": 2249
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 2100
+              "votes": 2101
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 1514
+              "votes": 1516
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 1389
+              "votes": 1393
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 1247
+              "votes": 1253
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1128
+              "votes": 1137
             }
           ],
           "status": {
-            "processed": 5175,
+            "processed": 5181,
             "total": 5281,
-            "percent": 97.993,
-            "jee": 105,
-            "pending": 1,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "percent": 98.106,
+            "jee": 100,
+            "pending": 0,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19850,7 +19850,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19983,7 +19983,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20120,7 +20120,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20269,7 +20269,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20410,7 +20410,7 @@
             "percent": 97.379,
             "jee": 41,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20426,151 +20426,151 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 4330614
+          "votes": 4332561
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 3239845
+          "votes": 3240943
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 3148230
+          "votes": 3148980
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 3082918
+          "votes": 3084350
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2510006
+          "votes": 2510876
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 2341216
+          "votes": 2341839
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 1675187
+          "votes": 1675828
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 960211
+          "votes": 960535
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 737153
+          "votes": 737373
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 655924
+          "votes": 656129
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 494930
+          "votes": 495123
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 494312
+          "votes": 494410
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 493648
+          "votes": 493776
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 460795
+          "votes": 461014
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 432546
+          "votes": 432660
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 324086
+          "votes": 324153
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 322321
+          "votes": 322422
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 272613
+          "votes": 272725
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 251791
+          "votes": 251821
         },
         {
           "party": "VENCEREMOS",
-          "votes": 241646
+          "votes": 241712
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 238469
+          "votes": 238510
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 215003
+          "votes": 215069
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 169851
+          "votes": 169939
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 151928
+          "votes": 151970
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 144266
+          "votes": 144310
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 135838
+          "votes": 135884
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 133186
+          "votes": 133239
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 118364
+          "votes": 118390
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 109132
+          "votes": 109180
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 70704
+          "votes": 70720
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 45459
+          "votes": 45483
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 40137
+          "votes": 40157
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 39820
+          "votes": 39834
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 39796
+          "votes": 39822
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 22505
+          "votes": 22513
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 14570
+          "votes": 14577
         },
         {
           "party": "PERÚ MODERNO",
-          "votes": 11742
+          "votes": 11743
         }
       ],
       "candidates": [
@@ -20579,7 +20579,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 233907,
+          "votosPref": 233984,
           "posicion": 1,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
@@ -20594,7 +20594,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 169981,
+          "votosPref": 170065,
           "posicion": 5,
           "edad": 69,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9aee4b33-103e-4327-9038-3618515d950d.jpg",
@@ -20609,7 +20609,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 117092,
+          "votosPref": 117126,
           "posicion": 8,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/428c14a1-1be6-477e-b02a-f0dec2dc8e65.jpg",
@@ -20624,7 +20624,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 105798,
+          "votosPref": 105819,
           "posicion": 4,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/83aa4be4-54a0-4f96-874a-96ec34678843.jpg",
@@ -20654,7 +20654,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 341162,
+          "votosPref": 341349,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -20669,7 +20669,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 127996,
+          "votosPref": 128053,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -20684,7 +20684,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 67704,
+          "votosPref": 67746,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -20699,7 +20699,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 33102,
+          "votosPref": 33118,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -20714,7 +20714,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 27283,
+          "votosPref": 27308,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -20774,7 +20774,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 332472,
+          "votosPref": 332564,
           "posicion": 1,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0e2b05c2-c95a-4599-bc78-56584d571b51.jpg",
@@ -20789,7 +20789,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 187550,
+          "votosPref": 187624,
           "posicion": 2,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3339fe0c-6911-4144-85df-b4617bfb7ebe.jpg",
@@ -20804,7 +20804,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 101172,
+          "votosPref": 101185,
           "posicion": 7,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dc4ba573-e19b-4a60-8485-52ebcd3d6d3a.jpg",
@@ -20819,7 +20819,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 37805,
+          "votosPref": 37817,
           "posicion": 3,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1baf3ce6-bf7f-4f48-90af-7df69ba21d70.jpg",
@@ -20834,7 +20834,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 32195,
+          "votosPref": 32202,
           "posicion": 13,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9ff4f8d0-cff1-429b-b3b9-a2c9baf178cf.jpg",
@@ -20849,7 +20849,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 224058,
+          "votosPref": 224150,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -20864,7 +20864,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 88139,
+          "votosPref": 88180,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -20879,7 +20879,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 36059,
+          "votosPref": 36074,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -20924,7 +20924,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 200770,
+          "votosPref": 200882,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -20939,7 +20939,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 184877,
+          "votosPref": 184963,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -20954,7 +20954,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 145006,
+          "votosPref": 145059,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -20969,7 +20969,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 48681,
+          "votosPref": 48723,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -21074,7 +21074,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 289647,
+          "votosPref": 289758,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
@@ -21089,7 +21089,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 216382,
+          "votosPref": 216463,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
@@ -21104,7 +21104,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 189700,
+          "votosPref": 189740,
           "posicion": 4,
           "edad": 50,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6574b5ec-9453-4117-8f95-80cf0bcb4371.jpg",
@@ -21119,7 +21119,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 135290,
+          "votosPref": 135322,
           "posicion": 2,
           "edad": 74,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0a50619c-a4b3-4580-bdee-146c75827d2c.jpg",
@@ -21134,7 +21134,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 80313,
+          "votosPref": 80344,
           "posicion": 9,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/278ecb43-645b-460c-82f0-b310cbb72289.jpg",
@@ -21359,7 +21359,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 98361,
+          "votosPref": 98387,
           "posicion": 1,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8388c289-7fce-48e9-91f9-732565b127c7.jpg",
@@ -21374,7 +21374,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 81699,
+          "votosPref": 81720,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -21389,7 +21389,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 134170,
+          "votosPref": 134181,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/552d520b-f83d-4e86-86c4-f55840c252be.jpg",
@@ -21404,7 +21404,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 68251,
+          "votosPref": 68265,
           "posicion": 2,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b0d9cd02-a849-4579-8091-2c6903eec61a.jpg",
@@ -21509,7 +21509,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 24842,
+          "votosPref": 24875,
           "posicion": 1,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8484cd8e-5f0a-48d3-ba54-be7120b1107f.jpg",
@@ -21610,15 +21610,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6460494,
+      "blankNull": 6461491,
       "status": {
-        "percent": 99.469,
-        "processed": 92273,
+        "percent": 99.503,
+        "processed": 92305,
         "total": 92766,
-        "jee": 491,
-        "pending": 2,
-        "blankNull": 11800166,
-        "updated": "2026-06-04T17:30:02.490Z"
+        "jee": 459,
+        "pending": 3,
+        "blankNull": 11804504,
+        "updated": "2026-06-05T02:00:04.930Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -22021,157 +22021,157 @@
         {
           "name": "SENADO NACIONAL",
           "seats": 30,
-          "validVotes": 14724677,
+          "validVotes": 14732107,
           "blankNull": 0,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2213719
+              "votes": 2215192
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1801698
+              "votes": 1802356
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1625382
+              "votes": 1626257
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1541464
+              "votes": 1542564
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1301413
+              "votes": 1302069
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 1205748
+              "votes": 1206180
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 854713
+              "votes": 855174
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 521921
+              "votes": 522147
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 403775
+              "votes": 403971
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 391279
+              "votes": 391453
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 329316
+              "votes": 329457
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 252529
+              "votes": 252596
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 243177
+              "votes": 243259
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 229791
+              "votes": 229939
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 200602
+              "votes": 200688
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 165477
+              "votes": 165523
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 154064
+              "votes": 154137
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 145646
+              "votes": 145724
             },
             {
               "party": "VENCEREMOS",
-              "votes": 135176
+              "votes": 135222
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 126734
+              "votes": 126755
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 119800
+              "votes": 119860
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 114553
+              "votes": 114611
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 111788
+              "votes": 111818
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 73997
+              "votes": 74024
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 72616
+              "votes": 72646
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 68578
+              "votes": 68614
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 67592
+              "votes": 67626
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 57363
+              "votes": 57381
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 54782
+              "votes": 54804
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 32490
+              "votes": 32498
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 26951
+              "votes": 26973
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 21994
+              "votes": 22017
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 21632
+              "votes": 21643
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 21013
+              "votes": 21018
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 15904
+              "votes": 15911
             }
           ],
           "status": {
-            "processed": 92202,
+            "processed": 92251,
             "total": 92766,
-            "percent": 99.392,
-            "jee": 562,
-            "pending": 2,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "percent": 99.445,
+            "jee": 511,
+            "pending": 4,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22325,7 +22325,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22486,7 +22486,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22639,7 +22639,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22792,7 +22792,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22925,7 +22925,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23066,7 +23066,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23219,7 +23219,7 @@
             "percent": 99.896,
             "jee": 3,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23372,7 +23372,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23489,7 +23489,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23634,7 +23634,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23791,7 +23791,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23936,7 +23936,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24093,7 +24093,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24254,7 +24254,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24269,132 +24269,132 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "validVotes": 4617295,
-          "blankNull": 1595347,
+          "validVotes": 4618871,
+          "blankNull": 1595846,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 920203
+              "votes": 920376
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 759918
+              "votes": 760172
             },
             {
               "party": "FUERZA POPULAR",
-              "votes": 728200
+              "votes": 728446
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 398196
+              "votes": 398334
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 391841
+              "votes": 391993
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 316616
+              "votes": 316737
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 213159
+              "votes": 213226
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 137750
+              "votes": 137807
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 85786
+              "votes": 85809
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 69486
+              "votes": 69528
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 63492
+              "votes": 63519
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 58618
+              "votes": 58652
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 50218
+              "votes": 50241
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 43786
+              "votes": 43812
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 40543
+              "votes": 40569
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 30255
+              "votes": 30264
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 28765
+              "votes": 28771
             },
             {
               "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-              "votes": 28146
+              "votes": 28176
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 27011
+              "votes": 27018
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 25904
+              "votes": 25913
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 25014
+              "votes": 25021
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 23365
+              "votes": 23368
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 23265
+              "votes": 23284
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 23114
+              "votes": 23123
             },
             {
               "party": "VENCEREMOS",
-              "votes": 20586
+              "votes": 20605
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 16962
+              "votes": 16971
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 15984
+              "votes": 15999
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 8934
+              "votes": 8940
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 8311
+              "votes": 8317
             },
             {
               "party": "FE EN EL PERÚ",
-              "votes": 6752
+              "votes": 6754
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 5441
+              "votes": 5446
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
@@ -24402,28 +24402,28 @@
             },
             {
               "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-              "votes": 5265
+              "votes": 5268
             },
             {
               "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-              "votes": 4373
+              "votes": 4374
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 3363
+              "votes": 3364
             },
             {
               "party": "PERÚ MODERNO",
-              "votes": 3326
+              "votes": 3327
             }
           ],
           "status": {
-            "processed": 26096,
+            "processed": 26105,
             "total": 26368,
-            "percent": 98.968,
-            "jee": 271,
+            "percent": 99.003,
+            "jee": 262,
             "pending": 1,
-            "updated": "2026-06-04T20:45:03.475Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24594,7 +24594,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24739,7 +24739,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24864,7 +24864,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25005,7 +25005,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25126,7 +25126,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25156,7 +25156,7 @@
             "jee": null,
             "pending": null,
             "blankNull": 165860,
-            "updated": "2026-06-04T17:30:02.490000"
+            "updated": "2026-06-04T21:00:04.930000"
           },
           "allocations": [
             {
@@ -25170,145 +25170,145 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "validVotes": 697960,
-          "blankNull": 428279,
+          "validVotes": 698762,
+          "blankNull": 428777,
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 183621
+              "votes": 183849
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 77746
+              "votes": 77781
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 60728
+              "votes": 60806
             },
             {
               "party": "PARTIDO PAÍS PARA TODOS",
-              "votes": 53932
+              "votes": 53991
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 53427
+              "votes": 53477
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 45857
+              "votes": 45919
             },
             {
               "party": "AHORA NACIÓN - AN",
-              "votes": 33436
+              "votes": 33489
             },
             {
               "party": "ALIANZA PARA EL PROGRESO",
-              "votes": 23752
+              "votes": 23772
             },
             {
               "party": "PODEMOS PERÚ",
-              "votes": 21888
+              "votes": 21918
             },
             {
               "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-              "votes": 21560
+              "votes": 21591
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-              "votes": 18421
+              "votes": 18440
             },
             {
               "party": "PARTIDO SÍCREO",
-              "votes": 16222
+              "votes": 16245
             },
             {
               "party": "PARTIDO APRISTA PERUANO",
-              "votes": 12738
+              "votes": 12746
             },
             {
               "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-              "votes": 9382
+              "votes": 9387
             },
             {
               "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-              "votes": 8908
+              "votes": 8927
             },
             {
               "party": "VENCEREMOS",
-              "votes": 7068
+              "votes": 7069
             },
             {
               "party": "PROGRESEMOS",
-              "votes": 5586
+              "votes": 5594
             },
             {
               "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-              "votes": 5408
+              "votes": 5411
             },
             {
               "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-              "votes": 4671
+              "votes": 4673
             },
             {
               "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-              "votes": 4515
+              "votes": 4518
             },
             {
               "party": "UN CAMINO DIFERENTE",
-              "votes": 4309
+              "votes": 4312
             },
             {
               "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-              "votes": 3739
+              "votes": 3746
             },
             {
               "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-              "votes": 3500
+              "votes": 3512
             },
             {
               "party": "PARTIDO DEMÓCRATA VERDE",
-              "votes": 2893
+              "votes": 2897
             },
             {
               "party": "LIBERTAD POPULAR",
-              "votes": 2672
+              "votes": 2675
             },
             {
               "party": "PARTIDO MORADO",
-              "votes": 2363
+              "votes": 2368
             },
             {
               "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-              "votes": 2240
+              "votes": 2249
             },
             {
               "party": "UNIDAD NACIONAL",
-              "votes": 2100
+              "votes": 2101
             },
             {
               "party": "FUERZA Y LIBERTAD",
-              "votes": 1514
+              "votes": 1516
             },
             {
               "party": "PARTIDO POLÍTICO PRIN",
-              "votes": 1389
+              "votes": 1393
             },
             {
               "party": "SALVEMOS AL PERÚ",
-              "votes": 1247
+              "votes": 1253
             },
             {
               "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-              "votes": 1128
+              "votes": 1137
             }
           ],
           "status": {
-            "processed": 5175,
+            "processed": 5181,
             "total": 5281,
-            "percent": 97.993,
-            "jee": 105,
-            "pending": 1,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "percent": 98.106,
+            "jee": 100,
+            "pending": 0,
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25445,7 +25445,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25578,7 +25578,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25715,7 +25715,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25864,7 +25864,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -26005,7 +26005,7 @@
             "percent": 97.379,
             "jee": 41,
             "pending": 0,
-            "updated": "2026-06-04T21:00:04.930Z",
+            "updated": "2026-06-04T22:00:14.692Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -26021,151 +26021,151 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 4330614
+          "votes": 4332561
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 3239845
+          "votes": 3240943
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 3148230
+          "votes": 3148980
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 3082918
+          "votes": 3084350
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 2510006
+          "votes": 2510876
         },
         {
           "party": "AHORA NACIÓN - AN",
-          "votes": 2341216
+          "votes": 2341839
         },
         {
           "party": "PARTIDO PAÍS PARA TODOS",
-          "votes": 1675187
+          "votes": 1675828
         },
         {
           "party": "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          "votes": 960211
+          "votes": 960535
         },
         {
           "party": "ALIANZA PARA EL PROGRESO",
-          "votes": 737153
+          "votes": 737373
         },
         {
           "party": "PODEMOS PERÚ",
-          "votes": 655924
+          "votes": 656129
         },
         {
           "party": "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          "votes": 494930
+          "votes": 495123
         },
         {
           "party": "PARTIDO APRISTA PERUANO",
-          "votes": 494312
+          "votes": 494410
         },
         {
           "party": "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          "votes": 493648
+          "votes": 493776
         },
         {
           "party": "PARTIDO SÍCREO",
-          "votes": 460795
+          "votes": 461014
         },
         {
           "party": "PARTIDO DEMOCRÁTICO SOMOS PERÚ",
-          "votes": 432546
+          "votes": 432660
         },
         {
           "party": "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          "votes": 324086
+          "votes": 324153
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ PRIMERO",
-          "votes": 322321
+          "votes": 322422
         },
         {
           "party": "PROGRESEMOS",
-          "votes": 272613
+          "votes": 272725
         },
         {
           "party": "UN CAMINO DIFERENTE",
-          "votes": 251791
+          "votes": 251821
         },
         {
           "party": "VENCEREMOS",
-          "votes": 241646
+          "votes": 241712
         },
         {
           "party": "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          "votes": 238469
+          "votes": 238510
         },
         {
           "party": "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          "votes": 215003
+          "votes": 215069
         },
         {
           "party": "PARTIDO PATRIÓTICO DEL PERÚ",
-          "votes": 169851
+          "votes": 169939
         },
         {
           "party": "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          "votes": 151928
+          "votes": 151970
         },
         {
           "party": "PARTIDO MORADO",
-          "votes": 144266
+          "votes": 144310
         },
         {
           "party": "LIBERTAD POPULAR",
-          "votes": 135838
+          "votes": 135884
         },
         {
           "party": "PARTIDO DEMÓCRATA VERDE",
-          "votes": 133186
+          "votes": 133239
         },
         {
           "party": "UNIDAD NACIONAL",
-          "votes": 118364
+          "votes": 118390
         },
         {
           "party": "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          "votes": 109132
+          "votes": 109180
         },
         {
           "party": "FUERZA Y LIBERTAD",
-          "votes": 70704
+          "votes": 70720
         },
         {
           "party": "FE EN EL PERÚ",
-          "votes": 45459
+          "votes": 45483
         },
         {
           "party": "PARTIDO POLÍTICO PERÚ ACCIÓN",
-          "votes": 40137
+          "votes": 40157
         },
         {
           "party": "PARTIDO POLÍTICO PRIN",
-          "votes": 39820
+          "votes": 39834
         },
         {
           "party": "PARTIDO DEMOCRÁTICO FEDERAL",
-          "votes": 39796
+          "votes": 39822
         },
         {
           "party": "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          "votes": 22505
+          "votes": 22513
         },
         {
           "party": "SALVEMOS AL PERÚ",
-          "votes": 14570
+          "votes": 14577
         },
         {
           "party": "PERÚ MODERNO",
-          "votes": 11742
+          "votes": 11743
         }
       ],
       "candidates": [
@@ -26174,7 +26174,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 233907,
+          "votosPref": 233984,
           "posicion": 1,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
@@ -26189,7 +26189,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 169981,
+          "votosPref": 170065,
           "posicion": 5,
           "edad": 69,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9aee4b33-103e-4327-9038-3618515d950d.jpg",
@@ -26204,7 +26204,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 117092,
+          "votosPref": 117126,
           "posicion": 8,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/428c14a1-1be6-477e-b02a-f0dec2dc8e65.jpg",
@@ -26219,7 +26219,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 105798,
+          "votosPref": 105819,
           "posicion": 4,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/83aa4be4-54a0-4f96-874a-96ec34678843.jpg",
@@ -26249,7 +26249,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 341162,
+          "votosPref": 341349,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -26264,7 +26264,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 127996,
+          "votosPref": 128053,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -26279,7 +26279,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 67704,
+          "votosPref": 67746,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -26294,7 +26294,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 33102,
+          "votosPref": 33118,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -26309,7 +26309,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 27283,
+          "votosPref": 27308,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -26369,7 +26369,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 332472,
+          "votosPref": 332564,
           "posicion": 1,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0e2b05c2-c95a-4599-bc78-56584d571b51.jpg",
@@ -26384,7 +26384,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 187550,
+          "votosPref": 187624,
           "posicion": 2,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3339fe0c-6911-4144-85df-b4617bfb7ebe.jpg",
@@ -26399,7 +26399,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 101172,
+          "votosPref": 101185,
           "posicion": 7,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dc4ba573-e19b-4a60-8485-52ebcd3d6d3a.jpg",
@@ -26414,7 +26414,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 37805,
+          "votosPref": 37817,
           "posicion": 3,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1baf3ce6-bf7f-4f48-90af-7df69ba21d70.jpg",
@@ -26429,7 +26429,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 32195,
+          "votosPref": 32202,
           "posicion": 13,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9ff4f8d0-cff1-429b-b3b9-a2c9baf178cf.jpg",
@@ -26444,7 +26444,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 224058,
+          "votosPref": 224150,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -26459,7 +26459,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 88139,
+          "votosPref": 88180,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -26474,7 +26474,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 36059,
+          "votosPref": 36074,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -26519,7 +26519,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 200770,
+          "votosPref": 200882,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -26534,7 +26534,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 184877,
+          "votosPref": 184963,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -26549,7 +26549,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 145006,
+          "votosPref": 145059,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -26564,7 +26564,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 48681,
+          "votosPref": 48723,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -26669,7 +26669,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 289647,
+          "votosPref": 289758,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
@@ -26684,7 +26684,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 216382,
+          "votosPref": 216463,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
@@ -26699,7 +26699,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 189700,
+          "votosPref": 189740,
           "posicion": 4,
           "edad": 50,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6574b5ec-9453-4117-8f95-80cf0bcb4371.jpg",
@@ -26714,7 +26714,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 135290,
+          "votosPref": 135322,
           "posicion": 2,
           "edad": 74,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0a50619c-a4b3-4580-bdee-146c75827d2c.jpg",
@@ -26729,7 +26729,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 80313,
+          "votosPref": 80344,
           "posicion": 9,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/278ecb43-645b-460c-82f0-b310cbb72289.jpg",
@@ -26954,7 +26954,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 98361,
+          "votosPref": 98387,
           "posicion": 1,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8388c289-7fce-48e9-91f9-732565b127c7.jpg",
@@ -26969,7 +26969,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 81699,
+          "votosPref": 81720,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -26984,7 +26984,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 134170,
+          "votosPref": 134181,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/552d520b-f83d-4e86-86c4-f55840c252be.jpg",
@@ -26999,7 +26999,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 68251,
+          "votosPref": 68265,
           "posicion": 2,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b0d9cd02-a849-4579-8091-2c6903eec61a.jpg",
@@ -27104,7 +27104,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 24842,
+          "votosPref": 24875,
           "posicion": 1,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8484cd8e-5f0a-48d3-ba54-be7120b1107f.jpg",
@@ -27205,15 +27205,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6460494,
+      "blankNull": 6461491,
       "status": {
-        "percent": 99.469,
-        "processed": 92273,
+        "percent": 99.503,
+        "processed": 92305,
         "total": 92766,
-        "jee": 491,
-        "pending": 2,
-        "blankNull": 11800166,
-        "updated": "2026-06-04T17:30:02.490Z"
+        "jee": 459,
+        "pending": 3,
+        "blankNull": 11804504,
+        "updated": "2026-06-05T02:00:04.930Z"
       },
       "allocations": {
         "noBarrier": [],
