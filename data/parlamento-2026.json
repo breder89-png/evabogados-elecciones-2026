@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-06-12T04:58:24.086Z",
+  "generatedAt": "2026-06-12T08:58:59.263Z",
   "updatedAt": "2026-06-05T17:58:06.843Z",
   "status": {
     "percent": 99.712,
@@ -2681,10 +2681,10 @@
             }
           ],
           "status": {
-            "processed": 26347,
+            "processed": 26359,
             "total": 26368,
-            "percent": 99.92,
-            "jee": 21,
+            "percent": 99.966,
+            "jee": 9,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false
@@ -10336,10 +10336,10 @@
             }
           ],
           "status": {
-            "processed": 92741,
+            "processed": 92757,
             "total": 92766,
-            "percent": 99.973,
-            "jee": 25,
+            "percent": 99.99,
+            "jee": 9,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false
@@ -13371,10 +13371,10 @@
             }
           ],
           "status": {
-            "processed": 26343,
+            "processed": 26357,
             "total": 26368,
-            "percent": 99.905,
-            "jee": 25,
+            "percent": 99.958,
+            "jee": 11,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false
@@ -16571,10 +16571,10 @@
             }
           ],
           "status": {
-            "processed": 92741,
+            "processed": 92757,
             "total": 92766,
-            "percent": 99.973,
-            "jee": 25,
+            "percent": 99.99,
+            "jee": 9,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false
@@ -18823,10 +18823,10 @@
             }
           ],
           "status": {
-            "processed": 26343,
+            "processed": 26357,
             "total": 26368,
-            "percent": 99.905,
-            "jee": 25,
+            "percent": 99.958,
+            "jee": 11,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false
@@ -22166,10 +22166,10 @@
             }
           ],
           "status": {
-            "processed": 92741,
+            "processed": 92757,
             "total": 92766,
-            "percent": 99.973,
-            "jee": 25,
+            "percent": 99.99,
+            "jee": 9,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false
@@ -24418,10 +24418,10 @@
             }
           ],
           "status": {
-            "processed": 26343,
+            "processed": 26357,
             "total": 26368,
-            "percent": 99.905,
-            "jee": 25,
+            "percent": 99.958,
+            "jee": 11,
             "pending": 0,
             "updated": "2026-06-12T04:15:00.638Z",
             "nationalFallback": false

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T04:58:24.073Z",
+  "generatedAt": "2026-06-12T08:58:59.243Z",
   "source": "auto-saved-from-live",
   "idEleccion": 13,
   "districts": [
@@ -2650,10 +2650,10 @@
         ]
       ],
       "totales": {
-        "contabilizadas": 26347,
+        "contabilizadas": 26359,
         "totalActas": 26368,
-        "actasContabilizadas": 99.92,
-        "enviadasJee": 21,
+        "actasContabilizadas": 99.966,
+        "enviadasJee": 9,
         "pendientesJee": 0,
         "fechaActualizacion": 1781237700638
       }
