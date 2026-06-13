@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T14:58:58.324Z",
+  "generatedAt": "2026-06-13T22:43:20.336Z",
   "source": "auto-saved-from-live",
   "idEleccion": 13,
   "districts": [
@@ -164,7 +164,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -348,7 +348,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -512,7 +512,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -706,7 +706,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -860,7 +860,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -1044,7 +1044,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -1228,7 +1228,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -1407,7 +1407,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -1556,7 +1556,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -1720,7 +1720,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -1909,7 +1909,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -2093,7 +2093,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -2277,7 +2277,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -2456,7 +2456,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -2466,52 +2466,52 @@
         [
           0,
           "RENOVACIÓN POPULAR",
-          900528
+          900584
         ],
         [
           0,
           "PARTIDO DEL BUEN GOBIERNO",
-          714851
+          714935
         ],
         [
           0,
           "FUERZA POPULAR",
-          705892
+          705962
         ],
         [
           0,
           "AHORA NACIÓN - AN",
-          445072
+          445124
         ],
         [
           0,
           "PARTIDO CÍVICO OBRAS",
-          378313
+          378366
         ],
         [
           0,
           "PARTIDO PAÍS PARA TODOS",
-          306984
+          307028
         ],
         [
           0,
           "PRIMERO LA GENTE – COMUNIDAD, ECOLOGÍA, LIBERTAD Y PROGRESO",
-          204754
+          204769
         ],
         [
           0,
           "JUNTOS POR EL PERÚ",
-          144957
+          144971
         ],
         [
           0,
           "PARTIDO SÍCREO",
-          138517
+          138544
         ],
         [
           0,
           "PARTIDO APRISTA PERUANO",
-          98852
+          98856
         ],
         [
           0,
@@ -2521,37 +2521,37 @@
         [
           0,
           "FRENTE POPULAR AGRÍCOLA FIA DEL PERÚ",
-          73387
+          73398
         ],
         [
           0,
           "PODEMOS PERÚ",
-          69846
+          69854
         ],
         [
           0,
           "PARTIDO FRENTE DE LA ESPERANZA 2021",
-          62036
+          62042
         ],
         [
           0,
           "ALIANZA PARA EL PROGRESO",
-          61017
+          61019
         ],
         [
           0,
           "LIBERTAD POPULAR",
-          55923
+          55927
         ],
         [
           0,
           "AVANZA PAÍS - PARTIDO DE INTEGRACIÓN SOCIAL",
-          52478
+          52484
         ],
         [
           0,
           "PROGRESEMOS",
-          46577
+          46582
         ],
         [
           0,
@@ -2561,7 +2561,7 @@
         [
           0,
           "PARTIDO POLÍTICO PERÚ PRIMERO",
-          31488
+          31492
         ],
         [
           0,
@@ -2571,42 +2571,42 @@
         [
           0,
           "PARTIDO PATRIÓTICO DEL PERÚ",
-          29633
+          29641
         ],
         [
           0,
           "PARTIDO DEMÓCRATA UNIDO PERÚ",
-          27221
+          27222
         ],
         [
           0,
           "VENCEREMOS",
-          27016
+          27021
         ],
         [
           0,
           "PARTIDO POLÍTICO COOPERACIÓN POPULAR",
-          24591
+          24599
         ],
         [
           0,
           "PARTIDO POLÍTICO INTEGRIDAD DEMOCRÁTICA",
-          23788
+          23794
         ],
         [
           0,
           "PARTIDO POLÍTICO NACIONAL PERÚ LIBRE",
-          20342
+          20345
         ],
         [
           0,
           "PARTIDO DEMÓCRATA VERDE",
-          18236
+          18239
         ],
         [
           0,
           "FUERZA Y LIBERTAD",
-          10475
+          10476
         ],
         [
           0,
@@ -2616,12 +2616,12 @@
         [
           0,
           "UN CAMINO DIFERENTE",
-          9314
+          9318
         ],
         [
           0,
           "PARTIDO POLÍTICO PRIN",
-          7849
+          7851
         ],
         [
           0,
@@ -2641,21 +2641,21 @@
         [
           0,
           "PARTIDO DE LOS TRABAJADORES Y EMPRENDEDORES PTE - PERÚ",
-          6267
+          6268
         ],
         [
           0,
           "SALVEMOS AL PERÚ",
-          5339
+          5340
         ]
       ],
       "totales": {
-        "contabilizadas": 26365,
+        "contabilizadas": 26368,
         "totalActas": 26368,
-        "actasContabilizadas": 99.989,
-        "enviadasJee": 3,
+        "actasContabilizadas": 100,
+        "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -2844,7 +2844,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -3013,7 +3013,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -3182,7 +3182,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -3336,7 +3336,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -3480,7 +3480,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -3664,7 +3664,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -3843,7 +3843,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -4012,7 +4012,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -4171,7 +4171,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -4320,7 +4320,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -4489,7 +4489,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     },
     {
@@ -4663,7 +4663,7 @@
         "actasContabilizadas": 100,
         "enviadasJee": 0,
         "pendientesJee": 0,
-        "fechaActualizacion": 1781333100462
+        "fechaActualizacion": 1781388000463
       }
     }
   ]
