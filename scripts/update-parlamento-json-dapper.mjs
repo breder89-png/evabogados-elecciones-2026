@@ -966,6 +966,24 @@ async function mainDecideLive({ enrich }) {
   cameras.senadoRegional.status = decideActaStatus(senSeats?._metadata?.acta_onpe, "senadores_multiple") || cameras.senadoRegional.status;
   cameras.andino.status = decideActaStatus(andinoSeats?._metadata?.acta_onpe, "parlamento_andino") || cameras.andino.status;
 
+  // Overlay live ONPE acta status for Parlamento Andino.
+  // The Decide Perú CDN feed for Andino froze on 2026-06-05 at ~187 actas pendientes, while ONPE kept
+  // counting to ~99.999% (1 acta pendiente). Only the acta counter is corrected; votes/seats stay from Decide.
+  try {
+    const onpeAndino = await fetchOnpeAndinoStatus();
+    if (onpeAndino && onpeAndino.total) {
+      const prevBlankNull = number(cameras.andino.status?.blankNull);
+      const merged = { ...cameras.andino.status, ...onpeAndino, blankNull: number(onpeAndino.blankNull) || prevBlankNull };
+      cameras.andino.status = merged;
+      if (cameras.andino.circunscripciones?.[0]) cameras.andino.circunscripciones[0].status = merged;
+      console.log(`[ONPE] Parlamento Andino: actas ${onpeAndino.processed}/${onpeAndino.total} (${onpeAndino.percent}%) desde ONPE live.`);
+    } else {
+      console.log("[ONPE] Parlamento Andino: ONPE live no disponible, se mantiene el conteo de Decide.");
+    }
+  } catch (err) {
+    console.warn(`[ONPE] Error al actualizar actas de Parlamento Andino: ${err.message}`);
+  }
+
   // Overlay ONPE per-district all-party votes and actas for senadoRegional.
   // The Decide Perú CDN only provides the winner party per district; ONPE provides all parties.
   // If the live ONPE API is unreachable (CloudFront caches HTML for external requests),
@@ -1319,6 +1337,55 @@ async function fetchOnpeSenNacionalAll() {
     nationalFallback: false
   } : null;
   return { nombre: "NACIONAL", votes, status };
+}
+
+async function fetchOnpeAndinoStatus() {
+  // Fetches the national acta status for Parlamento Andino from ONPE (idEleccion=12, tipoFiltro=eleccion).
+  // The Decide Perú CDN feed for Parlamento Andino froze on 2026-06-05 (187 actas pendientes),
+  // while ONPE kept counting to ~99.999% (1 acta pendiente). We only override the acta counter;
+  // the party votes/seats from Decide remain (counting was already complete enough that totals don't move).
+  // Retries a few times because ONPE/CloudFront intermittently returns cached HTML instead of JSON.
+  let totales = null;
+  for (let attempt = 0; attempt < 3 && !totales?.totalActas; attempt++) {
+    totales = await fetchOnpeJson(`/resumen-general/totales?idEleccion=${ONPE_ELECTION_ID.andino}&tipoFiltro=eleccion`);
+  }
+  if (!totales || !totales.totalActas) {
+    // Live ONPE unreachable: fall back to the last good snapshot so we never revert to the stale Decide feed.
+    return loadOnpeAndinoSnapshot();
+  }
+  const status = {
+    processed: totales.contabilizadas || null,
+    total: totales.totalActas || null,
+    percent: totales.actasContabilizadas || null,
+    jee: totales.enviadasJee ?? null,
+    pending: totales.pendientesJee ?? null,
+    updated: totales.fechaActualizacion
+      ? new Date(Number(totales.fechaActualizacion)).toISOString()
+      : null,
+    nationalFallback: false
+  };
+  // Persist the good live status so future runs (or GitHub Actions, where ONPE may be blocked) stay current.
+  try {
+    await writeFile(
+      path.join(dataDir, "onpe-andino-snapshot.json"),
+      `${JSON.stringify({ generatedAt: new Date().toISOString(), source: "auto-saved-from-live", idEleccion: ONPE_ELECTION_ID.andino, status }, null, 2)}\n`,
+      "utf8"
+    );
+  } catch { /* non-fatal */ }
+  return status;
+}
+
+async function loadOnpeAndinoSnapshot() {
+  // Reads the static snapshot saved from the last successful live ONPE Andino fetch.
+  try {
+    const raw = await readFile(path.join(dataDir, "onpe-andino-snapshot.json"), "utf-8");
+    const snap = JSON.parse(raw);
+    if (snap?.status?.total) {
+      console.log("[ONPE] Parlamento Andino: usando snapshot guardado (ONPE live no disponible).");
+      return snap.status;
+    }
+  } catch { /* no snapshot yet */ }
+  return null;
 }
 
 async function loadOnpeSenNacionalSnapshot() {

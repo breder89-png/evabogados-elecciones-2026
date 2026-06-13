@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-06-13T22:46:48.950Z",
+  "generatedAt": "2026-06-13T23:21:10.940Z",
   "updatedAt": "2026-06-05T22:45:02.366Z",
   "status": {
     "percent": 99.712,
@@ -15800,13 +15800,14 @@
             }
           ],
           "status": {
-            "percent": 99.798,
-            "processed": 92579,
+            "percent": 100,
+            "processed": 92766,
             "total": 92766,
-            "jee": 185,
-            "pending": 2,
+            "jee": 0,
+            "pending": 0,
             "blankNull": 6789878,
-            "updated": "2026-06-05T17:45:02.366000"
+            "updated": "2026-06-13T22:00:00.463Z",
+            "nationalFallback": false
           },
           "allocations": [
             {
@@ -16167,13 +16168,14 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": 99.798,
-        "processed": 92579,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 185,
-        "pending": 2,
+        "jee": 0,
+        "pending": 0,
         "blankNull": 6789878,
-        "updated": "2026-06-05T17:45:02.366000"
+        "updated": "2026-06-13T22:00:00.463Z",
+        "nationalFallback": false
       },
       "allocations": {
         "noBarrier": [],
