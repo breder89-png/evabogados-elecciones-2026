@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-14T00:56:46.187Z",
+  "generatedAt": "2026-06-20T15:58:57.839Z",
   "decideBaseUrl": "https://dwin6afrwpy9h.cloudfront.net",
-  "manifestUpdatedAt": "2026-06-05T17:58:06.843737+00:00",
-  "updatedAt": "2026-06-05T22:45:02.366Z",
+  "manifestUpdatedAt": "2026-06-19T04:42:24.937801+00:00",
+  "updatedAt": "2026-06-19T04:42:24.937Z",
   "cameras": {
     "diputados": {
       "parties": 37,
       "circunscripciones": 27,
-      "candidates": 344,
+      "candidates": 345,
       "status": {
-        "percent": 99.712,
-        "processed": 92499,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 267,
+        "jee": null,
         "pending": null,
-        "blankNull": 5735284,
-        "updated": "2026-06-05T17:45:02.366000"
+        "blankNull": 5764255,
+        "updated": "2026-06-13T21:00:00.603000"
       }
     },
     "senadoNacional": {
@@ -23,13 +23,13 @@
       "circunscripciones": 1,
       "candidates": 38,
       "status": {
-        "percent": 99.674,
-        "processed": 92464,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 302,
+        "jee": null,
         "pending": null,
-        "blankNull": 5369735,
-        "updated": "2026-06-05T17:45:02.366000"
+        "blankNull": 5399381,
+        "updated": "2026-06-13T21:00:00.603000"
       }
     },
     "senadoRegional": {
@@ -37,13 +37,13 @@
       "circunscripciones": 27,
       "candidates": 31,
       "status": {
-        "percent": 99.719,
-        "processed": 92505,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 261,
+        "jee": null,
         "pending": null,
-        "blankNull": 6481472,
-        "updated": "2026-06-05T17:45:02.366000"
+        "blankNull": 6512624,
+        "updated": "2026-06-13T21:00:00.603000"
       }
     },
     "andino": {
@@ -56,8 +56,8 @@
         "total": 92766,
         "jee": 0,
         "pending": 0,
-        "blankNull": 6789878,
-        "updated": "2026-06-14T00:45:10.156Z",
+        "blankNull": 6813040,
+        "updated": "2026-06-14T01:00:00.603Z",
         "nationalFallback": false
       }
     }

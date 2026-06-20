@@ -1,15 +1,15 @@
 {
   "year": 2026,
-  "generatedAt": "2026-06-14T00:56:46.180Z",
-  "updatedAt": "2026-06-05T22:45:02.366Z",
+  "generatedAt": "2026-06-20T15:58:57.832Z",
+  "updatedAt": "2026-06-19T04:42:24.937Z",
   "status": {
-    "percent": 99.712,
-    "processed": 92499,
+    "percent": 100,
+    "processed": 92766,
     "total": 92766,
-    "jee": 267,
+    "jee": null,
     "pending": null,
-    "blankNull": 5735284,
-    "updated": "2026-06-05T17:45:02.366000"
+    "blankNull": 5764255,
+    "updated": "2026-06-13T21:00:00.603000"
   },
   "camaras": {
     "diputados": {
@@ -374,7 +374,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -534,7 +534,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -693,7 +693,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -861,7 +861,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1017,7 +1017,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1182,7 +1182,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1347,7 +1347,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1513,7 +1513,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1660,7 +1660,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1804,7 +1804,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -1973,7 +1973,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2148,7 +2148,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2324,7 +2324,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2494,7 +2494,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2528,8 +2528,8 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 32,
-          "validVotes": 4871748,
-          "blankNull": 1378126,
+          "validVotes": 4888087,
+          "blankNull": 1393335,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -2686,7 +2686,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -2875,7 +2875,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3033,7 +3033,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3186,7 +3186,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3322,7 +3322,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3455,7 +3455,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3607,7 +3607,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-13T22:00:00.463Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3626,8 +3626,8 @@
         {
           "name": "PIURA",
           "seats": 7,
-          "validVotes": 666732,
-          "blankNull": 454152,
+          "validVotes": 679503,
+          "blankNull": 467914,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -3772,7 +3772,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -3943,7 +3943,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4101,7 +4101,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4246,7 +4246,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4383,7 +4383,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -4531,7 +4531,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -7341,7 +7341,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 142926,
+          "votosPref": 143238,
           "posicion": 1,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/aaf42d15-51c4-42da-970a-27fc9722d258.jpg",
@@ -7355,7 +7355,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 92794,
+          "votosPref": 92982,
           "posicion": 2,
           "edad": 37,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/00a34212-f067-4014-be90-c9a48610b7d1.jpg",
@@ -7369,7 +7369,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 38930,
+          "votosPref": 38994,
           "posicion": 27,
           "edad": 29,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7fadb198-1995-459d-b2bb-8111575467a4.jpg",
@@ -7383,7 +7383,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 14264,
+          "votosPref": 14311,
           "posicion": 5,
           "edad": 47,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/86696a31-4c4c-444c-9557-8c9aec5168f3.jpg",
@@ -7398,7 +7398,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "72889290",
-          "votosPref": 13875,
+          "votosPref": 13912,
           "posicion": 7,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/639e1498-c694-4491-8232-a9e9e3870157.jpg",
@@ -7412,7 +7412,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "09679665",
-          "votosPref": 13178,
+          "votosPref": 13210,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/2ffa0310-4107-44c2-b26c-67341d9e92e5.jpg",
@@ -7426,7 +7426,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "77440344",
-          "votosPref": 13132,
+          "votosPref": 13160,
           "posicion": 8,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/231938d2-77d5-4beb-ac2e-c51cd8ea34f4.jpg",
@@ -7440,7 +7440,7 @@
           "partyShort": "AN-",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "74994681",
-          "votosPref": 11695,
+          "votosPref": 11721,
           "posicion": 4,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0f8c7949-fe3f-435e-8d61-34b3f629b160.jpg",
@@ -7453,7 +7453,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 80970,
+          "votosPref": 81225,
           "posicion": 1,
           "edad": 55,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/075f4d47-7bb6-4eea-a441-5e19b60f7b47.jpg",
@@ -7467,7 +7467,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 34104,
+          "votosPref": 34196,
           "posicion": 2,
           "edad": 45,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e393717b-8477-43d8-a7a9-f3ce8f09395a.jpg",
@@ -7481,7 +7481,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 28172,
+          "votosPref": 28246,
           "posicion": 3,
           "edad": 31,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/fe41e940-1222-4497-b86f-66bedd7a031d.jpg",
@@ -7495,7 +7495,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 17690,
+          "votosPref": 17741,
           "posicion": 4,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ac01f508-6d64-4ea5-b2ff-42a47fe0d259.jpg",
@@ -7509,7 +7509,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 14210,
+          "votosPref": 14267,
           "posicion": 6,
           "edad": 34,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/eeab968c-83e6-41a2-92ec-4dfdcdb0cd7f.jpg",
@@ -7523,7 +7523,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 12446,
+          "votosPref": 12476,
           "posicion": 5,
           "edad": 42,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/38b21551-9f9d-4509-8df3-3ff196a3db73.jpg",
@@ -7552,7 +7552,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 22545,
+          "votosPref": 22644,
           "posicion": 2,
           "edad": 45,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5dd5ffdf-a410-49e0-bc70-47b88e90f596.jpg",
@@ -7567,7 +7567,7 @@
           "partyShort": "JP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "16002918",
-          "votosPref": 15478,
+          "votosPref": 15541,
           "posicion": 1,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bb7c7465-9c6e-44eb-ac7d-e6cc7f872a1a.jpg",
@@ -7580,7 +7580,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 19630,
+          "votosPref": 19689,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f86a4159-4ef5-4159-99a3-e7ad0f662dea.jpg",
@@ -7594,7 +7594,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 14682,
+          "votosPref": 14721,
           "posicion": 3,
           "edad": 33,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/af203abd-b7ad-4309-93b0-d86172a4f4e6.jpg",
@@ -7638,7 +7638,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 54112,
+          "votosPref": 54271,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bf8f66d1-eceb-4872-b784-b17b419d8f33.jpg",
@@ -7652,7 +7652,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 29990,
+          "votosPref": 30069,
           "posicion": 22,
           "edad": 29,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/85df76a1-f01a-4e24-8b72-a80dadb1ee0a.jpg",
@@ -7666,7 +7666,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 29605,
+          "votosPref": 29674,
           "posicion": 5,
           "edad": 77,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/93bd1fb5-a0ee-4900-b08b-36a0071a8d02.jpg",
@@ -7680,7 +7680,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 26939,
+          "votosPref": 27004,
           "posicion": 2,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e96cee3-276f-4dd5-87fb-be716ede1954.jpg",
@@ -7694,7 +7694,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 13846,
+          "votosPref": 13884,
           "posicion": 6,
           "edad": 44,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/79cec618-7fb8-406a-bb30-481e575dd8aa.jpg",
@@ -7708,7 +7708,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 13843,
+          "votosPref": 13876,
           "posicion": 8,
           "edad": 40,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/c0aa7fd0-a9f9-4350-925f-0182ae996c3f.jpg",
@@ -7722,7 +7722,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 12244,
+          "votosPref": 12282,
           "posicion": 18,
           "edad": 28,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/46a83e81-cd82-4890-acbc-e4362e7fb870.jpg",
@@ -7737,7 +7737,7 @@
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "45874235",
-          "votosPref": 12209,
+          "votosPref": 12261,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f6d41c59-88f4-44cb-b11e-eb60004a88e1.jpg",
@@ -7751,7 +7751,7 @@
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "75284074",
-          "votosPref": 10390,
+          "votosPref": 10415,
           "posicion": 12,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/20e85668-9541-4f0c-89d9-bd29739032d2.jpg",
@@ -7824,7 +7824,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 126148,
+          "votosPref": 126369,
           "posicion": 1,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/90b8a957-0b76-41a0-b2a0-62ad6e328327.jpg",
@@ -7838,7 +7838,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 76434,
+          "votosPref": 76554,
           "posicion": 2,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/40d1c4f0-80ca-4308-9956-39825342cc72.jpg",
@@ -7852,7 +7852,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 53912,
+          "votosPref": 53997,
           "posicion": 3,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/86b38aa1-2f58-4a5f-b0f9-4a7d8368659b.jpg",
@@ -7866,7 +7866,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 40064,
+          "votosPref": 40118,
           "posicion": 10,
           "edad": 70,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5c003520-8824-4be8-958c-b1df3c8f9a6b.jpg",
@@ -7880,7 +7880,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 39475,
+          "votosPref": 39527,
           "posicion": 4,
           "edad": 56,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1aea3a3-5ab0-43e8-b91b-052215702d28.jpg",
@@ -7894,7 +7894,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 35124,
+          "votosPref": 35171,
           "posicion": 14,
           "edad": 35,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/45d1c562-f232-4b64-bc2c-6c8c0f0ba33a.jpg",
@@ -7908,7 +7908,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 24639,
+          "votosPref": 24713,
           "posicion": 19,
           "edad": 38,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/cb2c329e-da2f-4c05-8cbe-86dc48f97529.jpg",
@@ -7922,7 +7922,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 22795,
+          "votosPref": 22857,
           "posicion": 24,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3c15f97e-30d2-4d67-9170-3e68af9281ce.jpg",
@@ -7936,7 +7936,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 20615,
+          "votosPref": 20646,
           "posicion": 20,
           "edad": 47,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6e32cc34-8b80-44b7-83a6-6e1697eb0e9b.jpg",
@@ -7951,7 +7951,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "10313904",
-          "votosPref": 20041,
+          "votosPref": 20096,
           "posicion": 5,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/764b5071-79d9-4b7d-811f-1af067f09516.jpg",
@@ -7965,7 +7965,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "41375446",
-          "votosPref": 15842,
+          "votosPref": 15874,
           "posicion": 11,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9152c2d1-b4b6-4d3d-981d-21041e81cc30.jpg",
@@ -7979,7 +7979,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "06407901",
-          "votosPref": 15307,
+          "votosPref": 15323,
           "posicion": 6,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/349250e5-bc2d-48d5-ba0c-c156f7a5b718.jpg",
@@ -7993,7 +7993,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "07248916",
-          "votosPref": 14449,
+          "votosPref": 14461,
           "posicion": 12,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/94ecd6df-30d1-4b2c-97f3-d094dd9f18a8.jpg",
@@ -8007,7 +8007,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "07797630",
-          "votosPref": 13760,
+          "votosPref": 13786,
           "posicion": 9,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7fb428f8-0135-486a-b733-3313e05ad530.jpg",
@@ -8021,7 +8021,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "41339983",
-          "votosPref": 10890,
+          "votosPref": 10906,
           "posicion": 7,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/25ed42a1-aab8-4486-af33-24624c64af9b.jpg",
@@ -8035,7 +8035,7 @@
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
           "dni": "44129325",
-          "votosPref": 10596,
+          "votosPref": 10624,
           "posicion": 28,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/676d8c38-4105-4638-ba5c-a84f5a740cfb.jpg",
@@ -8555,7 +8555,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 23031,
+          "votosPref": 23816,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/c239bb01-32d8-47ae-ac26-e62459fe1f18.jpg",
@@ -8569,7 +8569,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 20665,
+          "votosPref": 21130,
           "posicion": 1,
           "edad": 38,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/d96b162f-db71-4892-ac4e-829de3492e9d.jpg",
@@ -8583,7 +8583,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 7751,
+          "votosPref": 7896,
           "posicion": 2,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/acf9364c-20ca-403e-bf77-0252c913b060.jpg",
@@ -8597,7 +8597,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 5215,
+          "votosPref": 5298,
           "posicion": 6,
           "edad": 56,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/73c88a2f-91d7-4869-be2f-e4b1661aaa26.jpg",
@@ -8612,7 +8612,7 @@
           "partyShort": "FP",
           "circunscripcion": "PIURA",
           "dni": "41595822",
-          "votosPref": 4734,
+          "votosPref": 4840,
           "posicion": 5,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1e69ecf8-52d8-4a05-afbd-16a9204abc6e.jpg",
@@ -8626,7 +8626,7 @@
           "partyShort": "FP",
           "circunscripcion": "PIURA",
           "dni": "71466839",
-          "votosPref": 4592,
+          "votosPref": 4681,
           "posicion": 7,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/d1c4b0b8-1fe7-4fec-a4b1-fccd868ad3a0.jpg",
@@ -8640,7 +8640,7 @@
           "partyShort": "FP",
           "circunscripcion": "PIURA",
           "dni": "02726999",
-          "votosPref": 3516,
+          "votosPref": 3579,
           "posicion": 4,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dde4c8b7-530e-4702-8dcc-81b0a3448f58.jpg",
@@ -8653,7 +8653,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "PIURA",
-          "votosPref": 4945,
+          "votosPref": 5049,
           "posicion": 1,
           "edad": 35,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0db1fcfb-c302-445c-afe1-510fe4bf1f1a.jpg",
@@ -8668,7 +8668,7 @@
           "partyShort": "CO",
           "circunscripcion": "PIURA",
           "dni": "73475014",
-          "votosPref": 2075,
+          "votosPref": 2124,
           "posicion": 2,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/92fa2c59-3bd1-4e4a-a207-5c7aa84a72b4.jpg",
@@ -8682,7 +8682,7 @@
           "partyShort": "CO",
           "circunscripcion": "PIURA",
           "dni": "41041146",
-          "votosPref": 1926,
+          "votosPref": 1960,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/5c835b37-25f7-4482-bd9e-c58427c99e64.jpg",
@@ -8695,7 +8695,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "PIURA",
-          "votosPref": 5134,
+          "votosPref": 5191,
           "posicion": 1,
           "edad": 56,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/d2f6880b-86eb-4e5e-a1a3-3474f35e6b0d.jpg",
@@ -8710,7 +8710,7 @@
           "partyShort": "BG",
           "circunscripcion": "PIURA",
           "dni": "16792650",
-          "votosPref": 2698,
+          "votosPref": 2715,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/c60b0a78-7c31-48c5-b0ab-ecca7969206b.jpg",
@@ -8724,7 +8724,7 @@
           "partyShort": "BG",
           "circunscripcion": "PIURA",
           "dni": "47041226",
-          "votosPref": 2049,
+          "votosPref": 2072,
           "posicion": 2,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/333699d7-67fa-4760-a0b6-5538dc76c178.jpg",
@@ -8766,7 +8766,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "PIURA",
-          "votosPref": 13758,
+          "votosPref": 13945,
           "posicion": 1,
           "edad": 55,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/eb0f38dd-1396-4901-94e7-b32e9c61a978.jpg",
@@ -8781,7 +8781,7 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "09997322",
-          "votosPref": 3892,
+          "votosPref": 3930,
           "posicion": 3,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/cad986db-2046-44c7-82f8-b5565b777674.jpg",
@@ -8795,7 +8795,7 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "18073160",
-          "votosPref": 3720,
+          "votosPref": 3774,
           "posicion": 2,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/906d9e09-559f-4c9f-aa3b-680ae7298910.jpg",
@@ -8809,7 +8809,7 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "06049853",
-          "votosPref": 3662,
+          "votosPref": 3740,
           "posicion": 5,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9c5c10a2-9cf4-4520-8257-a24fc7194335.jpg",
@@ -8823,7 +8823,7 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "16794616",
-          "votosPref": 1910,
+          "votosPref": 1916,
           "posicion": 6,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4b25e8ac-b45d-4a94-b9e1-4a9b89403e4a.jpg",
@@ -8837,13 +8837,26 @@
           "partyShort": "RP",
           "circunscripcion": "PIURA",
           "dni": "47541017",
-          "votosPref": 1673,
+          "votosPref": 1680,
           "posicion": 7,
           "edad": null,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b1e88642-3a63-4686-9626-02b63c79bdbc.jpg",
           "idHojaVida": 254735,
           "tipoCandidatura": "Diputados",
           "sourceBackup": false
+        },
+        {
+          "name": "MERLY ROXANA JIMENEZ MONDRAGON",
+          "party": "RENOVACIÓN POPULAR",
+          "partyShort": "RP",
+          "circunscripcion": "PIURA",
+          "dni": "",
+          "votosPref": 1178,
+          "posicion": 4,
+          "edad": null,
+          "imageUrl": "",
+          "idHojaVida": null,
+          "tipoCandidatura": "Diputados"
         },
         {
           "name": "HELARD BLADIMIR SONCO VILLANUEVA",
@@ -9533,15 +9546,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 5735284,
+      "blankNull": 5764255,
       "status": {
-        "percent": 99.712,
-        "processed": 92499,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 267,
+        "jee": null,
         "pending": null,
-        "blankNull": 5735284,
-        "updated": "2026-06-05T17:45:02.366000"
+        "blankNull": 5764255,
+        "updated": "2026-06-13T21:00:00.603000"
       },
       "allocations": {
         "noBarrier": [
@@ -10191,7 +10204,7 @@
         {
           "name": "NACIONAL",
           "seats": 30,
-          "validVotes": 14757108,
+          "validVotes": 14795241,
           "blankNull": 0,
           "votes": [
             {
@@ -10341,7 +10354,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -10526,7 +10539,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 234289,
+          "votosPref": 234604,
           "posicion": 1,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
@@ -10541,7 +10554,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 170381,
+          "votosPref": 170770,
           "posicion": 5,
           "edad": 69,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9aee4b33-103e-4327-9038-3618515d950d.jpg",
@@ -10556,7 +10569,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 117344,
+          "votosPref": 117580,
           "posicion": 8,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/428c14a1-1be6-477e-b02a-f0dec2dc8e65.jpg",
@@ -10571,7 +10584,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 105991,
+          "votosPref": 106176,
           "posicion": 4,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/83aa4be4-54a0-4f96-874a-96ec34678843.jpg",
@@ -10601,7 +10614,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 342317,
+          "votosPref": 343239,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -10616,7 +10629,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 128322,
+          "votosPref": 128640,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -10631,7 +10644,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 67906,
+          "votosPref": 68330,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -10646,7 +10659,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 33207,
+          "votosPref": 33293,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -10661,7 +10674,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 27386,
+          "votosPref": 27548,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -10721,7 +10734,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 332846,
+          "votosPref": 333445,
           "posicion": 1,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0e2b05c2-c95a-4599-bc78-56584d571b51.jpg",
@@ -10736,7 +10749,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 187774,
+          "votosPref": 188148,
           "posicion": 2,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3339fe0c-6911-4144-85df-b4617bfb7ebe.jpg",
@@ -10751,7 +10764,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 101230,
+          "votosPref": 101297,
           "posicion": 7,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dc4ba573-e19b-4a60-8485-52ebcd3d6d3a.jpg",
@@ -10766,7 +10779,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 37844,
+          "votosPref": 37914,
           "posicion": 3,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1baf3ce6-bf7f-4f48-90af-7df69ba21d70.jpg",
@@ -10781,7 +10794,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 32219,
+          "votosPref": 32280,
           "posicion": 13,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9ff4f8d0-cff1-429b-b3b9-a2c9baf178cf.jpg",
@@ -10796,7 +10809,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 224519,
+          "votosPref": 224918,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -10811,7 +10824,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 88342,
+          "votosPref": 88511,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -10826,7 +10839,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 36131,
+          "votosPref": 36242,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -10871,7 +10884,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 201285,
+          "votosPref": 201691,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -10886,7 +10899,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 185334,
+          "votosPref": 185697,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -10901,7 +10914,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 145351,
+          "votosPref": 145641,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -10916,7 +10929,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 48827,
+          "votosPref": 48932,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -11021,7 +11034,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 290255,
+          "votosPref": 290782,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
@@ -11036,7 +11049,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 216846,
+          "votosPref": 217341,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
@@ -11051,7 +11064,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 190014,
+          "votosPref": 190384,
           "posicion": 4,
           "edad": 50,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6574b5ec-9453-4117-8f95-80cf0bcb4371.jpg",
@@ -11066,7 +11079,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 135556,
+          "votosPref": 135796,
           "posicion": 2,
           "edad": 74,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0a50619c-a4b3-4580-bdee-146c75827d2c.jpg",
@@ -11081,7 +11094,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 80470,
+          "votosPref": 80654,
           "posicion": 9,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/278ecb43-645b-460c-82f0-b310cbb72289.jpg",
@@ -11094,13 +11107,13 @@
       ],
       "blankNull": 0,
       "status": {
-        "percent": 99.674,
-        "processed": 92464,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 302,
+        "jee": null,
         "pending": null,
-        "blankNull": 5369735,
-        "updated": "2026-06-05T17:45:02.366000"
+        "blankNull": 5399381,
+        "updated": "2026-06-13T21:00:00.603000"
       },
       "allocations": {
         "noBarrier": [],
@@ -11292,7 +11305,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11452,7 +11465,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11604,7 +11617,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11756,7 +11769,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -11888,7 +11901,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12028,7 +12041,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12180,7 +12193,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12332,7 +12345,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12448,7 +12461,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12592,7 +12605,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12748,7 +12761,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -12892,7 +12905,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13048,7 +13061,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13208,7 +13221,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13222,8 +13235,8 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "validVotes": 4627569,
-          "blankNull": 1610901,
+          "validVotes": 4647907,
+          "blankNull": 1634334,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -13376,7 +13389,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13546,7 +13559,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13690,7 +13703,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13814,7 +13827,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -13954,7 +13967,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14074,7 +14087,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14103,7 +14116,7 @@
             "jee": null,
             "pending": null,
             "blankNull": 165860,
-            "updated": "2026-06-05T17:45:02.366000"
+            "updated": "2026-06-13T21:00:00.603000"
           },
           "allocations": [
             {
@@ -14116,8 +14129,8 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "validVotes": 700013,
-          "blankNull": 429596,
+          "validVotes": 710130,
+          "blankNull": 437315,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -14254,7 +14267,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14390,7 +14403,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14522,7 +14535,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14658,7 +14671,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14806,7 +14819,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -14946,7 +14959,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -15324,7 +15337,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 98583,
+          "votosPref": 98942,
           "posicion": 1,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8388c289-7fce-48e9-91f9-732565b127c7.jpg",
@@ -15339,7 +15352,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 81832,
+          "votosPref": 82113,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -15354,7 +15367,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 134281,
+          "votosPref": 134589,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/552d520b-f83d-4e86-86c4-f55840c252be.jpg",
@@ -15369,7 +15382,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 68368,
+          "votosPref": 68588,
           "posicion": 2,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b0d9cd02-a849-4579-8091-2c6903eec61a.jpg",
@@ -15474,7 +15487,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 24945,
+          "votosPref": 25321,
           "posicion": 1,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8484cd8e-5f0a-48d3-ba54-be7120b1107f.jpg",
@@ -15575,15 +15588,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6481472,
+      "blankNull": 6512624,
       "status": {
-        "percent": 99.719,
-        "processed": 92505,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 261,
+        "jee": null,
         "pending": null,
-        "blankNull": 6481472,
-        "updated": "2026-06-05T17:45:02.366000"
+        "blankNull": 6512624,
+        "updated": "2026-06-13T21:00:00.603000"
       },
       "allocations": {
         "noBarrier": [],
@@ -15780,23 +15793,23 @@
           "votes": [
             {
               "party": "FUERZA POPULAR",
-              "votes": 2035704
+              "votes": 2040116
             },
             {
               "party": "JUNTOS POR EL PERÚ",
-              "votes": 1650707
+              "votes": 1652937
             },
             {
               "party": "PARTIDO DEL BUEN GOBIERNO",
-              "votes": 1616018
+              "votes": 1618210
             },
             {
               "party": "RENOVACIÓN POPULAR",
-              "votes": 1533885
+              "votes": 1535706
             },
             {
               "party": "PARTIDO CÍVICO OBRAS",
-              "votes": 1272520
+              "votes": 1274086
             }
           ],
           "status": {
@@ -15805,8 +15818,8 @@
             "total": 92766,
             "jee": 0,
             "pending": 0,
-            "blankNull": 6789878,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "blankNull": 6813040,
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -15841,23 +15854,23 @@
       "nationalVotes": [
         {
           "party": "FUERZA POPULAR",
-          "votes": 2035704
+          "votes": 2040116
         },
         {
           "party": "JUNTOS POR EL PERÚ",
-          "votes": 1650707
+          "votes": 1652937
         },
         {
           "party": "PARTIDO DEL BUEN GOBIERNO",
-          "votes": 1616018
+          "votes": 1618210
         },
         {
           "party": "RENOVACIÓN POPULAR",
-          "votes": 1533885
+          "votes": 1535706
         },
         {
           "party": "PARTIDO CÍVICO OBRAS",
-          "votes": 1272520
+          "votes": 1274086
         }
       ],
       "candidates": [
@@ -16173,8 +16186,8 @@
         "total": 92766,
         "jee": 0,
         "pending": 0,
-        "blankNull": 6789878,
-        "updated": "2026-06-14T00:45:10.156Z",
+        "blankNull": 6813040,
+        "updated": "2026-06-14T01:00:00.603Z",
         "nationalFallback": false
       },
       "allocations": {
@@ -16428,7 +16441,7 @@
         {
           "name": "SENADO NACIONAL",
           "seats": 30,
-          "validVotes": 14757108,
+          "validVotes": 14795241,
           "blankNull": 0,
           "votes": [
             {
@@ -16578,7 +16591,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -16732,7 +16745,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -16893,7 +16906,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17046,7 +17059,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17199,7 +17212,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17332,7 +17345,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17473,7 +17486,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17626,7 +17639,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17779,7 +17792,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -17896,7 +17909,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18041,7 +18054,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18198,7 +18211,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18343,7 +18356,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18500,7 +18513,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18661,7 +18674,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -18676,8 +18689,8 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "validVotes": 4627569,
-          "blankNull": 1610901,
+          "validVotes": 4647907,
+          "blankNull": 1634334,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -18830,7 +18843,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19001,7 +19014,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19146,7 +19159,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19271,7 +19284,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19412,7 +19425,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19533,7 +19546,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19563,7 +19576,7 @@
             "jee": null,
             "pending": null,
             "blankNull": 165860,
-            "updated": "2026-06-05T17:45:02.366000"
+            "updated": "2026-06-13T21:00:00.603000"
           },
           "allocations": [
             {
@@ -19577,8 +19590,8 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "validVotes": 700013,
-          "blankNull": 429596,
+          "validVotes": 710130,
+          "blankNull": 437315,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -19715,7 +19728,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19852,7 +19865,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -19985,7 +19998,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20122,7 +20135,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20271,7 +20284,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20412,7 +20425,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -20581,7 +20594,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 234289,
+          "votosPref": 234604,
           "posicion": 1,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
@@ -20596,7 +20609,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 170381,
+          "votosPref": 170770,
           "posicion": 5,
           "edad": 69,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9aee4b33-103e-4327-9038-3618515d950d.jpg",
@@ -20611,7 +20624,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 117344,
+          "votosPref": 117580,
           "posicion": 8,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/428c14a1-1be6-477e-b02a-f0dec2dc8e65.jpg",
@@ -20626,7 +20639,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 105991,
+          "votosPref": 106176,
           "posicion": 4,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/83aa4be4-54a0-4f96-874a-96ec34678843.jpg",
@@ -20656,7 +20669,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 342317,
+          "votosPref": 343239,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -20671,7 +20684,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 128322,
+          "votosPref": 128640,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -20686,7 +20699,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 67906,
+          "votosPref": 68330,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -20701,7 +20714,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 33207,
+          "votosPref": 33293,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -20716,7 +20729,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 27386,
+          "votosPref": 27548,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -20776,7 +20789,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 332846,
+          "votosPref": 333445,
           "posicion": 1,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0e2b05c2-c95a-4599-bc78-56584d571b51.jpg",
@@ -20791,7 +20804,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 187774,
+          "votosPref": 188148,
           "posicion": 2,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3339fe0c-6911-4144-85df-b4617bfb7ebe.jpg",
@@ -20806,7 +20819,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 101230,
+          "votosPref": 101297,
           "posicion": 7,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dc4ba573-e19b-4a60-8485-52ebcd3d6d3a.jpg",
@@ -20821,7 +20834,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 37844,
+          "votosPref": 37914,
           "posicion": 3,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1baf3ce6-bf7f-4f48-90af-7df69ba21d70.jpg",
@@ -20836,7 +20849,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 32219,
+          "votosPref": 32280,
           "posicion": 13,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9ff4f8d0-cff1-429b-b3b9-a2c9baf178cf.jpg",
@@ -20851,7 +20864,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 224519,
+          "votosPref": 224918,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -20866,7 +20879,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 88342,
+          "votosPref": 88511,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -20881,7 +20894,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 36131,
+          "votosPref": 36242,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -20926,7 +20939,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 201285,
+          "votosPref": 201691,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -20941,7 +20954,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 185334,
+          "votosPref": 185697,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -20956,7 +20969,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 145351,
+          "votosPref": 145641,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -20971,7 +20984,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 48827,
+          "votosPref": 48932,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -21076,7 +21089,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 290255,
+          "votosPref": 290782,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
@@ -21091,7 +21104,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 216846,
+          "votosPref": 217341,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
@@ -21106,7 +21119,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 190014,
+          "votosPref": 190384,
           "posicion": 4,
           "edad": 50,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6574b5ec-9453-4117-8f95-80cf0bcb4371.jpg",
@@ -21121,7 +21134,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 135556,
+          "votosPref": 135796,
           "posicion": 2,
           "edad": 74,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0a50619c-a4b3-4580-bdee-146c75827d2c.jpg",
@@ -21136,7 +21149,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 80470,
+          "votosPref": 80654,
           "posicion": 9,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/278ecb43-645b-460c-82f0-b310cbb72289.jpg",
@@ -21361,7 +21374,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 98583,
+          "votosPref": 98942,
           "posicion": 1,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8388c289-7fce-48e9-91f9-732565b127c7.jpg",
@@ -21376,7 +21389,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 81832,
+          "votosPref": 82113,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -21391,7 +21404,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 134281,
+          "votosPref": 134589,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/552d520b-f83d-4e86-86c4-f55840c252be.jpg",
@@ -21406,7 +21419,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 68368,
+          "votosPref": 68588,
           "posicion": 2,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b0d9cd02-a849-4579-8091-2c6903eec61a.jpg",
@@ -21511,7 +21524,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 24945,
+          "votosPref": 25321,
           "posicion": 1,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8484cd8e-5f0a-48d3-ba54-be7120b1107f.jpg",
@@ -21612,15 +21625,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6481472,
+      "blankNull": 6512624,
       "status": {
-        "percent": 99.697,
-        "processed": 92484,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 282,
+        "jee": 0,
         "pending": 0,
-        "blankNull": 11851207,
-        "updated": "2026-06-05T22:45:02.366Z"
+        "blankNull": 11912005,
+        "updated": "2026-06-14T02:00:00.603Z"
       },
       "allocations": {
         "noBarrier": [],
@@ -22023,7 +22036,7 @@
         {
           "name": "SENADO NACIONAL",
           "seats": 30,
-          "validVotes": 14757108,
+          "validVotes": 14795241,
           "blankNull": 0,
           "votes": [
             {
@@ -22173,7 +22186,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22327,7 +22340,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22488,7 +22501,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22641,7 +22654,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22794,7 +22807,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -22927,7 +22940,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23068,7 +23081,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23221,7 +23234,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23374,7 +23387,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23491,7 +23504,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23636,7 +23649,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23793,7 +23806,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -23938,7 +23951,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24095,7 +24108,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24256,7 +24269,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24271,8 +24284,8 @@
         {
           "name": "LIMA METROPOLITANA",
           "seats": 4,
-          "validVotes": 4627569,
-          "blankNull": 1610901,
+          "validVotes": 4647907,
+          "blankNull": 1634334,
           "votes": [
             {
               "party": "RENOVACIÓN POPULAR",
@@ -24425,7 +24438,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24596,7 +24609,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24741,7 +24754,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -24866,7 +24879,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25007,7 +25020,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25128,7 +25141,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25158,7 +25171,7 @@
             "jee": null,
             "pending": null,
             "blankNull": 165860,
-            "updated": "2026-06-05T17:45:02.366000"
+            "updated": "2026-06-13T21:00:00.603000"
           },
           "allocations": [
             {
@@ -25172,8 +25185,8 @@
         {
           "name": "PIURA",
           "seats": 1,
-          "validVotes": 700013,
-          "blankNull": 429596,
+          "validVotes": 710130,
+          "blankNull": 437315,
           "votes": [
             {
               "party": "FUERZA POPULAR",
@@ -25310,7 +25323,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25447,7 +25460,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25580,7 +25593,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25717,7 +25730,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -25866,7 +25879,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -26007,7 +26020,7 @@
             "percent": 100,
             "jee": 0,
             "pending": 0,
-            "updated": "2026-06-14T00:45:10.156Z",
+            "updated": "2026-06-14T01:00:00.603Z",
             "nationalFallback": false
           },
           "allocations": [
@@ -26176,7 +26189,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 234289,
+          "votosPref": 234604,
           "posicion": 1,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/ddfa74eb-cae3-401c-a34c-35543ae83c57.jpg",
@@ -26191,7 +26204,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 170381,
+          "votosPref": 170770,
           "posicion": 5,
           "edad": 69,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9aee4b33-103e-4327-9038-3618515d950d.jpg",
@@ -26206,7 +26219,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 117344,
+          "votosPref": 117580,
           "posicion": 8,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/428c14a1-1be6-477e-b02a-f0dec2dc8e65.jpg",
@@ -26221,7 +26234,7 @@
           "party": "AHORA NACIÓN - AN",
           "partyShort": "AN-",
           "circunscripcion": "NACIONAL",
-          "votosPref": 105991,
+          "votosPref": 106176,
           "posicion": 4,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/83aa4be4-54a0-4f96-874a-96ec34678843.jpg",
@@ -26251,7 +26264,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 342317,
+          "votosPref": 343239,
           "posicion": 1,
           "edad": 46,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/789b7714-8633-4a59-a89b-7fab4646fef1.jpeg",
@@ -26266,7 +26279,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 128322,
+          "votosPref": 128640,
           "posicion": 2,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b3b29de8-c5bd-4b73-b34b-29c48267363a.jpg",
@@ -26281,7 +26294,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 67906,
+          "votosPref": 68330,
           "posicion": 3,
           "edad": 79,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/4e1024fa-a2ee-4b49-8563-7484061f3763.jpg",
@@ -26296,7 +26309,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 33207,
+          "votosPref": 33293,
           "posicion": 4,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1dc6fbdd-d970-4fa3-9195-cf0492bc11d2.jpg",
@@ -26311,7 +26324,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 27386,
+          "votosPref": 27548,
           "posicion": 6,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/e1193269-c9d9-48c8-9ff2-4fa1317c49cf.jpg",
@@ -26371,7 +26384,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 332846,
+          "votosPref": 333445,
           "posicion": 1,
           "edad": 61,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0e2b05c2-c95a-4599-bc78-56584d571b51.jpg",
@@ -26386,7 +26399,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 187774,
+          "votosPref": 188148,
           "posicion": 2,
           "edad": 41,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3339fe0c-6911-4144-85df-b4617bfb7ebe.jpg",
@@ -26401,7 +26414,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 101230,
+          "votosPref": 101297,
           "posicion": 7,
           "edad": 51,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/dc4ba573-e19b-4a60-8485-52ebcd3d6d3a.jpg",
@@ -26416,7 +26429,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 37844,
+          "votosPref": 37914,
           "posicion": 3,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1baf3ce6-bf7f-4f48-90af-7df69ba21d70.jpg",
@@ -26431,7 +26444,7 @@
           "party": "JUNTOS POR EL PERÚ",
           "partyShort": "JP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 32219,
+          "votosPref": 32280,
           "posicion": 13,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/9ff4f8d0-cff1-429b-b3b9-a2c9baf178cf.jpg",
@@ -26446,7 +26459,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 224519,
+          "votosPref": 224918,
           "posicion": 1,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/15595890-de24-4f14-b4f6-bd9b5e10372a.jpg",
@@ -26461,7 +26474,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 88342,
+          "votosPref": 88511,
           "posicion": 2,
           "edad": 75,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1c31e830-418b-4987-adc6-47f3007dd2bb.jpg",
@@ -26476,7 +26489,7 @@
           "party": "PARTIDO CÍVICO OBRAS",
           "partyShort": "CO",
           "circunscripcion": "NACIONAL",
-          "votosPref": 36131,
+          "votosPref": 36242,
           "posicion": 3,
           "edad": 64,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/7d624b9c-c411-46c2-9368-5f1280b8646b.jpg",
@@ -26521,7 +26534,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 201285,
+          "votosPref": 201691,
           "posicion": 1,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/3e078903-65e7-4fe8-9c87-89be503223a7.jpg",
@@ -26536,7 +26549,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 185334,
+          "votosPref": 185697,
           "posicion": 2,
           "edad": 72,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/1596b93e-f1f1-44e5-a76c-386c100a888d.jpg",
@@ -26551,7 +26564,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 145351,
+          "votosPref": 145641,
           "posicion": 6,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/63c487f6-0e92-45ec-8d58-5fed3a35e368.jpg",
@@ -26566,7 +26579,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "NACIONAL",
-          "votosPref": 48827,
+          "votosPref": 48932,
           "posicion": 3,
           "edad": 63,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/22e7b027-0df4-461c-8fd9-1bc297a95caf.jpg",
@@ -26671,7 +26684,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 290255,
+          "votosPref": 290782,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b2e00ae2-1e50-4ad3-a103-71fc7e4e8255.jpg",
@@ -26686,7 +26699,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 216846,
+          "votosPref": 217341,
           "posicion": 3,
           "edad": 39,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/bcf375ae-6a90-4f80-8ed3-37c2c43efbca.jpg",
@@ -26701,7 +26714,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 190014,
+          "votosPref": 190384,
           "posicion": 4,
           "edad": 50,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/6574b5ec-9453-4117-8f95-80cf0bcb4371.jpg",
@@ -26716,7 +26729,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 135556,
+          "votosPref": 135796,
           "posicion": 2,
           "edad": 74,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/0a50619c-a4b3-4580-bdee-146c75827d2c.jpg",
@@ -26731,7 +26744,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "NACIONAL",
-          "votosPref": 80470,
+          "votosPref": 80654,
           "posicion": 9,
           "edad": 52,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/278ecb43-645b-460c-82f0-b310cbb72289.jpg",
@@ -26956,7 +26969,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 98583,
+          "votosPref": 98942,
           "posicion": 1,
           "edad": 73,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8388c289-7fce-48e9-91f9-732565b127c7.jpg",
@@ -26971,7 +26984,7 @@
           "party": "PARTIDO DEL BUEN GOBIERNO",
           "partyShort": "BG",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 81832,
+          "votosPref": 82113,
           "posicion": 1,
           "edad": 71,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/f8a01e27-807f-4d43-a555-48f03cfe5baf.jpg",
@@ -26986,7 +26999,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 134281,
+          "votosPref": 134589,
           "posicion": 1,
           "edad": 65,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/552d520b-f83d-4e86-86c4-f55840c252be.jpg",
@@ -27001,7 +27014,7 @@
           "party": "RENOVACIÓN POPULAR",
           "partyShort": "RP",
           "circunscripcion": "LIMA METROPOLITANA",
-          "votosPref": 68368,
+          "votosPref": 68588,
           "posicion": 2,
           "edad": 62,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/b0d9cd02-a849-4579-8091-2c6903eec61a.jpg",
@@ -27106,7 +27119,7 @@
           "party": "FUERZA POPULAR",
           "partyShort": "FP",
           "circunscripcion": "PIURA",
-          "votosPref": 24945,
+          "votosPref": 25321,
           "posicion": 1,
           "edad": 60,
           "imageUrl": "https://mpesije.jne.gob.pe/apidocs/8484cd8e-5f0a-48d3-ba54-be7120b1107f.jpg",
@@ -27207,15 +27220,15 @@
           "sourceBackup": false
         }
       ],
-      "blankNull": 6481472,
+      "blankNull": 6512624,
       "status": {
-        "percent": 99.697,
-        "processed": 92484,
+        "percent": 100,
+        "processed": 92766,
         "total": 92766,
-        "jee": 282,
+        "jee": 0,
         "pending": 0,
-        "blankNull": 11851207,
-        "updated": "2026-06-05T22:45:02.366Z"
+        "blankNull": 11912005,
+        "updated": "2026-06-14T02:00:00.603Z"
       },
       "allocations": {
         "noBarrier": [],
