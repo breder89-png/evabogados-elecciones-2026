@@ -1,6 +1,6 @@
 {
   "year": 2026,
-  "generatedAt": "2026-06-20T15:58:57.832Z",
+  "generatedAt": "2026-06-20T16:03:20.550Z",
   "updatedAt": "2026-06-19T04:42:24.937Z",
   "status": {
     "percent": 100,
@@ -8856,7 +8856,8 @@
           "edad": null,
           "imageUrl": "",
           "idHojaVida": null,
-          "tipoCandidatura": "Diputados"
+          "tipoCandidatura": "Diputados",
+          "sourceBackup": false
         },
         {
           "name": "HELARD BLADIMIR SONCO VILLANUEVA",
